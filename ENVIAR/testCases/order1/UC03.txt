@@ -1,0 +1,17 @@
+begin_description
+Inicia-se a navegação com GPS desligado em um percurso que não se espera causar falhas. 
+O GPS é religado imediatamente. 
+end_description
+app_pck com.google.android.apps.maps
+path PercursoPerfeito.txt
+max_speed 100
+begin_setup
+INTERNET_ON
+AUTO_ORIENTATION_OFF
+ORIENTATION_PORTRAIT_DEFAULT
+GPS_OFF
+end_setup
+begin_events
+SLEEP 1000
+GPS_ON
+end_events

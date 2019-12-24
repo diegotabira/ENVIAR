@@ -1,0 +1,18 @@
+begin_description
+Inicia-se a navegação com GPS ligado em um percurso que não se espera causar falhas. 
+Após 10 segundos chega uma chamada telefônica que é cancelada imediatamente
+end_description
+app_pck net.osmand
+path PercursoPerfeito.txt
+max_speed 100
+begin_setup
+INTERNET_ON
+AUTO_ORIENTATION_OFF
+ORIENTATION_PORTRAIT_DEFAULT
+GPS_ON
+end_setup
+begin_events
+SLEEP 10000
+RECEIVE_CALL
+CANCEL_CALL
+end_events

@@ -1,0 +1,21 @@
+begin_description
+Inicia-se a navegação com GPS ligado em um percurso que não se espera causar falhas. 
+Após 10 segundos o usuário tira uma foto e retorna a aplicação
+end_description
+app_pck net.osmand
+path PercursoPerfeito.txt
+max_speed 100
+begin_setup
+INTERNET_ON
+AUTO_ORIENTATION_OFF
+ORIENTATION_PORTRAIT_DEFAULT
+GPS_ON
+end_setup
+begin_events
+SLEEP 10000
+OPEN_CAMERA
+SLEEP 5000
+TAKE_A_PICTURE
+SLEEP 5000
+START_APP
+end_events

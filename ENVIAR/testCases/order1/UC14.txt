@@ -1,0 +1,19 @@
+begin_description
+Inicia-se a navegação com GPS ligado e calibrado em um percurso que não se espera causar falhas. 
+Após 10 segundos, o GPS fica descalibrado por 2 segundos e fica calibrado novamente
+end_description
+app_pck net.osmand
+path PercursoPerfeito.txt
+max_speed 100
+begin_setup
+INTERNET_ON
+ORIENTATION_PORTRAIT_DEFAULT
+GPS_ON
+GPS_CALIBRATED
+end_setup
+begin_events
+SLEEP 10000
+GPS_NOT_CALIBRATED
+SLEEP 2000
+GPS_CALIBRATED
+end_events

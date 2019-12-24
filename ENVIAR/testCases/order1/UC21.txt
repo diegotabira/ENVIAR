@@ -1,0 +1,21 @@
+begin_description
+Inicia-se a navegação com GPS ligado e sem conexão com a internet em um percurso que não se espera causar falhas. 
+Durante a navegação, a internet volta e cai e volta após 30 segundos
+end_description
+app_pck net.osmand
+path PercursoPerfeito.txt
+max_speed 100
+begin_setup
+AUTO_ORIENTATION_OFF
+ORIENTATION_PORTRAIT_DEFAULT
+GPS_ON
+GPS_CALIBRATED
+INTERNET_OFF
+end_setup
+begin_events
+SLEEP 1000
+INTERNET_ON
+INTERNET_OFF
+SLEEP 30000
+INTERNET_ON
+end_events

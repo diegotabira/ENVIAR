@@ -1,0 +1,20 @@
+begin_description
+Inicia-se a navegação com GPS ligado em um percurso que não se espera causar falhas. 
+A aplicação inicia na posição landscape
+Após 10 segundos o usuário muda para posição portrait e retorna para landscape após 30 segundos
+end_description
+app_pck net.osmand
+path PercursoPerfeito.txt
+max_speed 100
+begin_setup
+INTERNET_ON
+AUTO_ORIENTATION_OFF
+ORIENTATION_LANDSCAPE_RIGHT
+GPS_ON
+end_setup
+begin_events
+SLEEP 10000
+ORIENTATION_PORTRAIT_DEFAULT
+SLEEP 30000
+ORIENTATION_LANDSCAPE_RIGHT
+end_events

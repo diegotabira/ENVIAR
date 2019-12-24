@@ -1,0 +1,24 @@
+begin_description
+Inicia-se a navegação com GPS desligado em um percurso que não se espera causar falhas. 
+Após 10 segundos, o GPS é ligado. Após 30 segundos, o GPS é desligado e religado imediatamente. 
+Após 30 segundos, o GPS é desligado, espera-se 90 segundos e o religa novamente.
+end_description
+app_pck com.google.android.apps.maps
+path PercursoPerfeito.txt
+max_speed 80
+begin_setup
+GPS_OFF
+ORIENTATION_PORTRAIT_DEFAULT
+SEND_GEO -7.223515 -35.892664
+end_setup
+begin_events
+SLEEP 10000
+GPS_ON
+SLEEP 30000
+GPS_OFF
+GPS_ON
+SLEEP 30000
+GPS_OFF
+SLEEP 90000
+GPS_ON
+end_events

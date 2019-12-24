@@ -1,0 +1,25 @@
+begin_description
+Inicia-se a navegação com GPS ligado em um percurso que não se espera causar falhas. 
+Após 30 segundos, a aplicação é guardada em background, 
+então abre-se a câmera, tira-se uma foto e retorna para o navegador de GPS.
+end_description
+app_pck com.google.android.apps.maps
+path PercursoPerfeito.txt
+max_speed 80
+begin_setup
+GPS_ON
+ORIENTATION_PORTRAIT_DEFAULT
+SEND_GEO -7.223515 -35.892664
+end_setup
+begin_events
+SLEEP 30000
+PRESS_HOME
+SLEEP 5000
+OPEN_CAMERA
+SLEEP 5000
+TAKE_A_PICTURE
+SLEEP 5000
+PRESS_HOME
+SLEEP 5000
+START_APP
+end_events
