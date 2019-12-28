@@ -137,6 +137,7 @@ public class PathEditorWindow extends JFrame {
 			path += linha + "\n";
 			linha = lerArq.readLine();
 		}
+		lerArq.close();
 		pathEditorPane.setText(path);
 	}
 	

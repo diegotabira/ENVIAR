@@ -8,14 +8,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 import javax.swing.ButtonGroup;
@@ -31,6 +26,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JSeparator;
 import javax.swing.JTable;
+import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 import javax.swing.border.LineBorder;
 import javax.swing.event.ListSelectionEvent;
@@ -44,10 +40,13 @@ public class MainWindow {
 
 	private JFrame frmEnviar;
 	private JList<String> pathList;
-	private DefaultListModel<String> listModel;
+	private DefaultListModel<String> pathListModel;
+	private JList<String> testSuitesJList;
+	private DefaultListModel<String> testSuitesListModel;
 	private JTable speedTable;
 	private DefaultTableModel dtm;
 	private JPanel pathPanel;
+	private JButton btnCreateTestSuite;
 	
 	private JCheckBox gpsSignalCheckBox;
 	private JCheckBox gpsCalibrationCheckBox;
@@ -62,6 +61,12 @@ public class MainWindow {
 	private JRadioButton order3RadioButton;
 	private JRadioButton order4RadioButton;
 	private JRadioButton order5RadioButton;
+	private JLabel generatingJLabel;
+	private JLabel lblTestSuiteExecution;
+	private JPanel panel_2;
+	private JLabel lblTestSuites;
+	private JScrollPane scrollPane_1;
+	private JTextArea testSuiteTextArea;
 	
 	/**
 	 * Launch the application.
@@ -93,7 +98,7 @@ public class MainWindow {
 		frmEnviar = new JFrame();
 		frmEnviar.setTitle("ENVIAR");
 		frmEnviar.setResizable(false);
-		frmEnviar.setBounds(100, 100, 642, 573);
+		frmEnviar.setBounds(100, 100, 649, 676);
 		frmEnviar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmEnviar.getContentPane().setLayout(null);		
 		pathPanel = new JPanel();
@@ -106,8 +111,8 @@ public class MainWindow {
 		pathPanel.add(lblPath);
 		lblPath.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		
-		listModel = new DefaultListModel<>();
-		pathList = new JList<String>(listModel);
+		pathListModel = new DefaultListModel<>();
+		pathList = new JList<String>(pathListModel);
 		pathList.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent e) {
 				removerTodasLinhasTabela();
@@ -237,7 +242,7 @@ public class MainWindow {
 		JLabel lblTestSuitCreation = new JLabel("Test Suite Creation");
 		lblTestSuitCreation.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTestSuitCreation.setFont(new Font("Tahoma", Font.PLAIN, 18));
-		lblTestSuitCreation.setBounds(10, 10, 541, 22);
+		lblTestSuitCreation.setBounds(10, 10, 618, 22);
 		frmEnviar.getContentPane().add(lblTestSuitCreation);
 		
 		JPanel panel = new JPanel();
@@ -263,7 +268,7 @@ public class MainWindow {
 		lblSpeed.setBounds(0, 0, 77, 22);
 		panel.add(lblSpeed);
 		
-		JButton btnCreateTestSuite = new JButton("Create Test Suite");
+		btnCreateTestSuite = new JButton("Create Test Suite");
 		btnCreateTestSuite.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(pathList.isSelectionEmpty()) {
@@ -275,19 +280,7 @@ public class MainWindow {
 				}else if(!orderSelected()){
 					JOptionPane.showMessageDialog(pathPanel, "Choose one of the five orders", "Attention", JOptionPane.WARNING_MESSAGE);
 				}else {
-					int order = orderChoosen();
-					ArrayList<String[]> pathsAndSpeeds = new ArrayList<String[]>();
-					int rowCount = dtm.getRowCount();
-					for (int i = 0; i < rowCount; i++) {
-						String[] aux = {(String) dtm.getValueAt(i, 0), (String) dtm.getValueAt(i, 1)};
-						pathsAndSpeeds.add(aux);
-					}
-					TestSuiteGenerator tsg = new TestSuiteGenerator(order, pathsAndSpeeds);
-					try {
-						tsg.createTestSuite();
-					} catch (Exception e1) {
-						JOptionPane.showMessageDialog(pathPanel, e1.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
-					}
+					generateTestSuite();
 				}
 			}
 		});
@@ -330,8 +323,179 @@ public class MainWindow {
 		order5RadioButton.setBounds(0, 120, 105, 21);
 		panel_1.add(order5RadioButton);
 		buttonGroup.add(order5RadioButton);
+		
+		generatingJLabel = new JLabel("Generating...");
+		generatingJLabel.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		generatingJLabel.setForeground(Color.RED);
+		generatingJLabel.setBounds(378, 228, 106, 39);
+		generatingJLabel.setVisible(false);
+		frmEnviar.getContentPane().add(generatingJLabel);
+		
+		lblTestSuiteExecution = new JLabel("Test Suite Execution");
+		lblTestSuiteExecution.setHorizontalAlignment(SwingConstants.CENTER);
+		lblTestSuiteExecution.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblTestSuiteExecution.setBounds(10, 291, 618, 22);
+		frmEnviar.getContentPane().add(lblTestSuiteExecution);
+		
+		panel_2 = new JPanel();
+		panel_2.setLayout(null);
+		panel_2.setBounds(10, 323, 100, 259);
+		frmEnviar.getContentPane().add(panel_2);
+		
+		lblTestSuites = new JLabel("Test Suites");
+		lblTestSuites.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblTestSuites.setBounds(0, 0, 100, 22);
+		panel_2.add(lblTestSuites);
+		
+		scrollPane_1 = new JScrollPane();
+		scrollPane_1.setBounds(0, 24, 100, 204);
+		panel_2.add(scrollPane_1);
+		
+		testSuitesListModel = new DefaultListModel<>();
+		testSuitesJList = new JList<String>(testSuitesListModel);
+		testSuitesJList.setBorder(new LineBorder(new Color(0, 0, 0)));
+		scrollPane_1.setViewportView(testSuitesJList);
+		testSuitesJList.addListSelectionListener(new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent e) {
+				if(!testSuitesJList.isSelectionEmpty()) {
+					try {
+						loadTestSuite(testSuitesJList.getSelectedValue());
+					} catch (SintaxException | IOException e1) {
+						JOptionPane.showMessageDialog(pathPanel, "Failed to load test suite.", "ERROR", JOptionPane.ERROR_MESSAGE);
+					}
+				}
+			}
+		});
+		
+		JButton deleteButton = new JButton("Delete");
+		deleteButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ArrayList<String> selectedTestSuites = (ArrayList<String>) testSuitesJList.getSelectedValuesList();
+				if(selectedTestSuites.size() == 0) {
+					JOptionPane.showMessageDialog(pathPanel, "No selected item", "Attention", JOptionPane.WARNING_MESSAGE);
+				}else {
+					int option = JOptionPane.showConfirmDialog(pathPanel, "Do you really want to remove these teste suite(s)?", "Attention", JOptionPane.WARNING_MESSAGE);
+					if(option == 0) {
+						for (String testSuite : selectedTestSuites) {
+							File testSuiteFile = new File("testSuites/" + testSuite + ".txt");
+							testSuiteFile.delete();
+							testSuiteTextArea.setText("");
+						}
+						loadTestSuiteList();
+					}
+				}
+			}
+		});
+		
+		deleteButton.setBounds(0, 238, 100, 21);
+		panel_2.add(deleteButton);
+		loadTestSuiteList();
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setLayout(null);
+		panel_3.setBounds(120, 323, 508, 259);
+		frmEnviar.getContentPane().add(panel_3);
+		
+		JLabel lblTestSuite = new JLabel("Test Suite");
+		lblTestSuite.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblTestSuite.setBounds(0, 0, 100, 22);
+		panel_3.add(lblTestSuite);
+		
+		JScrollPane scrollPane_2 = new JScrollPane();
+		scrollPane_2.setBounds(0, 24, 508, 235);
+		panel_3.add(scrollPane_2);
+		
+		testSuiteTextArea = new JTextArea();
+		testSuiteTextArea.setEditable(false);
+		scrollPane_2.setViewportView(testSuiteTextArea);
+		
+		JButton executeTestSuiteButton = new JButton("Execute Test Suite");
+		executeTestSuiteButton.setBounds(224, 592, 144, 35);
+		frmEnviar.getContentPane().add(executeTestSuiteButton);
+	}
+
+	private void loadTestSuite(String testSuiteName) throws SintaxException, IOException {
+		loadTestSuiteFile(testSuiteName);		
 	}
 	
+	@SuppressWarnings("resource")
+	private void loadTestSuiteFile(String testSuiteName) throws SintaxException, IOException {
+		String testSuite = "";
+		FileReader arq = new FileReader("testSuites//" + testSuiteName + ".txt");
+		BufferedReader lerArq = new BufferedReader(arq);
+		String linha = lerArq.readLine();
+		while(linha != null) {
+			testSuite += linha + "\n";
+			linha = lerArq.readLine();
+		}
+		lerArq.close();
+		testSuiteTextArea.setText(testSuite);
+	}
+
+	private void generateTestSuite() {
+		
+		new Thread() {
+		     
+		    @Override
+		    public void run() {
+		    	int order = orderChoosen();
+				if(order > 3) {
+					int option = JOptionPane.showConfirmDialog(pathPanel, "Generating a test suite of order greater than 3 may take minutes or hours. Do you wish to continue?", "Attention", JOptionPane.WARNING_MESSAGE);
+					if(option != 0) {
+						return;
+					}
+				}
+				String testSuiteName = JOptionPane.showInputDialog("Type the Test Suite Name");
+				if(testSuiteName != null && !testSuiteName.equals("")) {
+					generatingJLabel.setVisible(true);
+					btnCreateTestSuite.setEnabled(false);
+					changeGeneratingLabel();
+					ArrayList<String[]> pathsAndSpeeds = new ArrayList<String[]>();
+					int rowCount = dtm.getRowCount();
+					for (int i = 0; i < rowCount; i++) {
+						String[] aux = {(String) dtm.getValueAt(i, 0), (String) dtm.getValueAt(i, 1)};
+						pathsAndSpeeds.add(aux);
+					}
+					try {
+						TestSuiteGenerator tsg = new TestSuiteGenerator(testSuiteName, order, pathsAndSpeeds);
+						tsg.createTestSuite();
+					} catch (Exception e1) {
+						JOptionPane.showMessageDialog(pathPanel, e1.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
+					}
+					generatingJLabel.setVisible(false);
+					btnCreateTestSuite.setEnabled(true);
+					loadTestSuiteList();
+				}
+		    }
+		  }.start();	
+		
+		
+	}
+
+	protected void changeGeneratingLabel() {
+		new Thread() {
+		     
+		    @Override
+		    public void run() {
+		    	while(generatingJLabel.isVisible()) {
+		    		try {
+		    			generatingJLabel.setText("Generating.");
+						Thread.sleep(1000);
+						generatingJLabel.setText("Generating..");
+						Thread.sleep(1000);
+						generatingJLabel.setText("Generating...");
+						Thread.sleep(1000);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		    	}
+		       
+		    }
+		  }.start();
+		
+	}
+
 	private int orderChoosen() {
 		int order = 0;
 		
@@ -408,16 +572,28 @@ public class MainWindow {
 	}
 
 	public void loadPathList() {
-		if(listModel != null) {
-			listModel.removeAllElements();
+		if(pathListModel != null) {
+			pathListModel.removeAllElements();
 		}
 		File pathsDirectory = new File("paths/");
 		File[] paths = pathsDirectory.listFiles();
 		for (File file : paths) {
 			String fileName = file.getName().substring(0, file.getName().length() - 4);
-			listModel.addElement(fileName);
+			pathListModel.addElement(fileName);
 		}
 		
+	}
+	
+	private void loadTestSuiteList() {
+		if(testSuitesListModel != null) {
+			testSuitesListModel.removeAllElements();
+		}
+		File testSuitesDirectory = new File("testSuites/");
+		File[] testSuites = testSuitesDirectory.listFiles();
+		for (File file : testSuites) {
+			String fileName = file.getName().substring(0, file.getName().length() - 4);
+			testSuitesListModel.addElement(fileName);
+		}
 	}
 
 	private void removerTodasLinhasTabela() {

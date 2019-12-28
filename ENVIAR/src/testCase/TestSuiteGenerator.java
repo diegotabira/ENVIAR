@@ -12,22 +12,25 @@ import java.util.ArrayList;
 
 public class TestSuiteGenerator {
 	
+	private String testSuiteName;
 	private int order;
 	private ArrayList<String[]> pathsAndSpeeds;
 	private BufferedReader lerArq;
+	private String pictInputStr;
 	
-	public TestSuiteGenerator(int order, ArrayList<String[]> pathsAndSpeeds) {
+	public TestSuiteGenerator(String testSuiteName, int order, ArrayList<String[]> pathsAndSpeeds) {
+		this.testSuiteName = testSuiteName;
 		this.order = order;
 		this.pathsAndSpeeds = pathsAndSpeeds;
+		this.pictInputStr = "";
 	}
 
 	public void createTestSuite() throws Exception {
 		createPictInput();
-		
+		executePict();	
 	}
 	
 	private void createPictInput() throws Exception {
-		String pictInputStr = "";
 		String newLine = "Path: ";
 		for (String[] path : pathsAndSpeeds) {
 			newLine += path[0] + ", ";
@@ -61,10 +64,6 @@ public class TestSuiteGenerator {
 		} catch (IOException e) {
 			throw new Exception("Failed to generate test suite");
 		}
-			
-		String pictOutputStr = executePict();
-		
-		System.out.println(pictOutputStr);
 	}
 
 	private String getEventLines(int order) {
@@ -116,7 +115,7 @@ public class TestSuiteGenerator {
         try {
         	String execPath = "pict\\pict.exe";
         	String inPath = "pict\\pictInput.txt";
-        	String outPath = "pict\\TestSuite.txt";
+        	String outPath = "testSuites\\" + testSuiteName + ".txt";
         	ProcessBuilder builder = new ProcessBuilder(execPath, inPath);
         	builder.redirectOutput(new File(outPath));
         	Process process = builder.start();

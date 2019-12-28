@@ -1,9 +1,9 @@
 Path: Limit
-Speed: 1
+Speed: 2
 Setup: S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12
 First_Delay: WAIT, NOT_WAIT
 First_Event: GPS_ON, GPS_OFF, SIMULATE_LONG_BACKGROUND, TAKE_A_PICTURE, ORIENTATION_PORTRAIT, ORIENTATION_LANDSCAPE, RECEIVE_CALL, GPS_CALIBRATED, GPS_NOT_CALIBRATED, INTERNET_ON, INTERNET_OFF
-IF [Path] = "Limit" THEN [Speed] = 1;
+IF [Path] = "Limit" THEN [Speed] = 2;
 IF [Setup] in {"S1", "S2", "S3", "S4", "S6", "S7", "S8", "S9", "S10"} THEN [First_Event] <> "GPS_ON";
 IF [Setup] in {"S5", "S11", "S12"} THEN [First_Event] <> "GPS_OFF";
 IF [Setup] in {"S1", "S2", "S3", "S4", "S5", "S6"} THEN [First_Event] <> "ORIENTATION_PORTRAIT";
