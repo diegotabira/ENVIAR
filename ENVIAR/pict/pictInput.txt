@@ -1,0 +1,15 @@
+Path: Limit
+Speed: 1
+Setup: S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12
+First_Delay: WAIT, NOT_WAIT
+First_Event: GPS_ON, GPS_OFF, SIMULATE_LONG_BACKGROUND, TAKE_A_PICTURE, ORIENTATION_PORTRAIT, ORIENTATION_LANDSCAPE, RECEIVE_CALL, GPS_CALIBRATED, GPS_NOT_CALIBRATED, INTERNET_ON, INTERNET_OFF
+IF [Path] = "Limit" THEN [Speed] = 1;
+IF [Setup] in {"S1", "S2", "S3", "S4", "S6", "S7", "S8", "S9", "S10"} THEN [First_Event] <> "GPS_ON";
+IF [Setup] in {"S5", "S11", "S12"} THEN [First_Event] <> "GPS_OFF";
+IF [Setup] in {"S1", "S2", "S3", "S4", "S5", "S6"} THEN [First_Event] <> "ORIENTATION_PORTRAIT";
+IF [Setup] in {"S7", "S8", "S9", "S10", "S11", "S12"} THEN [First_Event] <> "ORIENTATION_LANDSCAPE";
+IF [Setup] in {"S1", "S2", "S7", "S8"} THEN [First_Event] <> "GPS_CALIBRATED";
+IF [Setup] in {"S3", "S4", "S5", "S6", "S9", "S10", "S11", "S12"} THEN [First_Event] <> "GPS_NOT_CALIBRATED";
+IF [Setup] in {"S5", "S11", "S12"} THEN [First_Event] <> "GPS_CALIBRATED";
+IF [Setup] in {"S1", "S3", "S5", "S7", "S10", "S12"} THEN [First_Event] <> "INTERNET_ON";
+IF [Setup] in {"S2", "S4", "S6", "S8", "S9", "S11"} THEN [First_Event] <> "INTERNET_OFF";
