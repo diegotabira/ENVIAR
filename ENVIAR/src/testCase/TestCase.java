@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
 
-import percurso.Line;
-import percurso.Location;
-import percurso.Path;
+import path.Line;
+import path.Location;
+import path.Path;
 import terminal.Commands;
 import util.Util;
 

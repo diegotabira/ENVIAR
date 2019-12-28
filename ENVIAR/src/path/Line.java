@@ -1,4 +1,4 @@
-package percurso;
+package path;
 
 public class Line {
 	

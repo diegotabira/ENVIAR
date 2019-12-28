@@ -7,11 +7,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.List;
 
+import javax.swing.ButtonGroup;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -20,6 +27,7 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JSeparator;
 import javax.swing.JTable;
@@ -30,6 +38,7 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 
 import exceptions.SintaxException;
+import testCase.TestSuiteGenerator;
 
 public class MainWindow {
 
@@ -48,6 +57,12 @@ public class MainWindow {
 	private JCheckBox longBackgroundCheckBox;
 	private JCheckBox internetConnectionCheckBox;
 
+	private JRadioButton order1RadioButton;
+	private JRadioButton order2RadioButton;
+	private JRadioButton order3RadioButton;
+	private JRadioButton order4RadioButton;
+	private JRadioButton order5RadioButton;
+	
 	/**
 	 * Launch the application.
 	 */
@@ -78,7 +93,7 @@ public class MainWindow {
 		frmEnviar = new JFrame();
 		frmEnviar.setTitle("ENVIAR");
 		frmEnviar.setResizable(false);
-		frmEnviar.setBounds(100, 100, 565, 573);
+		frmEnviar.setBounds(100, 100, 642, 573);
 		frmEnviar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmEnviar.getContentPane().setLayout(null);		
 		pathPanel = new JPanel();
@@ -174,42 +189,49 @@ public class MainWindow {
 		eventsPanel.add(lblEvents);
 		
 		gpsSignalCheckBox = new JCheckBox("GPS Signal");
+		gpsSignalCheckBox.setEnabled(false);
 		gpsSignalCheckBox.setSelected(true);
 		gpsSignalCheckBox.setBounds(0, 22, 166, 21);
 		eventsPanel.add(gpsSignalCheckBox);
 		
 		longBackgroundCheckBox = new JCheckBox("Long Background");
+		longBackgroundCheckBox.setEnabled(false);
 		longBackgroundCheckBox.setSelected(true);
 		longBackgroundCheckBox.setBounds(0, 137, 166, 21);
 		eventsPanel.add(longBackgroundCheckBox);
 		
 		takePictureCheckBox = new JCheckBox("Take a Picture");
+		takePictureCheckBox.setEnabled(false);
 		takePictureCheckBox.setSelected(true);
 		takePictureCheckBox.setBounds(0, 68, 166, 21);
 		eventsPanel.add(takePictureCheckBox);
 		
 		orientationCheckBox = new JCheckBox("Orientation");
+		orientationCheckBox.setEnabled(false);
 		orientationCheckBox.setSelected(true);
 		orientationCheckBox.setBounds(0, 91, 166, 21);
 		eventsPanel.add(orientationCheckBox);
 		
 		callCheckBox = new JCheckBox("Call");
+		callCheckBox.setEnabled(false);
 		callCheckBox.setSelected(true);
 		callCheckBox.setBounds(0, 114, 166, 21);
 		eventsPanel.add(callCheckBox);
 		
 		gpsCalibrationCheckBox = new JCheckBox("GPS Calibration");
+		gpsCalibrationCheckBox.setEnabled(false);
 		gpsCalibrationCheckBox.setSelected(true);
 		gpsCalibrationCheckBox.setBounds(0, 45, 166, 21);
 		eventsPanel.add(gpsCalibrationCheckBox);
 		
 		internetConnectionCheckBox = new JCheckBox("Internet Connection");
+		internetConnectionCheckBox.setEnabled(false);
 		internetConnectionCheckBox.setSelected(true);
 		internetConnectionCheckBox.setBounds(0, 160, 166, 21);
 		eventsPanel.add(internetConnectionCheckBox);
 		
 		JSeparator separator = new JSeparator();
-		separator.setBounds(10, 277, 541, 92);
+		separator.setBounds(10, 277, 618, 22);
 		frmEnviar.getContentPane().add(separator);
 		
 		JLabel lblTestSuitCreation = new JLabel("Test Suite Creation");
@@ -219,7 +241,7 @@ public class MainWindow {
 		frmEnviar.getContentPane().add(lblTestSuitCreation);
 		
 		JPanel panel = new JPanel();
-		panel.setBounds(302, 42, 225, 180);
+		panel.setBounds(302, 38, 225, 180);
 		frmEnviar.getContentPane().add(panel);
 		panel.setLayout(null);
 		
@@ -244,24 +266,106 @@ public class MainWindow {
 		JButton btnCreateTestSuite = new JButton("Create Test Suite");
 		btnCreateTestSuite.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				createTestSuite();
+				if(pathList.isSelectionEmpty()) {
+					JOptionPane.showMessageDialog(pathPanel, "Select at least one path", "Attention", JOptionPane.WARNING_MESSAGE);
+				}else if(eventsSelected() == 0){
+					JOptionPane.showMessageDialog(pathPanel, "Select at least one event", "Attention", JOptionPane.WARNING_MESSAGE);
+				}else if(!allSpeedsInformed()) {
+					JOptionPane.showMessageDialog(pathPanel, "Please, inform all path speeds", "Attention", JOptionPane.WARNING_MESSAGE);
+				}else if(!orderSelected()){
+					JOptionPane.showMessageDialog(pathPanel, "Choose one of the five orders", "Attention", JOptionPane.WARNING_MESSAGE);
+				}else {
+					int order = orderChoosen();
+					ArrayList<String[]> pathsAndSpeeds = new ArrayList<String[]>();
+					int rowCount = dtm.getRowCount();
+					for (int i = 0; i < rowCount; i++) {
+						String[] aux = {(String) dtm.getValueAt(i, 0), (String) dtm.getValueAt(i, 1)};
+						pathsAndSpeeds.add(aux);
+					}
+					TestSuiteGenerator tsg = new TestSuiteGenerator(order, pathsAndSpeeds);
+					try {
+						tsg.createTestSuite();
+					} catch (Exception e1) {
+						JOptionPane.showMessageDialog(pathPanel, e1.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
+					}
+				}
 			}
 		});
-		btnCreateTestSuite.setBounds(210, 232, 144, 35);
+		btnCreateTestSuite.setBounds(224, 232, 144, 35);
 		frmEnviar.getContentPane().add(btnCreateTestSuite);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBounds(537, 38, 91, 180);
+		frmEnviar.getContentPane().add(panel_1);
+		panel_1.setLayout(null);
+		
+		JLabel lblOrder = new JLabel("Order");
+		lblOrder.setBounds(0, 0, 50, 22);
+		lblOrder.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		panel_1.add(lblOrder);
+		
+		ButtonGroup buttonGroup = new ButtonGroup(); 
+		
+		order1RadioButton = new JRadioButton("1 - Order");
+		order1RadioButton.setBounds(0, 28, 105, 21);
+		panel_1.add(order1RadioButton);
+		buttonGroup.add(order1RadioButton);
+		
+		order2RadioButton = new JRadioButton("2 - Order");
+		order2RadioButton.setBounds(0, 51, 105, 21);
+		panel_1.add(order2RadioButton);
+		buttonGroup.add(order2RadioButton);
+		
+		order3RadioButton = new JRadioButton("3 - Order");
+		order3RadioButton.setBounds(0, 74, 105, 21);
+		panel_1.add(order3RadioButton);
+		buttonGroup.add(order3RadioButton);
+		
+		order4RadioButton = new JRadioButton("4 - Order");
+		order4RadioButton.setBounds(0, 97, 105, 21);
+		panel_1.add(order4RadioButton);
+		buttonGroup.add(order4RadioButton);
+		
+		order5RadioButton = new JRadioButton("5 - Order");
+		order5RadioButton.setBounds(0, 120, 105, 21);
+		panel_1.add(order5RadioButton);
+		buttonGroup.add(order5RadioButton);
 	}
 	
-	private void createTestSuite() {
-		if(pathList.isSelectionEmpty()) {
-			JOptionPane.showMessageDialog(pathPanel, "Select at least one path", "Attention", JOptionPane.WARNING_MESSAGE);
-		}else if(eventsSelected() == 0){
-			JOptionPane.showMessageDialog(pathPanel, "Select at least one event", "Attention", JOptionPane.WARNING_MESSAGE);
-		}else if(!allSpeedsInformed()) {
-			JOptionPane.showMessageDialog(pathPanel, "Please, inform all path speeds", "Attention", JOptionPane.WARNING_MESSAGE);
-		}else {
-			
-		}
+	private int orderChoosen() {
+		int order = 0;
 		
+		if(order1RadioButton.isSelected()) {
+			order = 1;
+		}else if(order2RadioButton.isSelected()) {
+			order = 2;
+		}else if(order3RadioButton.isSelected()) {
+			order = 3;
+		}else if(order4RadioButton.isSelected()) {
+			order = 4;
+		}else if(order5RadioButton.isSelected()) {
+			order = 5;
+		}
+		return order;
+	}
+	
+	private boolean orderSelected() {
+		if(order1RadioButton.isSelected()) {
+			return true;
+		}
+		if(order2RadioButton.isSelected()) {
+			return true;
+		}
+		if(order3RadioButton.isSelected()) {
+			return true;
+		}
+		if(order4RadioButton.isSelected()) {
+			return true;
+		}
+		if(order5RadioButton.isSelected()) {
+			return true;
+		}
+		return false;
 	}
 
 	private boolean allSpeedsInformed() {

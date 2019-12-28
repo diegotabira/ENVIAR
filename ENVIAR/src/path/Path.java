@@ -1,4 +1,4 @@
-package percurso;
+package path;
 
 import java.util.ArrayList;
 

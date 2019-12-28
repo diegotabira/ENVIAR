@@ -9,10 +9,10 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import exceptions.SintaxException;
-import percurso.Line;
-import percurso.Location;
-import percurso.Path;
-import percurso.Walker;
+import path.Line;
+import path.Location;
+import path.Path;
+import path.Walker;
 import terminal.ADBComunicator;
 import terminal.Commands;
 import util.Util;

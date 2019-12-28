@@ -9,7 +9,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 import exceptions.SintaxException;
-import percurso.Walker;
+import path.Walker;
 import terminal.ADBComunicator;
 import testCase.TestCase;
 import util.CommandExecutor;

@@ -143,7 +143,7 @@ public class PathEditorWindow extends JFrame {
 	private void savePath() throws IOException {
 		BufferedWriter buffWrite = new BufferedWriter(new FileWriter(DIRECTORY_PATH + pathName + ".txt"));
 		buffWrite.append(pathEditorPane.getText());
-		buffWrite.close();		
+		buffWrite.close();
 	}
 
 	public void setMainWindow(MainWindow mainWindow) {
