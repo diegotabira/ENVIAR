@@ -46,7 +46,7 @@ public class MainWindow {
 	private JTable speedTable;
 	private DefaultTableModel dtm;
 	private JPanel pathPanel;
-	private JButton btnCreateTestSuite;
+	private JButton createTestSuiteButton;
 	
 	private JCheckBox gpsSignalCheckBox;
 	private JCheckBox gpsCalibrationCheckBox;
@@ -268,8 +268,8 @@ public class MainWindow {
 		lblSpeed.setBounds(0, 0, 77, 22);
 		panel.add(lblSpeed);
 		
-		btnCreateTestSuite = new JButton("Create Test Suite");
-		btnCreateTestSuite.addActionListener(new ActionListener() {
+		createTestSuiteButton = new JButton("Create Test Suite");
+		createTestSuiteButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(pathList.isSelectionEmpty()) {
 					JOptionPane.showMessageDialog(pathPanel, "Select at least one path", "Attention", JOptionPane.WARNING_MESSAGE);
@@ -284,8 +284,8 @@ public class MainWindow {
 				}
 			}
 		});
-		btnCreateTestSuite.setBounds(224, 232, 144, 35);
-		frmEnviar.getContentPane().add(btnCreateTestSuite);
+		createTestSuiteButton.setBounds(224, 232, 144, 35);
+		frmEnviar.getContentPane().add(createTestSuiteButton);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBounds(537, 38, 91, 180);
@@ -448,7 +448,7 @@ public class MainWindow {
 				String testSuiteName = JOptionPane.showInputDialog("Type the Test Suite Name");
 				if(testSuiteName != null && !testSuiteName.equals("")) {
 					generatingJLabel.setVisible(true);
-					btnCreateTestSuite.setEnabled(false);
+					createTestSuiteButton.setEnabled(false);
 					changeGeneratingLabel();
 					ArrayList<String[]> pathsAndSpeeds = new ArrayList<String[]>();
 					int rowCount = dtm.getRowCount();
@@ -463,7 +463,7 @@ public class MainWindow {
 						JOptionPane.showMessageDialog(pathPanel, e1.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
 					}
 					generatingJLabel.setVisible(false);
-					btnCreateTestSuite.setEnabled(true);
+					createTestSuiteButton.setEnabled(true);
 					loadTestSuiteList();
 				}
 		    }

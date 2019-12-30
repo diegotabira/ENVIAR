@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class TestSuiteGenerator {
 	
@@ -27,9 +28,40 @@ public class TestSuiteGenerator {
 
 	public void createTestSuite() throws Exception {
 		createPictInput();
-		executePict();	
+		executePict();
+		sortTestSuiteByPaths();
 	}
 	
+	private void sortTestSuiteByPaths() throws IOException {
+		String testSuiteFilePath = "testSuites//" + testSuiteName + ".txt";
+		
+		String oldTestSuite = "";
+		FileReader arq = new FileReader(testSuiteFilePath);
+		BufferedReader lerArq = new BufferedReader(arq);
+		String linha = lerArq.readLine();
+		while(linha != null) {
+			oldTestSuite += linha + "\n";
+			linha = lerArq.readLine();
+		}
+		lerArq.close();
+		
+		String newTestSuite = "";
+		for (String[] pathAndSpeed : pathsAndSpeeds) {
+			Scanner scanner = new Scanner(oldTestSuite);
+			String path = pathAndSpeed[0];
+			while(scanner.hasNextLine()) {
+				String line = scanner.nextLine();
+				if(line.startsWith(path)) {
+					newTestSuite += line + "\n";
+				}
+			}
+			scanner.close();
+		}
+		BufferedWriter buffWrite = new BufferedWriter(new FileWriter(testSuiteFilePath));
+		buffWrite.append(newTestSuite);
+		buffWrite.close();
+	}
+
 	private void createPictInput() throws Exception {
 		String newLine = "Path: ";
 		for (String[] path : pathsAndSpeeds) {
