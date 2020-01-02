@@ -24,7 +24,7 @@ public class LogManager {
 	public LogManager(String appPackage) {
 		logcather = new Logcather();
 		pathFile = "results/" + appPackage + "/";
-		testSuitResults = pathFile + "0 - Test Suit Results.txt";		
+		testSuitResults = pathFile + "0 - Test Suite Results.txt";		
 		try {
 			loadTestCases();
 		} catch (FileNotFoundException e) {
@@ -122,6 +122,8 @@ public class LogManager {
 //			String logcat = logcather.getLogcat('v');
 			String indexStr = Integer.toString(index);
 			if(index < 10) {
+				indexStr = "00" + indexStr;
+			}else if(index < 100) {
 				indexStr = "0" + indexStr;
 			}
 			String logcat = logcather.getLogcat();

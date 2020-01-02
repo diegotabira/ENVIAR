@@ -1,0 +1,1584 @@
+--------- beginning of main
+06-29 10:38:55.861  3472  3472 D net.osmand: DayNightHelper Sunrise/sunset setting to day: true
+06-29 10:38:57.891  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+--------- beginning of system
+06-29 10:39:01.434  1600  2369 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000
+06-29 10:39:01.497  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:01.528  1600  6125 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@81c2ee9)
+06-29 10:39:01.529  1600  1613 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@81c2ee9)
+06-29 10:39:01.533  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:01.536  3472  3472 D net.osmand: Disable sensor
+06-29 10:39:01.588  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:01.698  3472  3472 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:01.762  1408  1408 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-29 10:39:01.767  3472  3540 D EGL_emulation: eglMakeCurrent: 0x9e4043c0: ver 2 0 (tinfo 0x9e403290)
+06-29 10:39:01.795  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:01.864  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:01.956  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:01.998  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:02.069  2629  2884 D EGL_emulation: eglMakeCurrent: 0xa61b6ce0: ver 2 0 (tinfo 0xa619b690)
+06-29 10:39:02.116  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:02.121  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:02.148  1600  1614 W ResourceType: ResTable_typeSpec entry count inconsistent: given 5115, previously 5124
+06-29 10:39:02.148  1600  1614 W ResourceType: ResTable_typeSpec entry count inconsistent: given 142, previously 459
+06-29 10:39:02.185  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:39:02.235  2118  2184 D EGL_emulation: eglMakeCurrent: 0x8b867100: ver 2 0 (tinfo 0x8b8707f0)
+06-29 10:39:02.281  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:02.390  1398  1398 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+06-29 10:39:02.455  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:02.526  1408  1408 E EGL_emulation: tid 1408: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-29 10:39:02.634  2629  9193 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-29 10:39:02.695  2118  2184 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-29 10:39:02.695  2118  2184 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-29 10:39:02.776  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:02.790  1704 13579 D         : HostConnection::get() New Host Connection established 0x86be3680, tid 13579
+06-29 10:39:02.812  3472 13551 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-29 10:39:02.939  2629  2890 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-29 10:39:03.255  1704  1723 I zygote  : Background concurrent copying GC freed 113392(5MB) AllocSpace objects, 0(0B) LOS objects, 47% free, 6MB/12MB, paused 183.499ms total 952.657ms
+06-29 10:39:03.365  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:03.425  1600  4840 I WifiService: getWifiEnabledState uid=10032
+06-29 10:39:03.453  2629  9209 W LocationOracle: No location history returned by ContextManager
+06-29 10:39:03.471  1600  4840 I WifiService: getWifiEnabledState uid=10032
+06-29 10:39:03.604  1600  1609 I zygote  : NativeAlloc concurrent copying GC freed 36010(1701KB) AllocSpace objects, 9(396KB) LOS objects, 29% free, 14MB/20MB, paused 1.222ms total 498.953ms
+06-29 10:39:03.720  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 10:39:03.726  1964  1964 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-29 10:39:03.729  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 10:39:03.788  1964 13585 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17785022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 1964). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-29 10:39:03.900  2629  9194 E PlaceStateUpdater: Received no places
+06-29 10:39:03.963  1964 13585 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-29 10:39:04.006  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 10:39:04.013  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 10:39:04.035  1964 13589 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-29 10:39:04.068  1964 13589 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-29 10:39:04.262  1964 13589 I Places  : ?: PlacesBleScanner start() with priority 2
+06-29 10:39:04.269  1964 13589 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-29 10:39:04.269  1964 13589 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-29 10:39:04.299  1964 13589 I Places  : Converted 1 out of 1 WiFi scans
+06-29 10:39:04.300  1600  4840 I WifiService: getConnectionInfo uid=10014
+06-29 10:39:04.301  1964  1964 E BeaconBle: Missing BluetoothAdapter
+06-29 10:39:04.301  1964  1964 I BeaconBle: BLE 'KK+' software access layer enabled
+06-29 10:39:04.336  1964 13589 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-29 10:39:04.344  1964 13589 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-29 10:39:04.382  1964  1964 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-29 10:39:04.382  1964  1964 I BeaconBle: Scan : No clients left, canceling alarm.
+06-29 10:39:04.384  1964  1964 E BeaconBle: Scan couldn't start for Places
+06-29 10:39:04.384  1964  1964 W Places  : BLE failure while scanning - code 5
+06-29 10:39:04.702  1964  1978 I zygote  : Background concurrent copying GC freed 66762(3MB) AllocSpace objects, 27(1172KB) LOS objects, 34% free, 11MB/17MB, paused 5.681ms total 201.953ms
+06-29 10:39:04.937  1964 13586 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-29 10:39:04.974  1600  2105 I ActivityManager: Force stopping com.skgames.trafficrider appid=10081 user=0: from pid 13596
+06-29 10:39:05.011  1833  1833 D CarrierSvcBindHelper: No carrier app for: 0
+06-29 10:39:05.075  1964 13586 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-29 10:39:05.204  1600  1609 I zygote  : NativeAlloc concurrent copying GC freed 7268(478KB) AllocSpace objects, 0(0B) LOS objects, 29% free, 14MB/20MB, paused 1.719ms total 231.755ms
+06-29 10:39:05.441  1600  2105 I ActivityManager: Force stopping com.EvilChaotic.ModernWarplanes appid=10082 user=0: from pid 13602
+06-29 10:39:05.471  1833  1833 D CarrierSvcBindHelper: No carrier app for: 0
+06-29 10:39:05.823  1600  2105 I ActivityManager: Force stopping com.ea.games.r3_row appid=10083 user=0: from pid 13606
+06-29 10:39:06.224  1600  1863 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+06-29 10:39:05.857  1833  1833 D CarrierSvcBindHelper: No carrier app for: 0
+06-29 10:39:07.417  1833  1833 D ServiceStateProvider: subId=1
+06-29 10:39:07.503  1833  1833 D TelephonyProvider: subIdString = 1 subId = 1
+06-29 10:39:07.560  1600  1678 I WifiService: getConnectionInfo uid=1000
+06-29 10:39:07.573  1833  1833 D TelephonyProvider: subIdString = 1 subId = 1
+06-29 10:39:07.595  1833  1833 D TelephonyProvider: subIdString = 1 subId = 1
+06-29 10:39:07.597  1600  1671 D RecurrenceRule: Resolving using anchor 2019-06-29T14:39:07.596Z[GMT]
+06-29 10:39:07.599  1600  1671 D RecurrenceRule: Resolving using anchor 2019-06-29T14:39:07.599Z[GMT]
+06-29 10:39:07.602  1600  1671 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-29 10:39:07.602  1600  1671 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-29 10:39:07.605  1600  1671 D NetworkStats: Found active matching subId 1
+06-29 10:39:07.614  1833  1833 D TelephonyProvider: subIdString = 1 subId = 1
+06-29 10:39:07.634  1600  1671 D NetworkStats: Resolved to plan null
+06-29 10:39:07.738  1833  1833 I chatty  : uid=1001(radio) com.android.phone identical 4 lines
+06-29 10:39:07.758  1833  1833 D TelephonyProvider: subIdString = 1 subId = 1
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: Volley request failed for type atas
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: bpg
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: 	at xln.a(SourceFile:164)
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: 	at xkm.run(Unknown Source:1)
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: 	at xaz.run(SourceFile:12)
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: 	at java.lang.Thread.run(Thread.java:764)
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: Caused by: bdgp: Exception in CronetUrlRequest: net::ERR_CONNECTION_CLOSED, ErrorCode=5, InternalErrorCode=-100, Retryable=true
+06-29 10:39:08.299 13276 13276 E GEL_DELAYED_EVENT_DEBUG: 	at org.chromium.net.impl.CronetUrlRequest.onError(SourceFile:175)
+06-29 10:39:08.786 13624 13624 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-29 10:39:08.803 13624 13624 W app_process: Could not reserve sentinel fault page
+06-29 10:39:09.055 13624 13624 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-29 10:39:09.065 13624 13624 I app_process: The ClassLoaderContext is a special shared library.
+06-29 10:39:09.176 13624 13624 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-29 10:39:09.178 13624 13624 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-29 10:39:09.179 13624 13624 W Monkey  :  arg: "-p"
+06-29 10:39:09.179 13624 13624 W Monkey  :  arg: "net.osmand"
+06-29 10:39:09.180 13624 13624 W Monkey  :  arg: "-c"
+06-29 10:39:09.180 13624 13624 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-29 10:39:09.181 13624 13624 W Monkey  :  arg: "1"
+06-29 10:39:09.181 13624 13624 W Monkey  : data="net.osmand"
+06-29 10:39:09.181 13624 13624 W Monkey  : data="android.intent.category.LAUNCHER"
+06-29 10:39:09.294  1600  1614 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{62c99a7 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{5f87e54 13624 (unknown name)/2000/u-1 remote:3e20ac1}: process gone or crashing
+06-29 10:39:09.362  1600  2369 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-29 10:39:09.368  1600  2369 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-29 10:39:09.368  1600  2369 W Binder  : java.lang.Throwable
+06-29 10:39:09.368  1600  2369 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-29 10:39:09.368  1600  2369 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-29 10:39:09.380  1600  2369 W ResourceType: ResTable_typeSpec entry count inconsistent: given 5115, previously 5124
+06-29 10:39:09.380  1600  2369 W ResourceType: ResTable_typeSpec entry count inconsistent: given 142, previously 459
+06-29 10:39:09.380 13015 13047 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-29 10:39:09.381  1600  2369 W ResourceType: For resource 0x7f0e00c0, entry index(192) is beyond type entryCount(142)
+06-29 10:39:09.381  1600  2369 W ResourceType: For resource 0x7f0e00d1, entry index(209) is beyond type entryCount(142)
+06-29 10:39:09.381  1600  2369 W ResourceType: For resource 0x7f0e00cb, entry index(203) is beyond type entryCount(142)
+06-29 10:39:09.381  1600  2369 W ResourceType: For resource 0x7f0e014d, entry index(333) is beyond type entryCount(142)
+06-29 10:39:09.381  1600  2369 W ResourceType: For resource 0x7f0e00dd, entry index(221) is beyond type entryCount(142)
+06-29 10:39:09.381  1600  2369 W ResourceType: For resource 0x7f0e00e4, entry index(228) is beyond type entryCount(142)
+06-29 10:39:09.397 13624 13624 I Monkey  : Events injected: 1
+06-29 10:39:09.489  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:09.513  2629  2884 D EGL_emulation: eglMakeCurrent: 0xa61b6ce0: ver 2 0 (tinfo 0xa619b690)
+06-29 10:39:09.545 13624 13624 I Monkey  : ## Network stats: elapsed time=105ms (0ms mobile, 0ms wifi, 105ms not connected)
+06-29 10:39:09.557 13624 13624 I com.android.commands.monkey: System.exit called, status: 0
+06-29 10:39:09.557 13624 13624 I AndroidRuntime: VM exiting with result code 0.
+06-29 10:39:09.560  2118  2184 D EGL_emulation: eglMakeCurrent: 0x8b867100: ver 2 0 (tinfo 0x8b8707f0)
+06-29 10:39:09.588  1600  1615 W Looper  : Dispatch took 102ms on android.ui, h=Handler (com.android.server.policy.PhoneWindowManager$PolicyHandler) {dca4410} cb=android.database.ContentObserver$NotificationRunnable@c3c50f9 msg=0
+06-29 10:39:09.601  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:09.622  1704  1929 I chatty  : uid=10029(com.android.systemui) RenderThread identical 1 line
+06-29 10:39:09.667  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:09.698  3472  3472 D InAppPurchaseHelper: Destroying helper.
+06-29 10:39:09.728  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:09.773  3472  3472 D net.osmand: Enable sensor
+06-29 10:39:09.831  1600  6125 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@66803b5)
+06-29 10:39:09.832  1600  1613 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@66803b5)
+06-29 10:39:09.858  3472  3472 W System.err: OnCreate for MapActivity took 159 ms
+06-29 10:39:09.887  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:09.888  3472  3472 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 10:39:09.935  3472  3472 I chatty  : uid=10104(net.osmand) identical 35 lines
+06-29 10:39:09.936  3472  3472 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 10:39:09.937  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:09.936  3472  3472 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 10:39:09.965  3472  3472 I chatty  : uid=10104(net.osmand) identical 31 lines
+06-29 10:39:09.965  3472  3472 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 10:39:09.968  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:09.985  1600  2105 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:39:09.988  1408  1423 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=3472, uid<=10104
+06-29 10:39:09.988  3472  3472 E BpSurfaceComposerClient: Failed to transact (-1)
+06-29 10:39:09.992  1408  1423 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=3472, uid<=10104
+06-29 10:39:09.993  3472  3472 E BpSurfaceComposerClient: Failed to transact (-1)
+06-29 10:39:10.001  3472  3540 D EGL_emulation: eglMakeCurrent: 0x9e4043c0: ver 2 0 (tinfo 0x9e403290)
+06-29 10:39:10.032  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:10.085  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:39:10.104  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-29 10:39:10.226  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-29 10:39:10.252  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 10:39:10.360  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:10.363  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-29 10:39:10.388  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:10.440  1408  1408 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-29 10:39:10.507  2629  9196 I PBSessionCacheImpl: Deleted sessionId[7574760632386] from persistence.
+06-29 10:39:10.532  1600  6125 I WifiService: getWifiEnabledState uid=10032
+06-29 10:39:10.537  2629  2890 W SearchServiceCore: Abort, client detached.
+06-29 10:39:10.581  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:10.593  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:10.629  3472 13483 E net.osmand: DownloadOsmandIndexesHelper Error while loading indexes from repository
+06-29 10:39:10.629  3472 13483 E net.osmand: javax.net.ssl.SSLHandshakeException: SSL handshake terminated: ssl=0x9e40f680: I/O error during system call, No such file or directory
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.org.conscrypt.NativeCrypto.SSL_do_handshake(Native Method)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.org.conscrypt.SslWrapper.doHandshake(SslWrapper.java:374)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.org.conscrypt.ConscryptFileDescriptorSocket.startHandshake(ConscryptFileDescriptorSocket.java:217)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:192)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:149)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:407)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:244)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:210)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(Unknown Source:0)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at net.osmand.plus.download.DownloadOsmandIndexesHelper.downloadIndexesListFromInternet(DownloadOsmandIndexesHelper.java:198)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at net.osmand.plus.download.DownloadOsmandIndexesHelper.getIndexesList(DownloadOsmandIndexesHelper.java:116)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at net.osmand.plus.download.DownloadIndexesThread$ReloadIndexesTask.doInBackground(DownloadIndexesThread.java:376)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at net.osmand.plus.download.DownloadIndexesThread$ReloadIndexesTask.doInBackground(DownloadIndexesThread.java:359)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+06-29 10:39:10.629  3472 13483 E net.osmand: 	at java.lang.Thread.run(Thread.java:764)
+06-29 10:39:10.646  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:10.865  1704  1929 I chatty  : uid=10029(com.android.systemui) RenderThread identical 4 lines
+06-29 10:39:10.881  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:10.997  1964  1964 W SystemServiceRegistry: No service published for: persistent_data_block
+06-29 10:39:11.023  1964  1964 W ChimeraUtils: Non Chimera context
+06-29 10:39:11.023  1964  1964 W ChimeraUtils: Non Chimera context
+06-29 10:39:11.447  3472  3482 I zygote  : Background concurrent copying GC freed 213225(8MB) AllocSpace objects, 28(1200KB) LOS objects, 26% free, 16MB/22MB, paused 982us total 221.764ms
+06-29 10:39:13.037  1600  2105 D WificondControl: Scan result ready event
+06-29 10:39:13.179  1600  4840 I WifiService: releaseWifiLock uid=10014
+06-29 10:39:14.466  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 175.91983795166016 1.0271224975585938
+06-29 10:39:14.505  1600  1617 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-29 10:39:14.580  1704  1929 D EGL_emulation: eglMakeCurrent: 0x9e4046c0: ver 2 0 (tinfo 0x9e403690)
+06-29 10:39:15.774  1964 13589 I Places  : ?: PlacesBleScanner stop()
+06-29 10:39:15.778  1964  1964 I BeaconBle: Scan : No clients left, canceling alarm.
+06-29 10:39:15.780  1964  1964 I BeaconBle: Scan canceled successfully.
+06-29 10:39:15.790  1964 13589 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-29 10:39:15.791  1964 13589 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-29 10:39:15.865  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 10:39:15.936  1964  2104 W MessageQueue: Handler (aeyl) {df33f75} sending message to a Handler on a dead thread
+06-29 10:39:15.936  1964  2104 W MessageQueue: java.lang.IllegalStateException: Handler (aeyl) {df33f75} sending message to a Handler on a dead thread
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at aeyl.sendMessageAtTime(Unknown Source:3)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at android.os.Handler.post(Handler.java:357)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at bcln.execute(Unknown Source:2)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at aanh.execute(Unknown Source:9)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at avft.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at avgk.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):8)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at avgn.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):43)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at avgj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at agos.a(Unknown Source:2)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at rnt.a(Unknown Source:11)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at aamg.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at cwm.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-29 10:39:15.936  1964  2104 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:697)
+06-29 10:39:17.189  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 171.79218673706055 1.19720458984375
+06-29 10:39:17.225  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 119.9576
+06-29 10:39:17.230  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:17.231  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:39:17.235  3472 13650 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819157000,mLatitude=-7.2238,mLongitude=-35.893265,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:39:17.248  3472 13650 W net.osmand: RouteProvider Use 348 MB Free 5.2475433 of 22.448547 max 384.0
+06-29 10:39:17.274  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble atenção!  Cruzamento de linha férrea 
+06-29 10:39:17.274  3472  3472 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 10:39:17.274  3472  3472 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 10:39:17.274  3472  3472 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 10:39:17.275  1600  6125 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@417bb00 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 10:39:17.279  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:39:17.281  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:39:17.282  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:39:17.293  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:39:17.301  1600  2105 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:39:17.306  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56043389 , only wrote 56043360
+06-29 10:39:17.772  3472 13650 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:39:17.797  3472 13650 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:39:17.882  3472 13650 W net.osmand:native: [Native] Result visited (visited roads 51, visited segments 136 / 66 , queue sizes 167 / 49 ) 
+06-29 10:39:17.882  3472 13650 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 85, loaded tiles 42) 
+06-29 10:39:17.882  3472 13650 W net.osmand:native: [Native] Memory occupied (Routing context 902 Kb, search 4 Kb)
+06-29 10:39:17.883  3472 13650 I net.osmand:native: Routing calculated time distance 146.169189
+06-29 10:39:17.888  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 119.9576
+06-29 10:39:17.949  3472 13650 I net.osmand: RoutePlannerFrontEnd Native routing took 0.223 seconds
+06-29 10:39:17.954  3472 13650 I System.out: ROUTE : 
+06-29 10:39:17.954  3472 13650 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:17.954  3472 13650 I net.osmand:   start_lat="-7.22380" start_lon="-35.89327" target_lat="-7.23263" target_lon="-35.91305"  routing_time="146.17" loadedTiles="42" visitedSegments="51" complete_distance="2552.10" complete_time="169.61" >
+06-29 10:39:17.954  3472 13650 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:17.954  3472 13650 I System.out:   start_lat="-7.22380" start_lon="-35.89327" target_lat="-7.23263" target_lon="-35.91305"  routing_time="146.17" loadedTiles="42" visitedSegments="51" complete_distance="2552.10" complete_time="169.61" >
+06-29 10:39:17.954  3472 13650 I System.out: </test>
+06-29 10:39:17.954  3472 13650 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:17.954  3472 13650 I System.out:   start_lat="-7.22380" start_lon="-35.89327" target_lat="-7.23263" target_lon="-35.91305"  routing_time="146.17" loadedTiles="42" visitedSegments="51" complete_distance="2552.10" complete_time="169.61" >
+06-29 10:39:17.960  3472 13650 I net.osmand: RouteProvider Finding route contained 37 points for 725 ms
+06-29 10:39:18.143  1600  1609 I zygote  : Background concurrent copying GC freed 44054(2MB) AllocSpace objects, 40(1568KB) LOS objects, 29% free, 14MB/20MB, paused 1.569ms total 245.942ms
+06-29 10:39:18.816  1406  1406 I boot-pipe: done populating /dev/random
+06-29 10:39:19.694  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:19.695  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:19.717  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:19.717  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:19.876  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble vire levemente à esquerda na   Avenida Marechal Floriano Peixoto 
+06-29 10:39:19.877  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=2
+06-29 10:39:19.879  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:39:19.880  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:39:19.893  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:19.895  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:19.910  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:19.910  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:20.144  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.223982386757723, lon=-35.89367047973547, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:39:20.191  3472  3495 I net.osmand:native: Route objects 99
+06-29 10:39:20.191  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:39:20.191  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:39:20.191  3472  3495 I net.osmand:native: Search : tree - read( 540), accept( 49), objs - visit( 2957), accept(130), in result(99) 
+06-29 10:39:20.192  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.226293754577637, TLat=-7.218285369873047, LLong=-35.896121978759766, RLong=-35.89122009277344, zoom=17
+06-29 10:39:20.193  3472  3495 I net.osmand: MapRenderRepositories Native search: 48 ms 
+06-29 10:39:20.201  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:39:20.201  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:39:20.201  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:39:20.201  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:39:20.202  3472  3495 I net.osmand:native: Rendering image
+06-29 10:39:20.375  3472  3495 I net.osmand:native: Native ok (rendering 2, text 75 ms) 
+06-29 10:39:20.375  3472  3495 I net.osmand:native:  (2407 points, 490 points inside, 150 of 203 objects visible)
+06-29 10:39:20.375  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:39:20.375  3472  3495 I net.osmand:native: Native ok (init 1, rendering 2) 
+06-29 10:39:20.376  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:39:20.461  5191  5294 D AudioTrack: stop() called with 67100 frames delivered
+06-29 10:39:20.462  1600  1863 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:39:20.466  3472  5308 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:39:20.474  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:39:20.481  1600  6125 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:39:20.798  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:39:20.798  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:39:20.829  1964  1964 I BeaconBle: Scan : No clients left, canceling alarm.
+06-29 10:39:20.849  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56213424 , only wrote 56213280
+06-29 10:39:20.881  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56214811 , only wrote 56214000
+06-29 10:39:20.882  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56214030 , only wrote 56214000
+06-29 10:39:20.898  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:39:20.898  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:39:20.899  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56214816 , only wrote 56214720
+06-29 10:39:20.922  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(8)
+06-29 10:39:23.551  2629  2890 I WorkerManager: dispose()
+06-29 10:39:23.565  2629  2890 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-29 10:39:23.656  1964 13013 V NativeCrypto: Read error: ssl=0xa622e168: I/O error during system call, Connection reset by peer
+06-29 10:39:23.666  1964 13013 V NativeCrypto: SSL shutdown failed: ssl=0xa622e168: I/O error during system call, Broken pipe
+06-29 10:39:23.687  1964 13013 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-29 10:39:23.687  1964 13013 W WakeLock: GCM_HB_ALARM counter does not exist
+06-29 10:39:23.696  1600  1678 D ConnectivityService: reportNetworkConnectivity(101, false) by 10014
+06-29 10:39:23.698  1600  3204 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: Forcing reevaluation for UID 10014
+06-29 10:39:23.791  1600 13654 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_DNS www.google.com 72ms OK 172.217.28.228,2800:3f0:4001:801::2004
+06-29 10:39:23.794  1600 13655 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_DNS connectivitycheck.gstatic.com 82ms OK 172.217.172.131,2800:3f0:4001:81a::2003
+06-29 10:39:23.962  1600 13655 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=164ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Sat, 29 Jun 2019 14:39:23 GMT], X-Android-Received-Millis=[1561819163962], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1561819163887]}
+06-29 10:39:24.043  1600  4840 I WifiService: getConnectionInfo uid=10014
+06-29 10:39:24.047  1600 13654 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_HTTPS https://www.google.com/generate_204 time=248ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[quic=":443"; ma=2592000; v="46,44,43,39"], Content-Length=[0], Date=[Sat, 29 Jun 2019 14:39:23 GMT], X-Android-Received-Millis=[1561819164047], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1561819163973]}
+06-29 10:39:24.051  1600  1678 D ConnectivityService: NetworkAgentInfo [WIFI () - 101] validation passed
+06-29 10:39:24.144  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:39:24.144  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:39:24.331  1600  1863 I WifiService: getConnectionInfo uid=10014
+06-29 10:39:24.337  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:39:24.337  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:39:24.445  1600  1863 I WifiService: getConnectionInfo uid=10014
+06-29 10:39:24.490  1964  3202 I GeofencerStateMachine: addGeofences called by com.google.android.apps.maps
+06-29 10:39:24.529  1600  1863 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@38cf002)
+06-29 10:39:24.532  1600  1613 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@38cf002)
+06-29 10:39:24.608  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+06-29 10:39:24.638  1600  2105 I WifiService: getWifiEnabledState uid=10062
+06-29 10:39:24.667  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:39:24.699  1600  2105 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@102576f)
+06-29 10:39:24.702  1600  1613 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@102576f)
+06-29 10:39:24.898  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:39:24.916  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:39:25.208  1964  4580 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+06-29 10:39:25.504  5191  5294 D AudioTrack: stop() called with 109450 frames delivered
+06-29 10:39:25.505  1600  6125 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:39:25.508  3472  3483 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:25.509  1600  2369 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@417bb00
+06-29 10:39:25.509  3472  3483 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-29 10:39:26.245  3472  3472 D net.osmand: RoutingHelper Processed by distance : 0.6155215436150371 52.06566228143212
+06-29 10:39:26.316  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:26.322  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:26.382  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:26.382  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:26.391  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.22446170134154, lon=-35.89467412961934, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:39:26.544  3472  3495 I net.osmand:native: Route objects 94
+06-29 10:39:26.544  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:39:26.544  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:39:26.544  3472  3495 I net.osmand:native: Search : tree - read( 540), accept( 44), objs - visit( 2757), accept(125), in result(94) 
+06-29 10:39:26.545  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.226760935783386, TLat=-7.218776154518127, LLong=-35.89712905883789, RLong=-35.89222717285156, zoom=17
+06-29 10:39:26.545  3472  3495 I net.osmand: MapRenderRepositories Native search: 147 ms 
+06-29 10:39:26.561  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:39:26.561  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:39:26.561  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:39:26.562  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:39:26.566  3472  3495 I net.osmand:native: Rendering image
+06-29 10:39:26.782  3472  3495 I net.osmand:native: Native ok (rendering 1, text 80 ms) 
+06-29 10:39:26.782  3472  3495 I net.osmand:native:  (2324 points, 412 points inside, 139 of 184 objects visible)
+06-29 10:39:26.782  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:39:26.782  3472  3495 I net.osmand:native: Native ok (init 3, rendering 1) 
+06-29 10:39:26.783  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:39:27.323  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56523076 , only wrote 56521440
+06-29 10:39:27.325  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56521538 , only wrote 56521440
+06-29 10:39:27.346  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56522415 , only wrote 56522160
+06-29 10:39:27.515  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56530306 , only wrote 56530080
+06-29 10:39:27.518  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56530219 , only wrote 56530080
+06-29 10:39:27.534  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56530859 , only wrote 56530800
+06-29 10:39:27.616  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56534723 , only wrote 56534400
+06-29 10:39:28.517  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56577633 , only wrote 56576880
+06-29 10:39:28.530  1390  1390 W audio_hw_generic: Not supplying enough data to HAL, expected position 56577529 , only wrote 56576880
+06-29 10:39:30.029  1600  4840 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:39:30.077  1600  4840 I WifiService: releaseWifiLock uid=10014
+06-29 10:39:30.217  1964  1978 I zygote  : Background concurrent copying GC freed 145246(6MB) AllocSpace objects, 15(1636KB) LOS objects, 39% free, 9MB/15MB, paused 1.291ms total 120.265ms
+06-29 10:39:30.691  3472  3482 I zygote  : Background concurrent copying GC freed 161840(6MB) AllocSpace objects, 11(236KB) LOS objects, 27% free, 15MB/21MB, paused 2.266ms total 210.311ms
+06-29 10:39:30.727  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:39:30.727  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:39:31.585  1399  1414 D hwcomposer: hw_composer sent 248 syncs in 60s
+06-29 10:39:32.328  1600  1863 I WifiService: getConnectionInfo uid=10014
+06-29 10:39:32.381  2175  2175 I GCM     : Message from 745476177629
+06-29 10:39:32.497 13668 13668 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-29 10:39:32.530  1600  1613 W ActivityManager: Slow operation: 54ms so far, now at startProcess: returned from zygote!
+06-29 10:39:32.531  1600  1613 W ActivityManager: Slow operation: 54ms so far, now at startProcess: done updating battery stats
+06-29 10:39:32.531  1600  1613 W ActivityManager: Slow operation: 55ms so far, now at startProcess: building log message
+06-29 10:39:32.531  1600  1613 I ActivityManager: Start proc 13668:com.google.android.gm/u0a70 for service com.google.android.gm/.provider.MailSyncAdapterService
+06-29 10:39:32.531  1600  1613 W ActivityManager: Slow operation: 55ms so far, now at startProcess: starting to update pids map
+06-29 10:39:32.532  1600  1613 W ActivityManager: Slow operation: 55ms so far, now at startProcess: done updating pids map
+06-29 10:39:32.532  1600  1613 W ActivityManager: Slow operation: 56ms so far, now at startProcess: done starting proc!
+06-29 10:39:32.742  3472  3472 D net.osmand: RoutingHelper Processed by distance : 0.2575961594816486 54.007886533898585
+06-29 10:39:32.839  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.83858
+06-29 10:39:32.840  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:32.841  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:39:32.857  3472 13683 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819172000,mLatitude=-7.224941666666666,mLongitude=-35.895675,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:39:32.860  3472 13683 W net.osmand: RouteProvider Use 349 MB Free 5.686264 of 21.593895 max 384.0
+06-29 10:39:32.862  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:32.863  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:32.961  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.83858
+06-29 10:39:32.967  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:32.967  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:33.093  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:33.094  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:33.477  3472 13683 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:39:33.488 13668 13668 D ActivityThread: Loading provider com.google.android.gm.sapi: com.google.android.gm.sapi.SapiUiProvider
+06-29 10:39:33.506  3472 13683 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:39:33.511  3472 13683 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 20 / 0 , queue sizes 25 / 2 ) 
+06-29 10:39:33.511  3472 13683 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 4, loaded tiles 22) 
+06-29 10:39:33.511  3472 13683 W net.osmand:native: [Native] Memory occupied (Routing context 492 Kb, search 0 Kb)
+06-29 10:39:33.512  3472 13683 I net.osmand:native: No route found
+06-29 10:39:33.527  3472 13683 I net.osmand: RoutePlannerFrontEnd Native routing took 0.113 seconds
+06-29 10:39:33.527  3472 13683 I System.out: ROUTE : 
+06-29 10:39:33.527  3472 13683 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:33.527  3472 13683 I net.osmand:   start_lat="-7.22494" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:33.527  3472 13683 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:33.527  3472 13683 I System.out:   start_lat="-7.22494" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:33.527  3472 13683 I System.out: </test>
+06-29 10:39:33.527  3472 13683 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:33.527  3472 13683 I System.out:   start_lat="-7.22494" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:33.527  3472 13683 I net.osmand: RouteProvider Finding route contained 0 points for 671 ms
+06-29 10:39:33.551  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.224939554345908, lon=-35.8956759572257, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:39:33.625  3472  3495 I net.osmand:native: Route objects 87
+06-29 10:39:33.625  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:39:33.625  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:39:33.626  3472  3495 I net.osmand:native: Search : tree - read( 540), accept( 44), objs - visit( 2757), accept(118), in result(87) 
+06-29 10:39:33.626  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.227251720428467, TLat=-7.219243335723877, LLong=-35.898128509521484, RLong=-35.89322280883789, zoom=17
+06-29 10:39:33.626  3472  3495 I net.osmand: MapRenderRepositories Native search: 74 ms 
+06-29 10:39:33.632  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:39:33.633  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:39:33.633  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:39:33.633  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:39:33.635  3472  3495 I net.osmand:native: Rendering image
+06-29 10:39:33.704 13668 13668 W PrimesInit: Primes instant initialization
+06-29 10:39:33.712 13668 13696 W Primes  : background initialization
+06-29 10:39:33.825 13668 13668 W GAV2    : Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+06-29 10:39:33.848 13668 13696 I PrimesTesting: GserviceFlagsSupplier.get()
+06-29 10:39:33.886  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.83858
+06-29 10:39:33.887  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:39:33.898  3472 13702 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819174000,mLatitude=-7.224941666666666,mLongitude=-35.895675,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:39:33.899  3472 13702 W net.osmand: RouteProvider Use 346 MB Free 2.6745453 of 21.593895 max 384.0
+06-29 10:39:33.902  3472  3495 I net.osmand:native: Native ok (rendering 40, text 146 ms) 
+06-29 10:39:33.902  3472  3495 I net.osmand:native:  (2394 points, 375 points inside, 141 of 185 objects visible)
+06-29 10:39:33.902  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:39:33.902  3472  3495 I net.osmand:native: Native ok (init 1, rendering 40) 
+06-29 10:39:33.911  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:39:34.062  1600  1674 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConfigStore$1@fa13445
+06-29 10:39:34.122  1600  1674 D WifiConfigStore: Writing to stores completed in 60 ms.
+06-29 10:39:34.268 13668 13668 W Gmail   : AccountUtils:For b/73513912, load account content://com.android.gmail.ui/account.-2137146394 from MailAppProvider. Is account valid result: 1.
+06-29 10:39:34.278 13668 13668 W Gmail   : AccountUtils:For b/73513912, load account content://com.google.android.gm.email.provider/account.-437561172?suppress_combined%3Dtrue from MailAppProvider. Is account valid result: 1.
+06-29 10:39:34.314  1964  1964 W SystemServiceRegistry: No service published for: persistent_data_block
+06-29 10:39:34.488  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 132.2087
+06-29 10:39:34.752  3472 13702 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:39:34.855  3472 13702 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:39:34.886  3472 13702 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 20 / 0 , queue sizes 25 / 2 ) 
+06-29 10:39:34.886  3472 13702 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 30, loaded tiles 22) 
+06-29 10:39:34.886  3472 13702 W net.osmand:native: [Native] Memory occupied (Routing context 492 Kb, search 0 Kb)
+06-29 10:39:34.896  3472 13702 I net.osmand:native: No route found
+06-29 10:39:34.899  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 132.2087
+06-29 10:39:34.927  3472 13702 I net.osmand: RoutePlannerFrontEnd Native routing took 0.372 seconds
+06-29 10:39:34.927  3472 13702 I System.out: ROUTE : 
+06-29 10:39:34.927  3472 13702 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:34.927  3472 13702 I net.osmand:   start_lat="-7.22494" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:34.927  3472 13702 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:34.927  3472 13702 I System.out:   start_lat="-7.22494" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:34.928  3472 13702 I System.out: </test>
+06-29 10:39:34.928  3472 13702 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:34.928  3472 13702 I System.out:   start_lat="-7.22494" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:34.928  3472 13702 I net.osmand: RouteProvider Finding route contained 0 points for 1030 ms
+06-29 10:39:35.033  1600  6125 I WifiService: getConnectionInfo uid=10014
+06-29 10:39:35.073  2175  2175 I GCM     : Message from 745476177629
+06-29 10:39:35.382  1600  4840 W ActivityManager: Unable to start service Intent { cmp=com.google.android.gm/com.android.email.service.AttachmentService } U=0: not found
+06-29 10:39:35.414  1600  1609 I zygote  : Background concurrent copying GC freed 37934(2014KB) AllocSpace objects, 21(1088KB) LOS objects, 29% free, 14MB/20MB, paused 3.520ms total 1.124s
+06-29 10:39:35.476  3472  3482 I zygote  : Background concurrent copying GC freed 116205(5MB) AllocSpace objects, 22(472KB) LOS objects, 26% free, 16MB/22MB, paused 1.268ms total 1.048s
+06-29 10:39:35.890  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.01547
+06-29 10:39:35.901  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:35.902  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:39:35.916  3472 13727 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819176000,mLatitude=-7.224945000000001,mLongitude=-35.89568166666666,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:39:35.916  3472 13727 W net.osmand: RouteProvider Use 349 MB Free 5.9375 of 22.405289 max 384.0
+06-29 10:39:35.926  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.01547
+06-29 10:39:36.169 13668 13726 I zygote  : Deoptimizing java.lang.Object aeri.a(java.lang.Object[], int, int, int) due to JIT inline cache
+06-29 10:39:36.464 13668 13730 I zygote  : Deoptimizing void afkh.c() due to JIT inline cache
+06-29 10:39:36.498  3472 13727 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:39:36.527  3472 13727 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:39:36.532  3472 13727 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 20 / 0 , queue sizes 25 / 2 ) 
+06-29 10:39:36.532  3472 13727 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 4, loaded tiles 22) 
+06-29 10:39:36.532  3472 13727 W net.osmand:native: [Native] Memory occupied (Routing context 492 Kb, search 0 Kb)
+06-29 10:39:36.535  3472 13727 I net.osmand:native: No route found
+06-29 10:39:36.546  3472 13727 I net.osmand: RoutePlannerFrontEnd Native routing took 0.096 seconds
+06-29 10:39:36.547  3472 13727 I System.out: ROUTE : 
+06-29 10:39:36.547  3472 13727 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:36.547  3472 13727 I net.osmand:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:36.547  3472 13727 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:36.547  3472 13727 I System.out:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:36.547  3472 13727 I System.out: </test>
+06-29 10:39:36.547  3472 13727 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:36.548  3472 13727 I System.out:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:36.548  3472 13727 I net.osmand: RouteProvider Finding route contained 0 points for 632 ms
+06-29 10:39:36.603 13668 13673 I zygote  : Do partial code cache collection, code=25KB, data=18KB
+06-29 10:39:36.605 13668 13673 I zygote  : After code cache collection, code=20KB, data=16KB
+06-29 10:39:36.605 13668 13673 I zygote  : Increasing code cache capacity to 128KB
+06-29 10:39:36.782 13668 13723 I zygote  : Deoptimizing java.lang.Object aeri.a(java.lang.Object, java.lang.Object[], int, int, java.lang.Object) due to JIT inline cache
+06-29 10:39:36.905  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.01547
+06-29 10:39:36.905  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:39:36.908  3472 13731 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819177000,mLatitude=-7.224945000000001,mLongitude=-35.89568166666666,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:39:36.910  3472 13731 W net.osmand: RouteProvider Use 346 MB Free 3.0039062 of 22.405289 max 384.0
+06-29 10:39:37.409 13668 13707 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:37.513  3472 13731 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:39:37.551 13668 13707 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:37.552  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.01547
+06-29 10:39:37.613 13668 13722 I zygote  : Deoptimizing java.lang.Object aetu.next() due to JIT inline cache
+06-29 10:39:37.636  3472 13731 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:39:37.642  3472 13731 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 20 / 0 , queue sizes 25 / 2 ) 
+06-29 10:39:37.642  3472 13731 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 4, loaded tiles 22) 
+06-29 10:39:37.642  3472 13731 W net.osmand:native: [Native] Memory occupied (Routing context 492 Kb, search 0 Kb)
+06-29 10:39:37.643  3472 13731 I net.osmand:native: No route found
+06-29 10:39:37.666 13668 13682 I zygote  : Waiting for a blocking GC ProfileSaver
+06-29 10:39:37.668  3472 13731 I net.osmand: RoutePlannerFrontEnd Native routing took 0.253 seconds
+06-29 10:39:37.669  3472 13731 I System.out: ROUTE : 
+06-29 10:39:37.672  3472 13731 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:37.672  3472 13731 I net.osmand:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:37.678  3472 13731 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:37.678  3472 13731 I System.out:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:37.678  3472 13731 I System.out: </test>
+06-29 10:39:37.679  3472 13731 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:37.679  3472 13731 I System.out:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:37.679  3472 13731 I net.osmand: RouteProvider Finding route contained 0 points for 772 ms
+06-29 10:39:37.961  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 156.01547
+06-29 10:39:37.961  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:37.962  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:39:37.971  3472 13735 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819178000,mLatitude=-7.224945000000001,mLongitude=-35.89568166666666,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:39:37.971  3472 13735 W net.osmand: RouteProvider Use 343 MB Free 0.0 of 22.413101 max 384.0
+06-29 10:39:38.148  3472  3482 I zygote  : Background concurrent copying GC freed 122015(5MB) AllocSpace objects, 22(472KB) LOS objects, 26% free, 16MB/22MB, paused 1.746ms total 795.820ms
+06-29 10:39:38.350 13668 13682 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 683.035ms
+06-29 10:39:38.372 13668 13673 I zygote  : Do partial code cache collection, code=61KB, data=43KB
+06-29 10:39:38.401 13668 13673 I zygote  : After code cache collection, code=57KB, data=42KB
+06-29 10:39:38.401 13668 13673 I zygote  : Increasing code cache capacity to 256KB
+06-29 10:39:38.439 13668 13668 E abdj    : Sync is not initialized yet
+06-29 10:39:38.447 13668 13707 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 284 native methods...
+06-29 10:39:38.682 13668 13678 W zygote  : Suspending all threads took: 8.093ms
+06-29 10:39:38.720  3472 13735 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:39:38.748  3472 13735 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:39:38.793  3472 13735 W net.osmand:native: [Native] Result visited (visited roads 39, visited segments 66 / 66 , queue sizes 60 / 49 ) 
+06-29 10:39:38.793  3472 13735 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 44, loaded tiles 32) 
+06-29 10:39:38.793  3472 13735 W net.osmand:native: [Native] Memory occupied (Routing context 698 Kb, search 2 Kb)
+06-29 10:39:38.793  3472 13735 I net.osmand:native: Routing calculated time distance 131.928421
+06-29 10:39:38.831  3472 13735 I net.osmand: RoutePlannerFrontEnd Native routing took 0.173 seconds
+06-29 10:39:38.841  3472 13735 I System.out: ROUTE : 
+06-29 10:39:38.842  3472 13735 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:38.842  3472 13735 I net.osmand:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="131.93" loadedTiles="32" visitedSegments="39" complete_distance="2294.56" complete_time="155.02" >
+06-29 10:39:38.842  3472 13735 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:38.842  3472 13735 I System.out:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="131.93" loadedTiles="32" visitedSegments="39" complete_distance="2294.56" complete_time="155.02" >
+06-29 10:39:38.842  3472 13735 I System.out: </test>
+06-29 10:39:38.842  3472 13735 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:38.842  3472 13735 I System.out:   start_lat="-7.22495" start_lon="-35.89568" target_lat="-7.23263" target_lon="-35.91305"  routing_time="131.93" loadedTiles="32" visitedSegments="39" complete_distance="2294.56" complete_time="155.02" >
+06-29 10:39:38.846  3472 13735 I net.osmand: RouteProvider Finding route contained 34 points for 873 ms
+06-29 10:39:38.889  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 100.11798858642578 0.0
+06-29 10:39:39.017 13668 13707 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-29 10:39:39.263 13668 13707 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+06-29 10:39:39.611  1964  1964 W ChimeraUtils: Non Chimera context
+06-29 10:39:39.611  1964  1964 W ChimeraUtils: Non Chimera context
+06-29 10:39:40.381  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 179.03792572021484 0.6225967407226562
+06-29 10:39:40.430  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 106.83334
+06-29 10:39:40.437  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:40.776  1964 13539 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:40.776  1964 13539 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:40.776  1964 13539 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:40.825  1964 13648 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:40.825  1964 13648 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:40.826  1964 13648 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:40.951  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 106.83334
+06-29 10:39:40.952  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:41.040  1964 13648 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:41.041  1964 13648 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:41.041  1964 13648 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:41.129 13668 13723 I zygote  : Deoptimizing aetu aela.b(int) due to JIT inline cache
+06-29 10:39:41.158  1964 13539 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:41.159  1964 13539 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:41.159  1964 13539 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:41.210 13668 13726 I zygote  : Deoptimizing void acpp.a(aclm, java.util.Collection) due to JIT inline cache
+06-29 10:39:41.227 13668 13673 I zygote  : Do full code cache collection, code=118KB, data=77KB
+06-29 10:39:41.229 13668 13673 I zygote  : After code cache collection, code=99KB, data=50KB
+06-29 10:39:41.286 13668 13726 I zygote  : Deoptimizing void acpp.a(aclm, java.util.Collection) due to JIT inline cache
+06-29 10:39:41.407 13668 13673 I zygote  : Do partial code cache collection, code=111KB, data=63KB
+06-29 10:39:41.414 13668 13673 I zygote  : After code cache collection, code=108KB, data=61KB
+06-29 10:39:41.414 13668 13673 I zygote  : Increasing code cache capacity to 512KB
+06-29 10:39:42.127 13668 13724 I zygote  : Deoptimizing void acpp.a(aclm, java.util.Collection) due to JIT inline cache
+06-29 10:39:42.138 13668 13723 I zygote  : Deoptimizing java.lang.Object aeri.a(java.lang.Object, java.lang.Object[], int, int, java.lang.Object) due to JIT inline cache
+06-29 10:39:42.465 13668 13668 W ymr     : Failed to find local clusters.
+06-29 10:39:43.546 13759 13759 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-29 10:39:43.549  1600  1863 I ActivityManager: Start proc 13759:android.process.acore/u0a2 for content provider com.android.providers.contacts/.ContactsProvider2
+06-29 10:39:43.571  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:39:43.571  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:39:43.610 13759 13759 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:43.736 13759 13759 I ContactsPerf: VoicemailContentProvider.onCreate start
+06-29 10:39:43.753 13759 13759 I ContactsPerf: VoicemailContentProvider.onCreate finish
+06-29 10:39:43.814 13759 13759 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:43.827 13759 13775 D ContactsDatabaseHelper: WAL enabled for contacts2.db: true
+06-29 10:39:43.922 13759 13759 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:44.156 13759 13775 I ContactLocale: AddressBook Labels [[en_US]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, �?, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, �?, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, �?, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, �?, Ш, Щ, Ю, Я, …, �?, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, �?, ق, ك, ل, م, ن, ه, و, ي, …, �?, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, �?, ฎ, �?, �?, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, �?, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, �?, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, �?, ㅎ, …, �?�, �?�, �?�, �?�, �?�, �?�, �?�, や, ら, �?, #, …]
+06-29 10:39:44.199 13759 13775 D ContactsDatabaseHelper: WAL enabled for profile.db: false
+06-29 10:39:44.660  2175  2511 I FontsContentProvider: Received query Google Sans, URI content://com.google.android.gms.fonts
+06-29 10:39:44.661  2175  2511 I FontsContentProvider: Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false}
+06-29 10:39:44.663  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:44.663  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:44.689  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:44.690  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:44.721  2175  2511 I FontsContentProvider: Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null}
+06-29 10:39:44.732  2175  2511 I FontsContentProvider: Pulling font file for id = 10, cache size = 6
+06-29 10:39:44.774 13668 13757 W Gmail   : Gmail:Error setting letter tile font.
+06-29 10:39:44.786  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:44.787  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:44.793 13668 13757 W zbe     : Attempted to read unclipped body before it was fetched for messageId: msg-f:1637685919866819496
+06-29 10:39:44.931  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:44.933  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:44.963  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:44.963  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:45.026  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:45.029  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:45.221  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.22540046531905, lon=-35.89669589192361, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:39:45.221 13668 13757 D OpenGLRenderer: HWUI GL Pipeline
+06-29 10:39:45.259  1600  1617 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-29 10:39:45.298  3472  3495 I net.osmand:native: Route objects 81
+06-29 10:39:45.298  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:39:45.298  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:39:45.299  3472  3495 I net.osmand:native: Search : tree - read( 540), accept( 43), objs - visit( 2717), accept(112), in result(81) 
+06-29 10:39:45.299  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.2276979207992555, TLat=-7.219713139533996, LLong=-35.899147033691406, RLong=-35.89424514770508, zoom=17
+06-29 10:39:45.299  3472  3495 I net.osmand: MapRenderRepositories Native search: 77 ms 
+06-29 10:39:45.309  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:39:45.309  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:39:45.309  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:39:45.309  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:39:45.310  3472  3495 I net.osmand:native: Rendering image
+06-29 10:39:45.432 13668 13757 W zbe     : Attempted to read unclipped body before it was fetched for messageId: msg-f:1637686100153745174
+06-29 10:39:45.505 13668 13757 I zygote  : Deoptimizing void aeyk.a(aeyu) due to JIT inline cache
+06-29 10:39:45.546  3472  3495 I net.osmand:native: Native ok (rendering 1, text 98 ms) 
+06-29 10:39:45.546  3472  3495 I net.osmand:native:  (2355 points, 407 points inside, 133 of 171 objects visible)
+06-29 10:39:45.546  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:39:45.546  3472  3495 I net.osmand:native: Native ok (init 1, rendering 1) 
+06-29 10:39:45.563  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:39:45.819  1481 13162 D NuPlayerDriver: NuPlayerDriver(0xa7394540) created, clientPid(1704)
+06-29 10:39:45.902  1481 13784 D GenericSource: FileSource remote
+06-29 10:39:45.909  1600  1863 I zygote  : IncrementDisableThreadFlip blocked for 22.227ms
+06-29 10:39:45.928  1600  1600 I zygote  : IncrementDisableThreadFlip blocked for 40.701ms
+06-29 10:39:45.932  1600  1682 I zygote  : IncrementDisableThreadFlip blocked for 24.165ms
+06-29 10:39:45.949  1600  1635 I zygote  : IncrementDisableThreadFlip blocked for 53.068ms
+06-29 10:39:45.989  1481 13783 D NuPlayerDriver: notifyListener_l(0xa7394540), (1, 0, 0, -1), loop setting(0, 0)
+06-29 10:39:46.015  1600  2662 I MediaFocusControl: requestAudioFocus() from uid/pid 10029/1704 clientId=android.media.AudioManager@261e567 callingPack=com.android.systemui req=3 flags=0x0 sdk=27
+06-29 10:39:46.086  2118  2126 I zygote  : NativeAlloc concurrent copying GC freed 28144(1243KB) AllocSpace objects, 6(312KB) LOS objects, 49% free, 4MB/9MB, paused 5.384ms total 107.935ms
+06-29 10:39:46.471  1600  1609 I zygote  : NativeAlloc concurrent copying GC freed 37745(1627KB) AllocSpace objects, 16(832KB) LOS objects, 28% free, 15MB/21MB, paused 6.064ms total 617.978ms
+06-29 10:39:46.525  1481  6767 D NuPlayerDriver: start(0xa7394540), state is 4, eos is 0
+06-29 10:39:46.525  1481 13783 I GenericSource: start
+06-29 10:39:46.567  1704  1723 I zygote  : NativeAlloc concurrent copying GC freed 84579(3MB) AllocSpace objects, 0(0B) LOS objects, 44% free, 7MB/13MB, paused 24.013ms total 596.827ms
+06-29 10:39:46.576  1704  1704 V MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+06-29 10:39:46.577  1704  1704 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+06-29 10:39:46.584  1481 13792 I OMXClient: Treble IOmx obtained
+06-29 10:39:46.615  1485  7823 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-29 10:39:46.719  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 11.173713684082031 0.19063568115234375
+06-29 10:39:46.734  1485  7823 E OMXNodeInstance: setConfig(0xaad1f000:google.vorbis.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
+06-29 10:39:46.735  1481 13792 I ACodec  : codec does not support config priority (err -2147483648)
+06-29 10:39:46.736  1485  1770 E OMXNodeInstance: getConfig(0xaad1f000:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-29 10:39:46.737  1481 13792 I MediaCodec: MediaCodec will operate in async mode
+06-29 10:39:46.760  1389  1389 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xb1b1b830, 32768)
+06-29 10:39:46.819  1389  1389 I chatty  : uid=1000(system) allocator@1.0-s identical 10 lines
+06-29 10:39:46.819  1389  1389 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xb1b1b830, 32768)
+06-29 10:39:46.901  1481 13790 D AudioTrack: Client defaulted notificationFrames to 7406 for frameCount 22218
+06-29 10:39:46.907  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56576998 , only wrote 56576880
+06-29 10:39:46.909  1481 13783 D NuPlayerDriver: notifyListener_l(0xa7394540), (6, 0, 0, -1), loop setting(0, 0)
+06-29 10:39:47.119  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56587055 , only wrote 56586960
+06-29 10:39:47.120  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56586999 , only wrote 56586960
+06-29 10:39:47.124  1481 13790 W AudioTrack: getTimestamp() location moved from kernel to server
+06-29 10:39:47.152  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 119.819756
+06-29 10:39:47.157  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:39:47.159  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:39:47.171  3472 13795 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819186000,mLatitude=-7.225506666666666,mLongitude=-35.89689166666667,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:39:47.171  3472 13795 W net.osmand: RouteProvider Use 345 MB Free 1.8271332 of 22.509605 max 384.0
+06-29 10:39:47.176  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 119.819756
+06-29 10:39:47.416  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(1)
+06-29 10:39:47.489  1704  1704 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-29 10:39:47.492  1704  1704 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-29 10:39:47.756  1704  1704 I zygote  : Deoptimizing void com.android.systemui.statusbar.notification.NotificationViewWrapper.<init>(android.content.Context, android.view.View, com.android.systemui.statusbar.ExpandableNotificationRow) due to JIT same target
+06-29 10:39:47.756  1704  1704 I zygote  : Deoptimizing void com.android.systemui.statusbar.notification.NotificationViewWrapper.onReinflated() due to JIT same target
+06-29 10:39:47.887  1704  1704 I zygote  : Deoptimizing void com.android.systemui.statusbar.NotificationContentView.updateViewVisibilities(int) due to JIT same target
+06-29 10:39:48.037  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 119.819756
+06-29 10:39:48.172  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56637478 , only wrote 56637360
+06-29 10:39:48.173  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56637369 , only wrote 56637360
+06-29 10:39:48.190  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56638173 , only wrote 56638080
+06-29 10:39:48.331  1704  1704 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-29 10:39:48.333  1704  1704 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-29 10:39:48.383  3472 13795 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:39:48.457  3472 13795 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:39:48.470  3472 13795 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 20 / 0 , queue sizes 25 / 2 ) 
+06-29 10:39:48.470  3472 13795 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 8, loaded tiles 22) 
+06-29 10:39:48.470  3472 13795 W net.osmand:native: [Native] Memory occupied (Routing context 492 Kb, search 0 Kb)
+06-29 10:39:48.476  3472 13795 I net.osmand:native: No route found
+06-29 10:39:48.505  3472 13795 I net.osmand: RoutePlannerFrontEnd Native routing took 0.292 seconds
+06-29 10:39:48.505  3472 13795 I System.out: ROUTE : 
+06-29 10:39:48.506  3472 13795 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:48.506  3472 13795 I net.osmand:   start_lat="-7.22551" start_lon="-35.89689" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:48.506  3472 13795 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:48.506  3472 13795 I System.out:   start_lat="-7.22551" start_lon="-35.89689" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:48.506  3472 13795 I System.out: </test>
+06-29 10:39:48.506  3472 13795 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:39:48.506  3472 13795 I System.out:   start_lat="-7.22551" start_lon="-35.89689" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="22" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:39:48.506  3472 13795 I net.osmand: RouteProvider Finding route contained 0 points for 1336 ms
+06-29 10:39:48.531  3472  3482 I zygote  : Background concurrent copying GC freed 137307(5MB) AllocSpace objects, 13(268KB) LOS objects, 25% free, 17MB/23MB, paused 1.306ms total 835.337ms
+06-29 10:39:48.558  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56655747 , only wrote 56654640
+06-29 10:39:48.559  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56654686 , only wrote 56654640
+06-29 10:39:48.564  1481 13790 W AudioTrack: getTimestamp() location moved from kernel to server
+06-29 10:39:48.576  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56655495 , only wrote 56655360
+06-29 10:39:48.607  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56656802 , only wrote 56656800
+06-29 10:39:48.758  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56664091 , only wrote 56662560
+06-29 10:39:48.759  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56662578 , only wrote 56662560
+06-29 10:39:48.791  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(12)
+06-29 10:39:48.797  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56664403 , only wrote 56663280
+06-29 10:39:48.841  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56665369 , only wrote 56664720
+06-29 10:39:48.873  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56666248 , only wrote 56666160
+06-29 10:39:48.903  1481 13790 W AudioTrack: getTimestamp() location moved from kernel to server
+06-29 10:39:48.906  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56667780 , only wrote 56667600
+06-29 10:39:48.913  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(12)
+06-29 10:39:48.931  1481 13791 I NuPlayerDecoder: [audio] saw output EOS
+06-29 10:39:48.931  1481 13790 D AudioTrack: stop() called with 84672 frames delivered
+06-29 10:39:49.420  1481 13783 D NuPlayerDriver: notifyListener_l(0xa7394540), (2, 0, 0, -1), loop setting(0, 0)
+06-29 10:39:49.423  1600  1863 I MediaFocusControl: abandonAudioFocus() from uid/pid 10029/1704 clientId=android.media.AudioManager@261e567
+06-29 10:39:49.423  1600  1635 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:39:49.881  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56714404 , only wrote 56714400
+06-29 10:39:49.900  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56715268 , only wrote 56715120
+06-29 10:39:50.021  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56720949 , only wrote 56718000
+06-29 10:39:50.022  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56718041 , only wrote 56718000
+06-29 10:39:50.082  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56720872 , only wrote 56718720
+06-29 10:39:50.146  1600  1635 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:39:50.299  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56729158 , only wrote 56728800
+06-29 10:39:50.650  1964  1964 W ChimeraUtils: Non Chimera context
+06-29 10:39:50.650  1964  1964 W ChimeraUtils: Non Chimera context
+06-29 10:39:50.713  2175 13405 I zygote  : Deoptimizing void bpbj.run() due to JIT inline cache
+06-29 10:39:50.755  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56750664 , only wrote 56750400
+06-29 10:39:50.757  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56750492 , only wrote 56750400
+06-29 10:39:50.772  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56751122 , only wrote 56751120
+06-29 10:39:50.847  2175  2194 I zygote  : Background concurrent copying GC freed 52570(2MB) AllocSpace objects, 9(824KB) LOS objects, 38% free, 9MB/15MB, paused 1.797ms total 197.166ms
+06-29 10:39:50.868  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56755739 , only wrote 56755440
+06-29 10:39:50.915  2175 13405 E cddv    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+06-29 10:39:50.915  2175 13405 E cddv    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
+06-29 10:39:50.915  2175 13405 E cddv    : java.lang.RuntimeException: ManagedChannel allocation site
+06-29 10:39:50.915  2175 13405 E cddv    : 	at cddy.<init>(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at cddv.<init>(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at ccwm.b(:com.google.android.gms@17785022@17.7.85 (040700-253824076):14)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at sje.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):44)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at sje.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):66)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at awkt.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):43)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at com.google.android.gms.udc.service.UdcContextInitChimeraService.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):127)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at aezd.run(:com.google.android.gms@17785022@17.7.85 (040700-253824076):5)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at squ.b(:com.google.android.gms@17785022@17.7.85 (040700-253824076):37)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at squ.run(:com.google.android.gms@17785022@17.7.85 (040700-253824076):21)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at swz.run(Unknown Source:7)
+06-29 10:39:50.915  2175 13405 E cddv    : 	at java.lang.Thread.run(Thread.java:764)
+06-29 10:39:51.002  1964  2457 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+06-29 10:39:51.043  1600  6125 I ActivityManager: Start proc 13796:com.google.android.gms.unstable/u0a14 for service com.google.android.gms/.droidguard.DroidGuardService
+06-29 10:39:51.046 13796 13796 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-29 10:39:51.088 13796 13796 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:51.091 13796 13796 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:51.208 13796 13796 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+06-29 10:39:51.233 13796 13796 W ProviderHelper: Unknown dynamite feature providerinstaller
+06-29 10:39:51.246 13796 13796 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+06-29 10:39:51.248 13796 13796 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+06-29 10:39:51.366 13796 13796 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 284 native methods...
+06-29 10:39:51.443  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56783036 , only wrote 56782080
+06-29 10:39:51.458 13796 13796 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-29 10:39:51.482 13796 13796 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+06-29 10:39:51.518  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56785696 , only wrote 56785680
+06-29 10:39:51.522  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56785852 , only wrote 56785680
+06-29 10:39:51.535 13796 13806 I zygote  : Background concurrent copying GC freed 8301(2MB) AllocSpace objects, 4(80KB) LOS objects, 55% free, 1229KB/2MB, paused 2.940ms total 142.841ms
+06-29 10:39:51.545  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56786784 , only wrote 56786400
+06-29 10:39:51.659  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56791897 , only wrote 56791440
+06-29 10:39:51.680 13796 13796 W Primes  : Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+06-29 10:39:51.915  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56803692 , only wrote 56803680
+06-29 10:39:52.089 13796 13806 I zygote  : Background concurrent copying GC freed 16382(1463KB) AllocSpace objects, 1(20KB) LOS objects, 50% free, 1487KB/2MB, paused 1.802ms total 164.990ms
+06-29 10:39:52.367  1390  1390 W audio_hw_generic: Not supplying enough data to HAL, expected position 56845975 , only wrote 56825280
+06-29 10:39:52.376 13796 13808 I zygote  : Deoptimizing java.lang.Object wy.put(java.lang.Object, java.lang.Object) due to JIT inline cache
+06-29 10:39:52.571 13796 13808 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 10:39:52.622 13796 13806 I zygote  : Background concurrent copying GC freed 18092(1512KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 1672KB/3MB, paused 8.721ms total 115.756ms
+06-29 10:39:53.061 13796 13801 I zygote  : Do partial code cache collection, code=30KB, data=30KB
+06-29 10:39:53.061 13796 13801 I zygote  : After code cache collection, code=27KB, data=29KB
+06-29 10:39:53.061 13796 13801 I zygote  : Increasing code cache capacity to 128KB
+06-29 10:39:53.192  1600  2662 D WificondControl: Scan result ready event
+06-29 10:39:53.266  1964  2457 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:53.272  1964  2457 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:53.272  1964  2457 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:53.291  1600  4840 I WifiService: releaseWifiLock uid=10014
+06-29 10:39:53.534  1964  2457 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:53.534  1964  2457 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:53.534  1964  2457 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:53.546  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:53.547  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:53.653  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:53.654  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:53.670  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:39:53.671  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:39:53.831  1964  2457 W GLSUser : [AppCertManager] IOException while requesting key: 
+06-29 10:39:53.831  1964  2457 W GLSUser : java.io.IOException: Invalid device key response.
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at imb.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):48)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at ima.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at ima.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):14)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at aamg.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at cwm.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at eer.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at android.os.Binder.transact(Binder.java:627)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at aand.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):25)
+06-29 10:39:53.831  1964  2457 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:697)
+06-29 10:39:53.832  1964  2457 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+06-29 10:39:53.853  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.2258681693366285, lon=-35.89770296790822, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:39:53.977  3472  3495 I net.osmand:native: Route objects 77
+06-29 10:39:53.977  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:39:53.977  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:39:53.978  3472  3495 I net.osmand:native: Search : tree - read( 540), accept( 43), objs - visit( 2717), accept(108), in result(77) 
+06-29 10:39:53.979  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.228166174888611, TLat=-7.220181393623352, LLong=-35.90015411376953, RLong=-35.8952522277832, zoom=17
+06-29 10:39:53.979  3472  3495 I net.osmand: MapRenderRepositories Native search: 126 ms 
+06-29 10:39:54.000  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+06-29 10:39:54.008  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:39:54.010  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:39:54.011  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:39:54.011  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:39:54.013  3472  3495 I net.osmand:native: Rendering image
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: FileClientSessionCache: Error reading session data for footprints-pa.googleapis.com from /data/user/0/com.google.android.gms/app_sslcache/footprints-pa.googleapis.com.443.
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/app_sslcache/footprints-pa.googleapis.com.443 (No such file or directory)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at java.io.FileInputStream.open0(Native Method)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at java.io.FileInputStream.open(FileInputStream.java:200)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at java.io.FileInputStream.<init>(FileInputStream.java:150)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at com.google.android.gms.org.conscrypt.FileClientSessionCache$Impl.getSessionData(:com.google.android.gms@17785022@17.7.85 (040700-253824076):5)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at com.google.android.gms.org.conscrypt.ClientSessionContext.getSession(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at com.google.android.gms.org.conscrypt.ClientSessionContext.getCachedSession(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.startHandshake(:com.google.android.gms@17785022@17.7.85 (040700-253824076):6)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at aral.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):25)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at aral.createSocket(:com.google.android.gms@17785022@17.7.85 (040700-253824076):6)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at cdis.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at cdii.run(:com.google.android.gms@17785022@17.7.85 (040700-253824076):15)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at cdgl.run(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at squ.b(:com.google.android.gms@17785022@17.7.85 (040700-253824076):37)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at squ.run(:com.google.android.gms@17785022@17.7.85 (040700-253824076):21)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at swz.run(Unknown Source:7)
+06-29 10:39:54.060  2175 10587 W FileClientSessionCache: 	at java.lang.Thread.run(Thread.java:764)
+06-29 10:39:54.084  2175 10587 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:54.084  2175 10587 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:54.085  2175 10587 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:54.329  2175 10587 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-29 10:39:54.329  2175 10587 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:54.329  2175 10587 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 10:39:54.347  3472  3495 I net.osmand:native: Native ok (rendering 1, text 114 ms) 
+06-29 10:39:54.347  3472  3495 I net.osmand:native:  (2354 points, 359 points inside, 133 of 169 objects visible)
+06-29 10:39:54.347  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:39:54.347  3472  3495 I net.osmand:native: Native ok (init 4, rendering 1) 
+06-29 10:39:54.358  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:39:55.716  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:39:55.716  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:39:55.900  3472  3472 D net.osmand: DayNightHelper Sunrise/sunset setting to day: true
+06-29 10:39:57.512  3472  3472 D net.osmand: RoutingHelper Processed by distance : 1.2240761099860904 52.09128305302852
+06-29 10:39:58.599  1600  2662 I ActivityManager: Killing 10829:com.android.calllogbackup/u0a2 (adj 906): empty #17
+06-29 10:39:58.600  1600  1616 W zygote  : kill(-10829, 9) failed: No such process
+06-29 10:39:58.647  1600  1616 W zygote  : kill(-10829, 9) failed: No such process
+06-29 10:39:58.648  1600  1616 I zygote  : Successfully killed process cgroup uid 10002 pid 10829 in 48ms
+06-29 10:40:00.120  2923  2955 I Finsky  : [139] imb.run(3): Stats for Executor: BlockingExecutor ink@19dc107[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 20]
+06-29 10:40:00.121  2923  2955 I Finsky  : [139] imb.run(3): Stats for Executor: LightweightExecutor ink@3658234[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 70]
+06-29 10:40:00.885  2923  2955 I Finsky  : [139] imb.run(3): Stats for Executor: bgExecutor ink@81c785d[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 57]
+06-29 10:40:01.297  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 178.58218002319336 0.266845703125
+06-29 10:40:01.350  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:01.350  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:01.366  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:01.366  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:01.507  1704  1711 I zygote  : Do partial code cache collection, code=987KB, data=589KB
+06-29 10:40:01.512  1704  1711 I zygote  : After code cache collection, code=978KB, data=584KB
+06-29 10:40:01.512  1704  1711 I zygote  : Increasing code cache capacity to 3MB
+06-29 10:40:01.892  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.226437980592535, lon=-35.89890917427152, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:01.957  3472  3495 I net.osmand:native: Route objects 72
+06-29 10:40:01.957  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:01.957  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:01.957  3472  3495 I net.osmand:native: Search : tree - read( 500), accept( 42), objs - visit( 2717), accept(103), in result(72) 
+06-29 10:40:01.958  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.228741836547852, TLat=-7.2207334518432615, LLong=-35.9013557434082, RLong=-35.896453857421875, zoom=17
+06-29 10:40:01.958  3472  3495 I net.osmand: MapRenderRepositories Native search: 65 ms 
+06-29 10:40:01.968  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:01.968  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:01.968  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:40:01.968  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:01.971  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:02.183  3472  3495 I net.osmand:native: Native ok (rendering 0, text 86 ms) 
+06-29 10:40:02.183  3472  3495 I net.osmand:native:  (2313 points, 328 points inside, 127 of 151 objects visible)
+06-29 10:40:02.183  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:02.183  3472  3495 I net.osmand:native: Native ok (init 2, rendering 0) 
+06-29 10:40:02.188  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:05.367  1600  1863 I WifiService: getConnectionInfo uid=10014
+06-29 10:40:07.231 13668 13720 I zygote  : Deoptimizing void adat.execute(java.lang.Runnable) due to JIT inline cache
+06-29 10:40:07.245  1600  1863 I ActivityManager: Killing 9249:com.google.android.apps.photos/u0a67 (adj 906): empty #17
+06-29 10:40:07.246  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:40:07.246  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:40:07.246  1600  1616 W zygote  : kill(-9249, 9) failed: No such process
+06-29 10:40:07.290  1600  1616 W zygote  : kill(-9249, 9) failed: No such process
+06-29 10:40:07.331  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:40:07.331  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:40:07.332  1600  1616 W zygote  : kill(-9249, 9) failed: No such process
+06-29 10:40:07.332  1600  1616 I zygote  : Successfully killed process cgroup uid 10067 pid 9249 in 86ms
+06-29 10:40:07.461  3472  3472 D net.osmand: RoutingHelper Processed by distance : 1.031612973531052 61.044473377288334
+06-29 10:40:07.502  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 9.250091552734375 0.8298263549804688
+06-29 10:40:07.553  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:07.561  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:07.643  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:07.643  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:07.909  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:07.909  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:07.967  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:07.967  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:08.008  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:08.008  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:08.205  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.226930399490104, lon=-35.899972915649414, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:08.240  3472  3495 I net.osmand:native: Route objects 77
+06-29 10:40:08.240  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:08.240  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:08.241  3472  3495 I net.osmand:native: Search : tree - read( 500), accept( 41), objs - visit( 2677), accept(108), in result(77) 
+06-29 10:40:08.241  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.22923047542572, TLat=-7.221245694160461, LLong=-35.90243148803711, RLong=-35.89751434326172, zoom=17
+06-29 10:40:08.242  3472  3495 I net.osmand: MapRenderRepositories Native search: 36 ms 
+06-29 10:40:08.247  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:08.247  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:08.247  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:40:08.247  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:08.248  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:08.385  3472  3495 I net.osmand:native: Native ok (rendering 0, text 68 ms) 
+06-29 10:40:08.385  3472  3495 I net.osmand:native:  (2373 points, 331 points inside, 140 of 167 objects visible)
+06-29 10:40:08.385  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:08.385  3472  3495 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 10:40:08.392  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:11.203  1600  6125 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:40:11.208  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:40:11.209  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:40:11.329  1600  2538 I WifiService: releaseWifiLock uid=10014
+06-29 10:40:11.881  1600  1609 I zygote  : Background concurrent copying GC freed 73021(2MB) AllocSpace objects, 24(1336KB) LOS objects, 29% free, 14MB/20MB, paused 964us total 159.894ms
+06-29 10:40:18.559  3472  3472 D net.osmand: RoutingHelper Processed by distance : 2.088937268824435 72.18638218298312
+06-29 10:40:18.612  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:18.612  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:18.628  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:18.628  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:18.721  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:18.721  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:18.818  1406  1406 I boot-pipe: done populating /dev/random
+06-29 10:40:18.904  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:18.904  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:18.914  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.227346402422731, lon=-35.90095486002737, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:18.967  3472  3495 I net.osmand:native: Route objects 84
+06-29 10:40:18.967  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:18.967  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:18.967  3472  3495 I net.osmand:native: Search : tree - read( 500), accept( 45), objs - visit( 2837), accept(115), in result(84) 
+06-29 10:40:18.968  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.229657363891602, TLat=-7.2216489791870115, LLong=-35.903404235839844, RLong=-35.898502349853516, zoom=17
+06-29 10:40:18.968  3472  3495 I net.osmand: MapRenderRepositories Native search: 54 ms 
+06-29 10:40:18.978  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:18.978  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:18.978  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:40:18.978  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:18.979  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:19.120  3472  3495 I net.osmand:native: Native ok (rendering 0, text 69 ms) 
+06-29 10:40:19.120  3472  3495 I net.osmand:native:  (2483 points, 295 points inside, 146 of 177 objects visible)
+06-29 10:40:19.120  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:19.120  3472  3495 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 10:40:19.129  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:21.168  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 176.67652130126953 1.8388900756835938
+06-29 10:40:23.936  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+06-29 10:40:23.998  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+06-29 10:40:24.011  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:40:24.142  1964  1964 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-29 10:40:24.147  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:40:26.099  3472  3472 D net.osmand: RoutingHelper Processed by distance : 2.2020979696103145 61.51922105777756
+06-29 10:40:26.163  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:26.163  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:26.174  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:26.174  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:26.648  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.227880219494047, lon=-35.90217638880704, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:26.695  3472  3495 I net.osmand:native: Route objects 124
+06-29 10:40:26.695  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:26.695  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:26.695  3472  3495 I net.osmand:native: Search : tree - read( 500), accept( 46), objs - visit( 2877), accept(155), in result(124) 
+06-29 10:40:26.696  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.230189514160156, TLat=-7.222181129455566, LLong=-35.90462875366211, RLong=-35.89972686767578, zoom=17
+06-29 10:40:26.697  3472  3495 I net.osmand: MapRenderRepositories Native search: 48 ms 
+06-29 10:40:26.703  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:26.703  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:26.703  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:40:26.703  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:26.705  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:26.885  3472  3495 I net.osmand:native: Native ok (rendering 0, text 72 ms) 
+06-29 10:40:26.885  3472  3495 I net.osmand:native:  (2615 points, 445 points inside, 204 of 236 objects visible)
+06-29 10:40:26.885  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:26.885  3472  3495 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 10:40:26.886  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:28.052  1964  1978 I zygote  : Background concurrent copying GC freed 111225(5MB) AllocSpace objects, 4(124KB) LOS objects, 40% free, 8MB/14MB, paused 1.290ms total 134.805ms
+06-29 10:40:29.000  1600  2538 I ActivityManager: Killing 9340:com.google.android.deskclock/u0a69 (adj 906): empty #17
+06-29 10:40:29.002  1600  1616 W zygote  : kill(-9340, 9) failed: No such process
+06-29 10:40:29.003  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:40:29.003  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:40:29.041  1600  1616 W zygote  : kill(-9340, 9) failed: No such process
+06-29 10:40:29.066  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:40:29.066  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:40:29.081  1600  1616 W zygote  : kill(-9340, 9) failed: No such process
+06-29 10:40:29.081  1600  1616 I zygote  : Successfully killed process cgroup uid 10069 pid 9340 in 79ms
+06-29 10:40:29.137  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:40:29.137  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:40:29.686  3472  3472 D net.osmand: RoutingHelper Processed by distance : 2.9410271460062325 59.81121533893849
+06-29 10:40:29.755  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble após  300 metros mantenha-se à esquerda na   Avenida Marechal Floriano Peixoto 
+06-29 10:40:29.755  3472  3472 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 10:40:29.755  3472  3472 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 10:40:29.755  3472  3472 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 10:40:29.756  1600  5171 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@3d17665 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 10:40:29.756  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:40:29.758  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:40:29.760  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:40:29.782  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:40:29.814  1600  5171 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:40:29.824  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 56825309 , only wrote 56825280
+06-29 10:40:31.065  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 81.6161994934082 0.09188079833984375
+06-29 10:40:31.244  1600  2105 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:40:31.641  1600  1617 I WifiService: requestActivityInfo uid=1000
+06-29 10:40:31.641  1600  1617 I WifiService: reportActivityInfo uid=1000
+06-29 10:40:31.641  1600  1617 I WifiService: getSupportedFeatures uid=1000
+06-29 10:40:31.977  1399  1414 D hwcomposer: hw_composer sent 253 syncs in 60s
+06-29 10:40:32.283  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:32.284  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:32.308  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:32.312  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:32.902  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.22831463690377, lon=-35.90319826231975, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:32.978  3472  3495 I net.osmand:native: Route objects 124
+06-29 10:40:32.978  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:32.978  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:32.979  3472  3495 I net.osmand:native: Search : tree - read( 500), accept( 48), objs - visit( 2957), accept(155), in result(124) 
+06-29 10:40:32.980  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.230614256858826, TLat=-7.222629475593567, LLong=-35.90564727783203, RLong=-35.9007453918457, zoom=17
+06-29 10:40:32.981  3472  3495 I net.osmand: MapRenderRepositories Native search: 79 ms 
+06-29 10:40:32.987  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:32.987  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:32.988  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:40:32.988  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:32.991  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:33.187  3472  3495 I net.osmand:native: Native ok (rendering 0, text 64 ms) 
+06-29 10:40:33.187  3472  3495 I net.osmand:native:  (2677 points, 485 points inside, 198 of 225 objects visible)
+06-29 10:40:33.188  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:33.188  3472  3495 I net.osmand:native: Native ok (init 4, rendering 0) 
+06-29 10:40:33.195  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:33.507  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 104.44506645202637 1.508544921875
+06-29 10:40:34.252  1600  2105 D WificondControl: Scan result ready event
+06-29 10:40:34.293  1600  7916 I WifiService: releaseWifiLock uid=10014
+06-29 10:40:35.131  3472  3482 I zygote  : Background concurrent copying GC freed 220448(7MB) AllocSpace objects, 9(204KB) LOS objects, 27% free, 15MB/21MB, paused 2.270ms total 368.322ms
+06-29 10:40:35.871  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57115519 , only wrote 57115440
+06-29 10:40:35.881  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57115951 , only wrote 57115440
+06-29 10:40:36.047  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57123414 , only wrote 57123360
+06-29 10:40:36.381  5191  5294 D AudioTrack: stop() called with 142340 frames delivered
+06-29 10:40:36.382  1600  7916 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:40:36.387  3472  5326 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:36.387  1600  2538 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@3d17665
+06-29 10:40:36.388  3472  5326 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-29 10:40:37.254 13668 13668 W ymr     : Already started: ymr@c47825b
+06-29 10:40:37.309 13668 13841 E sbo     : Interactive Ads jobs: did not expect this future to ever resolve
+06-29 10:40:37.363 13668 13840 I zygote  : Deoptimizing int aekm.a(java.lang.Object) due to JIT inline cache
+06-29 10:40:37.986 13668 13841 I zygote  : Deoptimizing java.lang.Object whd.b(wil) due to JIT inline cache
+06-29 10:40:38.067  1600  1617 I WifiService: requestActivityInfo uid=1000
+06-29 10:40:38.067  1600  1617 I WifiService: reportActivityInfo uid=1000
+06-29 10:40:38.067  1600  1617 I WifiService: getSupportedFeatures uid=1000
+06-29 10:40:38.403  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57236443 , only wrote 57236400
+06-29 10:40:38.406  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57236515 , only wrote 57236400
+06-29 10:40:38.422  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57237184 , only wrote 57237120
+06-29 10:40:38.527  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57242164 , only wrote 57242160
+06-29 10:40:39.399  1390  1390 W audio_hw_generic: Not supplying enough data to HAL, expected position 57324692 , only wrote 57283920
+06-29 10:40:40.978  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 93.3832893371582 2.0418014526367188
+06-29 10:40:43.397  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:43.397  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:43.416  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:43.416  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:43.475  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:43.475  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:43.723  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.228828264727388, lon=-35.90429003333582, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:43.758  3472  3495 I net.osmand:native: Route objects 135
+06-29 10:40:43.758  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:43.758  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:43.758  3472  3495 I net.osmand:native: Search : tree - read( 500), accept( 50), objs - visit( 3037), accept(166), in result(135) 
+06-29 10:40:43.758  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.231124949455261, TLat=-7.223140168190002, LLong=-35.906742095947266, RLong=-35.90184020996094, zoom=17
+06-29 10:40:43.759  3472  3495 I net.osmand: MapRenderRepositories Native search: 36 ms 
+06-29 10:40:43.765  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:43.765  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:43.765  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:40:43.765  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:43.766  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:43.889  3472  3495 I net.osmand:native: Native ok (rendering 0, text 36 ms) 
+06-29 10:40:43.889  3472  3495 I net.osmand:native:  (2615 points, 538 points inside, 213 of 240 objects visible)
+06-29 10:40:43.889  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:43.889  3472  3495 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 10:40:43.891  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:44.618  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 176.68412017822266 2.5095138549804688
+06-29 10:40:44.657  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 37.42359924316406 1.558380126953125
+06-29 10:40:44.957  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble mantenha-se à esquerda na   Avenida Marechal Floriano Peixoto 
+06-29 10:40:44.957  3472  3472 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 10:40:44.957  3472  3472 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 10:40:44.958  3472  3472 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 10:40:44.958  1600  1635 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@5e397c7 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 10:40:44.965  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:40:44.968  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:40:44.970  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:40:45.012  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:40:45.019  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57284112 , only wrote 57283920
+06-29 10:40:45.223  1704  1723 I zygote  : Background concurrent copying GC freed 133468(5MB) AllocSpace objects, 0(0B) LOS objects, 44% free, 7MB/13MB, paused 1.641ms total 182.627ms
+06-29 10:40:45.822  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble atenção!  Cruzamento de linha férrea 
+06-29 10:40:45.823  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=2
+06-29 10:40:46.998  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(2)
+06-29 10:40:48.344  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 28.141616821289062 3.835968017578125
+06-29 10:40:49.017  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:40:49.019  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:40:49.164  1600  1609 I zygote  : Background concurrent copying GC freed 104135(3MB) AllocSpace objects, 40(2MB) LOS objects, 29% free, 14MB/20MB, paused 938us total 239.616ms
+06-29 10:40:49.568  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 172.70320892333984 0.9891891479492188
+06-29 10:40:49.622  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:49.623  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:49.642  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:49.643  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:49.766  5191  5294 D AudioTrack: stop() called with 102850 frames delivered
+06-29 10:40:45.015  1600  7916 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:40:49.768  1600  1635 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:40:49.772  3472  6225 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:40:49.784  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:40:49.906  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.229280581580762, lon=-35.90530405090445, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:50.036  3472  3495 I net.osmand:native: Route objects 133
+06-29 10:40:50.037  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:50.037  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:50.038  3472  3495 I net.osmand:native: Search : tree - read( 500), accept( 49), objs - visit( 2997), accept(164), in result(133) 
+06-29 10:40:50.038  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.231594252586365, TLat=-7.223586392402649, LLong=-35.907752990722656, RLong=-35.90284729003906, zoom=17
+06-29 10:40:50.039  3472  3495 I net.osmand: MapRenderRepositories Native search: 132 ms 
+06-29 10:40:50.054  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:50.054  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:50.054  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:40:50.054  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:50.056  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:50.256  3472  3495 I net.osmand:native: Native ok (rendering 0, text 51 ms) 
+06-29 10:40:50.256  3472  3495 I net.osmand:native:  (2626 points, 542 points inside, 213 of 237 objects visible)
+06-29 10:40:50.256  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:50.256  3472  3495 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 10:40:50.259  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:50.810  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57561867 , only wrote 57561840
+06-29 10:40:51.259  1600  7948 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:40:51.322  1600  1635 I WifiService: releaseWifiLock uid=10014
+06-29 10:40:52.077  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(3)
+06-29 10:40:52.098  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 4.706291198730469 0.522125244140625
+06-29 10:40:52.156  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 507.26227
+06-29 10:40:52.157  5191  6381 D AudioTrack: stop() called with 54899 frames delivered
+06-29 10:40:52.158  5191  5280 I TTS.SynthesisCache: streamCachedRequest call to callback.audioAvailable failed: -1
+06-29 10:40:52.160  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:49.795  1600  1635 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:40:52.161  1600  7948 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:40:52.164  1600  5171 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@5e397c7
+06-29 10:40:52.166  3472  5326 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:52.166  3472  5326 D net.osmand: TTSCommandPlayerImpl ttsRequests=-1
+06-29 10:40:52.166  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:40:52.204  3472 13855 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819252000,mLatitude=-7.229458333333334,mLongitude=-35.90571166666667,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:40:52.209  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble atenção!  Cruzamento de linha férrea 
+06-29 10:40:52.209  3472  3472 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 10:40:52.209  3472  3472 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 10:40:52.210  3472  3472 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 10:40:52.210  1600  5171 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@1710d1d callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 10:40:52.214  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:40:52.214  3472 13855 W net.osmand: RouteProvider Use 347 MB Free 3.5707855 of 21.769638 max 384.0
+06-29 10:40:52.217  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:40:52.220  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:40:52.225  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:40:52.229  1600  7916 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:40:52.721  3472 13855 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:40:52.728  3472 13855 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:40:52.737  3472 13855 W net.osmand:native: [Native] Result visited (visited roads 23, visited segments 4 / 42 , queue sizes 2 / 33 ) 
+06-29 10:40:52.737  3472 13855 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 8, loaded tiles 21) 
+06-29 10:40:52.737  3472 13855 W net.osmand:native: [Native] Memory occupied (Routing context 479 Kb, search 0 Kb)
+06-29 10:40:52.737  3472 13855 I net.osmand:native: Routing calculated time distance 64.422646
+06-29 10:40:52.752  3472 13855 I net.osmand: RoutePlannerFrontEnd Native routing took 0.078 seconds
+06-29 10:40:52.755  3472 13855 I System.out: ROUTE : 
+06-29 10:40:52.755  3472 13855 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:40:52.755  3472 13855 I net.osmand:   start_lat="-7.22946" start_lon="-35.90571" target_lat="-7.23263" target_lon="-35.91305"  routing_time="64.42" loadedTiles="21" visitedSegments="23" complete_distance="1075.65" complete_time="85.95" >
+06-29 10:40:52.755  3472 13855 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:40:52.756  3472 13855 I System.out:   start_lat="-7.22946" start_lon="-35.90571" target_lat="-7.23263" target_lon="-35.91305"  routing_time="64.42" loadedTiles="21" visitedSegments="23" complete_distance="1075.65" complete_time="85.95" >
+06-29 10:40:52.756  3472 13855 I System.out: </test>
+06-29 10:40:52.756  3472 13855 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:40:52.756  3472 13855 I System.out:   start_lat="-7.22946" start_lon="-35.90571" target_lat="-7.23263" target_lon="-35.91305"  routing_time="64.42" loadedTiles="21" visitedSegments="23" complete_distance="1075.65" complete_time="85.95" >
+06-29 10:40:52.757  3472 13855 I net.osmand: RouteProvider Finding route contained 17 points for 553 ms
+06-29 10:40:52.926  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 167.3566131591797 105.84562683105469
+06-29 10:40:53.069  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble atenção!  Cruzamento de linha férrea 
+06-29 10:40:53.069  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=2
+06-29 10:40:53.287  2118  2126 I zygote  : NativeAlloc concurrent copying GC freed 20469(949KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 4MB/9MB, paused 4.250ms total 130.878ms
+06-29 10:40:53.317  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57682194 , only wrote 57682080
+06-29 10:40:53.318  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57682098 , only wrote 57682080
+06-29 10:40:53.336  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57682954 , only wrote 57682800
+06-29 10:40:53.491  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 177.32639694213867 0.723968505859375
+06-29 10:40:53.551  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 133.87352
+06-29 10:40:53.552  5191  6381 D AudioTrack: stop() called with 32672 frames delivered
+06-29 10:40:53.553  5191  5280 I TTS.SynthesisCache: streamCachedRequest call to callback.audioAvailable failed: -1
+06-29 10:40:53.554  3472  7186 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:53.557  1600  7916 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@1710d1d
+06-29 10:40:53.558  3472  7186 D net.osmand: TTSCommandPlayerImpl ttsRequests=-1
+06-29 10:40:53.558  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:53.561  3472  7186 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:53.561  3472  7186 D net.osmand: TTSCommandPlayerImpl ttsRequests=-1
+06-29 10:40:53.928  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 133.87352
+06-29 10:40:53.946  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+06-29 10:40:54.603  1600  1617 I WifiService: requestActivityInfo uid=1000
+06-29 10:40:54.603  1600  1617 I WifiService: reportActivityInfo uid=1000
+06-29 10:40:54.603  1600  1617 I WifiService: getSupportedFeatures uid=1000
+06-29 10:40:54.753  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 109.31124
+06-29 10:40:54.755  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:54.948  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 109.31124
+06-29 10:40:54.950  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:40:55.880  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57804910 , only wrote 57804480
+06-29 10:40:55.881  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57804527 , only wrote 57804480
+06-29 10:40:55.901  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57805463 , only wrote 57805200
+06-29 10:40:55.934  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57806773 , only wrote 57806640
+06-29 10:40:55.950  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57807382 , only wrote 57807360
+06-29 10:40:55.951  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57807410 , only wrote 57807360
+06-29 10:40:55.968  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57808169 , only wrote 57808080
+06-29 10:40:55.982  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 109.31124
+06-29 10:40:55.984  3472  3472 D net.osmand: DayNightHelper Sunrise/sunset setting to day: true
+06-29 10:40:55.984  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:40:55.987  3472 13858 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819256000,mLatitude=-7.229638333333332,mLongitude=-35.90611833333333,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:40:55.992  3472 13858 W net.osmand: RouteProvider Use 344 MB Free 0.13352966 of 21.769638 max 384.0
+06-29 10:40:56.016  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:40:56.016  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:40:56.275  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.2297154382697, lon=-35.90632718069308, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:40:56.359  3472  3495 I net.osmand:native: Route objects 127
+06-29 10:40:56.359  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:40:56.359  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:40:56.359  3472  3495 I net.osmand:native: Search : tree - read( 540), accept( 53), objs - visit( 3117), accept(158), in result(127) 
+06-29 10:40:56.360  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.232020092010498, TLat=-7.224011707305908, LLong=-35.908782958984375, RLong=-35.90387725830078, zoom=17
+06-29 10:40:56.361  3472  3495 I net.osmand: MapRenderRepositories Native search: 86 ms 
+06-29 10:40:56.368  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:40:56.368  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:40:56.368  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:40:56.368  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:40:56.370  3472  3495 I net.osmand:native: Rendering image
+06-29 10:40:56.373  3472  3482 I zygote  : Background concurrent copying GC freed 146790(6MB) AllocSpace objects, 11(236KB) LOS objects, 26% free, 16MB/22MB, paused 4.246ms total 370.627ms
+06-29 10:40:56.512  3472  3495 I net.osmand:native: Native ok (rendering 0, text 25 ms) 
+06-29 10:40:56.512  3472  3495 I net.osmand:native:  (2548 points, 476 points inside, 205 of 227 objects visible)
+06-29 10:40:56.512  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:40:56.512  3472  3495 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 10:40:56.522  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:40:56.540  3472 13858 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:40:56.547  3472 13858 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:40:56.548  3472 13858 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 2 / 0 , queue sizes 3 / 2 ) 
+06-29 10:40:56.548  3472 13858 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 0, loaded tiles 21) 
+06-29 10:40:56.548  3472 13858 W net.osmand:native: [Native] Memory occupied (Routing context 473 Kb, search 0 Kb)
+06-29 10:40:56.549  3472 13858 I net.osmand:native: No route found
+06-29 10:40:56.566  3472 13858 I net.osmand: RoutePlannerFrontEnd Native routing took 0.095 seconds
+06-29 10:40:56.566  3472 13858 I System.out: ROUTE : 
+06-29 10:40:56.567  3472 13858 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:40:56.567  3472 13858 I net.osmand:   start_lat="-7.22964" start_lon="-35.90612" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:40:56.567  3472 13858 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:40:56.567  3472 13858 I System.out:   start_lat="-7.22964" start_lon="-35.90612" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:40:56.567  3472 13858 I System.out: </test>
+06-29 10:40:56.567  3472 13858 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:40:56.567  3472 13858 I System.out:   start_lat="-7.22964" start_lon="-35.90612" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:40:56.567  3472 13858 I net.osmand: RouteProvider Finding route contained 0 points for 580 ms
+06-29 10:40:56.569  1390  1562 W audio_hw_generic: Not supplying enough data to HAL, expected position 57865197 , only wrote 57836880
+06-29 10:40:57.421 13668 13673 I zygote  : Do full code cache collection, code=250KB, data=153KB
+06-29 10:40:57.421 13668 13673 I zygote  : After code cache collection, code=226KB, data=118KB
+06-29 10:41:03.392  3472  3472 D net.osmand: RoutingHelper Processed by distance : 3.1862893971936517 62.58776322615829
+06-29 10:41:03.431  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 286.34015
+06-29 10:41:03.432  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:03.433  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:41:03.434  3472 13859 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819263000,mLatitude=-7.230268333333333,mLongitude=-35.907540000000004,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:41:03.435  3472 13859 W net.osmand: RouteProvider Use 346 MB Free 4.104233 of 22.852654 max 384.0
+06-29 10:41:03.435  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:03.436  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:03.446  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:03.446  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:03.541  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:03.541  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:03.863  3472 13859 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:41:03.868  3472 13859 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:41:03.883  3472 13859 W net.osmand:native: [Native] Result visited (visited roads 20, visited segments 53 / 17 , queue sizes 40 / 19 ) 
+06-29 10:41:03.884  3472 13859 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 15, loaded tiles 27) 
+06-29 10:41:03.884  3472 13859 W net.osmand:native: [Native] Memory occupied (Routing context 608 Kb, search 1 Kb)
+06-29 10:41:03.884  3472 13859 I net.osmand:native: Routing calculated time distance 52.803055
+06-29 10:41:03.897  3472 13859 I net.osmand: RoutePlannerFrontEnd Native routing took 0.074 seconds
+06-29 10:41:03.899  3472 13859 I System.out: ROUTE : 
+06-29 10:41:03.899  3472 13859 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:03.899  3472 13859 I net.osmand:   start_lat="-7.23027" start_lon="-35.90754" target_lat="-7.23263" target_lon="-35.91305"  routing_time="52.80" loadedTiles="27" visitedSegments="20" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:03.900  3472 13859 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:03.900  3472 13859 I System.out:   start_lat="-7.23027" start_lon="-35.90754" target_lat="-7.23263" target_lon="-35.91305"  routing_time="52.80" loadedTiles="27" visitedSegments="20" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:03.900  3472 13859 I System.out: </test>
+06-29 10:41:03.900  3472 13859 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:03.900  3472 13859 I System.out:   start_lat="-7.23027" start_lon="-35.90754" target_lat="-7.23263" target_lon="-35.91305"  routing_time="52.80" loadedTiles="27" visitedSegments="20" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:03.901  3472 13859 I net.osmand: RouteProvider Finding route contained 15 points for 467 ms
+06-29 10:41:03.930  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:03.930  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:03.976  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble após  300 metros entre na rotunda  e  saia na  terceira  saída na   Avenida Marechal Floriano Peixoto 
+06-29 10:41:03.976  3472  3472 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 10:41:03.976  3472  3472 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 10:41:03.976  3472  3472 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 10:41:03.977  1600  7916 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@75b8bf callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 10:41:03.979  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:41:03.982  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:41:03.983  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:41:03.990  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:03.991  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:04.035  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.230268333333333, lon=-35.907540000000004, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:41:04.234  3472  3495 I net.osmand:native: Route objects 112
+06-29 10:41:04.234  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:41:04.234  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:41:04.235  3472  3495 I net.osmand:native: Search : tree - read( 620), accept( 62), objs - visit( 3397), accept(143), in result(112) 
+06-29 10:41:04.235  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.232573699951172, TLat=-7.224565315246582, LLong=-35.90999221801758, RLong=-35.90509033203125, zoom=17
+06-29 10:41:04.235  3472  3495 I net.osmand: MapRenderRepositories Native search: 199 ms 
+06-29 10:41:04.243  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:41:04.243  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:41:04.243  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:41:04.243  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:41:04.244  3472  3495 I net.osmand:native: Rendering image
+06-29 10:41:04.306  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:41:04.323  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57836912 , only wrote 57836880
+06-29 10:41:04.486  3472  3495 I net.osmand:native: Native ok (rendering 8, text 69 ms) 
+06-29 10:41:04.486  3472  3495 I net.osmand:native:  (2576 points, 373 points inside, 179 of 202 objects visible)
+06-29 10:41:04.486  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:41:04.486  3472  3495 I net.osmand:native: Native ok (init 3, rendering 8) 
+06-29 10:41:04.509  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:41:05.871  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57911202 , only wrote 57911040
+06-29 10:41:05.872  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57911076 , only wrote 57911040
+06-29 10:41:05.893  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 57912033 , only wrote 57911760
+06-29 10:41:05.899  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(12)
+06-29 10:41:08.203  3472  3482 I zygote  : Background concurrent copying GC freed 135739(6MB) AllocSpace objects, 22(472KB) LOS objects, 27% free, 15MB/21MB, paused 1.123ms total 199.490ms
+06-29 10:41:08.302  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58027398 , only wrote 58026960
+06-29 10:41:08.407  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(2)
+06-29 10:41:09.489  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58083965 , only wrote 58083840
+06-29 10:41:09.514  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58085016 , only wrote 58083840
+06-29 10:41:09.536  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58084879 , only wrote 58084560
+06-29 10:41:09.569  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58086152 , only wrote 58085280
+06-29 10:41:09.570  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58085324 , only wrote 58085280
+06-29 10:41:09.592  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58086322 , only wrote 58086000
+06-29 10:41:09.621  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58087407 , only wrote 58086720
+06-29 10:41:09.640  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58087657 , only wrote 58087440
+06-29 10:41:09.645  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 172.69285202026367 0.040283203125
+06-29 10:41:09.766  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 257.88367
+06-29 10:41:09.766  5191  6381 D AudioTrack: stop() called with 119990 frames delivered
+06-29 10:41:09.775  5191  5280 I TTS.EventProcessor: synthesizeMarkup call to callback.audioAvailable failed: -1
+06-29 10:41:09.776  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:09.777  1600  1635 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@75b8bf
+06-29 10:41:09.784  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:41:09.793  3472  7186 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:09.794  3472  7186 D net.osmand: TTSCommandPlayerImpl ttsRequests=-1
+06-29 10:41:09.800  3472 13866 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819269000,mLatitude=-7.230369999999999,mLongitude=-35.90777666666667,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:41:09.801  3472 13866 W net.osmand: RouteProvider Use 349 MB Free 5.686264 of 21.799477 max 384.0
+06-29 10:41:10.002  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 257.88367
+06-29 10:41:10.452  3472 13866 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:41:10.460  3472 13866 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:41:10.461  3472 13866 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 1 / 0 , queue sizes 3 / 1 ) 
+06-29 10:41:10.461  3472 13866 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 0, loaded tiles 21) 
+06-29 10:41:10.461  3472 13866 W net.osmand:native: [Native] Memory occupied (Routing context 473 Kb, search 0 Kb)
+06-29 10:41:10.463  3472 13866 I net.osmand:native: No route found
+06-29 10:41:10.478  3472 13866 I net.osmand: RoutePlannerFrontEnd Native routing took 0.118 seconds
+06-29 10:41:10.479  3472 13866 I System.out: ROUTE : 
+06-29 10:41:10.480  3472 13866 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:10.480  3472 13866 I net.osmand:   start_lat="-7.23037" start_lon="-35.90778" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:10.481  3472 13866 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:10.482  3472 13866 I System.out:   start_lat="-7.23037" start_lon="-35.90778" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:10.482  3472 13866 I System.out: </test>
+06-29 10:41:10.482  3472 13866 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:10.482  3472 13866 I System.out:   start_lat="-7.23037" start_lon="-35.90778" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:10.482  3472 13866 I net.osmand: RouteProvider Finding route contained 0 points for 685 ms
+06-29 10:41:10.892  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 233.29536
+06-29 10:41:10.895  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:10.896  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:41:10.901  3472 13867 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819271000,mLatitude=-7.230456666666667,mLongitude=-35.907981666666664,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:41:10.906  3472 13867 W net.osmand: RouteProvider Use 346 MB Free 2.7682953 of 21.799477 max 384.0
+06-29 10:41:11.019  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 233.29536
+06-29 10:41:11.361  3472 13867 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:41:11.368  3472 13867 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:41:11.371  3472 13867 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 1 / 0 , queue sizes 3 / 1 ) 
+06-29 10:41:11.371  3472 13867 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 0, loaded tiles 21) 
+06-29 10:41:11.371  3472 13867 W net.osmand:native: [Native] Memory occupied (Routing context 473 Kb, search 0 Kb)
+06-29 10:41:11.372  3472 13867 I net.osmand:native: No route found
+06-29 10:41:11.384  3472 13867 I net.osmand: RoutePlannerFrontEnd Native routing took 0.087 seconds
+06-29 10:41:11.384  3472 13867 I System.out: ROUTE : 
+06-29 10:41:11.385  3472 13867 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:11.385  3472 13867 I net.osmand:   start_lat="-7.23046" start_lon="-35.90798" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:11.385  3472 13867 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:11.385  3472 13867 I System.out:   start_lat="-7.23046" start_lon="-35.90798" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:11.385  3472 13867 I System.out: </test>
+06-29 10:41:11.386  3472 13867 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:11.386  3472 13867 I System.out:   start_lat="-7.23046" start_lon="-35.90798" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:11.386  3472 13867 I net.osmand: RouteProvider Finding route contained 0 points for 485 ms
+06-29 10:41:11.476  3472  3482 I zygote  : Background concurrent copying GC freed 117042(5MB) AllocSpace objects, 22(472KB) LOS objects, 27% free, 16MB/22MB, paused 898us total 202.199ms
+06-29 10:41:11.950  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 233.29536
+06-29 10:41:11.951  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:11.952  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:41:11.968  3472 13869 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819272000,mLatitude=-7.230456666666667,mLongitude=-35.907981666666664,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:41:11.968  3472 13869 W net.osmand: RouteProvider Use 349 MB Free 5.953125 of 22.16993 max 384.0
+06-29 10:41:12.043  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58202756 , only wrote 58202640
+06-29 10:41:12.148  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58207696 , only wrote 58207680
+06-29 10:41:12.150  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58207760 , only wrote 58207680
+06-29 10:41:12.178  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58209044 , only wrote 58208400
+06-29 10:41:12.209  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 208.87653
+06-29 10:41:12.344  1600  1635 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:41:12.360  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:41:12.360  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:41:12.477  3472 13869 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:41:12.484  3472 13869 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:41:12.485  3472 13869 W net.osmand:native: [Native] Result visited (visited roads 2, visited segments 1 / 0 , queue sizes 3 / 1 ) 
+06-29 10:41:12.485  3472 13869 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 0, loaded tiles 21) 
+06-29 10:41:12.485  3472 13869 W net.osmand:native: [Native] Memory occupied (Routing context 473 Kb, search 0 Kb)
+06-29 10:41:12.487  3472 13869 I net.osmand:native: No route found
+06-29 10:41:12.499  3472 13869 I net.osmand: RoutePlannerFrontEnd Native routing took 0.09 seconds
+06-29 10:41:12.499  3472 13869 I System.out: ROUTE : 
+06-29 10:41:12.500  3472 13869 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:12.500  3472 13869 I net.osmand:   start_lat="-7.23046" start_lon="-35.90798" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:12.500  3472 13869 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:12.500  3472 13869 I System.out:   start_lat="-7.23046" start_lon="-35.90798" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:12.500  3472 13869 I System.out: </test>
+06-29 10:41:12.501  3472 13869 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:12.501  3472 13869 I System.out:   start_lat="-7.23046" start_lon="-35.90798" target_lat="-7.23263" target_lon="-35.91305"  routing_time="0.00" loadedTiles="21" visitedSegments="2" complete_distance="0.00" complete_time="0.00" >
+06-29 10:41:12.501  3472 13869 I net.osmand: RouteProvider Finding route contained 0 points for 534 ms
+06-29 10:41:12.824  1390  1562 W audio_hw_generic: Not supplying enough data to HAL, expected position 58269253 , only wrote 58239360
+06-29 10:41:12.949  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 208.87653
+06-29 10:41:12.950  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:12.951  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:41:12.955  3472 13872 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819273000,mLatitude=-7.230543333333332,mLongitude=-35.908185,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:41:12.956  3472 13872 W net.osmand: RouteProvider Use 346 MB Free 3.0039062 of 22.16993 max 384.0
+06-29 10:41:13.240  3472 13872 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:41:13.247  3472 13872 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:41:13.279  3472 13872 W net.osmand:native: [Native] Result visited (visited roads 22, visited segments 53 / 18 , queue sizes 40 / 19 ) 
+06-29 10:41:13.279  3472 13872 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 30, loaded tiles 27) 
+06-29 10:41:13.279  3472 13872 W net.osmand:native: [Native] Memory occupied (Routing context 608 Kb, search 1 Kb)
+06-29 10:41:13.279  3472 13872 I net.osmand:native: Routing calculated time distance 52.803055
+06-29 10:41:13.304  3472 13872 I net.osmand: RoutePlannerFrontEnd Native routing took 0.117 seconds
+06-29 10:41:13.315  3472 13872 I System.out: ROUTE : 
+06-29 10:41:13.315  3472 13872 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:13.315  3472 13872 I net.osmand:   start_lat="-7.23054" start_lon="-35.90819" target_lat="-7.23263" target_lon="-35.91305"  routing_time="52.80" loadedTiles="27" visitedSegments="22" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:13.315  3472 13872 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:13.316  3472 13872 I System.out:   start_lat="-7.23054" start_lon="-35.90819" target_lat="-7.23263" target_lon="-35.91305"  routing_time="52.80" loadedTiles="27" visitedSegments="22" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:13.316  3472 13872 I System.out: </test>
+06-29 10:41:13.316  3472 13872 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:13.316  3472 13872 I System.out:   start_lat="-7.23054" start_lon="-35.90819" target_lat="-7.23263" target_lon="-35.91305"  routing_time="52.80" loadedTiles="27" visitedSegments="22" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:13.317  3472 13872 I net.osmand: RouteProvider Finding route contained 15 points for 362 ms
+06-29 10:41:13.321  3472  3482 I zygote  : WaitForGcToComplete blocked Background on None for 8.095ms
+06-29 10:41:13.763  3472  3482 I zygote  : Background concurrent copying GC freed 125015(5MB) AllocSpace objects, 22(472KB) LOS objects, 27% free, 16MB/22MB, paused 1.179ms total 436.259ms
+06-29 10:41:14.982  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:14.983  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:15.028  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:15.029  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:15.058  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.230718333333334, lon=-35.908593333333336, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:41:15.128  3472  3495 I net.osmand:native: Route objects 99
+06-29 10:41:15.128  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:41:15.128  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:41:15.129  3472  3495 I net.osmand:native: Search : tree - read( 620), accept( 62), objs - visit( 3397), accept(130), in result(99) 
+06-29 10:41:15.129  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.233019423484802, TLat=-7.225034642219543, LLong=-35.91104507446289, RLong=-35.90614318847656, zoom=17
+06-29 10:41:15.130  3472  3495 I net.osmand: MapRenderRepositories Native search: 70 ms 
+06-29 10:41:15.137  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:41:15.138  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:41:15.138  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x78300000
+06-29 10:41:15.138  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:41:15.140  3472  3495 I net.osmand:native: Rendering image
+06-29 10:41:15.296  1600  1635 D WificondControl: Scan result ready event
+06-29 10:41:15.324  3472  3495 I net.osmand:native: Native ok (rendering 0, text 72 ms) 
+06-29 10:41:15.324  3472  3495 I net.osmand:native:  (2599 points, 378 points inside, 165 of 188 objects visible)
+06-29 10:41:15.325  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:41:15.325  3472  3495 I net.osmand:native: Native ok (init 2, rendering 0) 
+06-29 10:41:15.331  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:41:15.373  1600  1635 I WifiService: releaseWifiLock uid=10014
+06-29 10:41:16.234  3472  3472 D net.osmand: RoutingHelper Processed by distance : 3.1284925507539065 69.54914855957031
+06-29 10:41:16.285  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 135.13902
+06-29 10:41:16.289  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:16.950  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 135.13902
+06-29 10:41:16.953  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:16.954  3472  3472 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 10:41:16.962  3472 13873 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561819277000,mLatitude=-7.230806666666666,mLongitude=-35.90879833333334,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2326303 Lon -35.91305 using OsmAnd (offline)
+06-29 10:41:16.963  3472 13873 W net.osmand: RouteProvider Use 349 MB Free 5.6706543 of 22.08049 max 384.0
+06-29 10:41:17.252  3472 13873 I net.osmand:native: Start point was found 1886269049 [Native]
+06-29 10:41:17.261  3472 13873 I net.osmand:native: End point was found 1886269277 [Native]
+06-29 10:41:17.271  3472 13873 W net.osmand:native: [Native] Result visited (visited roads 19, visited segments 9 / 21 , queue sizes 2 / 20 ) 
+06-29 10:41:17.271  3472 13873 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 8, loaded tiles 21) 
+06-29 10:41:17.271  3472 13873 W net.osmand:native: [Native] Memory occupied (Routing context 476 Kb, search 0 Kb)
+06-29 10:41:17.271  3472 13873 I net.osmand:native: Routing calculated time distance 57.803055
+06-29 10:41:17.304  3472 13873 I net.osmand: RoutePlannerFrontEnd Native routing took 0.106 seconds
+06-29 10:41:17.305  3472 13873 I System.out: ROUTE : 
+06-29 10:41:17.306  3472 13873 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:17.306  3472 13873 I net.osmand:   start_lat="-7.23081" start_lon="-35.90880" target_lat="-7.23263" target_lon="-35.91305"  routing_time="57.80" loadedTiles="21" visitedSegments="19" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:17.306  3472 13873 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:17.306  3472 13873 I System.out:   start_lat="-7.23081" start_lon="-35.90880" target_lat="-7.23263" target_lon="-35.91305"  routing_time="57.80" loadedTiles="21" visitedSegments="19" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:17.306  3472 13873 I System.out: </test>
+06-29 10:41:17.306  3472 13873 I System.out: <test regions="" description="" best_percent="" vehicle="car" 
+06-29 10:41:17.306  3472 13873 I System.out:   start_lat="-7.23081" start_lon="-35.90880" target_lat="-7.23263" target_lon="-35.91305"  routing_time="57.80" loadedTiles="21" visitedSegments="19" complete_distance="865.64" complete_time="49.05" >
+06-29 10:41:17.307  3472 13873 I net.osmand: RouteProvider Finding route contained 15 points for 345 ms
+06-29 10:41:17.631  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 169.76424026489258 1.187713623046875
+06-29 10:41:17.696  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble após  250 metros entre na rotunda  e  saia na  terceira  saída na   Avenida Marechal Floriano Peixoto 
+06-29 10:41:17.697  3472  3472 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 10:41:17.697  3472  3472 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 10:41:17.697  3472  3472 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 10:41:17.701  1600  7916 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@6ae4024 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 10:41:17.704  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:41:17.707  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:41:17.713  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:41:17.725  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 110.55182
+06-29 10:41:17.726  3472  3484 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:17.727  1600  1635 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@6ae4024
+06-29 10:41:17.728  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:17.732  3472  3484 D net.osmand: TTSCommandPlayerImpl ttsRequests=-1
+06-29 10:41:17.969  3472  3472 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 110.55182
+06-29 10:41:17.973  3472  3472 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:18.525  1600  1609 I zygote  : Background concurrent copying GC freed 95546(3MB) AllocSpace objects, 48(2MB) LOS objects, 29% free, 14MB/20MB, paused 932us total 131.952ms
+06-29 10:41:18.845  1406  1406 I boot-pipe: done populating /dev/random
+06-29 10:41:21.368  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:21.368  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:21.412  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:21.413  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:21.942  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:21.942  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:21.967  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:21.968  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:22.003  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 10:41:22.003  3472  3496 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 10:41:22.112  3472  3495 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.231136138944631, lon=-35.9096234383155, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 10:41:22.155  3472  3495 I net.osmand:native: Route objects 103
+06-29 10:41:22.155  3472  3495 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 10:41:22.155  3472  3495 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 10:41:22.155  3472  3495 I net.osmand:native: Search : tree - read( 660), accept( 63), objs - visit( 3397), accept(134), in result(103) 
+06-29 10:41:22.156  3472  3495 I net.osmand: MapRenderRepositories BLat=-7.233446311950684, TLat=-7.225437927246094, LLong=-35.91207504272461, RLong=-35.90717315673828, zoom=17
+06-29 10:41:22.156  3472  3495 I net.osmand: MapRenderRepositories Native search: 44 ms 
+06-29 10:41:22.161  3472  3495 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 10:41:22.162  3472  3495 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 10:41:22.162  3472  3495 I net.osmand:native: Locked 19368000 bytes at 0x69700000
+06-29 10:41:22.162  3472  3495 I net.osmand:native: Initializing rendering
+06-29 10:41:22.163  3472  3495 I net.osmand:native: Rendering image
+06-29 10:41:22.296  3472  3495 I net.osmand:native: Native ok (rendering 0, text 45 ms) 
+06-29 10:41:22.296  3472  3495 I net.osmand:native:  (2744 points, 458 points inside, 176 of 201 objects visible)
+06-29 10:41:22.297  3472  3495 I net.osmand:native: End Rendering image
+06-29 10:41:22.297  3472  3495 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 10:41:22.298  3472  3495 I net.osmand: MapRenderRepositories true
+06-29 10:41:23.801  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 59.17940139770508 37.051876068115234
+06-29 10:41:23.885  3472  3472 I net.osmand: TTSCommandPlayerImpl Send message to pebble saia na  terceira  saída para   Avenida Marechal Floriano Peixoto 
+06-29 10:41:23.885  3472  3472 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 10:41:23.885  3472  3472 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 10:41:23.885  3472  3472 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 10:41:23.886  1600  6200 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@2b20d42 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 10:41:23.886  3472  3472 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 10:41:23.887  5191  5280 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 10:41:23.888  5191  5280 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 10:41:23.899  5191  5294 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 10:41:23.906  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58239383 , only wrote 58239360
+06-29 10:41:23.996  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+06-29 10:41:24.038  1964  1964 I GeofencerStateMachine: sendNewTransitions called.
+06-29 10:41:24.056  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:41:24.113  1964  1964 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-29 10:41:26.338  1473  1561 D AudioFlinger: mixer(0xa6c83380) throttle end: throttle time(5)
+06-29 10:41:27.499  3472  3472 D net.osmand: RoutingHelper Processed point bearing deltas : 176.87367248535156 24.25792694091797
+06-29 10:41:29.088  5191  5294 D AudioTrack: stop() called with 112090 frames delivered
+06-29 10:41:09.772  1600  7916 I chatty  : uid=1000(system) Binder:1600_1F identical 3 lines
+06-29 10:41:23.903  1600  7916 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:41:29.090  1600  6200 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 10:41:29.090  3472  7183 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 10:41:29.091  1600  6200 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/3472 clientId=android.media.AudioManager@d05fab5net.osmand.plus.api.AudioFocusHelperImpl@2b20d42
+06-29 10:41:29.093  3472  7183 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-29 10:41:31.023  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58581000 , only wrote 58580640
+06-29 10:41:31.026  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58580728 , only wrote 58580640
+06-29 10:41:31.040  1390  2659 W audio_hw_generic: Not supplying enough data to HAL, expected position 58581366 , only wrote 58581360
+06-29 10:41:31.997  1399  1414 D hwcomposer: hw_composer sent 246 syncs in 60s
+06-29 10:41:32.107  1390  1562 W audio_hw_generic: Not supplying enough data to HAL, expected position 58682599 , only wrote 58632480
+06-29 10:41:32.354  1600  6200 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 10:41:32.358  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:41:32.358  1600  1613 W android.os.Debug: failed to get memory consumption info: -1
+06-29 10:41:32.424  1600  2105 I WifiService: releaseWifiLock uid=10014
+06-29 10:41:32.462  1600  1613 E memtrack: Couldn't load memtrack module
+06-29 10:41:32.462  1600  1613 W android.os.Debug: failed to get memory consumption info: -1

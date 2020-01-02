@@ -1,0 +1,1157 @@
+--------- beginning of main
+06-28 14:48:15.683  1603  7712 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:48:15.746  1603  7712 I WifiService: releaseWifiLock uid=10014
+06-28 14:48:15.795 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:48:15.798 19546 19594 I GeofencerStateMachine: Inaccurate location dropped.
+06-28 14:48:18.664  1603  3971 D WificondControl: Scan result ready event
+--------- beginning of system
+06-28 14:48:27.701  1603  3971 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000
+06-28 14:48:27.804  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:27.878  1603  1618 W Looper  : Dispatch took 124ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {5717402} cb=null msg=31
+06-28 14:48:27.854  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:27.897 29061 29061 D net.osmand: Disable sensor
+06-28 14:48:27.915  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:27.979  1412  1412 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-28 14:48:27.997 29061 29061 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 14:48:28.029  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.079  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.121  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.125  1603  1618 W Looper  : Dispatch took 119ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {5717402} cb=null msg=53
+06-28 14:48:28.202 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:28.299  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.300  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.390  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:28.413  1524  1605 D EGL_emulation: eglMakeCurrent: 0xa3c2f0c0: ver 2 0 (tinfo 0xa6589e20)
+06-28 14:48:28.425 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 14:48:28.452  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.512  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.540  1524  1524 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 14:48:28.654  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.685  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 14:48:28.715  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:28.839  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 14:48:28.866  1603  1618 W Looper  : Dispatch took 118ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {5717402} cb=null msg=53
+06-28 14:48:28.839  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 14:48:28.887  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:28.896  1524  1631 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-28 14:48:29.129 29061  6433 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-28 14:48:29.220  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:29.396  2548  2558 I zygote  : NativeAlloc concurrent copying GC freed 10988(573KB) AllocSpace objects, 2(104KB) LOS objects, 49% free, 4MB/9MB, paused 19.342ms total 799.203ms
+06-28 14:48:29.901  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 28822(1459KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 9MB/15MB, paused 3.131ms total 1.013s
+06-28 14:48:30.044  1603  7712 I WifiService: getWifiEnabledState uid=10032
+06-28 14:48:30.060  1603  1612 I zygote  : Background concurrent copying GC freed 69730(4MB) AllocSpace objects, 3(60KB) LOS objects, 17% free, 28MB/34MB, paused 7.217ms total 2.336s
+06-28 14:48:30.129  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 6389(374KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 8MB/14MB, paused 7.220ms total 212.362ms
+06-28 14:48:30.138  1603  2119 I WifiService: getWifiEnabledState uid=10032
+06-28 14:48:30.142  1524  6172 W LocationOracle: No location history returned by ContextManager
+06-28 14:48:30.250  1524  1631 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 14:48:30.278  1524  1631 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 14:48:30.280  1524  1631 I MicroDetector: Keeping mic open: false
+06-28 14:48:30.281  1524  1631 I MicroDetectionWorker: #onError(false)
+06-28 14:48:30.409 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 14:48:30.414 19546 19546 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-28 14:48:30.416 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 14:48:30.504 19546  6444 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17785022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 19546). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-28 14:48:30.666 19546  6444 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-28 14:48:30.696 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 14:48:30.705 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 14:48:30.739 19546  6447 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 14:48:30.808 19546  6447 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 14:48:31.093 19546  6447 I Places  : ?: PlacesBleScanner start() with priority 2
+06-28 14:48:31.093 19546  6447 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 14:48:31.093 19546  6447 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 14:48:31.147 19546 19546 E BeaconBle: Missing BluetoothAdapter
+06-28 14:48:31.147 19546 19546 I BeaconBle: BLE 'KK+' software access layer enabled
+06-28 14:48:31.195 19546 19546 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-28 14:48:31.196 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 14:48:31.196 19546 19546 E BeaconBle: Scan couldn't start for Places
+06-28 14:48:31.196 19546 19546 W Places  : BLE failure while scanning - code 5
+06-28 14:48:31.203 19546  6447 I Places  : Converted 1 out of 1 WiFi scans
+06-28 14:48:31.203  1603  7712 I WifiService: getConnectionInfo uid=10014
+06-28 14:48:31.240 19546  6447 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 14:48:31.240 19546  6447 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 14:48:31.425  1603  7712 I ActivityManager: Force stopping com.skgames.trafficrider appid=10081 user=0: from pid 6457
+06-28 14:48:31.499  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 14:48:31.512 19546 19556 I zygote  : Background concurrent copying GC freed 70354(3MB) AllocSpace objects, 33(2MB) LOS objects, 34% free, 11MB/17MB, paused 1.239ms total 294.696ms
+06-28 14:48:31.707 19546  6445 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 14:48:31.749 19546  6445 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 14:48:31.894  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 31662(2MB) AllocSpace objects, 3(60KB) LOS objects, 18% free, 26MB/32MB, paused 1.996ms total 462.583ms
+06-28 14:48:31.990  1603  2079 I ActivityManager: Force stopping com.EvilChaotic.ModernWarplanes appid=10082 user=0: from pid 6463
+06-28 14:48:32.015  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 14:48:32.408  1603  7712 I ActivityManager: Force stopping com.ea.games.r3_row appid=10083 user=0: from pid 6467
+06-28 14:48:32.754  1603  2079 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+06-28 14:48:32.423  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 14:48:34.520 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: BlockingExecutor ink@477781[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 22]
+06-28 14:48:34.520 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: LightweightExecutor ink@39d6026[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 81]
+06-28 14:48:34.521 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: bgExecutor ink@b1b467[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 62]
+06-28 14:48:35.289  1524  1631 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 14:48:35.297  1524  1631 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 14:48:35.298  1524  1631 I MicroDetector: Keeping mic open: false
+06-28 14:48:35.299  1524  1631 I MicroDetectionWorker: #onError(false)
+06-28 14:48:35.697  1603  2079 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:48:35.734  1603  7712 I WifiService: releaseWifiLock uid=10014
+06-28 14:48:36.045  6486  6486 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 14:48:36.059  6486  6486 W app_process: Could not reserve sentinel fault page
+06-28 14:48:36.287  6486  6486 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 14:48:36.292  6486  6486 I app_process: The ClassLoaderContext is a special shared library.
+06-28 14:48:36.415  6486  6486 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-28 14:48:36.417  6486  6486 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-28 14:48:36.417  6486  6486 W Monkey  :  arg: "-p"
+06-28 14:48:36.418  6486  6486 W Monkey  :  arg: "net.osmand"
+06-28 14:48:36.418  6486  6486 W Monkey  :  arg: "-c"
+06-28 14:48:36.418  6486  6486 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-28 14:48:36.418  6486  6486 W Monkey  :  arg: "1"
+06-28 14:48:36.419  6486  6486 W Monkey  : data="net.osmand"
+06-28 14:48:36.419  6486  6486 W Monkey  : data="android.intent.category.LAUNCHER"
+06-28 14:48:36.492  1603  1617 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{30f81f5 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{fb12b8a 6486 (unknown name)/2000/u-1 remote:a565adf}: process gone or crashing
+06-28 14:48:36.562  1603  1840 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-28 14:48:36.563  1603  1840 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-28 14:48:36.563  1603  1840 W Binder  : java.lang.Throwable
+06-28 14:48:36.563  1603  1840 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-28 14:48:36.563  1603  1840 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 14:48:36.606  1603  1840 W ResourceType: ResTable_typeSpec entry count inconsistent: given 5115, previously 5124
+06-28 14:48:36.606  1603  1840 W ResourceType: ResTable_typeSpec entry count inconsistent: given 142, previously 459
+06-28 14:48:36.607  1603  1840 W ResourceType: For resource 0x7f0e00c0, entry index(192) is beyond type entryCount(142)
+06-28 14:48:36.607  1603  1840 W ResourceType: For resource 0x7f0e00d1, entry index(209) is beyond type entryCount(142)
+06-28 14:48:36.607  1603  1840 W ResourceType: For resource 0x7f0e00cb, entry index(203) is beyond type entryCount(142)
+06-28 14:48:36.607  1603  1840 W ResourceType: For resource 0x7f0e014d, entry index(333) is beyond type entryCount(142)
+06-28 14:48:36.607  1603  1840 W ResourceType: For resource 0x7f0e00dd, entry index(221) is beyond type entryCount(142)
+06-28 14:48:36.607  1603  1840 W ResourceType: For resource 0x7f0e00e4, entry index(228) is beyond type entryCount(142)
+06-28 14:48:36.654  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:36.680  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 14:48:36.694  1603  1651 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+06-28 14:48:36.745  1603  2079 I ActivityManager: Config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w683dp h387dp 420dpi nrml land finger qwerty/v/v -nav/h appBounds=Rect(126, 0 - 1920, 1080) s.121}
+06-28 14:48:36.765  6486  6486 I Monkey  : Events injected: 1
+06-28 14:48:36.804  1603  2079 I ActivityManager: Override config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w683dp h387dp 420dpi nrml land finger qwerty/v/v -nav/h appBounds=Rect(126, 0 - 1920, 1080) s.121} for displayId=0
+06-28 14:48:36.857  1603  2079 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+06-28 14:48:36.887 29061 29061 D InAppPurchaseHelper: Destroying helper.
+06-28 14:48:36.911  1412  1428 E BufferQueueProducer: [SnapshotStartingWindow for taskId=81#0] connect: BufferQueue has been abandoned
+06-28 14:48:36.912  1603  1651 W WindowManager: Exception when adding starting window
+06-28 14:48:36.912  1603  1651 W WindowManager: java.lang.RuntimeException: Failed to attach and queue buffer to Surface (bad object?)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at android.view.Surface.attachAndQueueBuffer(Surface.java:616)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.TaskSnapshotSurface.drawSizeMatchSnapshot(TaskSnapshotSurface.java:299)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.TaskSnapshotSurface.drawSnapshot(TaskSnapshotSurface.java:286)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.TaskSnapshotSurface.create(TaskSnapshotSurface.java:222)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.TaskSnapshotController.createStartingSurface(TaskSnapshotController.java:203)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.SnapshotStartingData.createStartingSurface(SnapshotStartingData.java:39)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.AppWindowContainerController.lambda$-com_android_server_wm_AppWindowContainerController_4735(AppWindowContainerController.java:145)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.-$Lambda$aEpJ2RCAIjecjyIIYTv6ricEwh4.$m$4(Unknown Source:4)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.wm.-$Lambda$aEpJ2RCAIjecjyIIYTv6ricEwh4.run(Unknown Source:27)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at android.os.Handler.handleCallback(Handler.java:790)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at android.os.Looper.loop(Looper.java:164)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at android.os.HandlerThread.run(HandlerThread.java:65)
+06-28 14:48:36.912  1603  1651 W WindowManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+06-28 14:48:36.919  1603  1618 W Looper  : Dispatch took 178ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {5717402} cb=null msg=31
+06-28 14:48:36.926  6486  6486 I Monkey  : ## Network stats: elapsed time=288ms (0ms mobile, 0ms wifi, 288ms not connected)
+06-28 14:48:36.959  1603  1666 I InputReader: Reconfiguring input devices.  changes=0x00000004
+06-28 14:48:36.959  1603  1666 I InputReader: Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 3, mode 1, display id 0
+06-28 14:48:36.966  1603  1666 I InputReader: Reconfiguring input devices.  changes=0x00000004
+06-28 14:48:36.990  1412  1466 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=29061, uid<=10104
+06-28 14:48:36.990 29061 29061 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 14:48:36.997  1412  1466 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=29061, uid<=10104
+06-28 14:48:36.998 29061 29061 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 14:48:37.103  6486  6486 I com.android.commands.monkey: System.exit called, status: 0
+06-28 14:48:37.103  6486  6486 I AndroidRuntime: VM exiting with result code 0.
+06-28 14:48:37.142 29061 29061 W ResourceType: ResTable_typeSpec entry count inconsistent: given 5115, previously 5124
+06-28 14:48:37.142 29061 29061 W ResourceType: ResTable_typeSpec entry count inconsistent: given 142, previously 459
+06-28 14:48:37.148  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:37.152  1603  1666 I InputReader: Reconfiguring input devices.  changes=0x00000004
+06-28 14:48:37.181  1603  1618 W Looper  : Dispatch took 238ms on android.ui, h=Handler (com.android.server.policy.PhoneWindowManager$PolicyHandler) {f76a93d} cb=android.database.ContentObserver$NotificationRunnable@fd2faad msg=0
+06-28 14:48:37.208 29061 29061 W ResourceType: For resource 0x7f0e00c0, entry index(192) is beyond type entryCount(142)
+06-28 14:48:37.208 29061 29061 W ResourceType: For resource 0x7f0e00d1, entry index(209) is beyond type entryCount(142)
+06-28 14:48:37.208 29061 29061 W ResourceType: For resource 0x7f0e00cb, entry index(203) is beyond type entryCount(142)
+06-28 14:48:37.208 29061 29061 W ResourceType: For resource 0x7f0e014d, entry index(333) is beyond type entryCount(142)
+06-28 14:48:37.209 29061 29061 W ResourceType: For resource 0x7f0e00dd, entry index(221) is beyond type entryCount(142)
+06-28 14:48:37.209 29061 29061 W ResourceType: For resource 0x7f0e00e4, entry index(228) is beyond type entryCount(142)
+06-28 14:48:37.326  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 544768
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e0183, entry index(387) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e0187, entry index(391) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e0185, entry index(389) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e015d, entry index(349) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e0195, entry index(405) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e016c, entry index(364) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e0163, entry index(355) is beyond type entryCount(142)
+06-28 14:48:37.365 29061 29061 W ResourceType: For resource 0x7f0e00db, entry index(219) is beyond type entryCount(142)
+06-28 14:48:37.366 29061 29061 W ResourceType: For resource 0x7f0e0193, entry index(403) is beyond type entryCount(142)
+06-28 14:48:37.366 29061 29061 W ResourceType: For resource 0x7f0e016f, entry index(367) is beyond type entryCount(142)
+06-28 14:48:37.366 29061 29061 W ResourceType: For resource 0x7f0e0161, entry index(353) is beyond type entryCount(142)
+06-28 14:48:37.366 29061 29061 W ResourceType: For resource 0x7f0e0170, entry index(368) is beyond type entryCount(142)
+06-28 14:48:37.366 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.366 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.367  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:37.366 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e0177, entry index(375) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e0160, entry index(352) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e0199, entry index(409) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e017e, entry index(382) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e0196, entry index(406) is beyond type entryCount(142)
+06-28 14:48:37.368 29061 29061 W ResourceType: For resource 0x7f0e0197, entry index(407) is beyond type entryCount(142)
+06-28 14:48:37.369 29061 29061 W ResourceType: For resource 0x7f0e0140, entry index(320) is beyond type entryCount(142)
+06-28 14:48:37.369 29061 29061 W ResourceType: For resource 0x7f0e00e7, entry index(231) is beyond type entryCount(142)
+06-28 14:48:37.369 29061 29061 W ResourceType: For resource 0x7f0e0194, entry index(404) is beyond type entryCount(142)
+06-28 14:48:37.371 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:37.371 29061 29061 W ResourceType: For resource 0x7f0e017d, entry index(381) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e00f8, entry index(248) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e0122, entry index(290) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e010b, entry index(267) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e010c, entry index(268) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e01ad, entry index(429) is beyond type entryCount(142)
+06-28 14:48:37.372 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e0183, entry index(387) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e0187, entry index(391) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e0185, entry index(389) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e015d, entry index(349) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e0195, entry index(405) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e016c, entry index(364) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e0163, entry index(355) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e00db, entry index(219) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e0193, entry index(403) is beyond type entryCount(142)
+06-28 14:48:37.375 29061 29061 W ResourceType: For resource 0x7f0e016f, entry index(367) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0161, entry index(353) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0170, entry index(368) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0177, entry index(375) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0160, entry index(352) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0199, entry index(409) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e017e, entry index(382) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0196, entry index(406) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0197, entry index(407) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e0140, entry index(320) is beyond type entryCount(142)
+06-28 14:48:37.376 29061 29061 W ResourceType: For resource 0x7f0e00e7, entry index(231) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e0194, entry index(404) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e017d, entry index(381) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e00f8, entry index(248) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e0122, entry index(290) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e010b, entry index(267) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e010c, entry index(268) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e01ad, entry index(429) is beyond type entryCount(142)
+06-28 14:48:37.377 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:37.387 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e0183, entry index(387) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e0187, entry index(391) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e0185, entry index(389) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e015d, entry index(349) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e0195, entry index(405) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e016c, entry index(364) is beyond type entryCount(142)
+06-28 14:48:37.390 29061 29061 W ResourceType: For resource 0x7f0e0163, entry index(355) is beyond type entryCount(142)
+06-28 14:48:37.391 29061 29061 W ResourceType: For resource 0x7f0e00db, entry index(219) is beyond type entryCount(142)
+06-28 14:48:37.391 29061 29061 W ResourceType: For resource 0x7f0e0193, entry index(403) is beyond type entryCount(142)
+06-28 14:48:37.391 29061 29061 W ResourceType: For resource 0x7f0e016f, entry index(367) is beyond type entryCount(142)
+06-28 14:48:37.391 29061 29061 W ResourceType: For resource 0x7f0e0161, entry index(353) is beyond type entryCount(142)
+06-28 14:48:37.391 29061 29061 W ResourceType: For resource 0x7f0e0170, entry index(368) is beyond type entryCount(142)
+06-28 14:48:37.391 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.391 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0177, entry index(375) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0160, entry index(352) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0199, entry index(409) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e017e, entry index(382) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0196, entry index(406) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0197, entry index(407) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0140, entry index(320) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e00e7, entry index(231) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e0194, entry index(404) is beyond type entryCount(142)
+06-28 14:48:37.392 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e017d, entry index(381) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e00f8, entry index(248) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e0122, entry index(290) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e010b, entry index(267) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e010c, entry index(268) is beyond type entryCount(142)
+06-28 14:48:37.393 29061 29061 W ResourceType: For resource 0x7f0e01ad, entry index(429) is beyond type entryCount(142)
+06-28 14:48:37.394 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:37.413 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:37.414 29061 29061 W ResourceType: For resource 0x7f0e0091, entry index(145) is beyond type entryCount(142)
+06-28 14:48:37.440  1524  1605 D EGL_emulation: eglMakeCurrent: 0xa3c2f0c0: ver 2 0 (tinfo 0xa6589e20)
+06-28 14:48:37.449  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 544768
+06-28 14:48:37.472  1603  1651 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+06-28 14:48:37.482  1603  1666 I InputReader: Reconfiguring input devices.  changes=0x00000004
+06-28 14:48:37.506 29061 29061 W ResourceType: For resource 0x7f0e016b, entry index(363) is beyond type entryCount(142)
+06-28 14:48:37.527 19782 19782 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+06-28 14:48:37.529 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:37.530 29061 29061 W ResourceType: For resource 0x7f0e0125, entry index(293) is beyond type entryCount(142)
+06-28 14:48:37.578 29061 29061 W ResourceType: For resource 0x7f0e0125, entry index(293) is beyond type entryCount(142)
+06-28 14:48:37.619 19782 19782 I DeviceStatusMonitor: onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+06-28 14:48:37.620 19782 19782 I ConfigNotification: Get device mode by ui mode:1 and smallestScreenWidthDp:411
+06-28 14:48:37.620 19782 19782 I chatty  : uid=10060(com.google.android.inputmethod.latin) identical 2 lines
+06-28 14:48:37.621 19782 19782 I ConfigNotification: Get device mode by ui mode:1 and smallestScreenWidthDp:411
+06-28 14:48:37.728 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:37.728 29061 29061 W ResourceType: For resource 0x7f0e00a9, entry index(169) is beyond type entryCount(142)
+06-28 14:48:37.740 29061 29061 W ResourceType: For resource 0x7f0e01bc, entry index(444) is beyond type entryCount(142)
+06-28 14:48:37.748 29061 29061 W ResourceType: For resource 0x7f0e0132, entry index(306) is beyond type entryCount(142)
+06-28 14:48:37.749 29061 29061 W ResourceType: For resource 0x7f0e00f7, entry index(247) is beyond type entryCount(142)
+06-28 14:48:37.749 29061 29061 W ResourceType: For resource 0x7f0e0131, entry index(305) is beyond type entryCount(142)
+06-28 14:48:37.749 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:37.750 29061 29061 W ResourceType: For resource 0x7f0e0175, entry index(373) is beyond type entryCount(142)
+06-28 14:48:37.756 29061 29061 W ResourceType: For resource 0x7f0e0173, entry index(371) is beyond type entryCount(142)
+06-28 14:48:37.776 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:37.777 29061 29061 I chatty  : uid=10104(net.osmand) identical 4 lines
+06-28 14:48:37.777 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:37.778 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:37.778 29061 29061 W ResourceType: For resource 0x7f0e00ae, entry index(174) is beyond type entryCount(142)
+06-28 14:48:37.778 29061 29061 W ResourceType: For resource 0x7f0e013d, entry index(317) is beyond type entryCount(142)
+06-28 14:48:37.778 29061 29061 W ResourceType: For resource 0x7f0e013e, entry index(318) is beyond type entryCount(142)
+06-28 14:48:37.812 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:37.825 29061 29061 I chatty  : uid=10104(net.osmand) identical 9 lines
+06-28 14:48:37.825 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:37.861  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:48:37.861  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:48:37.901  1708  1708 D EGL_emulation: eglCreateContext: 0x9275de40: maj 2 min 0 rcv 2
+06-28 14:48:37.943  1708  1708 D EGL_emulation: eglMakeCurrent: 0x9275de40: ver 2 0 (tinfo 0x92183a80)
+06-28 14:48:37.964  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9547776
+06-28 14:48:38.000  1708  1708 D EGL_emulation: eglMakeCurrent: 0x9275de40: ver 2 0 (tinfo 0x92183a80)
+06-28 14:48:38.152  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9547776
+06-28 14:48:38.227 29061 29061 W System.err: OnCreate for MapActivity took 901 ms
+06-28 14:48:38.281  1708  1708 I Choreographer: Skipped 57 frames!  The application may be doing too much work on its main thread.
+06-28 14:48:38.316 29061 29071 I zygote  : Background concurrent copying GC freed 179081(4MB) AllocSpace objects, 21(996KB) LOS objects, 17% free, 27MB/33MB, paused 1.246ms total 1.443s
+06-28 14:48:38.326  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 544768
+06-28 14:48:38.376 29061 29061 D InAppPurchaseHelper: Destroying helper.
+06-28 14:48:38.484  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:38.485  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:38.487  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:38.496 29061 29061 D net.osmand: Enable sensor
+06-28 14:48:38.532  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:38.542  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:38.563  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:38.588 29061 29061 W System.err: OnCreate for MapActivity took 212 ms
+06-28 14:48:38.625  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:38.628  1603  1624 W WindowManager: Window freeze timeout expired.
+06-28 14:48:38.628 29061 29061 I Choreographer: Skipped 107 frames!  The application may be doing too much work on its main thread.
+06-28 14:48:38.628  1603  1624 W WindowManager: Force clearing orientation change: Window{3d4d499 u0 StatusBar}
+06-28 14:48:38.717  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:38.764 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:38.794 29061 29061 I chatty  : uid=10104(net.osmand) identical 38 lines
+06-28 14:48:38.794 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:38.795 29061 29061 W View    : requestLayout() improperly called by android.widget.ListView{cb500fc VFED.VC.. ......ID 0,0-735,1080 #7f0803ba app:id/menuItems} during layout: running second layout pass
+06-28 14:48:38.812  1603  1624 W WindowManager: App freeze timeout expired.
+06-28 14:48:38.830  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:38.839  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:38.840  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:38.870 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:38.981  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:39.044  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 14:48:39.116  1603  1651 I WindowManager: Screen frozen for +2s489ms due to Window{15f25a1 u0 net.osmand/net.osmand.plus.activities.MapActivity}
+06-28 14:48:39.163  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:39.164  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:39.169  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:39.183  1412  1412 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#1
+06-28 14:48:39.222  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:39.225  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:39.242  2548  2558 I zygote  : NativeAlloc concurrent copying GC freed 3756(215KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4MB/9MB, paused 44.564ms total 840.326ms
+06-28 14:48:39.314  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:39.339  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:39.340  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:39.646 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 14:48:39.672 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to rotation
+06-28 14:48:39.672 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 14:48:39.718  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 487424
+06-28 14:48:39.731 29061 29061 I Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+06-28 14:48:39.759  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:39.824  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 14:48:39.835  1603  1651 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+06-28 14:48:39.837  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:39.876  1603  1666 I InputReader: Reconfiguring input devices.  changes=0x00000004
+06-28 14:48:39.876  1603  1666 I InputReader: Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 0, mode 1, display id 0
+06-28 14:48:39.887  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 14:48:39.891  1603  1624 I ActivityManager: Config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.122}
+06-28 14:48:40.021  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:40.038  1603  1624 I ActivityManager: Override config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.122} for displayId=0
+06-28 14:48:40.021  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:40.071  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:40.141  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.143  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.145 29061 29061 D net.osmand: Disable sensor
+06-28 14:48:40.164 29061 29061 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 14:48:40.166 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:40.185  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.186  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.193 19782 19782 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+06-28 14:48:40.216 29061 29061 D InAppPurchaseHelper: Destroying helper.
+06-28 14:48:40.223  1412  1467 E BufferQueueProducer: [SurfaceView - net.osmand/net.osmand.plus.activities.MapActivity#0] disconnect: not connected (req=2)
+06-28 14:48:40.235  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.241  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:40.256  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.261  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:40.284  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:40.284  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:40.285 29061 29088 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.5891947746276855, lon=-37.54106903076172, rotate=112.14578, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=1495, cy=810, pixWidth=2990, pixHeight=1620]
+06-28 14:48:40.285  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.289  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:40.290  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.317 29061 29061 W ResourceType: For resource 0x7f0e00c0, entry index(192) is beyond type entryCount(142)
+06-28 14:48:40.317 29061 29061 W ResourceType: For resource 0x7f0e00d1, entry index(209) is beyond type entryCount(142)
+06-28 14:48:40.318 29061 29061 W ResourceType: For resource 0x7f0e00cb, entry index(203) is beyond type entryCount(142)
+06-28 14:48:40.319 29061 29061 W ResourceType: For resource 0x7f0e014d, entry index(333) is beyond type entryCount(142)
+06-28 14:48:40.319 29061 29061 W ResourceType: For resource 0x7f0e00dd, entry index(221) is beyond type entryCount(142)
+06-28 14:48:40.319 29061 29061 W ResourceType: For resource 0x7f0e00e4, entry index(228) is beyond type entryCount(142)
+06-28 14:48:40.338 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 14:48:40.344 19782 19782 I DeviceStatusMonitor: onReceive() : Action = android.intent.action.CONFIGURATION_CHANGED
+06-28 14:48:40.345 19782 19782 I ConfigNotification: Get device mode by ui mode:1 and smallestScreenWidthDp:411
+06-28 14:48:40.346 19782 19782 I chatty  : uid=10060(com.google.android.inputmethod.latin) identical 2 lines
+06-28 14:48:40.373 19782 19782 I ConfigNotification: Get device mode by ui mode:1 and smallestScreenWidthDp:411
+06-28 14:48:40.377 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0183, entry index(387) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0187, entry index(391) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0185, entry index(389) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e015d, entry index(349) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0195, entry index(405) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e016c, entry index(364) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0163, entry index(355) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e00db, entry index(219) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0193, entry index(403) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e016f, entry index(367) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0161, entry index(353) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0170, entry index(368) is beyond type entryCount(142)
+06-28 14:48:40.378 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e0177, entry index(375) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e0160, entry index(352) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e0199, entry index(409) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e017e, entry index(382) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e0196, entry index(406) is beyond type entryCount(142)
+06-28 14:48:40.379 29061 29061 W ResourceType: For resource 0x7f0e0197, entry index(407) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e0140, entry index(320) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e00e7, entry index(231) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e0194, entry index(404) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e017d, entry index(381) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e00f8, entry index(248) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:40.380 29061 29061 W ResourceType: For resource 0x7f0e0122, entry index(290) is beyond type entryCount(142)
+06-28 14:48:40.381 29061 29061 W ResourceType: For resource 0x7f0e010b, entry index(267) is beyond type entryCount(142)
+06-28 14:48:40.381 29061 29061 W ResourceType: For resource 0x7f0e010c, entry index(268) is beyond type entryCount(142)
+06-28 14:48:40.381 29061 29061 W ResourceType: For resource 0x7f0e01ad, entry index(429) is beyond type entryCount(142)
+06-28 14:48:40.381 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e0183, entry index(387) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e0187, entry index(391) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e0185, entry index(389) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e015d, entry index(349) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e0195, entry index(405) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e016c, entry index(364) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e0163, entry index(355) is beyond type entryCount(142)
+06-28 14:48:40.389 29061 29061 W ResourceType: For resource 0x7f0e00db, entry index(219) is beyond type entryCount(142)
+06-28 14:48:40.390 29061 29061 W ResourceType: For resource 0x7f0e0193, entry index(403) is beyond type entryCount(142)
+06-28 14:48:40.390 29061 29061 W ResourceType: For resource 0x7f0e016f, entry index(367) is beyond type entryCount(142)
+06-28 14:48:40.391 29061 29061 W ResourceType: For resource 0x7f0e0161, entry index(353) is beyond type entryCount(142)
+06-28 14:48:40.392 29061 29061 W ResourceType: For resource 0x7f0e0170, entry index(368) is beyond type entryCount(142)
+06-28 14:48:40.392 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:40.392 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 14:48:40.392 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:40.392 29061 29061 W ResourceType: For resource 0x7f0e0177, entry index(375) is beyond type entryCount(142)
+06-28 14:48:40.392 29061 29061 W ResourceType: For resource 0x7f0e0160, entry index(352) is beyond type entryCount(142)
+06-28 14:48:40.393 29061 29061 W ResourceType: For resource 0x7f0e0199, entry index(409) is beyond type entryCount(142)
+06-28 14:48:40.393 29061 29061 W ResourceType: For resource 0x7f0e017e, entry index(382) is beyond type entryCount(142)
+06-28 14:48:40.393 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:40.393 29061 29061 W ResourceType: For resource 0x7f0e0196, entry index(406) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e0197, entry index(407) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e0140, entry index(320) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e00e7, entry index(231) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e0194, entry index(404) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e017d, entry index(381) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e00f8, entry index(248) is beyond type entryCount(142)
+06-28 14:48:40.394 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:40.395 29061 29061 W ResourceType: For resource 0x7f0e0122, entry index(290) is beyond type entryCount(142)
+06-28 14:48:40.395 29061 29061 W ResourceType: For resource 0x7f0e010b, entry index(267) is beyond type entryCount(142)
+06-28 14:48:40.395 29061 29061 W ResourceType: For resource 0x7f0e010c, entry index(268) is beyond type entryCount(142)
+06-28 14:48:40.395 29061 29061 W ResourceType: For resource 0x7f0e01ad, entry index(429) is beyond type entryCount(142)
+06-28 14:48:40.395 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:40.403 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:40.403 29061 29061 W ResourceType: For resource 0x7f0e01c4, entry index(452) is beyond type entryCount(142)
+06-28 14:48:40.403 29061 29061 W ResourceType: For resource 0x7f0e0183, entry index(387) is beyond type entryCount(142)
+06-28 14:48:40.403 29061 29061 W ResourceType: For resource 0x7f0e0187, entry index(391) is beyond type entryCount(142)
+06-28 14:48:40.404 29061 29061 W ResourceType: For resource 0x7f0e0185, entry index(389) is beyond type entryCount(142)
+06-28 14:48:40.404 29061 29061 W ResourceType: For resource 0x7f0e015d, entry index(349) is beyond type entryCount(142)
+06-28 14:48:40.407  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.408  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:40.404 29061 29061 W ResourceType: For resource 0x7f0e0195, entry index(405) is beyond type entryCount(142)
+06-28 14:48:40.408 29061 29061 W ResourceType: For resource 0x7f0e016c, entry index(364) is beyond type entryCount(142)
+06-28 14:48:40.408 29061 29061 W ResourceType: For resource 0x7f0e0163, entry index(355) is beyond type entryCount(142)
+06-28 14:48:40.408 29061 29061 W ResourceType: For resource 0x7f0e00db, entry index(219) is beyond type entryCount(142)
+06-28 14:48:40.408 29061 29061 W ResourceType: For resource 0x7f0e0193, entry index(403) is beyond type entryCount(142)
+06-28 14:48:40.408 29061 29061 W ResourceType: For resource 0x7f0e016f, entry index(367) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0161, entry index(353) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0170, entry index(368) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0174, entry index(372) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0177, entry index(375) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0160, entry index(352) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0199, entry index(409) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e017e, entry index(382) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0196, entry index(406) is beyond type entryCount(142)
+06-28 14:48:40.409 29061 29061 W ResourceType: For resource 0x7f0e0197, entry index(407) is beyond type entryCount(142)
+06-28 14:48:40.410 29061 29061 W ResourceType: For resource 0x7f0e0140, entry index(320) is beyond type entryCount(142)
+06-28 14:48:40.410 29061 29061 W ResourceType: For resource 0x7f0e00e7, entry index(231) is beyond type entryCount(142)
+06-28 14:48:40.410 29061 29061 W ResourceType: For resource 0x7f0e0194, entry index(404) is beyond type entryCount(142)
+06-28 14:48:40.410 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:40.410 29061 29061 W ResourceType: For resource 0x7f0e017d, entry index(381) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e00f8, entry index(248) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e0122, entry index(290) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e010b, entry index(267) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e010c, entry index(268) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e01ad, entry index(429) is beyond type entryCount(142)
+06-28 14:48:40.415 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:40.423 29061 29061 W ResourceType: For resource 0x7f0e017f, entry index(383) is beyond type entryCount(142)
+06-28 14:48:40.423 29061 29061 W ResourceType: For resource 0x7f0e0091, entry index(145) is beyond type entryCount(142)
+06-28 14:48:40.425 29061 29061 W ResourceType: For resource 0x7f0e016b, entry index(363) is beyond type entryCount(142)
+06-28 14:48:40.433 29061 29061 W ResourceType: For resource 0x7f0e017b, entry index(379) is beyond type entryCount(142)
+06-28 14:48:40.434 29061 29061 W ResourceType: For resource 0x7f0e0125, entry index(293) is beyond type entryCount(142)
+06-28 14:48:40.441 29061 29061 W ResourceType: For resource 0x7f0e0125, entry index(293) is beyond type entryCount(142)
+06-28 14:48:40.492 29061 29061 W ResourceType: For resource 0x7f0e01a5, entry index(421) is beyond type entryCount(142)
+06-28 14:48:40.492 29061 29061 W ResourceType: For resource 0x7f0e00a9, entry index(169) is beyond type entryCount(142)
+06-28 14:48:40.524  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 14:48:40.527 29061 29061 W ResourceType: For resource 0x7f0e01bc, entry index(444) is beyond type entryCount(142)
+06-28 14:48:40.543 29061 29061 W ResourceType: For resource 0x7f0e0132, entry index(306) is beyond type entryCount(142)
+06-28 14:48:40.543 29061 29061 W ResourceType: For resource 0x7f0e00f7, entry index(247) is beyond type entryCount(142)
+06-28 14:48:40.544 29061 29061 W ResourceType: For resource 0x7f0e0131, entry index(305) is beyond type entryCount(142)
+06-28 14:48:40.544 29061 29061 W ResourceType: For resource 0x7f0e010f, entry index(271) is beyond type entryCount(142)
+06-28 14:48:40.545 29061 29061 W ResourceType: For resource 0x7f0e00bc, entry index(188) is beyond type entryCount(142)
+06-28 14:48:40.547 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:40.548 29061 29061 I chatty  : uid=10104(net.osmand) identical 4 lines
+06-28 14:48:40.548 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:40.548 29061 29061 W ResourceType: For resource 0x7f0e00bd, entry index(189) is beyond type entryCount(142)
+06-28 14:48:40.549 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:40.559 29061 29061 I chatty  : uid=10104(net.osmand) identical 13 lines
+06-28 14:48:40.559 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:40.561  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:40.580  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 487424
+06-28 14:48:40.586 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:40.587 29061 29061 I chatty  : uid=10104(net.osmand) identical 3 lines
+06-28 14:48:40.587 29061 29061 W ResourceType: For resource 0x7f0e011d, entry index(285) is beyond type entryCount(142)
+06-28 14:48:40.589 29061 29061 W ResourceType: For resource 0x7f0e01ac, entry index(428) is beyond type entryCount(142)
+06-28 14:48:40.589 29061 29061 W ResourceType: For resource 0x7f0e00ae, entry index(174) is beyond type entryCount(142)
+06-28 14:48:40.589 29061 29061 W ResourceType: For resource 0x7f0e013d, entry index(317) is beyond type entryCount(142)
+06-28 14:48:40.589 29061 29061 W ResourceType: For resource 0x7f0e013e, entry index(318) is beyond type entryCount(142)
+06-28 14:48:40.604 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:40.613 29061 29061 I chatty  : uid=10104(net.osmand) identical 4 lines
+06-28 14:48:40.614 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:40.623 29061 29088 I net.osmand:native: Route objects 152
+06-28 14:48:40.623 29061 29088 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 14:48:40.623 29061 29088 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 14:48:40.623 29061 29088 I net.osmand:native: Search : tree - read( 413), accept( 34), objs - visit( 2366), accept(164), in result(152) 
+06-28 14:48:40.624 29061 29088 I net.osmand: MapRenderRepositories BLat=-7.5967308521270756, TLat=-7.581663465499878, LLong=-37.54644012451172, RLong=-37.535701751708984, zoom=17
+06-28 14:48:40.625 29061 29088 I net.osmand: MapRenderRepositories Native search: 339 ms 
+06-28 14:48:40.625 29061 29088 W net.osmand: MapRenderRepositories Create new image ? 2990 != 1800 (w) 1620 != 2690 (h) 
+06-28 14:48:40.630 29061 29088 I net.osmand:native: Creating SkBitmap in native w:2990 h:1620 s:11960 f:1!
+06-28 14:48:40.630 29061 29088 I net.osmand:native: Row bytes for RGBA_8888 is 11960
+06-28 14:48:40.630 29061 29088 I net.osmand:native: Locked 19375200 bytes at 0x7b300000
+06-28 14:48:40.630 29061 29088 I net.osmand:native: Initializing rendering
+06-28 14:48:40.631 29061 29088 I net.osmand:native: Rendering image
+06-28 14:48:40.645 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:40.646 29061 29061 I chatty  : uid=10104(net.osmand) identical 3 lines
+06-28 14:48:40.646 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:40.664  1708  1708 W StatusBar/NavBarView: *** Invalid layout in navigation bar (sizeChanged this=126x1080 cur=1038x126)
+06-28 14:48:40.837  1708  1708 D EGL_emulation: eglCreateContext: 0x9275de40: maj 2 min 0 rcv 2
+06-28 14:48:40.842  1708  1708 D EGL_emulation: eglMakeCurrent: 0x9275de40: ver 2 0 (tinfo 0x92183a80)
+06-28 14:48:40.844  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:40.869  1708  1708 D EGL_emulation: eglMakeCurrent: 0x9275de40: ver 2 0 (tinfo 0x92183a80)
+06-28 14:48:40.886  1524  1534 I zygote  : Do full code cache collection, code=1521KB, data=852KB
+06-28 14:48:40.911  1524  1534 I zygote  : After code cache collection, code=1416KB, data=707KB
+06-28 14:48:40.938  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:41.003 29061 29074 I zygote  : Waiting for a blocking GC ProfileSaver
+06-28 14:48:41.159 29061 29061 W System.err: OnCreate for MapActivity took 791 ms
+06-28 14:48:41.262 29061 29061 D InAppPurchaseHelper: Destroying helper.
+06-28 14:48:41.350  1708  1708 I Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+06-28 14:48:41.455 29061 29061 D net.osmand: Enable sensor
+06-28 14:48:41.543 29061 29061 W System.err: OnCreate for MapActivity took 279 ms
+06-28 14:48:41.574 29061 29061 I Choreographer: Skipped 79 frames!  The application may be doing too much work on its main thread.
+06-28 14:48:41.627 29061 29071 I zygote  : NativeAlloc concurrent copying GC freed 16465(799KB) AllocSpace objects, 5(164KB) LOS objects, 16% free, 30MB/36MB, paused 76.741ms total 2.960s
+06-28 14:48:41.627 29061 29074 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 624.108ms
+06-28 14:48:41.640  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:41.656 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to rotation
+06-28 14:48:41.656 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 14:48:41.678 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.682 29061 29061 I chatty  : uid=10104(net.osmand) identical 8 lines
+06-28 14:48:41.682 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.682 29061 29088 I net.osmand:native: Native ok (rendering 0, text 66 ms) 
+06-28 14:48:41.682 29061 29088 I net.osmand:native:  (1316 points, 626 points inside, 296 of 309 objects visible)
+06-28 14:48:41.682 29061 29088 I net.osmand:native: End Rendering image
+06-28 14:48:41.687 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.687 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.688 29061 29088 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-28 14:48:41.688 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.689 29061 29061 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 14:48:41.690 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.689 29061 29088 I net.osmand: MapRenderRepositories true
+06-28 14:48:41.690 29061 29088 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.5891947746276855, lon=-37.54106903076172, rotate=4.429158, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1297, pixWidth=1800, pixHeight=2595]
+06-28 14:48:41.692 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.736 29061 29061 I chatty  : uid=10104(net.osmand) identical 53 lines
+06-28 14:48:41.736 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 14:48:41.737 29061 29061 W View    : requestLayout() improperly called by android.widget.ListView{c16290b VFED.VC.. ......ID 0,0-735,1794 #7f0803ba app:id/menuItems} during layout: running second layout pass
+06-28 14:48:41.738  1603  1624 W WindowManager: Window freeze timeout expired.
+06-28 14:48:41.738  1603  1624 W WindowManager: Force clearing orientation change: Window{c588c7b u0 NavigationBar}
+06-28 14:48:41.738  1603  1624 W WindowManager: Force clearing orientation change: Window{ae1f6c2 u0 net.osmand/net.osmand.plus.activities.MapActivity}
+06-28 14:48:41.761  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:41.823  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:41.825  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:41.852  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:41.862  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:41.882 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:41.912  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:41.915 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 14:48:41.918  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:41.919  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:41.920  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:41.921  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:41.945  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:41.966  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:41.991  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:41.992  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:41.998  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:42.047  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:42.047  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:42.052  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 401408
+06-28 14:48:42.054  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 401408
+06-28 14:48:42.058  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 401408
+06-28 14:48:42.069  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 14:48:42.077  1603  1624 W WindowManager: App freeze timeout expired.
+06-28 14:48:42.097 29061 29088 I net.osmand:native: Route objects 111
+06-28 14:48:42.097 29061 29088 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 14:48:42.097 29061 29088 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 14:48:42.113  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:42.114  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:42.115  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:42.123 29061 29088 I net.osmand:native: Search : tree - read( 413), accept( 33), objs - visit( 2326), accept(123), in result(111) 
+06-28 14:48:42.127 29061 29088 I net.osmand: MapRenderRepositories BLat=-7.5952805280685425, TLat=-7.583114266395569, LLong=-37.545143127441406, RLong=-37.536991119384766, zoom=17
+06-28 14:48:42.127 29061 29088 I net.osmand: MapRenderRepositories Native search: 435 ms 
+06-28 14:48:42.128 29061 29088 W net.osmand: MapRenderRepositories Create new image ? 1800 != 1800 (w) 2595 != 2690 (h) 
+06-28 14:48:42.128 29061 29088 I net.osmand:native: Creating SkBitmap in native w:1800 h:2595 s:7200 f:1!
+06-28 14:48:42.128 29061 29088 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-28 14:48:42.128 29061 29088 I net.osmand:native: Locked 18684000 bytes at 0x78f00000
+06-28 14:48:42.128 29061 29088 I net.osmand:native: Initializing rendering
+06-28 14:48:42.124  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:42.131  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:42.137 29061 29088 I net.osmand:native: Rendering image
+06-28 14:48:42.183  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:42.190  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:42.190  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:42.217 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:42.260  1603  1651 I WindowManager: Screen frozen for +2s522ms due to Window{6b81709 u0 Toast}
+06-28 14:48:42.240 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 14:48:42.275  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 14:48:42.369  1412  1412 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#1
+06-28 14:48:42.393  1412  1412 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#2
+06-28 14:48:42.421  1412  1412 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#3
+06-28 14:48:42.524  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:42.540  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 14:48:42.544  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 14:48:42.584  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 14:48:42.700  1603  1603 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@932b87f
+06-28 14:48:42.734  1524  4743 I PBSessionCacheImpl: Deleted sessionId[7025004104158] from persistence.
+06-28 14:48:42.760  1603  2504 I WifiService: getWifiEnabledState uid=10032
+06-28 14:48:42.835  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:42.837  1524  1631 W SearchServiceCore: Abort, client detached.
+06-28 14:48:42.838  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:42.854  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:42.874  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:42.920  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:42.921  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:43.057  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:43.059  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:43.073  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:43.081  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:43.114  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:43.123  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:43.146  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:43.147  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 1 line
+06-28 14:48:43.148  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-28 14:48:43.149  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:43.165  1708  1708 I chatty  : uid=10029(com.android.systemui) identical 2 lines
+06-28 14:48:43.166  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:43.173 19782 19792 W zygote  : Suspending all threads took: 131.306ms
+06-28 14:48:43.184  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:43.184  1708  1708 W StaticLayout: maxLineHeight should not be -1.  maxLines:7 lineCount:7
+06-28 14:48:43.397  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 14:48:43.408  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:43.455  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 14:48:43.514 29061 29088 I net.osmand:native: Native ok (rendering 1, text 373 ms) 
+06-28 14:48:43.514 29061 29088 I net.osmand:native:  (917 points, 620 points inside, 215 of 223 objects visible)
+06-28 14:48:43.515 29061 29088 I net.osmand:native: End Rendering image
+06-28 14:48:43.515 29061 29088 I net.osmand:native: Native ok (init 9, rendering 1) 
+06-28 14:48:43.516 29061 29088 I net.osmand: MapRenderRepositories true
+06-28 14:48:43.547  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 544768
+06-28 14:48:43.592  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:43.641  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 544768
+06-28 14:48:43.880  1708  1708 D EGL_emulation: eglCreateContext: 0x91dacbc0: maj 2 min 0 rcv 2
+06-28 14:48:43.886  1708  1708 D EGL_emulation: eglMakeCurrent: 0x91dacbc0: ver 2 0 (tinfo 0x92183a80)
+06-28 14:48:43.900  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9547776
+06-28 14:48:43.965  1708  1708 D EGL_emulation: eglMakeCurrent: 0x91dacbc0: ver 2 0 (tinfo 0x92183a80)
+06-28 14:48:43.992 19782 19783 I zygote  : Do partial code cache collection, code=218KB, data=136KB
+06-28 14:48:44.000 19782 19783 I zygote  : After code cache collection, code=198KB, data=127KB
+06-28 14:48:44.015 19782 19783 I zygote  : Increasing code cache capacity to 1024KB
+06-28 14:48:44.029  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9547776
+06-28 14:48:44.295  1708  1708 W StatusBar: removeNotification for unknown key: 0|net.osmand|1005|null|10104
+06-28 14:48:44.299  1708  1708 I Choreographer: Skipped 52 frames!  The application may be doing too much work on its main thread.
+06-28 14:48:44.304  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:44.315  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 14:48:44.339  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:44.362  1708  1708 W StatusBar/NavBarView: *** Invalid layout in navigation bar (sizeChanged this=1080x126 cur=1038x126)
+06-28 14:48:44.390  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 544768
+06-28 14:48:44.429  1603  1624 I zygote  : Waiting for a blocking GC Explicit
+06-28 14:48:44.502  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 14:48:44.527 29061 29071 I zygote  : NativeAlloc concurrent copying GC freed 76022(2MB) AllocSpace objects, 9(372KB) LOS objects, 16% free, 31MB/37MB, paused 27.841ms total 2.744s
+06-28 14:48:44.533  1603  1612 I zygote  : Background concurrent copying GC freed 64861(3MB) AllocSpace objects, 30(1112KB) LOS objects, 18% free, 26MB/32MB, paused 4.401ms total 2.997s
+06-28 14:48:44.533  1603  1624 I zygote  : WaitForGcToComplete blocked Explicit on HeapTrim for 104.685ms
+06-28 14:48:44.555  1603  1624 I zygote  : ThreadFlipBegin blocked for 20.234ms
+06-28 14:48:44.562  1603  2504 I zygote  : IncrementDisableThreadFlip blocked for 26.674ms
+06-28 14:48:44.568  1603  6820 I zygote  : IncrementDisableThreadFlip blocked for 32.963ms
+06-28 14:48:44.569  1603  1840 I zygote  : IncrementDisableThreadFlip blocked for 14.894ms
+06-28 14:48:45.135  1603  1624 I zygote  : Explicit concurrent copying GC freed 12319(714KB) AllocSpace objects, 0(0B) LOS objects, 18% free, 26MB/32MB, paused 5.171ms total 600.942ms
+06-28 14:48:46.264  1603  1620 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-28 14:48:48.148 19546  6447 I Places  : ?: PlacesBleScanner stop()
+06-28 14:48:48.149 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 14:48:48.150 19546 19546 I BeaconBle: Scan canceled successfully.
+06-28 14:48:48.206 19546  6447 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 14:48:48.206 19546  6447 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 14:48:48.211  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:48:48.211  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:48:48.300 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 14:48:48.303 19546 19560 W MessageQueue: Handler (aeyl) {8c57a75} sending message to a Handler on a dead thread
+06-28 14:48:48.303 19546 19560 W MessageQueue: java.lang.IllegalStateException: Handler (aeyl) {8c57a75} sending message to a Handler on a dead thread
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at aeyl.sendMessageAtTime(Unknown Source:3)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at android.os.Handler.post(Handler.java:357)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at bcln.execute(Unknown Source:2)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at aanh.execute(Unknown Source:9)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at avft.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at avgk.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):8)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at avgn.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):43)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at avgj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at agos.a(Unknown Source:2)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at rnt.a(Unknown Source:11)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at aamg.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at cwm.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-28 14:48:48.303 19546 19560 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 14:48:48.406  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:48:48.406  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:48:51.582  1409  1409 I boot-pipe: done populating /dev/random
+06-28 14:48:52.574  1524  1631 I WorkerManager: dispose()
+06-28 14:48:52.576  1524  1631 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 14:48:53.161 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 14:48:55.872  1603  1616 I GnssLocationProvider: WakeLock acquired by sendMessage(ENABLE, 1, null)
+06-28 14:48:55.872  1603  1616 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@69b20c3)
+06-28 14:48:55.877  1603  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.apps.maps/com.google.android.apps.gmm.locationsharing.usr.LocationAvailabilityChecker$LocationProvidersChangedBroadcastReceiver
+06-28 14:48:55.878  1603  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.gms/com.google.android.location.internal.NlpNetworkProviderSettingsUpdateReceiver
+06-28 14:48:55.878  1603  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-28 14:48:55.879  1603  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.broadcastreceiver.external.ExternalCommonBroadcastReceiver
+06-28 14:48:55.887 19546 19546 I GeofencerStateMachine: sendQueryLocationOptIn
+06-28 14:48:55.896  1603  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.MODE_CHANGED flg=0x10 } to com.google.android.apps.maps/com.google.android.apps.gmm.locationsharing.usr.LocationAvailabilityChecker$LocationProvidersChangedBroadcastReceiver
+06-28 14:48:55.898  1603  1603 D GpsNetInitiatedHandler: location enabled :true
+06-28 14:48:55.904  1400  1400 W GnssHAL_GnssInterface: setCallback called more than once. Unexpected unless test.
+06-28 14:48:55.909  1603  1616 D GnssLocationProvider: gnssSetSystemInfoCb: yearOfHw=2015
+06-28 14:48:55.910  1603  1616 D GnssLocationProvider: gnssSetCapabilitesCb: 0u
+06-28 14:48:55.910  1603  1616 D GnssLocationProvider: gnssSetSystemInfoCb: yearOfHw=2015
+06-28 14:48:55.910  1603  1616 E GnssLocationProvider: Unable to initialize GNSS Xtra interface
+06-28 14:48:55.910  1603  1616 E GnssLocationProvider: Unable to Initialize AGnss interface
+06-28 14:48:55.910  1603  1616 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
+06-28 14:48:55.910  1603  1616 E GnssLocationProvider: Unable to initialize GNSS NI interface
+06-28 14:48:55.910  1603  1616 E GnssLocationProvider: no AGPS interface in set_agps_server
+06-28 14:48:55.910  1603  1616 E GnssLocationProvider: Failed to initialize GNSS batching
+06-28 14:48:55.910  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(ENABLE, 1, null)
+06-28 14:48:55.917  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@69b20c3)
+06-28 14:48:55.923  1603  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.MODE_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-28 14:48:56.025 19546  6536 I GCoreUlr: Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{receiverAction=android.location.PROVIDERS_CHANGED}]
+06-28 14:48:56.036  1603  2504 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.nearby.discovery:ACTION_PERMISSION_CHANGE cmp=com.google.android.gms/.nearby.discovery.service.DiscoveryService } U=0: not found
+06-28 14:48:56.171 19546 19546 E BluetoothAdapter: Bluetooth binder is null
+06-28 14:48:56.254 19546  6445 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+06-28 14:48:56.281 19546 19556 I zygote  : Background concurrent copying GC freed 146166(6MB) AllocSpace objects, 14(876KB) LOS objects, 35% free, 10MB/16MB, paused 11.922ms total 401.526ms
+06-28 14:48:56.338 19546  6445 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: {account#8#=[InactiveReason{mIdentifier=6, mName='ReportingNotEnabled'}, InactiveReason{mIdentifier=14, mName='HistoryNotEnabled'}]}
+06-28 14:48:56.371 19546  6445 I GCoreUlr: Unbound from all signal providers.
+06-28 14:48:56.372 19546  6522 I GCoreUlr: Successfully accounts update
+06-28 14:48:56.454 19546 19546 I GCoreUlr: Unbound from all signal providers.
+06-28 14:48:56.455 19546 19546 I GCoreUlr: Stopping handler for UlrDispSvcFast
+06-28 14:48:56.459 19546  6522 I GCoreUlr: Successfully accounts update
+06-28 14:48:56.480 29061 29061 I net.osmand: TTSCommandPlayerImpl Send message to pebble sinal g p s recuperado 
+06-28 14:48:56.481 29061 29061 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 14:48:56.481 29061 29061 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 14:48:56.482 29061 29061 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 14:48:56.485  1603  3971 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@5e0acc4 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 14:48:56.491 29061 29061 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 14:48:56.518 12744 29258 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 14:48:56.520 12744 29258 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 14:48:56.541 12744 29259 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 14:48:56.583 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:48:56.597  1603  1840 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 14:48:56.636  1603  2504 I WifiService: getConnectionInfo uid=10014
+06-28 14:48:56.653  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170363686 , only wrote 170362800
+06-28 14:48:56.731 19546  6445 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+06-28 14:48:56.767 19569 19569 I GCM     : Message from 745476177629
+06-28 14:48:56.930  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 14:48:56.933 19569  2606 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 14:48:56.933 19569  2606 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:56.933 19569  2606 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:57.107  1603  1603 I GnssLocationProvider: WakeLock acquired by sendMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+06-28 14:48:57.128  1844  1844 D MccTable: updateMccMncConfiguration mccmnc='null' fromServiceState=true
+06-28 14:48:57.128  1844  1844 D MccTable: WIFI_COUNTRY_CODE set to 
+06-28 14:48:57.128  1603  2504 I WifiService: WifiService trying to set country code to  with persist set to false
+06-28 14:48:57.129  1603  2504 I WifiService: setCountryCode uid=1001
+06-28 14:48:57.170  1844  1844 D ServiceStateProvider: subId=1
+06-28 14:48:57.273  1844  1844 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {438750e}
+06-28 14:48:57.318  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170394726 , only wrote 170394480
+06-28 14:48:57.318  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170394495 , only wrote 170394480
+06-28 14:48:57.333  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170395219 , only wrote 170395200
+06-28 14:48:57.345  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 14:48:57.387  1603  1840 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}(lbl:  -> Android)(desc:  -> Android)]: TSI.rPA@EfM
+06-28 14:48:57.392  1844  1844 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: [****]] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+06-28 14:48:57.392  1844  1844 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {438750e}
+06-28 14:48:57.393  1603  1616 W ActivityManager: Slow operation: 135ms so far, now at startProcess: returned from zygote!
+06-28 14:48:57.394  1603  1616 W ActivityManager: Slow operation: 135ms so far, now at startProcess: done updating battery stats
+06-28 14:48:57.394  1603  1616 W ActivityManager: Slow operation: 135ms so far, now at startProcess: building log message
+06-28 14:48:57.394  1603  1616 I ActivityManager: Start proc 6541:com.google.android.gm/u0a70 for service com.google.android.gm/.provider.MailSyncAdapterService
+06-28 14:48:57.394  1603  1616 W ActivityManager: Slow operation: 135ms so far, now at startProcess: starting to update pids map
+06-28 14:48:57.394  1603  1616 W ActivityManager: Slow operation: 135ms so far, now at startProcess: done updating pids map
+06-28 14:48:57.394  1603  1616 W ActivityManager: Slow operation: 144ms so far, now at startProcess: done starting proc!
+06-28 14:48:57.422  1603  1681 I WifiService: getConnectionInfo uid=1000
+06-28 14:48:57.445  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T18:48:57.445Z[GMT]
+06-28 14:48:57.457 19569 24697 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 14:48:57.457 19569 24697 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:57.457 19569 24697 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:57.460  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 14:48:57.468  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T18:48:57.468Z[GMT]
+06-28 14:48:57.470  6541  6541 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-28 14:48:57.471  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 14:48:57.472  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 14:48:57.474  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 14:48:57.511  1603  1674 D NetworkStats: Resolved to plan null
+06-28 14:48:57.513  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 14:48:57.660  1603  2504 W ActivityManager: Slow operation: 110ms so far, now at attachApplicationLocked: immediately after bindApplication
+06-28 14:48:57.660  1603  2504 W ActivityManager: Slow operation: 110ms so far, now at attachApplicationLocked: after updateLruProcessLocked
+06-28 14:48:57.664  1603  2504 W ActivityManager: Slow operation: 114ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+06-28 14:48:57.678  1844  1844 I chatty  : uid=1001(radio) com.android.phone identical 3 lines
+06-28 14:48:57.692  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 14:48:57.723  1603  1616 I zygote  : IncrementDisableThreadFlip blocked for 5.821ms
+06-28 14:48:57.723  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 14:48:57.724  1603  1840 I zygote  : IncrementDisableThreadFlip blocked for 6.874ms
+06-28 14:48:57.816  1603  1616 E GnssLocationProvider: no AGPS interface in set_agps_server
+06-28 14:48:57.816  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+06-28 14:48:57.854  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 14:48:57.901  1844  1844 I Telephony: PstnPhoneCapabilitiesNotifier: handleVideoCapabilitesChanged. Video capability - false
+06-28 14:48:57.951  1603  1603 I Telecom : CallLogManager: Country ISO changed. Retrieving new ISO...: CLM.oCD@EfY
+06-28 14:48:58.063  1603 12888 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}]: TSI.rPA@Efc
+06-28 14:48:57.865  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 14:48:58.399 19569 24697 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 14:48:58.399 19569 24697 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:58.399 19569 24697 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:48:58.495 29061 29071 I zygote  : NativeAlloc concurrent copying GC freed 132100(3MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 33MB/39MB, paused 1.252ms total 2.550s
+06-28 14:48:58.685  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170460057 , only wrote 170459280
+06-28 14:48:58.686  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170459346 , only wrote 170459280
+06-28 14:48:58.702  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170460051 , only wrote 170460000
+06-28 14:48:58.714  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 14:48:59.330 19546 19867 I GeofencerStateMachine: addGeofences called by com.google.android.apps.maps
+06-28 14:48:59.349  6541  6541 D ActivityThread: Loading provider com.google.android.gm.sapi: com.google.android.gm.sapi.SapiUiProvider
+06-28 14:48:59.376 12744 29259 D AudioTrack: stop() called with 57530 frames delivered
+06-28 14:48:59.380  1603  1840 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 14:48:59.383 29061 32583 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 14:48:59.426  1603 12888 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:48:59.442  1603 12888 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@5e0acc4
+06-28 14:48:59.443 29061 32583 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 14:48:59.580  1603  2079 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@f797c15)
+06-28 14:48:59.652  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170505605 , only wrote 170505360
+06-28 14:48:59.689  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@f797c15)
+06-28 14:48:59.860  1603  1840 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@9e9d1b)
+06-28 14:48:59.940  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@9e9d1b)
+06-28 14:49:00.011  1603  1877 I WifiService: getWifiEnabledState uid=10062
+06-28 14:49:00.016 28942 28956 I zygote  : WaitForGcToComplete blocked ProfileSaver on None for 9.277ms
+06-28 14:49:00.185  6541  6541 W PrimesInit: Primes instant initialization
+06-28 14:49:00.217  6541  6578 W Primes  : background initialization
+06-28 14:49:00.233  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170533248 , only wrote 170532720
+06-28 14:49:00.379  1603  1612 I zygote  : Background concurrent copying GC freed 45422(3MB) AllocSpace objects, 12(588KB) LOS objects, 17% free, 28MB/34MB, paused 2.242ms total 2.674s
+06-28 14:49:00.407  6541  6541 W GAV2    : Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+06-28 14:49:00.518  6541  6578 I PrimesTesting: GserviceFlagsSupplier.get()
+06-28 14:49:00.803  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170560057 , only wrote 170559360
+06-28 14:49:00.818  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170560082 , only wrote 170560080
+06-28 14:49:00.839  6541  6541 W Gmail   : AccountUtils:For b/73513912, load account content://com.android.gmail.ui/account.-2137146394 from MailAppProvider. Is account valid result: 1.
+06-28 14:49:00.878  6541  6541 W Gmail   : AccountUtils:For b/73513912, load account content://com.google.android.gm.email.provider/account.-437561172?suppress_combined%3Dtrue from MailAppProvider. Is account valid result: 1.
+06-28 14:49:00.923  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170565121 , only wrote 170565120
+06-28 14:49:00.936 19546 19546 W SystemServiceRegistry: No service published for: persistent_data_block
+06-28 14:49:00.939  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170565911 , only wrote 170565840
+06-28 14:49:01.060  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 170571626 , only wrote 170571600
+06-28 14:49:01.654 19546 19605 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+06-28 14:49:01.821  6541  6555 I zygote  : IncrementDisableThreadFlip blocked for 8.889ms
+06-28 14:49:01.985  1603  3971 W ActivityManager: Unable to start service Intent { cmp=com.google.android.gm/com.android.email.service.AttachmentService } U=0: not found
+06-28 14:49:02.396  1393  1575 W audio_hw_generic: Not supplying enough data to HAL, expected position 170699224 , only wrote 170635680
+06-28 14:49:02.477  1603  2504 D WificondControl: Scan result ready event
+06-28 14:49:02.640  1402  1417 D hwcomposer: hw_composer sent 42 syncs in 62s
+06-28 14:49:02.816  6541  6556 I zygote  : Waiting for a blocking GC ProfileSaver
+06-28 14:49:02.852  1603  1877 I WifiService: releaseWifiLock uid=10014
+06-28 14:49:03.163 29061 29071 I zygote  : Background concurrent copying GC freed 415878(9MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 33MB/39MB, paused 5.299ms total 2.043s
+06-28 14:49:03.293  6541  6556 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 476.246ms
+06-28 14:49:03.734  6541  6609 I zygote  : Deoptimizing void afkh.c() due to JIT inline cache
+06-28 14:49:04.067  6541  6583 I zygote  : The ClassLoaderContext is a special shared library.
+06-28 14:49:04.132  6541  6583 I zygote  : The ClassLoaderContext is a special shared library.
+06-28 14:49:04.467  6541  6606 I zygote  : Deoptimizing java.lang.Object aeri.a(java.lang.Object, java.lang.Object[], int, int, java.lang.Object) due to JIT inline cache
+06-28 14:49:04.547  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:04.547  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:04.608  6541  6605 I zygote  : Deoptimizing java.lang.Object aeri.a(java.lang.Object[], int, int, int) due to JIT inline cache
+06-28 14:49:04.616  6541  6547 I zygote  : Do partial code cache collection, code=25KB, data=20KB
+06-28 14:49:04.623  6541  6547 I zygote  : After code cache collection, code=17KB, data=18KB
+06-28 14:49:04.623  6541  6547 I zygote  : Increasing code cache capacity to 128KB
+06-28 14:49:04.780  6541  6583 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 284 native methods...
+06-28 14:49:05.441 29061 29071 I zygote  : Background concurrent copying GC freed 288990(7MB) AllocSpace objects, 4(144KB) LOS objects, 14% free, 35MB/41MB, paused 2.277ms total 1.619s
+06-28 14:49:06.024  6541  6583 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-28 14:49:06.083  6541  6583 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+06-28 14:49:06.107  6541  6541 E abdj    : Sync is not initialized yet
+06-28 14:49:06.189  6541  6603 I zygote  : Deoptimizing java.lang.Object aetu.next() due to JIT inline cache
+06-28 14:49:07.039  6541  6547 I zygote  : Do partial code cache collection, code=62KB, data=39KB
+06-28 14:49:07.040  6541  6547 I zygote  : After code cache collection, code=61KB, data=39KB
+06-28 14:49:07.040  6541  6547 I zygote  : Increasing code cache capacity to 256KB
+06-28 14:49:07.066 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 14:49:07.067 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 14:49:07.792 29061 29071 I zygote  : Background concurrent copying GC freed 390697(10MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 33MB/39MB, paused 4.690ms total 847.215ms
+06-28 14:49:08.639  1603  1620 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-28 14:49:08.942  1844  1855 I zygote  : Background concurrent copying GC freed 41434(2MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 22.578ms total 233.919ms
+06-28 14:49:08.950  6541  6603 I zygote  : Deoptimizing void acpp.a(aclm, java.util.Collection) due to JIT inline cache
+06-28 14:49:09.205  6541  6541 I zygote  : Deoptimizing java.lang.Object aeri.a(java.lang.Object, java.lang.Object[], int, int, java.lang.Object) due to JIT inline cache
+06-28 14:49:09.358  6541  6547 I zygote  : Do full code cache collection, code=108KB, data=78KB
+06-28 14:49:09.370  6541  6547 I zygote  : After code cache collection, code=81KB, data=46KB
+06-28 14:49:09.510  6541  6541 W ymr     : Failed to find local clusters.
+06-28 14:49:10.494  6541  6547 I zygote  : Do partial code cache collection, code=89KB, data=57KB
+06-28 14:49:10.504  6541  6547 I zygote  : After code cache collection, code=89KB, data=57KB
+06-28 14:49:10.504  6541  6547 I zygote  : Increasing code cache capacity to 512KB
+06-28 14:49:10.838 29061 29071 I zygote  : Background concurrent copying GC freed 461769(11MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 10.956ms total 663.965ms
+06-28 14:49:13.371 29061 29071 I zygote  : Background concurrent copying GC freed 367262(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.521ms total 788.762ms
+06-28 14:49:13.564  1603  1612 I zygote  : Background concurrent copying GC freed 85155(5MB) AllocSpace objects, 15(800KB) LOS objects, 18% free, 26MB/32MB, paused 17.273ms total 618.486ms
+06-28 14:49:13.944  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:13.944  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:15.454 29061 29071 I zygote  : Background concurrent copying GC freed 398387(8MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 1.192ms total 415.095ms
+06-28 14:49:17.272 29061 29071 I zygote  : Background concurrent copying GC freed 293800(6MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 2.030ms total 406.730ms
+06-28 14:49:19.332 29061 29071 I zygote  : Background concurrent copying GC freed 295701(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.197ms total 516.390ms
+06-28 14:49:19.479  1603  2079 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:49:19.658  1603  3971 I WifiService: releaseWifiLock uid=10014
+06-28 14:49:21.092 29061 29071 I zygote  : Background concurrent copying GC freed 320117(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 1.118ms total 394.094ms
+06-28 14:49:23.125 29061 29071 I zygote  : Background concurrent copying GC freed 287503(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.607ms total 373.614ms
+06-28 14:49:24.737 29061 29071 I zygote  : Background concurrent copying GC freed 317667(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.531ms total 516.828ms
+06-28 14:49:26.780  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 14:49:26.780  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 14:49:26.780  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 14:49:26.870 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:49:26.957 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:49:26.970 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 14:49:27.229 29061 29071 I zygote  : Background concurrent copying GC freed 309389(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.400ms total 623.763ms
+06-28 14:49:27.598  1603  1877 I ActivityManager: Killing 30007:com.google.android.partnersetup/u0a17 (adj 906): empty #17
+06-28 14:49:27.599  1603  1619 W zygote  : kill(-30007, 9) failed: No such process
+06-28 14:49:27.682  1603  1619 I chatty  : uid=1000(system) ActivityManager identical 2 lines
+06-28 14:49:27.723  1603  1619 W zygote  : kill(-30007, 9) failed: No such process
+06-28 14:49:27.723  1603  1619 I zygote  : Successfully killed process cgroup uid 10017 pid 30007 in 124ms
+06-28 14:49:29.692 29061 29071 I zygote  : Background concurrent copying GC freed 331968(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.195ms total 604.350ms
+06-28 14:49:31.771 29061 29071 I zygote  : Background concurrent copying GC freed 363792(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.287ms total 577.671ms
+06-28 14:49:33.955 29061 29071 I zygote  : Background concurrent copying GC freed 355625(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.778ms total 626.625ms
+06-28 14:49:34.666  1603  1612 I zygote  : Background concurrent copying GC freed 72538(4MB) AllocSpace objects, 2(40KB) LOS objects, 18% free, 26MB/32MB, paused 1.666ms total 494.524ms
+06-28 14:49:35.958 29061 29071 I zygote  : Background concurrent copying GC freed 364578(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.855ms total 649.924ms
+06-28 14:49:38.150 29061 29071 I zygote  : Background concurrent copying GC freed 355137(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 4.859ms total 661.302ms
+06-28 14:49:40.136 29061 29071 I zygote  : Background concurrent copying GC freed 327713(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 1.375ms total 582.721ms
+06-28 14:49:40.676  1603 12888 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:49:40.694  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:40.694  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:40.863  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:40.863  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:40.939  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:40.939  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:41.012  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:41.012  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:41.101  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:41.101  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:41.168  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:41.168  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:41.271  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:49:41.271  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:49:42.910 29061 29071 I zygote  : Background concurrent copying GC freed 277094(6MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 2.025ms total 358.186ms
+06-28 14:49:43.726  1603  2504 D WificondControl: Scan result ready event
+06-28 14:49:43.848  1603 12888 I WifiService: releaseWifiLock uid=10014
+06-28 14:49:45.074 29061 29071 I zygote  : Background concurrent copying GC freed 292385(6MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 1.347ms total 464.210ms
+06-28 14:49:45.957  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 14:49:45.957  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 14:49:45.957  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 14:49:45.975  1603  1620 E BluetoothAdapter: Bluetooth binder is null
+06-28 14:49:45.987  1603  1620 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+06-28 14:49:46.005  1603  1620 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-28 14:49:47.002 29061 29071 I zygote  : Background concurrent copying GC freed 292154(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.748ms total 492.098ms
+06-28 14:49:49.317 29061 29071 I zygote  : Background concurrent copying GC freed 323068(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 17.796ms total 497.959ms
+06-28 14:49:51.224 29061 29071 I zygote  : Background concurrent copying GC freed 294767(6MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 1.447ms total 345.787ms
+06-28 14:49:51.585  1409  1409 I boot-pipe: done populating /dev/random
+06-28 14:49:53.615 29061 29071 I zygote  : Background concurrent copying GC freed 271627(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.746ms total 437.645ms
+06-28 14:49:54.261  1844  1855 I zygote  : Background concurrent copying GC freed 48443(2MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 8.636ms total 60.850ms
+06-28 14:49:55.974 29061 29071 I zygote  : Background concurrent copying GC freed 314227(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.499ms total 613.031ms
+06-28 14:49:57.920 29061 29071 I zygote  : Background concurrent copying GC freed 351370(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.279ms total 518.532ms
+06-28 14:49:58.134 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:49:58.493 19546 19556 I zygote  : Background concurrent copying GC freed 125762(5MB) AllocSpace objects, 4(208KB) LOS objects, 39% free, 9MB/15MB, paused 1.619ms total 350.011ms
+06-28 14:49:59.006  1603  1612 I zygote  : Background concurrent copying GC freed 90640(5MB) AllocSpace objects, 5(328KB) LOS objects, 17% free, 27MB/33MB, paused 1.252ms total 612.458ms
+06-28 14:50:00.073 29061 29071 I zygote  : Background concurrent copying GC freed 337851(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 2.243ms total 352.511ms
+06-28 14:50:00.693  1603  5561 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:50:00.849  1603  1614 I WifiService: releaseWifiLock uid=10014
+06-28 14:50:02.697 29061 29071 I zygote  : Background concurrent copying GC freed 281497(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.629ms total 508.862ms
+06-28 14:50:04.891  6541  6541 W ymr     : Already started: ymr@7e67090
+06-28 14:50:05.026  6541  6660 E sbo     : Interactive Ads jobs: did not expect this future to ever resolve
+06-28 14:50:05.393 29061 29071 I zygote  : Background concurrent copying GC freed 349873(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.219ms total 1.003s
+06-28 14:50:06.283  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 14:50:06.283  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 14:50:06.283  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 14:50:08.164 29061 29071 I zygote  : Background concurrent copying GC freed 354195(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 3.622ms total 552.997ms
+06-28 14:50:08.245  6541  6609 I zygote  : Deoptimizing void acpp.a(aclm, java.util.Collection) due to JIT inline cache
+06-28 14:50:10.174 29061 29071 I zygote  : Background concurrent copying GC freed 289768(6MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 1.134ms total 517.123ms
+06-28 14:50:12.081 29061 29071 I zygote  : Background concurrent copying GC freed 299518(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.767ms total 537.786ms
+06-28 14:50:14.167 29061 29071 I zygote  : Background concurrent copying GC freed 326523(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.232ms total 602.270ms
+06-28 14:50:16.180 29061 29071 I zygote  : Background concurrent copying GC freed 327413(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 9.925ms total 458.263ms
+06-28 14:50:18.221 29061 29071 I zygote  : Background concurrent copying GC freed 295018(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.770ms total 517.774ms
+06-28 14:50:20.559 29061 29071 I zygote  : Background concurrent copying GC freed 326972(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.426ms total 526.237ms
+06-28 14:50:21.554  1603  1612 I zygote  : Background concurrent copying GC freed 95030(5MB) AllocSpace objects, 3(60KB) LOS objects, 18% free, 26MB/32MB, paused 1.479ms total 411.339ms
+06-28 14:50:22.647 29061 29071 I zygote  : Background concurrent copying GC freed 317873(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.504ms total 531.159ms
+06-28 14:50:22.765  1603  2079 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:50:22.897  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T18:50:22.897Z[GMT]
+06-28 14:50:22.899  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T18:50:22.899Z[GMT]
+06-28 14:50:22.902  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 14:50:22.903  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 14:50:22.910  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 14:50:22.928  1603  1674 D NetworkStats: Resolved to plan null
+06-28 14:50:25.065 29061 29071 I zygote  : Background concurrent copying GC freed 332808(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.742ms total 692.455ms
+06-28 14:50:25.746  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 14:50:25.746  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 14:50:25.747  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 14:50:25.773  1603  1614 D WificondControl: Scan result ready event
+06-28 14:50:25.949  1603  5561 I WifiService: releaseWifiLock uid=10014
+06-28 14:50:27.135 29061 29071 I zygote  : Background concurrent copying GC freed 362598(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.283ms total 548.319ms
+06-28 14:50:29.072 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:50:29.644 29061 29071 I zygote  : Background concurrent copying GC freed 334584(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.545ms total 787.954ms
+06-28 14:50:31.787 29061 29071 I zygote  : Background concurrent copying GC freed 355775(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 1.367ms total 459.602ms
+06-28 14:50:33.682 29061 29071 I zygote  : Background concurrent copying GC freed 292570(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.808ms total 477.727ms
+06-28 14:50:35.844 29061 29071 I zygote  : Background concurrent copying GC freed 308802(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.844ms total 582.505ms
+06-28 14:50:38.220 29061 29071 I zygote  : Background concurrent copying GC freed 343254(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 3.456ms total 599.798ms
+06-28 14:50:40.324  1402  1417 D hwcomposer: hw_composer sent 30 syncs in 98s
+06-28 14:50:41.035 29061 29071 I zygote  : Background concurrent copying GC freed 333213(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 3.721ms total 573.022ms
+06-28 14:50:43.327 29061 29071 I zygote  : Background concurrent copying GC freed 325235(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 12.895ms total 628.937ms
+06-28 14:50:43.792  1603  1877 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:50:43.849  1603  5561 I WifiService: releaseWifiLock uid=10014
+06-28 14:50:44.168  1603  1612 I zygote  : Background concurrent copying GC freed 79132(5MB) AllocSpace objects, 2(40KB) LOS objects, 18% free, 26MB/32MB, paused 2.771ms total 324.546ms
+06-28 14:50:45.345 29061 29071 I zygote  : Background concurrent copying GC freed 325799(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 965us total 328.348ms
+06-28 14:50:46.650  1603  6334 I WifiService: getConnectionInfo uid=10014
+06-28 14:50:46.656 19546  2159 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 14:50:46.662  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 14:50:46.662  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 14:50:46.662  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 14:50:46.962  1603  1877 I WifiService: getConnectionInfo uid=10014
+06-28 14:50:47.453 29061 29071 I zygote  : Background concurrent copying GC freed 299091(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 913us total 444.212ms
+06-28 14:50:49.758 29061 29071 I zygote  : Background concurrent copying GC freed 312996(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 2.723ms total 720.908ms
+06-28 14:50:51.589  1409  1409 I boot-pipe: done populating /dev/random
+06-28 14:50:52.079 29061 29071 I zygote  : Background concurrent copying GC freed 395049(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 4.143ms total 659.249ms
+06-28 14:50:53.995 29061 29071 I zygote  : Background concurrent copying GC freed 367012(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.422ms total 674.928ms
+06-28 14:50:56.152 29061 29071 I zygote  : Background concurrent copying GC freed 360054(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.489ms total 596.927ms
+06-28 14:50:56.665  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:50:56.665  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:50:56.800  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 14:50:56.800  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 14:50:58.225 29061 29071 I zygote  : Background concurrent copying GC freed 327442(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.442ms total 598.232ms
+06-28 14:51:00.040 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:51:00.944 29061 29071 I zygote  : Background concurrent copying GC freed 332133(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 3.307ms total 663.122ms
+06-28 14:51:01.939  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 14:51:01.940  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 14:51:01.940  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 14:51:02.895 29061 29071 I zygote  : Background concurrent copying GC freed 336117(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.325ms total 582.629ms
+06-28 14:51:03.822  1603  1614 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:51:05.461 29061 29071 I zygote  : Background concurrent copying GC freed 351100(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.351ms total 576.926ms
+06-28 14:51:06.923  1603  2079 D WificondControl: Scan result ready event
+06-28 14:51:07.046  1603  4231 I WifiService: releaseWifiLock uid=10014
+06-28 14:51:07.696  1603  1612 I zygote  : Background concurrent copying GC freed 79974(4MB) AllocSpace objects, 4(144KB) LOS objects, 18% free, 26MB/32MB, paused 5.807ms total 674.815ms
+06-28 14:51:07.995 29061 29071 I zygote  : Background concurrent copying GC freed 325538(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.402ms total 762.952ms
+06-28 14:51:09.996 29061 29071 I zygote  : Background concurrent copying GC freed 329492(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 1.037ms total 427.959ms
+06-28 14:51:12.345 29061 29071 I zygote  : Background concurrent copying GC freed 292915(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.532ms total 473.981ms
+06-28 14:51:14.994 29061 29071 I zygote  : Background concurrent copying GC freed 324401(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 3.029ms total 777.363ms
+06-28 14:51:17.719 29061 29071 I zygote  : Background concurrent copying GC freed 360955(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.842ms total 691.522ms
+06-28 14:51:20.164 29061 29071 I zygote  : Background concurrent copying GC freed 405772(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.201ms total 833.015ms
+06-28 14:51:22.567 29061 29071 I zygote  : Background concurrent copying GC freed 350465(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.183ms total 542.888ms
+06-28 14:51:23.853  1603  4231 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:51:23.919  1603  1614 I WifiService: releaseWifiLock uid=10014
+06-28 14:51:24.672  1844  1855 I zygote  : Background concurrent copying GC freed 49153(2MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 1.177ms total 105.989ms
+06-28 14:51:24.753 29061 29071 I zygote  : Background concurrent copying GC freed 322129(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 939us total 574.055ms
+06-28 14:51:27.136 29061 29071 I zygote  : Background concurrent copying GC freed 330224(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.771ms total 707.339ms
+06-28 14:51:29.342  1603  1612 I zygote  : Background concurrent copying GC freed 87931(5MB) AllocSpace objects, 2(40KB) LOS objects, 18% free, 27MB/33MB, paused 2.310ms total 582.807ms
+06-28 14:51:30.068 29061 29071 I zygote  : Background concurrent copying GC freed 326340(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.225ms total 988.032ms
+06-28 14:51:30.207 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:51:32.437 29061 29071 I zygote  : Background concurrent copying GC freed 379488(8MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 3.085ms total 404.545ms
+06-28 14:51:34.571 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: BlockingExecutor ink@477781[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 22]
+06-28 14:51:34.572 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: LightweightExecutor ink@39d6026[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 82]
+06-28 14:51:34.572 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: bgExecutor ink@b1b467[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 63]
+06-28 14:51:34.747 29061 29071 I zygote  : Background concurrent copying GC freed 286238(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.172ms total 615.633ms
+06-28 14:51:37.608 29061 29071 I zygote  : Background concurrent copying GC freed 314704(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.434ms total 796.249ms
+06-28 14:51:40.179 29061 29071 I zygote  : Background concurrent copying GC freed 355559(7MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 2.199ms total 364.251ms
+06-28 14:51:42.699 29061 29071 I zygote  : Background concurrent copying GC freed 288957(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.674ms total 738.611ms
+06-28 14:51:45.237  1603  4231 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:51:45.293 29061 29071 I zygote  : Background concurrent copying GC freed 311591(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 32.946ms total 1.036s
+06-28 14:51:46.552  1402  1417 D hwcomposer: hw_composer sent 49 syncs in 66s
+06-28 14:51:48.054 29061 29071 I zygote  : Background concurrent copying GC freed 351608(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.987ms total 597.824ms
+06-28 14:51:48.526  1603  1614 D WificondControl: Scan result ready event
+06-28 14:51:48.839  1603  5561 I WifiService: releaseWifiLock uid=10014
+06-28 14:51:51.147 29061 29071 I zygote  : Background concurrent copying GC freed 331105(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 3.381ms total 841.268ms
+06-28 14:51:51.610  1409  1409 I boot-pipe: done populating /dev/random
+06-28 14:51:53.864 29061 29071 I zygote  : Background concurrent copying GC freed 358564(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 3.777ms total 802.131ms
+06-28 14:51:53.958  1603  1612 I zygote  : Background concurrent copying GC freed 77670(4MB) AllocSpace objects, 4(96KB) LOS objects, 18% free, 26MB/32MB, paused 1.588ms total 796.787ms
+06-28 14:51:56.977 29061 29071 I zygote  : Background concurrent copying GC freed 371793(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 13.730ms total 657.906ms
+06-28 14:52:00.140 29061 29071 I zygote  : Background concurrent copying GC freed 350476(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.137ms total 861.457ms
+06-28 14:52:00.864 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 14:52:01.138 19546 19556 I zygote  : Background concurrent copying GC freed 123917(5MB) AllocSpace objects, 0(0B) LOS objects, 39% free, 9MB/15MB, paused 1.353ms total 263.480ms
+06-28 14:52:03.923 29061 29071 I zygote  : Background concurrent copying GC freed 392674(8MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 29MB/35MB, paused 1.086ms total 1.052s
+06-28 14:52:05.369  1603  6334 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 14:52:05.660  1603  1614 I WifiService: releaseWifiLock uid=10014
+06-28 14:52:05.671 19546 19603 I zygote  : Deoptimizing int[] ssz.a(java.util.Collection) due to JIT inline cache
+06-28 14:52:05.749 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 14:52:05.751 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 14:52:05.861  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 14:52:05.861  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 14:52:05.861  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 14:52:06.474 19546 19905 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 14:52:06.484 19546 19905 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:52:06.484 19546 19905 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:52:06.843 19546 19905 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 14:52:06.844 19546 19905 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:52:06.844 19546 19905 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 14:52:06.930 29061 29071 I zygote  : Background concurrent copying GC freed 301231(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 5.489ms total 599.920ms
+06-28 14:52:10.801 29061 29071 I zygote  : Background concurrent copying GC freed 325632(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 3.538ms total 512.787ms
+06-28 14:52:14.219  1844  1855 I zygote  : Background concurrent copying GC freed 49674(2MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 1.253ms total 206.005ms
+06-28 14:52:14.380 29061 29071 I zygote  : Background concurrent copying GC freed 330061(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 20.119ms total 1.246s
+06-28 14:52:16.375 29061 29071 I zygote  : Background concurrent copying GC freed 386781(8MB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 1.989ms total 490.498ms

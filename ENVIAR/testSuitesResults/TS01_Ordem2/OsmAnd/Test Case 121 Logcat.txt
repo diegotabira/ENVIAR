@@ -1,0 +1,1500 @@
+--------- beginning of main
+06-29 17:14:12.181  2145 13096 W GAv4-SVC: Network compressed POST connection error: java.net.ConnectException: Failed to connect to ssl.google-analytics.com/2800:3f0:4001:810::2008:443
+--------- beginning of system
+06-29 17:14:13.562  1587  2039 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000
+06-29 17:14:13.591  7562  7562 D net.osmand: Disable sensor
+06-29 17:14:13.594  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:13.640  1398  1434 I chatty  : uid=1000(system) HwBinder:1398_2 identical 1 line
+06-29 17:14:13.688  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:13.732  7562  7562 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:13.776  1409  1409 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-29 17:14:13.810  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:13.850  1398  1398 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:13.891  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:13.928  7562  7599 D EGL_emulation: eglMakeCurrent: 0x939b6b60: ver 2 0 (tinfo 0xa86f19b0)
+06-29 17:14:13.931  2796  2865 D EGL_emulation: eglMakeCurrent: 0xa8705a80: ver 2 0 (tinfo 0xa8703490)
+06-29 17:14:14.068  2796  2796 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-29 17:14:14.126  2437  2503 D EGL_emulation: eglMakeCurrent: 0x95e7fdc0: ver 2 0 (tinfo 0x95cedb60)
+06-29 17:14:14.255  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:14.270  2437  2448 I zygote  : NativeAlloc concurrent copying GC freed 5369(310KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4MB/9MB, paused 1.640ms total 470.613ms
+06-29 17:14:14.315  1409  1409 E EGL_emulation: tid 1409: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-29 17:14:14.392  2796  2846 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-29 17:14:14.415  1698  5599 D         : HostConnection::get() New Host Connection established 0x8e97c3c0, tid 5599
+06-29 17:14:14.486  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:14.763  2437  2503 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-29 17:14:14.763  2437  2503 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-29 17:14:14.830  7562 13154 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-29 17:14:14.933  1698  1711 I zygote  : NativeAlloc concurrent copying GC freed 71077(2MB) AllocSpace objects, 0(0B) LOS objects, 45% free, 7MB/13MB, paused 55.477ms total 866.693ms
+06-29 17:14:14.958  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:14.964  1587  2039 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:15.051  1587  2166 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:15.128  2796 13173 W LocationOracle: No location history returned by ContextManager
+06-29 17:14:15.155  1698  1711 I zygote  : NativeAlloc concurrent copying GC freed 10586(671KB) AllocSpace objects, 0(0B) LOS objects, 48% free, 6MB/12MB, paused 1.857ms total 198.138ms
+06-29 17:14:15.182  2796  2846 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-29 17:14:15.184  2796  2846 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-29 17:14:15.185  2796  2846 I MicroDetector: Keeping mic open: false
+06-29 17:14:15.185  2796  2846 I MicroDetectionWorker: #onError(false)
+06-29 17:14:15.358  1587  1596 I zygote  : NativeAlloc concurrent copying GC freed 69040(4MB) AllocSpace objects, 5(100KB) LOS objects, 30% free, 13MB/19MB, paused 1.143ms total 530.774ms
+06-29 17:14:15.403  1587  3390 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:15.411  1587  4464 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:15.411  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 17:14:15.413  1587  2039 I WifiService: isScanAlwaysAvailable uid=10032
+06-29 17:14:15.419  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 17:14:15.449  2796 13162 W CDHeaderDataHandler: Invalid integer value "" in experiments IDs.
+06-29 17:14:15.453  2796 13162 I zygote  : Deoptimizing void com.google.protobuf.en.a(int, java.util.List, com.google.protobuf.fy) due to JIT inline cache
+06-29 17:14:15.462  2796 13168 W CDHeaderDataHandler: Invalid integer value "" in experiments IDs.
+06-29 17:14:15.476  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 17:14:15.517  1964 10806 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17785022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 1964). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-29 17:14:15.531  1587  2166 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:15.657  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 17:14:15.660  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 17:14:15.691  2796  2806 I zygote  : Background concurrent copying GC freed 29387(1554KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 8MB/14MB, paused 907us total 159.600ms
+06-29 17:14:15.702  2796  2804 W MDH     : [Footprints] Channel AccountChannelIdKey{account=Account {name=diegotabira@gmail.com, type=com.google}, channelId=# com.google.be.ag.a.m@64395734} was not closed. Closing it in finalizer.
+06-29 17:14:15.706  1964 13176 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-29 17:14:15.717  1964 10806 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-29 17:14:15.733  1964 13176 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-29 17:14:15.944  1964 13176 I Places  : ?: PlacesBleScanner start() with priority 2
+06-29 17:14:15.945  1964 13176 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-29 17:14:15.945  1964 13176 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-29 17:14:15.962  1964 13176 I Places  : Converted 1 out of 1 WiFi scans
+06-29 17:14:15.962  1587  2039 I WifiService: getConnectionInfo uid=10014
+06-29 17:14:15.985  1964 13176 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-29 17:14:15.985  1964 13176 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-29 17:14:16.022  1964  1964 E BeaconBle: Missing BluetoothAdapter
+06-29 17:14:16.022  1964  1964 I BeaconBle: BLE 'KK+' software access layer enabled
+06-29 17:14:16.051  1964  1964 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-29 17:14:16.052  1964  1964 I BeaconBle: Scan : No clients left, canceling alarm.
+06-29 17:14:16.056  1964  1964 E BeaconBle: Scan couldn't start for Places
+06-29 17:14:16.057  1964  1964 W Places  : BLE failure while scanning - code 5
+06-29 17:14:16.267  1964  1974 I zygote  : Background concurrent copying GC freed 52259(2MB) AllocSpace objects, 28(1748KB) LOS objects, 36% free, 10MB/16MB, paused 929us total 157.337ms
+06-29 17:14:16.378  1964 10688 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-29 17:14:16.414  1964 10688 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-29 17:14:16.438  1587  1596 I zygote  : NativeAlloc concurrent copying GC freed 5830(397KB) AllocSpace objects, 0(0B) LOS objects, 30% free, 13MB/19MB, paused 1.150ms total 135.697ms
+06-29 17:14:16.886  1587  3390 I ActivityManager: Force stopping com.skgames.trafficrider appid=10081 user=0: from pid 13188
+06-29 17:14:16.917  1836  1836 D CarrierSvcBindHelper: No carrier app for: 0
+06-29 17:14:17.150  1587  3390 I ActivityManager: Force stopping com.EvilChaotic.ModernWarplanes appid=10082 user=0: from pid 13192
+06-29 17:14:17.405  1587  2039 I ActivityManager: Force stopping com.ea.games.r3_row appid=10083 user=0: from pid 13196
+06-29 17:14:17.695  1587  2039 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+06-29 17:14:17.171  1836  1836 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+06-29 17:14:17.429  1836  1836 D CarrierSvcBindHelper: No carrier app for: 0
+06-29 17:14:18.207  1964  1964 I GeofencerStateMachine: sendQueryLocationOptIn
+06-29 17:14:18.221  1587  1610 I GnssLocationProvider: WakeLock acquired by sendMessage(ENABLE, 1, null)
+06-29 17:14:18.221  1587  1610 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@77f7bda)
+06-29 17:14:18.224  1587  1611 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.apps.maps/com.google.android.apps.gmm.locationsharing.usr.LocationAvailabilityChecker$LocationProvidersChangedBroadcastReceiver
+06-29 17:14:18.224  1587  1611 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.gms/com.google.android.location.internal.NlpNetworkProviderSettingsUpdateReceiver
+06-29 17:14:18.224  1587  1611 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-29 17:14:18.224  1587  1587 D GpsNetInitiatedHandler: location enabled :true
+06-29 17:14:18.224  1587  1611 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.broadcastreceiver.external.ExternalCommonBroadcastReceiver
+06-29 17:14:18.225  1587  1611 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.MODE_CHANGED flg=0x10 } to com.google.android.apps.maps/com.google.android.apps.gmm.locationsharing.usr.LocationAvailabilityChecker$LocationProvidersChangedBroadcastReceiver
+06-29 17:14:18.225  1397  1397 W GnssHAL_GnssInterface: setCallback called more than once. Unexpected unless test.
+06-29 17:14:18.225  1587  1611 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.MODE_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-29 17:14:18.225  1587  1610 D GnssLocationProvider: gnssSetSystemInfoCb: yearOfHw=2015
+06-29 17:14:18.225  1587  1610 D GnssLocationProvider: gnssSetCapabilitesCb: 0u
+06-29 17:14:18.225  1587  1610 D GnssLocationProvider: gnssSetSystemInfoCb: yearOfHw=2015
+06-29 17:14:18.226  1587  1610 E GnssLocationProvider: Unable to initialize GNSS Xtra interface
+06-29 17:14:18.226  1587  1610 E GnssLocationProvider: Unable to Initialize AGnss interface
+06-29 17:14:18.229  1587  1610 E GnssLocationProvider: Unable to initialize GNSS Geofencing interface
+06-29 17:14:18.229  1587  1610 E GnssLocationProvider: Unable to initialize GNSS NI interface
+06-29 17:14:18.229  1587  1610 E GnssLocationProvider: no AGPS interface in set_agps_server
+06-29 17:14:18.229  1587  1610 E GnssLocationProvider: Failed to initialize GNSS batching
+06-29 17:14:18.229  1587  1610 I GnssLocationProvider: WakeLock released by handleMessage(ENABLE, 1, null)
+06-29 17:14:18.251  1587  1610 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@77f7bda)
+06-29 17:14:18.319  1964 13214 I GCoreUlr: Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{receiverAction=android.location.PROVIDERS_CHANGED}]
+06-29 17:14:18.328  1587  3390 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.nearby.discovery:ACTION_PERMISSION_CHANGE cmp=com.google.android.gms/.nearby.discovery.service.DiscoveryService } U=0: not found
+06-29 17:14:18.378  1964  1964 E BluetoothAdapter: Bluetooth binder is null
+06-29 17:14:18.395  1964 10688 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+06-29 17:14:18.409  1964 10688 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: {account#8#=[InactiveReason{mIdentifier=6, mName='ReportingNotEnabled'}, InactiveReason{mIdentifier=14, mName='HistoryNotEnabled'}]}
+06-29 17:14:18.421  1964 10688 I GCoreUlr: Unbound from all signal providers.
+06-29 17:14:18.422  1964 13181 I GCoreUlr: Successfully accounts update
+06-29 17:14:18.435  1964 10688 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+06-29 17:14:18.452  1964  1964 I GCoreUlr: Unbound from all signal providers.
+06-29 17:14:18.453  1964  1964 I GCoreUlr: Stopping handler for UlrDispSvcFast
+06-29 17:14:18.454  1964 10688 I GCoreUlr: Successfully accounts update
+06-29 17:14:18.760  1587  1618 E SensorNotificationService: Invalid local geomagnetic field, ignore.
+06-29 17:14:19.105  7562  7562 D net.osmand: RoutingHelper Processed by distance : (new) 186838.81683182155 (old) 187022.96875
+06-29 17:14:19.148  1587  1679 I ActivityManager: Start proc 13227:android.process.acore/u0a2 for content provider com.android.providers.contacts/.ContactsProvider2
+06-29 17:14:19.154 13227 13227 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-29 17:14:19.191  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:19.191  7562  7562 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 17:14:19.198  7562  7562 I net.osmand: TTSCommandPlayerImpl Send message to pebble desviou-se da rota por  187 quilómetros 
+06-29 17:14:19.198  7562  7562 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 17:14:19.198  7562  7562 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 17:14:19.198  7562  7562 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 17:14:19.201  1587  3390 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/7562 clientId=android.media.AudioManager@33ccfa4net.osmand.plus.api.AudioFocusHelperImpl@35983d3 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 17:14:19.204  7562  7562 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 17:14:19.213  4242  7639 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 17:14:19.217  4242  7639 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 17:14:19.223  7562  7562 D net.osmand: DayNightHelper Sunrise/sunset setting to day: false
+06-29 17:14:19.235  7562  7562 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-29 17:14:19.240  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:19.240  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:19.246  7562 13236 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561842859000,mLatitude=-7.227295,mLongitude=-35.88520833333334,mHasAltitude=true,mAltitude=0.0,mHasSpeed=false,mSpeed=0.0,mHasBearing=false,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -5.0433173 Lon -42.763004 using OsmAnd (offline)
+06-29 17:14:19.310  7562 13236 W net.osmand: RouteProvider Use 337 MB Free 4.498337 of 32.88008 max 384.0
+06-29 17:14:19.321  4242  7640 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 17:14:19.338  1587  4464 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:14:19.342  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 38535288 , only wrote 38535120
+06-29 17:14:19.554  1587  4464 W ActivityManager: Slow operation: 182ms so far, now at attachApplicationLocked: before bindApplication
+06-29 17:14:19.560  1587  4464 W ActivityManager: Slow operation: 188ms so far, now at attachApplicationLocked: immediately before bindApplication
+06-29 17:14:19.616  1587  4464 W ActivityManager: Slow operation: 243ms so far, now at attachApplicationLocked: immediately after bindApplication
+06-29 17:14:19.616  1587  4464 W ActivityManager: Slow operation: 244ms so far, now at attachApplicationLocked: after updateLruProcessLocked
+06-29 17:14:19.619  1587  4464 W ActivityManager: Slow operation: 248ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+06-29 17:14:19.623  1587  4464 W ActivityManager: Slow operation: 251ms so far, now at attachApplicationLocked: after updateOomAdjLocked
+06-29 17:14:19.690 13227 13227 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 17:14:19.993  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:19.994  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:20.089  7562 13236 I net.osmand:native: Start point was found 1886274709 [Native]
+06-29 17:14:20.093  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:20.135 13227 13227 I ContactsPerf: VoicemailContentProvider.onCreate start
+06-29 17:14:20.148 13227 13227 I ContactsPerf: VoicemailContentProvider.onCreate finish
+06-29 17:14:20.171 13227 13227 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 17:14:20.192  7562 13236 I net.osmand:native: End point was found 14392021889 [Native]
+06-29 17:14:20.210  2796  2846 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-29 17:14:20.221  2796  2846 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-29 17:14:20.222  2796  2846 I MicroDetector: Keeping mic open: false
+06-29 17:14:20.222  2796  2846 I MicroDetectionWorker: #onError(false)
+06-29 17:14:20.372 13227 13250 D ContactsDatabaseHelper: WAL enabled for contacts2.db: true
+06-29 17:14:20.400 13227 13227 I zygote  : The ClassLoaderContext is a special shared library.
+06-29 17:14:20.568  1587  2237 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:20.578  1587  2237 D ConnectivityService: requestNetwork for uid/pid:10032/2796 NetworkRequest [ REQUEST id=42, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+06-29 17:14:20.581  1587  1670 D WIFI_UT : got request NetworkRequest [ REQUEST id=42, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 10
+06-29 17:14:20.581  1587  1670 D WIFI    : got request NetworkRequest [ REQUEST id=42, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 10
+06-29 17:14:20.581  1836  1836 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ REQUEST id=42, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 10
+06-29 17:14:20.686 13227 13250 I ContactLocale: AddressBook Labels [[en_US]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, �?, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, �?, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, �?, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, �?, Ш, Щ, Ю, Я, …, �?, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, �?, ق, ك, ل, م, ن, ه, و, ي, …, �?, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, �?, ฎ, �?, �?, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, �?, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, �?, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, �?, ㅎ, …, �?�, �?�, �?�, �?�, �?�, �?�, �?�, や, ら, �?, #, …]
+06-29 17:14:20.743 13227 13250 D ContactsDatabaseHelper: WAL enabled for profile.db: false
+06-29 17:14:20.773  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:20.863  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:20.863  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:21.233 13245 13245 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-29 17:14:21.245 13245 13245 W app_process: Could not reserve sentinel fault page
+06-29 17:14:21.443 13245 13245 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-29 17:14:21.451 13245 13245 I app_process: The ClassLoaderContext is a special shared library.
+06-29 17:14:21.531 13245 13245 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-29 17:14:21.532 13245 13245 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-29 17:14:21.535 13245 13245 W Monkey  :  arg: "-p"
+06-29 17:14:21.536 13245 13245 W Monkey  :  arg: "net.osmand"
+06-29 17:14:21.539 13245 13245 W Monkey  :  arg: "-c"
+06-29 17:14:21.540 13245 13245 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-29 17:14:21.541 13245 13245 W Monkey  :  arg: "1"
+06-29 17:14:21.542 13245 13245 W Monkey  : data="net.osmand"
+06-29 17:14:21.542 13245 13245 W Monkey  : data="android.intent.category.LAUNCHER"
+06-29 17:14:21.602  1587  1611 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{9389fc4 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{361eead 13245 (unknown name)/2000/u-1 remote:8de1a56}: process gone or crashing
+06-29 17:14:21.647  1587  2237 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-29 17:14:21.649  1587  2237 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-29 17:14:21.649  1587  2237 W Binder  : java.lang.Throwable
+06-29 17:14:21.649  1587  2237 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-29 17:14:21.649  1587  2237 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-29 17:14:21.682  1399 13264 D         : HostConnection::get() New Host Connection established 0xabca3980, tid 13264
+06-29 17:14:21.718 13245 13245 I Monkey  : Events injected: 1
+06-29 17:14:21.750  2796  2865 D EGL_emulation: eglMakeCurrent: 0xa8705a80: ver 2 0 (tinfo 0xa8703490)
+06-29 17:14:21.792  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:21.795 13245 13245 I Monkey  : ## Network stats: elapsed time=147ms (0ms mobile, 0ms wifi, 147ms not connected)
+06-29 17:14:21.829  2437  2503 D EGL_emulation: eglMakeCurrent: 0x95e7fdc0: ver 2 0 (tinfo 0x95cedb60)
+06-29 17:14:21.832 13245 13245 I com.android.commands.monkey: System.exit called, status: 0
+06-29 17:14:21.832 13245 13245 I AndroidRuntime: VM exiting with result code 0.
+06-29 17:14:21.852  7562  7562 D InAppPurchaseHelper: Destroying helper.
+06-29 17:14:21.957  1587  4035 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@9ff4665)
+06-29 17:14:22.006  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:22.037  1587  1587 W NotificationService: Removed summary didn't match old notification: old=0|net.osmand|100|null|10104, removed=0|net.osmand|100|null|10104
+06-29 17:14:22.024  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:22.098  7562  7562 W System.err: OnCreate for MapActivity took 244 ms
+06-29 17:14:22.148  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:22.154  7562  7562 W ResourceType: For resource 0x7f0e00c4, entry index(196) is beyond type entryCount(142)
+06-29 17:14:22.154  7562  7562 W ResourceType: For resource 0x7f0e013f, entry index(319) is beyond type entryCount(142)
+06-29 17:14:22.158  7562  7562 W ResourceType: For resource 0x7f0e00dc, entry index(220) is beyond type entryCount(142)
+06-29 17:14:22.158  7562  7562 W ResourceType: For resource 0x7f0e00e3, entry index(227) is beyond type entryCount(142)
+06-29 17:14:22.159  7562  7562 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 17:14:22.258  7562  7562 I chatty  : uid=10104(net.osmand) identical 33 lines
+06-29 17:14:22.260  7562  7562 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 17:14:22.259  1587  2039 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:22.270  7562  7562 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 17:14:22.341  7562  7562 I chatty  : uid=10104(net.osmand) identical 33 lines
+06-29 17:14:22.341  7562  7562 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-29 17:14:22.360  1409  1422 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=7562, uid<=10104
+06-29 17:14:22.363  7562  7562 E BpSurfaceComposerClient: Failed to transact (-1)
+06-29 17:14:22.371  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to request
+06-29 17:14:22.371  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:22.373  1409  1422 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=7562, uid<=10104
+06-29 17:14:22.373  7562  7562 E BpSurfaceComposerClient: Failed to transact (-1)
+06-29 17:14:22.432 12340 12370 E PlayCommon: [444] PlayEventLogger.uploadLog: Failed to connect to server: java.net.ConnectException: Failed to connect to play.googleapis.com/2800:3f0:4001:803::200a:443
+06-29 17:14:22.460  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:22.465  7562  7562 I net.osmand: TTSCommandPlayerImpl Send message to pebble sinal g p s recuperado 
+06-29 17:14:22.466  7562  7562 D net.osmand: TTSCommandPlayerImpl ttsRequests=2
+06-29 17:14:22.467  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:22.474  7562  7599 D EGL_emulation: eglMakeCurrent: 0x939b6b60: ver 2 0 (tinfo 0xa86f19b0)
+06-29 17:14:22.487  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:22.496  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:22.596  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-29 17:14:22.685  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.5891947746276855, lon=-37.54106903076172, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:22.805  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:22.805  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:22.830  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:22.846  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:22.912  1587  4035 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 17:14:22.931  7562  7586 I net.osmand:native: Route objects 61
+06-29 17:14:22.934  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:22.934  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:22.947  7562  7586 I net.osmand:native: Search : tree - read( 413), accept( 30), objs - visit( 2206), accept(73), in result(61) 
+06-29 17:14:22.956  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.227295, lon=-35.88520833333334, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:22.986  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:22.994  4242  7639 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 17:14:23.001  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:23.001  4242  7639 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 17:14:23.081  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:23.082  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-29 17:14:23.118  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-29 17:14:23.134  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:23.205  1698  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 1 line
+06-29 17:14:23.218  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:23.242  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:23.250  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:23.251  7562  7562 D net.osmand: Enable sensor
+06-29 17:14:23.272  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:23.282  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:23.354  7562  7586 I net.osmand:native: Route objects 138
+06-29 17:14:23.355  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:23.355  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:23.355  7562  7586 I net.osmand:native: Search : tree - read( 540), accept( 51), objs - visit( 3037), accept(169), in result(138) 
+06-29 17:14:23.359  1698  1926 D EGL_emulation: eglMakeCurrent: 0x9501c8c0: ver 2 0 (tinfo 0x9501f6f0)
+06-29 17:14:23.359  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.229592394828797, TLat=-7.221607613563537, LLong=-35.887657165527344, RLong=-35.88275146484375, zoom=17
+06-29 17:14:23.364  7562  7586 I net.osmand: MapRenderRepositories Native search: 401 ms 
+06-29 17:14:23.376  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:23.377  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:23.377  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:23.385  1587  3390 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:23.381  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:23.388  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:23.477  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:23.582  2796 13164 I PBSessionCacheImpl: Deleted sessionId[8055797206653] from persistence.
+06-29 17:14:23.587  1409  1409 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-29 17:14:23.593  1587  1610 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@9ff4665)
+06-29 17:14:23.638  1587  2039 I WifiService: getWifiEnabledState uid=10032
+06-29 17:14:23.651  2796  2846 W SearchServiceCore: Abort, client detached.
+06-29 17:14:23.707  4242  7640 D AudioTrack: stop() called with 94270 frames delivered
+06-29 17:14:23.713  7562 13267 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 17:14:23.714  1587  2237 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:14:23.717  4242  7640 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 17:14:23.730  1587  2039 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:14:23.840  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:23.841  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:23.841  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:23.872  7562  7586 I net.osmand: RenderingIcons Icon data length is 2435
+06-29 17:14:23.892  7562  7586 I net.osmand: RenderingIcons Icon data length is 2418
+06-29 17:14:23.896  7562  7586 I net.osmand: RenderingIcons Icon data length is 2323
+06-29 17:14:23.899  7562  7586 I net.osmand: RenderingIcons Icon data length is 2420
+06-29 17:14:23.955  7562  7586 I net.osmand: RenderingIcons Icon data length is 2369
+06-29 17:14:23.962  7562  7586 I net.osmand: RenderingIcons Icon data length is 2340
+06-29 17:14:24.206  2796  2801 I zygote  : Do partial code cache collection, code=1005KB, data=530KB
+06-29 17:14:24.206  2796  2801 I zygote  : After code cache collection, code=1003KB, data=530KB
+06-29 17:14:24.206  2796  2801 I zygote  : Increasing code cache capacity to 3MB
+06-29 17:14:24.275  7562  7586 I net.osmand:native: Native ok (rendering 0, text 288 ms) 
+06-29 17:14:24.275  7562  7586 I net.osmand:native:  (2661 points, 644 points inside, 183 of 257 objects visible)
+06-29 17:14:24.275  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:24.275  7562  7586 I net.osmand:native: Native ok (init 9, rendering 0) 
+06-29 17:14:24.278  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:24.297  1398  1434 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-29 17:14:24.765  7562  7572 I zygote  : Background concurrent copying GC freed 135979(4MB) AllocSpace objects, 16(628KB) LOS objects, 11% free, 45MB/51MB, paused 851us total 1.954s
+06-29 17:14:24.785  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:24.808  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:24.808  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:25.459  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:25.462  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:25.462  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:25.785  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:25.786  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186838.81
+06-29 17:14:25.856  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186838.81683182155
+06-29 17:14:25.911  1587  3390 D WificondControl: Scan result ready event
+06-29 17:14:25.983  7562  7572 I zygote  : Background concurrent copying GC freed 888054(21MB) AllocSpace objects, 4(88KB) LOS objects, 14% free, 35MB/41MB, paused 1.435ms total 857.690ms
+06-29 17:14:26.116  1587  4035 I WifiService: releaseWifiLock uid=10014
+06-29 17:14:26.385  4242  7640 D AudioTrack: stop() called with 57530 frames delivered
+06-29 17:14:26.392  7562 13267 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 17:14:26.393  1587  4035 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/7562 clientId=android.media.AudioManager@33ccfa4net.osmand.plus.api.AudioFocusHelperImpl@35983d3
+06-29 17:14:26.393  7562 13267 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-29 17:14:26.691  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186532.27032789783
+06-29 17:14:26.691  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186532.27
+06-29 17:14:26.694  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:26.694  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:26.787  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186532.27032789783
+06-29 17:14:26.824  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:26.824  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:26.943  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186532.27032789783
+06-29 17:14:26.944  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186532.27
+06-29 17:14:26.995  1406  1406 I boot-pipe: done populating /dev/random
+06-29 17:14:27.102  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186532.27032789783
+06-29 17:14:27.147  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:27.147  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:27.282  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.227968333333333, lon=-35.887903333333334, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:27.455  7562  7586 I net.osmand:native: Route objects 75
+06-29 17:14:27.455  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:27.455  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:27.455  7562  7586 I net.osmand:native: Search : tree - read( 540), accept( 58), objs - visit( 3317), accept(106), in result(75) 
+06-29 17:14:27.456  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.230274367332458, TLat=-7.222266507148743, LLong=-35.890357971191406, RLong=-35.88544464111328, zoom=17
+06-29 17:14:27.456  7562  7586 I net.osmand: MapRenderRepositories Native search: 172 ms 
+06-29 17:14:27.464  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:27.464  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:27.464  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:27.464  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:27.471  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:27.702  7562  7586 I net.osmand: RenderingIcons Icon data length is 944
+06-29 17:14:27.703  7562  7586 I net.osmand: RenderingIcons Icon data length is 1046
+06-29 17:14:27.707  7562  7586 I net.osmand: RenderingIcons Icon data length is 1592
+06-29 17:14:27.708  7562  7586 I net.osmand: RenderingIcons Icon data length is 888
+06-29 17:14:27.868  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186532.27032789783
+06-29 17:14:27.868  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186532.27
+06-29 17:14:28.036  7562  7586 I net.osmand:native: Native ok (rendering 0, text 319 ms) 
+06-29 17:14:28.036  7562  7586 I net.osmand:native:  (2377 points, 359 points inside, 109 of 134 objects visible)
+06-29 17:14:28.037  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:28.037  7562  7586 I net.osmand:native: Native ok (init 7, rendering 0) 
+06-29 17:14:28.045  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:28.238  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186532.27032789783
+06-29 17:14:28.307  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186225.72467580502
+06-29 17:14:28.307  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186225.72
+06-29 17:14:28.325  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186225.72467580502
+06-29 17:14:28.394  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:28.404  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:28.540  7562  7572 I zygote  : Background concurrent copying GC freed 544723(12MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 39MB/45MB, paused 1.853ms total 1.626s
+06-29 17:14:28.783  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:28.784  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:28.822  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.2286416666666655, lon=-35.89059833333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:28.891  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186225.72467580502
+06-29 17:14:28.891  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 186225.72
+06-29 17:14:28.969  7562  7586 I net.osmand:native: Route objects 84
+06-29 17:14:28.969  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:28.969  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:28.970  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 63), objs - visit( 3557), accept(115), in result(84) 
+06-29 17:14:28.973  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.230955791473389, TLat=-7.222947406768799, LLong=-35.89305114746094, RLong=-35.88814926147461, zoom=17
+06-29 17:14:28.974  7562  7586 I net.osmand: MapRenderRepositories Native search: 149 ms 
+06-29 17:14:28.997  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 186225.72467580502
+06-29 17:14:29.037  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:29.037  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:29.037  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:29.037  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:29.038  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:29.288  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39012547 , only wrote 39012480
+06-29 17:14:29.310  1587  2237 I zygote  : IncrementDisableThreadFlip blocked for 9.928ms
+06-29 17:14:29.410  1390  1574 W audio_hw_generic: Not supplying enough data to HAL, expected position 39023624 , only wrote 39018240
+06-29 17:14:29.537  7562  7586 I net.osmand: RenderingIcons Icon data length is 1415
+06-29 17:14:29.545  7562  7586 I net.osmand: RenderingIcons Icon data length is 418
+06-29 17:14:29.547  7562  7586 I net.osmand: RenderingIcons Icon data length is 2218
+06-29 17:14:29.555  7562  7586 I net.osmand: RenderingIcons Icon data length is 1326
+06-29 17:14:29.851  7562  7586 I net.osmand:native: Native ok (rendering 0, text 290 ms) 
+06-29 17:14:29.851  7562  7586 I net.osmand:native:  (2513 points, 342 points inside, 132 of 168 objects visible)
+06-29 17:14:29.851  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:29.851  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:29.851  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:29.978  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185919.13951094565
+06-29 17:14:29.978  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185919.14
+06-29 17:14:29.995  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185919.13951094565
+06-29 17:14:29.995  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185919.14
+06-29 17:14:30.137  1964 13176 I Places  : ?: PlacesBleScanner stop()
+06-29 17:14:30.168  1964 13176 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-29 17:14:30.168  1964 13176 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-29 17:14:30.190  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:30.190  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:30.195  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185919.13951094565
+06-29 17:14:30.205  1964  1964 I BeaconBle: Scan : No clients left, canceling alarm.
+06-29 17:14:30.207  1964  1964 I BeaconBle: Scan canceled successfully.
+06-29 17:14:30.276  1587  1596 I zygote  : Background concurrent copying GC freed 69378(3MB) AllocSpace objects, 31(1132KB) LOS objects, 27% free, 15MB/21MB, paused 10.948ms total 989.622ms
+06-29 17:14:30.356  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185919.13951094565
+06-29 17:14:30.481  1964  1964 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-29 17:14:30.526  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:30.526  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:30.603  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.229316666666667, lon=-35.89329333333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:26.386  1587  2039 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:14:30.622  1587  1614 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-29 17:14:30.765  1964  2605 W MessageQueue: Handler (aeyl) {9709b31} sending message to a Handler on a dead thread
+06-29 17:14:30.765  1964  2605 W MessageQueue: java.lang.IllegalStateException: Handler (aeyl) {9709b31} sending message to a Handler on a dead thread
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at aeyl.sendMessageAtTime(Unknown Source:3)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at android.os.Handler.post(Handler.java:357)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at bcln.execute(Unknown Source:2)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at aanh.execute(Unknown Source:9)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at avft.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at avgk.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):8)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at avgn.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):43)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at avgj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at agos.a(Unknown Source:2)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at rnt.a(Unknown Source:11)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at aamg.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at cwm.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-29 17:14:30.765  1964  2605 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:697)
+06-29 17:14:30.840  7562  7586 I net.osmand:native: Route objects 105
+06-29 17:14:30.841  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:30.841  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:30.841  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 51), objs - visit( 3077), accept(136), in result(105) 
+06-29 17:14:30.846  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.231614661216736, TLat=-7.223629879951477, LLong=-35.89574432373047, RLong=-35.89084243774414, zoom=17
+06-29 17:14:30.846  7562  7586 I net.osmand: MapRenderRepositories Native search: 241 ms 
+06-29 17:14:30.896  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:30.896  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:30.896  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:30.896  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:30.898  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:30.942  7562  7586 I net.osmand: RenderingIcons Icon data length is 440
+06-29 17:14:31.071  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185919.13951094565
+06-29 17:14:31.091  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185919.13951094565
+06-29 17:14:31.092  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185919.14
+06-29 17:14:31.175  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:31.175  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185866.28
+06-29 17:14:31.211  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:31.332  7562  7586 I net.osmand: RenderingIcons Icon data length is 801
+06-29 17:14:31.333  7562  7586 I net.osmand: RenderingIcons Icon data length is 2385
+06-29 17:14:31.350  7562  7586 I net.osmand: RenderingIcons Icon data length is 741
+06-29 17:14:31.363  7562  7586 I net.osmand: RenderingIcons Icon data length is 1549
+06-29 17:14:31.365  7562  7586 I net.osmand: RenderingIcons Icon data length is 1105
+06-29 17:14:31.368  7562  7586 I net.osmand: RenderingIcons Icon data length is 1124
+06-29 17:14:31.457  7562  7562 I net.osmand: TTSCommandPlayerImpl Send message to pebble atenção!  Cruzamento de linha férrea 
+06-29 17:14:31.458  7562  7562 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 17:14:31.458  7562  7562 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 17:14:31.458  7562  7562 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 17:14:31.458  1587  3390 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/7562 clientId=android.media.AudioManager@33ccfa4net.osmand.plus.api.AudioFocusHelperImpl@1b48aa9 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 17:14:31.461  7562  7562 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 17:14:31.463  4242  7639 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 17:14:31.466  4242  7639 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 17:14:31.530  4242  7640 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 17:14:31.576  1587  4464 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:14:31.600  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39018413 , only wrote 39018240
+06-29 17:14:31.638  7562  7572 I zygote  : Background concurrent copying GC freed 736742(16MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 39MB/45MB, paused 10.699ms total 1.719s
+06-29 17:14:31.673  7562  7586 I net.osmand:native: Native ok (rendering 0, text 291 ms) 
+06-29 17:14:31.673  7562  7586 I net.osmand:native:  (2706 points, 646 points inside, 175 of 212 objects visible)
+06-29 17:14:31.673  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:31.673  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:31.674  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:31.831  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:31.831  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185866.28
+06-29 17:14:32.040  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:32.656  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:32.656  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185866.28
+06-29 17:14:32.662  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:32.813  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:32.813  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185866.28
+06-29 17:14:32.961  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:33.084  7562  7572 I zygote  : Background concurrent copying GC freed 716066(16MB) AllocSpace objects, 1(16KB) LOS objects, 14% free, 34MB/40MB, paused 5.087ms total 958.304ms
+06-29 17:14:33.930  1472  1581 D AudioFlinger: mixer(0xa5583800) throttle end: throttle time(1)
+06-29 17:14:33.936  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185866.2763576798
+06-29 17:14:33.936  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185866.28
+06-29 17:14:33.951  4242  4253 I zygote  : Background concurrent copying GC freed 13127(3MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 29.607ms total 82.964ms
+06-29 17:14:34.041  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185564.40420107354
+06-29 17:14:34.041  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185564.4
+06-29 17:14:34.174  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185564.40420107354
+06-29 17:14:34.243  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:34.244  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:34.397  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:34.398  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:34.694  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.229556666666667, lon=-35.89653333333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:34.714  4242  7640 D AudioTrack: stop() called with 67100 frames delivered
+06-29 17:14:34.715  1587  2237 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:14:34.721  7562 10840 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 17:14:34.728  1587  4464 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/7562 clientId=android.media.AudioManager@33ccfa4net.osmand.plus.api.AudioFocusHelperImpl@1b48aa9
+06-29 17:14:34.729  7562 10840 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-29 17:14:34.801  7562  7586 I net.osmand:native: Route objects 93
+06-29 17:14:34.801  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:34.801  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:34.802  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 45), objs - visit( 2837), accept(124), in result(93) 
+06-29 17:14:34.802  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.231871318817139, TLat=-7.223862934112549, LLong=-35.89898681640625, RLong=-35.894081115722656, zoom=17
+06-29 17:14:34.802  7562  7586 I net.osmand: MapRenderRepositories Native search: 105 ms 
+06-29 17:14:34.810  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185564.40420107354
+06-29 17:14:34.810  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185564.4
+06-29 17:14:34.817  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:34.817  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:34.817  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:34.817  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:34.818  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:34.978  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185564.40420107354
+06-29 17:14:35.191  7562  7572 I zygote  : Background concurrent copying GC freed 496167(11MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 37MB/43MB, paused 2.210ms total 1.104s
+06-29 17:14:35.317  1964  1964 I BeaconBle: Scan : No clients left, canceling alarm.
+06-29 17:14:35.411  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185262.58751097886
+06-29 17:14:35.411  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185262.6
+06-29 17:14:35.416  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:35.416  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:35.426  7562  7586 I net.osmand:native: Native ok (rendering 0, text 200 ms) 
+06-29 17:14:35.426  7562  7586 I net.osmand:native:  (2603 points, 575 points inside, 164 of 200 objects visible)
+06-29 17:14:35.426  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:35.426  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:35.426  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:35.427  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.22968, lon=-35.89930833333334, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:35.629  7562  7586 I net.osmand:native: Route objects 96
+06-29 17:14:35.633  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:35.633  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:35.633  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 45), objs - visit( 2837), accept(127), in result(96) 
+06-29 17:14:35.634  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.231976580619812, TLat=-7.223991799354553, LLong=-35.901763916015625, RLong=-35.8968505859375, zoom=17
+06-29 17:14:35.634  7562  7586 I net.osmand: MapRenderRepositories Native search: 184 ms 
+06-29 17:14:35.659  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:35.660  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:35.660  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:35.660  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:35.661  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:35.723  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185262.58751097886
+06-29 17:14:35.753  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:14:35.753  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:14:36.284  7562  7586 I net.osmand:native: Native ok (rendering 0, text 321 ms) 
+06-29 17:14:36.284  7562  7586 I net.osmand:native:  (2380 points, 464 points inside, 167 of 202 objects visible)
+06-29 17:14:36.285  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:36.285  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:36.296  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:36.692  7562  7572 I zygote  : Background concurrent copying GC freed 582105(13MB) AllocSpace objects, 4(64KB) LOS objects, 14% free, 35MB/41MB, paused 8.889ms total 962.754ms
+06-29 17:14:36.695  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:14:36.695  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:14:36.760  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39265926 , only wrote 39265920
+06-29 17:14:36.761  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39265978 , only wrote 39265920
+06-29 17:14:36.882  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:14:36.882  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:14:36.939  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:14:36.939  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:14:37.013  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:37.013  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185140.4
+06-29 17:14:37.017  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:37.018  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:37.049  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.229730000000001, lon=-35.90043166666667, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:37.152  7562  7586 I net.osmand:native: Route objects 100
+06-29 17:14:37.152  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:37.152  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:37.153  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 46), objs - visit( 2877), accept(131), in result(100) 
+06-29 17:14:37.159  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.232041549682617, TLat=-7.224033164978027, LLong=-35.90288162231445, RLong=-35.89797592163086, zoom=17
+06-29 17:14:37.159  7562  7586 I net.osmand: MapRenderRepositories Native search: 109 ms 
+06-29 17:14:37.165  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:37.179  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:37.180  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:37.180  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:37.181  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:37.233  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:37.275  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:37.275  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185140.4
+06-29 17:14:37.283  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:37.518  7562  7586 I net.osmand: RenderingIcons Icon data length is 997
+06-29 17:14:37.738  1390  1574 W audio_hw_generic: Not supplying enough data to HAL, expected position 39358477 , only wrote 39312720
+06-29 17:14:37.749  7562  7586 I net.osmand:native: Native ok (rendering 0, text 228 ms) 
+06-29 17:14:37.749  7562  7586 I net.osmand:native:  (2419 points, 415 points inside, 173 of 211 objects visible)
+06-29 17:14:37.749  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:37.755  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:37.763  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:37.856  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:37.856  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185140.4
+06-29 17:14:37.860  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:38.219  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:38.219  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185140.4
+06-29 17:14:38.333  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:38.758  7562  7572 I zygote  : Background concurrent copying GC freed 531152(12MB) AllocSpace objects, 2(32KB) LOS objects, 13% free, 38MB/44MB, paused 1.981ms total 1.086s
+06-29 17:14:38.787  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:38.788  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 185140.4
+06-29 17:14:38.798  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 185140.4131758259
+06-29 17:14:39.887  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184848.60016185942
+06-29 17:14:39.888  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184848.6
+06-29 17:14:39.891  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:39.891  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:39.957  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184848.60016185942
+06-29 17:14:39.958  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184848.6
+06-29 17:14:39.960  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184848.60016185942
+06-29 17:14:39.963  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184848.60016185942
+06-29 17:14:40.020  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.229480000000001, lon=-35.90319833333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:40.204  7562  7586 I net.osmand:native: Route objects 126
+06-29 17:14:40.205  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:40.205  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:40.205  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 47), objs - visit( 2917), accept(157), in result(126) 
+06-29 17:14:40.206  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.2317859649658205, TLat=-7.22377758026123, LLong=-35.90564727783203, RLong=-35.9007453918457, zoom=17
+06-29 17:14:40.206  7562  7586 I net.osmand: MapRenderRepositories Native search: 184 ms 
+06-29 17:14:40.240  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:40.248  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:40.248  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:40.248  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:40.250  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:40.743  7562  7586 I net.osmand:native: Native ok (rendering 0, text 112 ms) 
+06-29 17:14:40.743  7562  7586 I net.osmand:native:  (2597 points, 481 points inside, 204 of 233 objects visible)
+06-29 17:14:40.743  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:40.743  7562  7586 I net.osmand:native: Native ok (init 2, rendering 0) 
+06-29 17:14:40.761  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:40.821  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184848.60016185942
+06-29 17:14:40.821  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184848.6
+06-29 17:14:40.990  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184848.60016185942
+06-29 17:14:41.295  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:41.295  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184619.77
+06-29 17:14:41.335  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:41.512  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:41.534  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:41.593  7562  7572 I zygote  : Background concurrent copying GC freed 671144(14MB) AllocSpace objects, 0(0B) LOS objects, 12% free, 43MB/49MB, paused 3.688ms total 1.831s
+06-29 17:14:41.787  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:41.787  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:41.788  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:41.788  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184619.77
+06-29 17:14:41.811  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:41.923  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:41.924  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:42.263  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.229283333333332, lon=-35.90536833333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:42.350  7562  7586 I net.osmand:native: Route objects 136
+06-29 17:14:42.350  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:42.350  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:42.350  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 49), objs - visit( 2997), accept(167), in result(136) 
+06-29 17:14:42.351  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.231594252586365, TLat=-7.223586392402649, LLong=-35.907814025878906, RLong=-35.90291213989258, zoom=17
+06-29 17:14:42.351  7562  7586 I net.osmand: MapRenderRepositories Native search: 87 ms 
+06-29 17:14:42.357  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:42.357  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:42.357  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:42.357  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:42.359  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:42.553  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:42.553  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184619.77
+06-29 17:14:42.712  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:42.881  7562  7562 I chatty  : uid=10104(net.osmand) identical 1 line
+06-29 17:14:42.883  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:42.883  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184619.77
+06-29 17:14:42.906  7562  7586 I net.osmand:native: Native ok (rendering 0, text 190 ms) 
+06-29 17:14:42.906  7562  7586 I net.osmand:native:  (2635 points, 547 points inside, 218 of 242 objects visible)
+06-29 17:14:42.906  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:42.906  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:42.907  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:43.019  1587  4464 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 17:14:43.059  1587  2039 I ActivityManager: Killing 10959:com.google.android.dialer/u0a20 (adj 906): empty for 3282s
+06-29 17:14:43.061  1587  1613 W zygote  : kill(-10959, 9) failed: No such process
+06-29 17:14:43.106  1587  1613 I chatty  : uid=1000(system) ActivityManager identical 1 line
+06-29 17:14:43.151  1587  1613 W zygote  : kill(-10959, 9) failed: No such process
+06-29 17:14:43.151  1587  1613 I zygote  : Successfully killed process cgroup uid 10020 pid 10959 in 90ms
+06-29 17:14:43.366  1587  1600 I WifiService: releaseWifiLock uid=10014
+06-29 17:14:43.743  7562  7572 I zygote  : Background concurrent copying GC freed 832890(19MB) AllocSpace objects, 8(176KB) LOS objects, 13% free, 37MB/43MB, paused 4.495ms total 1.283s
+06-29 17:14:43.790  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:43.790  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184619.77
+06-29 17:14:43.942  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184619.76740194135
+06-29 17:14:43.952  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184319.1051829491
+06-29 17:14:43.952  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184319.11
+06-29 17:14:43.997  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184319.1051829491
+06-29 17:14:44.150  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:44.150  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:44.411  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.2304216666666665, lon=-35.90790333333334, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:44.426  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:14:44.427  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:14:44.510  7562  7586 I net.osmand:native: Route objects 106
+06-29 17:14:44.510  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:44.511  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:44.511  7562  7586 I net.osmand:native: Search : tree - read( 620), accept( 63), objs - visit( 3437), accept(137), in result(106) 
+06-29 17:14:44.511  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.2327214002609255, TLat=-7.224736618995666, LLong=-35.91035842895508, RLong=-35.90545654296875, zoom=17
+06-29 17:14:44.512  7562  7586 I net.osmand: MapRenderRepositories Native search: 99 ms 
+06-29 17:14:44.524  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:44.524  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:44.524  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:44.524  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:44.525  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:44.703  7562  7586 I net.osmand:native: Native ok (rendering 0, text 49 ms) 
+06-29 17:14:44.703  7562  7586 I net.osmand:native:  (2552 points, 378 points inside, 165 of 187 objects visible)
+06-29 17:14:44.703  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:44.703  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:44.704  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:44.880  7562  7572 I zygote  : Background concurrent copying GC freed 606230(13MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 32MB/38MB, paused 8.402ms total 655.497ms
+06-29 17:14:44.885  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184319.1051829491
+06-29 17:14:44.885  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184319.11
+06-29 17:14:44.902  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184319.1051829491
+06-29 17:14:45.396  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184018.68502887088
+06-29 17:14:45.396  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184018.69
+06-29 17:14:45.468  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:45.468  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:45.568  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184018.68502887088
+06-29 17:14:45.733  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:45.733  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:45.841  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184018.68502887088
+06-29 17:14:45.842  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 184018.69
+06-29 17:14:45.961  1587  2068 D WificondControl: Scan result ready event
+06-29 17:14:45.976  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:45.977  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:46.002  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 184018.68502887088
+06-29 17:14:46.182  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:46.183  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:46.211  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.231558333333334, lon=-35.91043666666667, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:46.299  7562  7586 I net.osmand:native: Route objects 98
+06-29 17:14:46.299  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:46.299  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:46.299  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 62), objs - visit( 3357), accept(129), in result(98) 
+06-29 17:14:46.300  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.233872127532959, TLat=-7.225863742828369, LLong=-35.91289138793945, RLong=-35.90798568725586, zoom=17
+06-29 17:14:46.300  7562  7586 I net.osmand: MapRenderRepositories Native search: 88 ms 
+06-29 17:14:46.305  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:46.305  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:46.305  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:46.305  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:46.306  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:46.574  7562  7586 I net.osmand:native: Native ok (rendering 0, text 43 ms) 
+06-29 17:14:46.574  7562  7586 I net.osmand:native:  (2488 points, 493 points inside, 165 of 193 objects visible)
+06-29 17:14:46.574  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:46.574  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:46.582  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:46.803  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183718.10749946098
+06-29 17:14:46.803  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183718.11
+06-29 17:14:46.814  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:46.814  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:46.854  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183718.10749946098
+06-29 17:14:46.854  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183718.11
+06-29 17:14:46.897  7562  7572 I zygote  : Background concurrent copying GC freed 349139(7MB) AllocSpace objects, 0(0B) LOS objects, 12% free, 43MB/49MB, paused 2.275ms total 1.484s
+06-29 17:14:46.976  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:46.976  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:47.042  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183718.10749946098
+06-29 17:14:47.096  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183718.10749946098
+06-29 17:14:47.107  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:47.108  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:47.246  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:47.247  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:47.362  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.232694999999999, lon=-35.912971666666664, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:47.476  7562  7586 I net.osmand:native: Route objects 90
+06-29 17:14:47.476  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:47.476  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:47.477  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 50), objs - visit( 2877), accept(121), in result(90) 
+06-29 17:14:47.477  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.235000324249268, TLat=-7.226991939544678, LLong=-35.91542053222656, RLong=-35.910518646240234, zoom=17
+06-29 17:14:47.477  7562  7586 I net.osmand: MapRenderRepositories Native search: 114 ms 
+06-29 17:14:47.487  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:47.487  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:47.487  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:47.487  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:47.489  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: Network error
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: com.google.android.apps.gsa.shared.o.c: Error code: 655371
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.libraries.gsa.e.a.br.a(SourceFile:28)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.libraries.gsa.e.a.br.a(SourceFile:15)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.libraries.gsa.e.a.bz.run(Unknown Source:12)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.libraries.gsa.m.a.l.run(Unknown Source:2)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.apps.gsa.shared.util.c.b.ch.a(SourceFile:2)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.apps.gsa.shared.util.c.b.ce.run(SourceFile:5)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.apps.gsa.shared.util.c.b.h.run(Unknown Source:3)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.apps.gsa.shared.util.c.b.bl.run(SourceFile:3)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.apps.gsa.shared.util.c.b.bl.run(SourceFile:3)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at java.lang.Thread.run(Thread.java:764)
+06-29 17:14:47.590  2796 13168 W VelvetNetworkClient: 	at com.google.android.apps.gsa.shared.util.c.b.k.run(SourceFile:6)
+06-29 17:14:47.690  7562  7586 I net.osmand:native: Native ok (rendering 0, text 76 ms) 
+06-29 17:14:47.690  7562  7586 I net.osmand:native:  (2545 points, 432 points inside, 148 of 178 objects visible)
+06-29 17:14:47.690  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:47.690  7562  7586 I net.osmand:native: Native ok (init 2, rendering 0) 
+06-29 17:14:47.691  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:47.873  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183718.10749946098
+06-29 17:14:47.873  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183718.11
+06-29 17:14:48.023  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183718.10749946098
+06-29 17:14:48.321  7562  7572 I zygote  : Background concurrent copying GC freed 829445(18MB) AllocSpace objects, 4(88KB) LOS objects, 13% free, 37MB/43MB, paused 1.025ms total 1.026s
+06-29 17:14:48.328  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183417.55214123864
+06-29 17:14:48.330  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183417.55
+06-29 17:14:48.335  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:48.336  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:48.357  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183417.55214123864
+06-29 17:14:48.444  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.233831666666666, lon=-35.91550666666667, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:48.574  7562  7586 I net.osmand:native: Route objects 77
+06-29 17:14:48.575  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:48.583  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:48.583  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 48), objs - visit( 2797), accept(108), in result(77) 
+06-29 17:14:48.584  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.23612744808197, TLat=-7.228142666816711, LLong=-35.91795349121094, RLong=-35.91305160522461, zoom=17
+06-29 17:14:48.584  7562  7586 I net.osmand: MapRenderRepositories Native search: 138 ms 
+06-29 17:14:48.601  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:48.601  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:48.601  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:48.602  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:48.603  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:48.765  7562  7586 I net.osmand: RenderingIcons Icon data length is 992
+06-29 17:14:48.845  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183417.55214123864
+06-29 17:14:48.845  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183417.55
+06-29 17:14:48.876  7562  7586 I net.osmand:native: Native ok (rendering 6, text 102 ms) 
+06-29 17:14:48.876  7562  7586 I net.osmand:native:  (2431 points, 341 points inside, 126 of 149 objects visible)
+06-29 17:14:48.876  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:48.876  7562  7586 I net.osmand:native: Native ok (init 1, rendering 6) 
+06-29 17:14:48.882  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:48.980  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183417.55214123864
+06-29 17:14:49.797  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183117.1985549624
+06-29 17:14:49.797  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183117.2
+06-29 17:14:49.800  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:49.800  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:49.863  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183117.1985549624
+06-29 17:14:49.944  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:49.944  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:49.972  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183117.1985549624
+06-29 17:14:49.972  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183117.2
+06-29 17:14:49.986  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183117.1985549624
+06-29 17:14:50.142  7562  7572 I zygote  : Background concurrent copying GC freed 578695(12MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 36MB/42MB, paused 9.972ms total 1.244s
+06-29 17:14:50.189  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:50.190  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:50.387  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.234968333333334, lon=-35.91804, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:50.453  7562  7586 I net.osmand:native: Route objects 75
+06-29 17:14:50.453  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:50.453  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:50.453  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 47), objs - visit( 2757), accept(106), in result(75) 
+06-29 17:14:50.454  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.237278175354004, TLat=-7.229269790649414, LLong=-35.92049789428711, RLong=-35.915584564208984, zoom=17
+06-29 17:14:50.454  7562  7586 I net.osmand: MapRenderRepositories Native search: 64 ms 
+06-29 17:14:50.459  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:50.459  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:50.459  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:50.459  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:50.460  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:50.634  7562  7586 I net.osmand:native: Native ok (rendering 0, text 75 ms) 
+06-29 17:14:50.634  7562  7586 I net.osmand:native:  (2535 points, 481 points inside, 123 of 146 objects visible)
+06-29 17:14:50.634  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:50.635  7562  7586 I net.osmand:native: Native ok (init 3, rendering 0) 
+06-29 17:14:50.651  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:50.826  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183117.1985549624
+06-29 17:14:50.826  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 183117.2
+06-29 17:14:50.830  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 183117.1985549624
+06-29 17:14:51.169  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182816.68787160027
+06-29 17:14:51.169  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 182816.69
+06-29 17:14:51.173  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:51.173  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:51.323  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:51.323  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:51.328  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182816.68787160027
+06-29 17:14:51.404  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.236104999999999, lon=-35.920575, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:51.602  7562  7586 I net.osmand:native: Route objects 96
+06-29 17:14:51.603  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:51.603  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:51.605  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 47), objs - visit( 2757), accept(127), in result(96) 
+06-29 17:14:51.605  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.238405299186707, TLat=-7.230420517921448, LLong=-35.923030853271484, RLong=-35.91812515258789, zoom=17
+06-29 17:14:51.605  7562  7586 I net.osmand: MapRenderRepositories Native search: 200 ms 
+06-29 17:14:51.612  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:51.612  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:51.612  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:51.612  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:51.613  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:51.872 11772 11862 E GoogleConversionReporter: Error sending ping
+06-29 17:14:51.872 11772 11862 E GoogleConversionReporter: bdgp: Exception in CronetUrlRequest: net::ERR_ADDRESS_UNREACHABLE, ErrorCode=9, InternalErrorCode=-109, Retryable=false
+06-29 17:14:51.872 11772 11862 E GoogleConversionReporter: 	at org.chromium.net.impl.CronetUrlRequest.onError(SourceFile:175)
+06-29 17:14:51.903  7562  7586 I net.osmand:native: Native ok (rendering 0, text 127 ms) 
+06-29 17:14:51.903  7562  7586 I net.osmand:native:  (2578 points, 462 points inside, 164 of 184 objects visible)
+06-29 17:14:51.903  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:51.903  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:51.904  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:51.914  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182816.68787160027
+06-29 17:14:51.914  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 182816.69
+06-29 17:14:51.920  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182816.68787160027
+06-29 17:14:52.161  7562  7572 I zygote  : Background concurrent copying GC freed 558342(12MB) AllocSpace objects, 0(0B) LOS objects, 12% free, 42MB/48MB, paused 3.422ms total 1.377s
+06-29 17:14:52.456  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182516.19967987176
+06-29 17:14:52.456  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 182516.2
+06-29 17:14:52.461  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:52.461  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:52.562  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182516.19967987176
+06-29 17:14:52.573  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:52.575  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:52.656  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.237241666666667, lon=-35.923109999999994, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:52.765  7562  7586 I net.osmand:native: Route objects 100
+06-29 17:14:52.765  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:52.765  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:52.766  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 48), objs - visit( 2797), accept(131), in result(100) 
+06-29 17:14:52.766  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.239555525779724, TLat=-7.2315476655960085, LLong=-35.925559997558594, RLong=-35.920658111572266, zoom=17
+06-29 17:14:52.766  7562  7586 I net.osmand: MapRenderRepositories Native search: 109 ms 
+06-29 17:14:52.798  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:52.799  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:52.816  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:52.816  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:52.818  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:52.858  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182516.19967987176
+06-29 17:14:52.858  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 182516.2
+06-29 17:14:53.044  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182516.19967987176
+06-29 17:14:53.142  7562  7586 I net.osmand: RenderingIcons Icon data length is 1023
+06-29 17:14:53.356  7562  7586 I net.osmand:native: Native ok (rendering 0, text 206 ms) 
+06-29 17:14:53.356  7562  7586 I net.osmand:native:  (2222 points, 324 points inside, 168 of 183 objects visible)
+06-29 17:14:53.357  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:53.357  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:53.357  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:53.851  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182516.19967987176
+06-29 17:14:53.871  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 182516.2
+06-29 17:14:53.955  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182516.19967987176
+06-29 17:14:53.984  7562  7572 I zygote  : Background concurrent copying GC freed 793862(17MB) AllocSpace objects, 2(32KB) LOS objects, 13% free, 39MB/45MB, paused 17.024ms total 1.197s
+06-29 17:14:54.030  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182215.87347440078
+06-29 17:14:54.030  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 182215.88
+06-29 17:14:54.057  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182215.87347440078
+06-29 17:14:54.099  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:54.099  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:54.111  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.238380000000001, lon=-35.92564333333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:54.226  7562  7586 I net.osmand:native: Route objects 77
+06-29 17:14:54.226  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:54.226  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:54.226  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 50), objs - visit( 2877), accept(108), in result(77) 
+06-29 17:14:54.227  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.2406837224960325, TLat=-7.232675862312317, LLong=-35.92809295654297, RLong=-35.92319107055664, zoom=17
+06-29 17:14:54.228  7562  7586 I net.osmand: MapRenderRepositories Native search: 115 ms 
+06-29 17:14:54.238  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:54.238  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:54.251  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:54.251  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:54.252  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:54.713  7562  7586 I net.osmand:native: Native ok (rendering 0, text 232 ms) 
+06-29 17:14:54.713  7562  7586 I net.osmand:native:  (1579 points, 273 points inside, 133 of 143 objects visible)
+06-29 17:14:54.713  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:54.713  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:54.720  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:54.839  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182215.87347440078
+06-29 17:14:54.840  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 182215.88
+06-29 17:14:54.955  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 182215.87347440078
+06-29 17:14:55.453  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181915.4306682751
+06-29 17:14:55.454  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181915.44
+06-29 17:14:55.471  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181915.4306682751
+06-29 17:14:55.633  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:55.634  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:55.694  7562  7572 I zygote  : Background concurrent copying GC freed 630785(14MB) AllocSpace objects, 1(16KB) LOS objects, 12% free, 41MB/47MB, paused 7.401ms total 1.382s
+06-29 17:14:55.825  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:55.827  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:55.923  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181915.4306682751
+06-29 17:14:55.923  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181915.44
+06-29 17:14:55.957  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181915.4306682751
+06-29 17:14:56.029  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:56.030  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:56.226  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.239516666666666, lon=-35.928178333333335, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:56.346  7562  7586 I net.osmand:native: Route objects 64
+06-29 17:14:56.346  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:56.346  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:56.347  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 55), objs - visit( 3077), accept(95), in result(64) 
+06-29 17:14:56.347  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.241810846328735, TLat=-7.233826589584351, LLong=-35.93063735961914, RLong=-35.92572021484375, zoom=17
+06-29 17:14:56.347  7562  7586 I net.osmand: MapRenderRepositories Native search: 121 ms 
+06-29 17:14:56.362  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:56.362  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:56.362  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:56.362  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:56.364  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:56.640  7562  7586 I net.osmand:native: Native ok (rendering 0, text 180 ms) 
+06-29 17:14:56.640  7562  7586 I net.osmand:native:  (1483 points, 211 points inside, 117 of 127 objects visible)
+06-29 17:14:56.641  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:56.641  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:14:56.649  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:56.781  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181615.0106807421
+06-29 17:14:56.781  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181615.02
+06-29 17:14:56.837  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181615.0106807421
+06-29 17:14:56.855  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181615.0106807421
+06-29 17:14:56.855  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181615.02
+06-29 17:14:56.894  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:56.894  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:56.997  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181615.0106807421
+06-29 17:14:57.170  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:57.171  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:57.400  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.240653333333333, lon=-35.93071333333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:57.447  7562  7572 I zygote  : Background concurrent copying GC freed 754525(16MB) AllocSpace objects, 1(16KB) LOS objects, 13% free, 38MB/44MB, paused 2.262ms total 1.247s
+06-29 17:14:57.473  7562  7586 I net.osmand:native: Route objects 61
+06-29 17:14:57.473  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:57.473  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:57.473  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 53), objs - visit( 2997), accept(92), in result(61) 
+06-29 17:14:57.474  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.242961573600769, TLat=-7.234953713417053, LLong=-35.93316650390625, RLong=-35.92826461791992, zoom=17
+06-29 17:14:57.474  7562  7586 I net.osmand: MapRenderRepositories Native search: 72 ms 
+06-29 17:14:57.482  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:57.482  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:57.482  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:14:57.482  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:57.483  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:57.594  7562  7586 I net.osmand:native: Native ok (rendering 1, text 52 ms) 
+06-29 17:14:57.594  7562  7586 I net.osmand:native:  (1664 points, 270 points inside, 112 of 121 objects visible)
+06-29 17:14:57.594  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:57.594  7562  7586 I net.osmand:native: Native ok (init 1, rendering 1) 
+06-29 17:14:57.603  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:14:57.864  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181615.0106807421
+06-29 17:14:57.864  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181615.02
+06-29 17:14:57.935  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181615.0106807421
+06-29 17:14:58.209  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181314.7931978482
+06-29 17:14:58.209  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181314.8
+06-29 17:14:58.216  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181314.7931978482
+06-29 17:14:58.462  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:58.462  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:58.800  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:58.800  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:58.897  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181314.7931978482
+06-29 17:14:58.898  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181314.8
+06-29 17:14:58.975  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:14:58.975  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:14:58.983  7562  7572 I zygote  : Background concurrent copying GC freed 555973(12MB) AllocSpace objects, 2(32KB) LOS objects, 13% free, 38MB/44MB, paused 914us total 1.059s
+06-29 17:14:59.091  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181314.7931978482
+06-29 17:14:59.112  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.241789999999999, lon=-35.93324666666667, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:14:59.277  7562  7586 I net.osmand:native: Route objects 68
+06-29 17:14:59.277  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:14:59.277  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:14:59.277  7562  7586 I net.osmand:native: Search : tree - read( 660), accept( 41), objs - visit( 2517), accept(99), in result(68) 
+06-29 17:14:59.278  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.24408872127533, TLat=-7.236103940010071, LLong=-35.935699462890625, RLong=-35.9307975769043, zoom=17
+06-29 17:14:59.278  7562  7586 I net.osmand: MapRenderRepositories Native search: 163 ms 
+06-29 17:14:59.292  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:14:59.292  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:14:59.292  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:14:59.292  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:14:59.293  7562  7586 I net.osmand:native: Rendering image
+06-29 17:14:59.391  7562  7586 I net.osmand: RenderingIcons Icon data length is 604
+06-29 17:14:59.393  7562  7586 I net.osmand: RenderingIcons Icon data length is 566
+06-29 17:14:59.393  7562  7586 I net.osmand: RenderingIcons Icon data length is 552
+06-29 17:14:59.458  7562  7586 I net.osmand:native: Native ok (rendering 2, text 62 ms) 
+06-29 17:14:59.458  7562  7586 I net.osmand:native:  (1704 points, 396 points inside, 123 of 133 objects visible)
+06-29 17:14:59.459  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:14:59.459  7562  7586 I net.osmand:native: Native ok (init 1, rendering 2) 
+06-29 17:14:59.460  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:00.244  1587  1596 I zygote  : Background concurrent copying GC freed 104803(7MB) AllocSpace objects, 9(180KB) LOS objects, 28% free, 15MB/21MB, paused 2.266ms total 653.880ms
+06-29 17:15:00.260  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181014.41919281177
+06-29 17:15:00.260  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181014.42
+06-29 17:15:00.263  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:00.263  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:00.271  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181014.41919281177
+06-29 17:15:00.271  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181014.42
+06-29 17:15:00.349  7562  7575 I zygote  : Waiting for a blocking GC ProfileSaver
+06-29 17:15:00.353  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181014.41919281177
+06-29 17:15:00.378  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:15:00.378  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:15:00.471  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:00.472  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:00.657  7562  7572 I zygote  : Background concurrent copying GC freed 566681(12MB) AllocSpace objects, 2(32KB) LOS objects, 13% free, 37MB/43MB, paused 14.069ms total 1.050s
+06-29 17:15:00.658  7562  7575 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 308.421ms
+06-29 17:15:00.802  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:15:00.802  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:15:00.918  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:15:00.918  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:15:00.978  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.2429266666666665, lon=-35.93578166666667, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:01.004  1587  1610 E memtrack: Couldn't load memtrack module
+06-29 17:15:01.004  1587  1610 W android.os.Debug: failed to get memory consumption info: -1
+06-29 17:15:01.080  7562  7586 I net.osmand:native: Route objects 74
+06-29 17:15:01.080  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:01.080  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:01.081  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 36), objs - visit( 2477), accept(105), in result(74) 
+06-29 17:15:01.082  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.245238947868347, TLat=-7.2372310876846315, LLong=-35.938232421875, RLong=-35.93333053588867, zoom=17
+06-29 17:15:01.083  7562  7586 I net.osmand: MapRenderRepositories Native search: 104 ms 
+06-29 17:15:01.090  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:01.090  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:01.090  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:15:01.090  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:01.092  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:01.201  7562  7586 I net.osmand: RenderingIcons Icon data length is 696
+06-29 17:15:01.208  7562  7586 I net.osmand: RenderingIcons Icon data length is 1744
+06-29 17:15:01.227  7562  7586 I net.osmand:native: Native ok (rendering 0, text 24 ms) 
+06-29 17:15:01.227  7562  7586 I net.osmand:native:  (1925 points, 528 points inside, 127 of 141 objects visible)
+06-29 17:15:01.227  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:01.227  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:15:01.241  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:01.261  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180714.06833957182
+06-29 17:15:01.261  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180714.06
+06-29 17:15:01.345  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180714.06833957182
+06-29 17:15:01.353  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:01.353  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:01.386  7562  7562 I zygote  : Deoptimizing boolean net.osmand.plus.views.mapwidgets.RouteInfoWidgetsFactory$LanesControl.updateInfo(net.osmand.plus.views.OsmandMapLayer$DrawSettings) due to JIT inline cache
+06-29 17:15:01.387  7562  7562 I zygote  : Deoptimizing boolean net.osmand.plus.views.mapwidgets.RouteInfoWidgetsFactory.updateVisibility(android.view.View, boolean) due to JIT inline cache
+06-29 17:15:01.482  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:01.483  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:01.856  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180714.06833957182
+06-29 17:15:01.856  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180714.06
+06-29 17:15:01.860  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:01.860  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180714.06833957182
+06-29 17:15:01.861  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:02.005  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.244063333333334, lon=-35.938316666666665, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:02.130  7562  7572 I zygote  : Background concurrent copying GC freed 542978(12MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 34MB/40MB, paused 5.604ms total 597.868ms
+06-29 17:15:02.135  7562  7586 I net.osmand:native: Route objects 46
+06-29 17:15:02.136  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:02.136  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:02.136  7562  7586 I net.osmand:native: Search : tree - read( 460), accept( 35), objs - visit( 2477), accept(77), in result(46) 
+06-29 17:15:02.137  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.246367144584656, TLat=-7.23835928440094, LLong=-35.940765380859375, RLong=-35.93585968017578, zoom=17
+06-29 17:15:02.137  7562  7586 I net.osmand: MapRenderRepositories Native search: 131 ms 
+06-29 17:15:02.156  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:02.156  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:02.156  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:15:02.156  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:02.157  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:02.333  7562  7586 I net.osmand:native: Native ok (rendering 0, text 54 ms) 
+06-29 17:15:02.333  7562  7586 I net.osmand:native:  (1645 points, 383 points inside, 76 of 88 objects visible)
+06-29 17:15:02.333  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:02.334  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:15:02.338  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:02.599  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:02.599  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180893.58
+06-29 17:15:02.604  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:02.604  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:02.697  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:02.761  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:02.768  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:02.848  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:02.854  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:02.854  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180893.58
+06-29 17:15:02.982  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:02.982  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:03.081  1587  2237 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 17:15:03.093  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.243383333333332, lon=-35.93680166666666, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:03.227  1587  2237 I WifiService: releaseWifiLock uid=10014
+06-29 17:15:03.229  7562  7586 I net.osmand:native: Route objects 65
+06-29 17:15:03.229  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:03.229  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:03.230  7562  7586 I net.osmand:native: Search : tree - read( 460), accept( 35), objs - visit( 2477), accept(96), in result(65) 
+06-29 17:15:03.230  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.245685172080994, TLat=-7.237700390815735, LLong=-35.93925094604492, RLong=-35.934349060058594, zoom=17
+06-29 17:15:03.232  7562  7586 I net.osmand: MapRenderRepositories Native search: 130 ms 
+06-29 17:15:03.243  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:03.243  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:03.243  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:15:03.243  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:03.244  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:03.406  7562  7586 I net.osmand:native: Native ok (rendering 1, text 23 ms) 
+06-29 17:15:03.406  7562  7586 I net.osmand:native:  (1841 points, 473 points inside, 113 of 125 objects visible)
+06-29 17:15:03.406  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:03.407  7562  7586 I net.osmand:native: Native ok (init 1, rendering 1) 
+06-29 17:15:03.410  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:03.487  1587  1674 D ConnectivityService: releasing NetworkRequest [ REQUEST id=42, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] (release request)
+06-29 17:15:03.722  7562  7572 I zygote  : Background concurrent copying GC freed 402410(8MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 39MB/45MB, paused 1.107ms total 1.121s
+06-29 17:15:03.806  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:03.806  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180893.58
+06-29 17:15:03.952  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:03.953  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:03.954  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180893.58
+06-29 17:15:03.955  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:04.542  7562  7572 I zygote  : Background concurrent copying GC freed 629644(14MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 2.597ms total 371.037ms
+06-29 17:15:04.803  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:04.803  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180893.58
+06-29 17:15:04.911  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180893.58168506564
+06-29 17:15:05.318  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180929.28837724152
+06-29 17:15:05.319  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180929.28
+06-29 17:15:05.324  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:05.324  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:05.427  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180929.28837724152
+06-29 17:15:05.446  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:05.446  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:05.668  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.246008333333333, lon=-35.93589, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:05.794  7562  7586 I net.osmand:native: Route objects 63
+06-29 17:15:05.794  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:05.794  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:05.794  7562  7586 I net.osmand:native: Search : tree - read( 500), accept( 37), objs - visit( 2517), accept(94), in result(63) 
+06-29 17:15:05.795  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.248303484916687, TLat=-7.240318703651428, LLong=-35.93833923339844, RLong=-35.93343734741211, zoom=17
+06-29 17:15:05.795  7562  7586 I net.osmand: MapRenderRepositories Native search: 126 ms 
+06-29 17:15:05.808  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:05.809  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:05.809  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:15:05.809  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:05.810  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:05.834  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180929.28837724152
+06-29 17:15:05.907  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180929.28837724152
+06-29 17:15:05.907  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180929.28
+06-29 17:15:05.984  7562  7586 I net.osmand:native: Native ok (rendering 7, text 66 ms) 
+06-29 17:15:05.984  7562  7586 I net.osmand:native:  (1893 points, 495 points inside, 115 of 122 objects visible)
+06-29 17:15:05.984  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:05.984  7562  7586 I net.osmand:native: Native ok (init 1, rendering 7) 
+06-29 17:15:05.993  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:06.148  7562  7572 I zygote  : Background concurrent copying GC freed 270838(6MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 37MB/43MB, paused 2.467ms total 759.974ms
+06-29 17:15:06.534  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180965.55292851836
+06-29 17:15:06.534  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180965.55
+06-29 17:15:06.538  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:06.538  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:06.708  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180965.55292851836
+06-29 17:15:06.717  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:06.718  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:06.747  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.248631666666667, lon=-35.93497833333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:06.836  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180965.55292851836
+06-29 17:15:06.836  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180965.55
+06-29 17:15:06.839  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180965.55292851836
+06-29 17:15:06.963  7562  7586 I net.osmand:native: Route objects 57
+06-29 17:15:06.963  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:06.963  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:06.963  7562  7586 I net.osmand:native: Search : tree - read( 700), accept( 43), objs - visit( 2557), accept(88), in result(57) 
+06-29 17:15:06.964  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.250943827629089, TLat=-7.242935967445374, LLong=-35.93742752075195, RLong=-35.932525634765625, zoom=17
+06-29 17:15:06.964  7562  7586 I net.osmand: MapRenderRepositories Native search: 217 ms 
+06-29 17:15:07.006  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:07.007  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:07.007  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:15:07.007  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:07.011  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:07.261  7562  7586 I net.osmand:native: Native ok (rendering 12, text 44 ms) 
+06-29 17:15:07.261  7562  7586 I net.osmand:native:  (1599 points, 362 points inside, 106 of 112 objects visible)
+06-29 17:15:07.261  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:07.261  7562  7586 I net.osmand:native: Native ok (init 4, rendering 12) 
+06-29 17:15:07.264  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:07.656  7562  7572 I zygote  : Background concurrent copying GC freed 483863(11MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 37MB/43MB, paused 4.851ms total 879.142ms
+06-29 17:15:07.805  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180965.55292851836
+06-29 17:15:07.805  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180965.55
+06-29 17:15:07.815  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180965.55292851836
+06-29 17:15:07.937  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181002.1164209221
+06-29 17:15:07.937  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181002.11
+06-29 17:15:07.968  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:07.968  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:07.988  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181002.1164209221
+06-29 17:15:08.016  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.251256666666666, lon=-35.934068333333336, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:08.149  7562  7586 I net.osmand:native: Route objects 72
+06-29 17:15:08.149  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:08.149  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:08.150  7562  7586 I net.osmand:native: Search : tree - read( 740), accept( 49), objs - visit( 2757), accept(103), in result(72) 
+06-29 17:15:08.151  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.2535621404647825, TLat=-7.245554280281067, LLong=-35.93651580810547, RLong=-35.93161392211914, zoom=17
+06-29 17:15:08.151  7562  7586 I net.osmand: MapRenderRepositories Native search: 134 ms 
+06-29 17:15:08.180  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:08.180  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:08.182  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:15:08.183  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:08.193  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:08.400  7562  7586 I net.osmand:native: Native ok (rendering 4, text 78 ms) 
+06-29 17:15:08.400  7562  7586 I net.osmand:native:  (1843 points, 348 points inside, 135 of 148 objects visible)
+06-29 17:15:08.401  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:08.401  7562  7586 I net.osmand:native: Native ok (init 10, rendering 4) 
+06-29 17:15:08.404  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:08.820  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181002.1164209221
+06-29 17:15:08.820  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 181002.11
+06-29 17:15:08.893  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181002.1164209221
+06-29 17:15:09.352  7562  7572 I zygote  : Background concurrent copying GC freed 532874(12MB) AllocSpace objects, 0(0B) LOS objects, 12% free, 40MB/46MB, paused 6.186ms total 1.119s
+06-29 17:15:09.710  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:09.710  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180992.27
+06-29 17:15:09.727  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:09.883  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:09.883  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180992.27
+06-29 17:15:10.125  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:10.808  7562  7572 I zygote  : Background concurrent copying GC freed 675914(14MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 34MB/40MB, paused 2.505ms total 649.421ms
+06-29 17:15:10.821  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:10.822  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180992.27
+06-29 17:15:10.941  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:11.101  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:11.102  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180992.27
+06-29 17:15:11.169  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:11.798  7562  7572 I zygote  : Background concurrent copying GC freed 368256(8MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 34MB/40MB, paused 1.297ms total 540.704ms
+06-29 17:15:11.806  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:11.806  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180992.27
+06-29 17:15:11.916  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180992.2589777954
+06-29 17:15:12.343  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180685.89455086
+06-29 17:15:12.343  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180685.89
+06-29 17:15:12.349  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:12.349  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:12.516  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180685.89455086
+06-29 17:15:12.603  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:12.603  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:12.817  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:12.820  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:12.922  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.251033333333334, lon=-35.93704833333334, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:12.987  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180685.89455086
+06-29 17:15:12.987  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180685.89
+06-29 17:15:13.012  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180685.89455086
+06-29 17:15:13.029  7562  7586 I net.osmand:native: Route objects 41
+06-29 17:15:13.030  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:13.030  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:13.030  7562  7586 I net.osmand:native: Search : tree - read( 620), accept( 43), objs - visit( 2637), accept(72), in result(41) 
+06-29 17:15:13.032  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.253326964378357, TLat=-7.245342183113098, LLong=-35.93949890136719, RLong=-35.934593200683594, zoom=17
+06-29 17:15:13.033  7562  7586 I net.osmand: MapRenderRepositories Native search: 109 ms 
+06-29 17:15:13.045  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:13.045  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:13.045  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:15:13.045  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:13.047  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:13.211  7562  7586 I net.osmand:native: Native ok (rendering 0, text 38 ms) 
+06-29 17:15:13.211  7562  7586 I net.osmand:native:  (1420 points, 117 points inside, 78 of 86 objects visible)
+06-29 17:15:13.211  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:13.211  7562  7586 I net.osmand:native: Native ok (init 1, rendering 0) 
+06-29 17:15:13.212  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:13.443  7562  7572 I zygote  : Background concurrent copying GC freed 364311(8MB) AllocSpace objects, 0(0B) LOS objects, 12% free, 40MB/46MB, paused 2.970ms total 1.009s
+06-29 17:15:13.508  1587  1614 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-29 17:15:13.607  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180379.5310239783
+06-29 17:15:13.612  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:13.612  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:13.626  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180379.5310239783
+06-29 17:15:13.626  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180379.53
+06-29 17:15:13.747  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:13.747  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:13.838  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180379.5310239783
+06-29 17:15:13.877  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:13.877  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:13.897  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180379.5310239783
+06-29 17:15:13.897  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180379.53
+06-29 17:15:13.963  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.251518333333333, lon=-35.93978333333334, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:14.105  7562  7586 I net.osmand:native: Route objects 23
+06-29 17:15:14.105  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:14.105  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:14.105  7562  7586 I net.osmand:native: Search : tree - read( 620), accept( 45), objs - visit( 2717), accept(54), in result(23) 
+06-29 17:15:14.106  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.253816175460815, TLat=-7.245831918716431, LLong=-35.94223403930664, RLong=-35.93733215332031, zoom=17
+06-29 17:15:14.120  7562  7586 I net.osmand: MapRenderRepositories Native search: 156 ms 
+06-29 17:15:14.128  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:14.128  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:14.128  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:15:14.128  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:14.136  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:14.227  7562  7586 I net.osmand:native: Native ok (rendering 88, text 0 ms) 
+06-29 17:15:14.227  7562  7586 I net.osmand:native:  (1234 points, 54 points inside, 42 of 50 objects visible)
+06-29 17:15:14.228  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:14.228  7562  7586 I net.osmand:native: Native ok (init 10, rendering 88) 
+06-29 17:15:14.230  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:14.754  7562  7572 I zygote  : Background concurrent copying GC freed 644372(14MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 36MB/42MB, paused 953us total 841.209ms
+06-29 17:15:14.816  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180379.5310239783
+06-29 17:15:14.816  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180379.53
+06-29 17:15:14.895  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180379.5310239783
+06-29 17:15:15.152  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180073.16840013908
+06-29 17:15:15.152  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180073.17
+06-29 17:15:15.182  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180073.16840013908
+06-29 17:15:15.209  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:15.209  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:15.398  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:15.399  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:15.752  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.252003333333333, lon=-35.94251833333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:15.824  7562  7586 I net.osmand:native: Route objects 16
+06-29 17:15:15.824  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:15.824  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:15.825  7562  7586 I net.osmand:native: Search : tree - read( 580), accept( 44), objs - visit( 2717), accept(47), in result(16) 
+06-29 17:15:15.825  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.254306960105896, TLat=-7.24629909992218, LLong=-35.944969177246094, RLong=-35.940067291259766, zoom=17
+06-29 17:15:15.825  7562  7586 I net.osmand: MapRenderRepositories Native search: 72 ms 
+06-29 17:15:15.832  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180073.16840013908
+06-29 17:15:15.832  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 180073.17
+06-29 17:15:15.861  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:15.861  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:15.861  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:15:15.862  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:15.863  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:15.901  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180073.16840013908
+06-29 17:15:15.963  7562  7586 I net.osmand:native: Native ok (rendering 99, text 9 ms) 
+06-29 17:15:15.963  7562  7586 I net.osmand:native:  (1175 points, 21 points inside, 27 of 35 objects visible)
+06-29 17:15:15.963  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:15.963  7562  7586 I net.osmand:native: Native ok (init 2, rendering 99) 
+06-29 17:15:15.973  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:16.075  7562  7572 I zygote  : Background concurrent copying GC freed 471802(10MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 36MB/42MB, paused 3.145ms total 796.350ms
+06-29 17:15:16.438  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179766.84575216932
+06-29 17:15:16.438  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179766.84
+06-29 17:15:16.484  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179766.84575216932
+06-29 17:15:16.642  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:16.642  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:16.725  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.252486666666666, lon=-35.94525333333333, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:16.817  7562  7586 I net.osmand:native: Route objects 68
+06-29 17:15:16.818  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:16.818  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:16.818  7562  7586 I net.osmand:native: Search : tree - read( 580), accept( 43), objs - visit( 2677), accept(99), in result(68) 
+06-29 17:15:16.818  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.25479667186737, TLat=-7.246788811683655, LLong=-35.94770431518555, RLong=-35.94280242919922, zoom=17
+06-29 17:15:16.818  7562  7586 I net.osmand: MapRenderRepositories Native search: 91 ms 
+06-29 17:15:16.840  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:16.841  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:16.841  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:15:16.841  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:16.842  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:16.881  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179766.84575216932
+06-29 17:15:16.881  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179766.84
+06-29 17:15:16.929  7562  7586 I net.osmand:native: Native ok (rendering 86, text 6 ms) 
+06-29 17:15:16.929  7562  7586 I net.osmand:native:  (1302 points, 236 points inside, 52 of 62 objects visible)
+06-29 17:15:16.929  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:16.929  7562  7586 I net.osmand:native: Native ok (init 1, rendering 86) 
+06-29 17:15:16.930  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:17.036  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179766.84575216932
+06-29 17:15:17.422  7562  7572 I zygote  : Background concurrent copying GC freed 465302(10MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 36MB/42MB, paused 4.369ms total 724.965ms
+06-29 17:15:17.744  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179460.48495333755
+06-29 17:15:17.744  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179460.48
+06-29 17:15:17.747  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:17.747  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:17.789  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179460.48495333755
+06-29 17:15:17.876  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:17.876  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:17.895  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179460.48495333755
+06-29 17:15:17.895  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179460.48
+06-29 17:15:17.975  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179460.48495333755
+06-29 17:15:18.102  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:18.103  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:18.434  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.252971666666667, lon=-35.947988333333335, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:18.497  7562  7586 I net.osmand:native: Route objects 57
+06-29 17:15:18.497  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:18.497  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:18.498  7562  7586 I net.osmand:native: Search : tree - read( 580), accept( 45), objs - visit( 2757), accept(88), in result(57) 
+06-29 17:15:18.498  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.255286383628845, TLat=-7.24727852344513, LLong=-35.950439453125, RLong=-35.94553756713867, zoom=17
+06-29 17:15:18.498  7562  7586 I net.osmand: MapRenderRepositories Native search: 63 ms 
+06-29 17:15:18.508  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:18.508  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:18.508  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:15:18.508  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:18.513  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:18.601  7562  7586 I net.osmand:native: Native ok (rendering 87, text 0 ms) 
+06-29 17:15:18.601  7562  7586 I net.osmand:native:  (1726 points, 181 points inside, 41 of 58 objects visible)
+06-29 17:15:18.601  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:18.602  7562  7586 I net.osmand:native: Native ok (init 4, rendering 87) 
+06-29 17:15:18.609  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:18.889  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179460.48495333755
+06-29 17:15:18.890  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179460.48
+06-29 17:15:18.905  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179460.48495333755
+06-29 17:15:18.931  7562  7572 I zygote  : Background concurrent copying GC freed 478120(10MB) AllocSpace objects, 0(0B) LOS objects, 14% free, 36MB/42MB, paused 1.649ms total 762.735ms
+06-29 17:15:19.224  7562  7562 D net.osmand: DayNightHelper Sunrise/sunset setting to day: false
+06-29 17:15:19.274  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179153.9453077922
+06-29 17:15:19.274  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179153.94
+06-29 17:15:19.354  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:19.354  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:19.362  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.253456666666667, lon=-35.950725000000006, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:19.466  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179153.9453077922
+06-29 17:15:19.525  7562  7586 I net.osmand:native: Route objects 14
+06-29 17:15:19.525  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:19.525  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:19.527  7562  7586 I net.osmand:native: Search : tree - read( 580), accept( 46), objs - visit( 2797), accept(45), in result(14) 
+06-29 17:15:19.550  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.255753588676453, TLat=-7.247768807411194, LLong=-35.95317840576172, RLong=-35.948272705078125, zoom=17
+06-29 17:15:19.550  7562  7586 I net.osmand: MapRenderRepositories Native search: 188 ms 
+06-29 17:15:19.571  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:19.571  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:19.571  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x89000000
+06-29 17:15:19.571  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:19.572  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:19.748  7562  7586 I net.osmand:native: Native ok (rendering 175, text 0 ms) 
+06-29 17:15:19.748  7562  7586 I net.osmand:native:  (1578 points, 81 points inside, 23 of 40 objects visible)
+06-29 17:15:19.748  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:19.748  7562  7586 I net.osmand:native: Native ok (init 1, rendering 175) 
+06-29 17:15:19.749  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:20.098  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179153.9453077922
+06-29 17:15:20.098  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179153.94
+06-29 17:15:20.213  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179153.9453077922
+06-29 17:15:20.732  7562  7572 I zygote  : Background concurrent copying GC freed 469955(10MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 38MB/44MB, paused 4.649ms total 1.173s
+06-29 17:15:20.810  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179153.9453077922
+06-29 17:15:20.912  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179153.9453077922
+06-29 17:15:20.912  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179153.94
+06-29 17:15:21.036  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:21.036  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179088.78
+06-29 17:15:21.117  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:21.578  7562  7562 I net.osmand: TTSCommandPlayerImpl Send message to pebble atenção!  obstáculo 
+06-29 17:15:21.578  7562  7562 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-29 17:15:21.579  7562  7562 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-29 17:15:21.579  7562  7562 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-29 17:15:21.580  1587  1600 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/7562 clientId=android.media.AudioManager@33ccfa4net.osmand.plus.api.AudioFocusHelperImpl@193e8c1 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-29 17:15:21.581  7562  7562 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-29 17:15:21.585  4242  7639 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-29 17:15:21.588  4242  7639 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-29 17:15:21.632  4242  7640 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-29 17:15:21.637  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39312756 , only wrote 39312720
+06-29 17:15:21.640  1587  1600 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:15:21.832  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:21.922  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:21.922  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179088.78
+06-29 17:15:22.120  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39335909 , only wrote 39335760
+06-29 17:15:22.152  1472  1581 D AudioFlinger: mixer(0xa5583800) throttle end: throttle time(12)
+06-29 17:15:22.186  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39338896 , only wrote 39337200
+06-29 17:15:22.217  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39338706 , only wrote 39338640
+06-29 17:15:22.313  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39342325 , only wrote 39342240
+06-29 17:15:22.313  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39343171 , only wrote 39342960
+06-29 17:15:22.314  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39342969 , only wrote 39342960
+06-29 17:15:22.331  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39343779 , only wrote 39343680
+06-29 17:15:22.357  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39344961 , only wrote 39344400
+06-29 17:15:22.381  1399  1414 D hwcomposer: hw_composer sent 30 syncs in 82s
+06-29 17:15:22.392  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39346051 , only wrote 39345120
+06-29 17:15:22.563  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39353323 , only wrote 39353040
+06-29 17:15:22.564  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39353097 , only wrote 39353040
+06-29 17:15:22.595  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39354544 , only wrote 39354480
+06-29 17:15:23.021  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:23.065  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:23.065  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179088.78
+06-29 17:15:23.070  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:23.070  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179088.78
+06-29 17:15:23.135  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:23.156  7562  7572 I zygote  : Background concurrent copying GC freed 554982(12MB) AllocSpace objects, 0(0B) LOS objects, 13% free, 39MB/45MB, paused 1.173ms total 1.857s
+06-29 17:15:23.814  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:23.814  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 179088.78
+06-29 17:15:23.917  4242  7640 D AudioTrack: stop() called with 45980 frames delivered
+06-29 17:15:23.920  1587  2068 V MediaRouterService: restoreBluetoothA2dp(false)
+06-29 17:15:23.924  7562 10840 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-29 17:15:23.955  1587  4427 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/7562 clientId=android.media.AudioManager@33ccfa4net.osmand.plus.api.AudioFocusHelperImpl@193e8c1
+06-29 17:15:23.957  7562 10840 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-29 17:15:24.052  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179088.7859172133
+06-29 17:15:24.084  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39425937 , only wrote 39425760
+06-29 17:15:24.084  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39425787 , only wrote 39425760
+06-29 17:15:24.101  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39426553 , only wrote 39426480
+06-29 17:15:24.280  1587  2039 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-29 17:15:24.305  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178785.1458281693
+06-29 17:15:24.305  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 178785.14
+06-29 17:15:24.499  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178785.1458281693
+06-29 17:15:24.514  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:24.515  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:24.787  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-29 17:15:24.787  7562  7587 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-29 17:15:24.972  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178785.1458281693
+06-29 17:15:24.972  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 178785.14
+06-29 17:15:25.029  7562  7586 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.2537683333333325, lon=-35.954076666666666, rotate=0.0, density=2.625, zoom=17, mapDensity=3.9375, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1972, pixWidth=1800, pixHeight=2690]
+06-29 17:15:25.205  7562  7586 I net.osmand:native: Route objects 18
+06-29 17:15:25.205  7562  7586 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-29 17:15:25.205  7562  7586 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-29 17:15:25.205  7562  7586 I net.osmand:native: Search : tree - read( 580), accept( 46), objs - visit( 2797), accept(49), in result(18) 
+06-29 17:15:25.206  7562  7586 I net.osmand: MapRenderRepositories BLat=-7.256073641777038, TLat=-7.248065781593323, LLong=-35.95652389526367, RLong=-35.951622009277344, zoom=17
+06-29 17:15:25.206  7562  7586 I net.osmand: MapRenderRepositories Native search: 176 ms 
+06-29 17:15:25.234  7562  7586 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-29 17:15:25.239  7562  7586 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-29 17:15:25.240  7562  7586 I net.osmand:native: Locked 19368000 bytes at 0x87c00000
+06-29 17:15:25.240  7562  7586 I net.osmand:native: Initializing rendering
+06-29 17:15:25.242  7562  7586 I net.osmand:native: Rendering image
+06-29 17:15:25.252  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178785.1458281693
+06-29 17:15:25.294  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39483738 , only wrote 39483360
+06-29 17:15:25.294  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39483374 , only wrote 39483360
+06-29 17:15:25.316  1390  3747 W audio_hw_generic: Not supplying enough data to HAL, expected position 39484393 , only wrote 39484080
+06-29 17:15:25.446  7562  7586 I net.osmand:native: Native ok (rendering 203, text 1 ms) 
+06-29 17:15:25.446  7562  7586 I net.osmand:native:  (1640 points, 34 points inside, 30 of 46 objects visible)
+06-29 17:15:25.446  7562  7586 I net.osmand:native: End Rendering image
+06-29 17:15:25.446  7562  7586 I net.osmand:native: Native ok (init 2, rendering 203) 
+06-29 17:15:25.447  7562  7586 I net.osmand: MapRenderRepositories true
+06-29 17:15:25.954  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178785.1458281693
+06-29 17:15:25.955  7562  7562 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 178785.14
+06-29 17:15:26.394  7562  7572 I zygote  : Background concurrent copying GC freed 627822(13MB) AllocSpace objects, 0(0B) LOS objects, 12% free, 41MB/47MB, paused 1.042ms total 2.077s
+06-29 17:15:26.487  7562  7562 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178785.1458281693

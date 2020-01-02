@@ -26,7 +26,6 @@ import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JSeparator;
 import javax.swing.JTable;
-import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 import javax.swing.border.LineBorder;
 import javax.swing.event.ListSelectionEvent;
@@ -34,6 +33,7 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 
 import exceptions.SintaxException;
+import testCase.TestSuiteFiles;
 import testCase.TestSuiteGenerator;
 
 public class MainWindow {
@@ -44,7 +44,7 @@ public class MainWindow {
 	private JList<String> testSuitesJList;
 	private DefaultListModel<String> testSuitesListModel;
 	private JTable speedTable;
-	private DefaultTableModel dtm;
+	private DefaultTableModel speedTabelDtm;
 	private JPanel pathPanel;
 	private JButton createTestSuiteButton;
 	
@@ -66,7 +66,8 @@ public class MainWindow {
 	private JPanel panel_2;
 	private JLabel lblTestSuites;
 	private JScrollPane scrollPane_1;
-	private JTextArea testSuiteTextArea;
+	private JTable testSuiteTable;
+	private DefaultTableModel testSuitedtm;
 	
 	/**
 	 * Launch the application.
@@ -102,7 +103,7 @@ public class MainWindow {
 		frmEnviar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmEnviar.getContentPane().setLayout(null);		
 		pathPanel = new JPanel();
-		pathPanel.setBounds(10, 38, 100, 139);
+		pathPanel.setBounds(10, 38, 100, 184);
 		frmEnviar.getContentPane().add(pathPanel);
 		pathPanel.setLayout(null);
 		
@@ -120,7 +121,7 @@ public class MainWindow {
 					ArrayList<String> selectedPaths = (ArrayList<String>) pathList.getSelectedValuesList();
 					for (String path : selectedPaths) {
 						String[] newRow = {path, ""};
-						dtm.addRow(newRow);
+						speedTabelDtm.addRow(newRow);
 					}					
 				}
 			}
@@ -246,7 +247,7 @@ public class MainWindow {
 		frmEnviar.getContentPane().add(lblTestSuitCreation);
 		
 		JPanel panel = new JPanel();
-		panel.setBounds(302, 38, 225, 180);
+		panel.setBounds(302, 38, 225, 184);
 		frmEnviar.getContentPane().add(panel);
 		panel.setLayout(null);
 		
@@ -255,10 +256,10 @@ public class MainWindow {
 		panel.add(scrollPane);
 		
 		String[] columnNames = {"Selected Paths", "Max Speed"};
-		dtm = new DefaultTableModel();
-		dtm.setColumnIdentifiers(columnNames);
+		speedTabelDtm = new DefaultTableModel();
+		speedTabelDtm.setColumnIdentifiers(columnNames);
 		
-		speedTable = new JTable(dtm);
+		speedTable = new JTable(speedTabelDtm);
 		scrollPane.setViewportView(speedTable);
 		
 		
@@ -288,7 +289,7 @@ public class MainWindow {
 		frmEnviar.getContentPane().add(createTestSuiteButton);
 		
 		JPanel panel_1 = new JPanel();
-		panel_1.setBounds(537, 38, 91, 180);
+		panel_1.setBounds(537, 38, 91, 184);
 		frmEnviar.getContentPane().add(panel_1);
 		panel_1.setLayout(null);
 		
@@ -379,7 +380,6 @@ public class MainWindow {
 						for (String testSuite : selectedTestSuites) {
 							File testSuiteFile = new File("testSuites/" + testSuite + ".txt");
 							testSuiteFile.delete();
-							testSuiteTextArea.setText("");
 						}
 						loadTestSuiteList();
 					}
@@ -405,13 +405,55 @@ public class MainWindow {
 		scrollPane_2.setBounds(0, 24, 508, 235);
 		panel_3.add(scrollPane_2);
 		
-		testSuiteTextArea = new JTextArea();
-		testSuiteTextArea.setEditable(false);
-		scrollPane_2.setViewportView(testSuiteTextArea);
+		String[] testSuitecolumnNames = {"#", "Path", "Speed", "Setup", "First_Delay", "First_Event", "Second_Delay", "Second_Event", "Third_Delay", "Third_Event", "Fourth_Delay", "Fourth_Event", "Fifth_Delay", "Fifth_Event"};
+		testSuitedtm = new DefaultTableModel();
+		testSuitedtm.setColumnIdentifiers(testSuitecolumnNames);
+		testSuiteTable = new JTable(testSuitedtm);
+		testSuiteTable.setEnabled(false);
+		scrollPane_2.setViewportView(testSuiteTable);
+		setTableColumnSize();
 		
-		JButton executeTestSuiteButton = new JButton("Execute Test Suite");
-		executeTestSuiteButton.setBounds(224, 592, 144, 35);
+		JButton executeTestSuiteButton = new JButton("Test Suite Execution");
+		executeTestSuiteButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int qteSelectedTestSuite = testSuitesJList.getSelectedIndices().length;
+				if(qteSelectedTestSuite == 0) {
+					JOptionPane.showMessageDialog(pathPanel, "Select one test suite", "Attention", JOptionPane.WARNING_MESSAGE);
+				}else if(qteSelectedTestSuite > 1) {
+					JOptionPane.showMessageDialog(pathPanel, "Select only one test suite", "Attention", JOptionPane.WARNING_MESSAGE);
+				}else {
+					try {
+						executeTestSuite(testSuitesJList.getSelectedValue());
+					} catch (SintaxException | IOException e1) {
+						JOptionPane.showMessageDialog(pathPanel, "Failed to load test suite files", "ERROR", JOptionPane.ERROR_MESSAGE);
+					}
+				}
+			}
+		});
+		executeTestSuiteButton.setBounds(224, 592, 197, 35);
 		frmEnviar.getContentPane().add(executeTestSuiteButton);
+	}
+	
+	private void setTableColumnSize() {
+		testSuiteTable.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+		testSuiteTable.getColumnModel().getColumn(0).setPreferredWidth(25); 
+		testSuiteTable.getColumnModel().getColumn(1).setPreferredWidth(60);
+		testSuiteTable.getColumnModel().getColumn(2).setPreferredWidth(40);
+		testSuiteTable.getColumnModel().getColumn(3).setPreferredWidth(40);
+		int columnIndex = 4;
+		for (int i = 0; i < 5; i++) {
+			testSuiteTable.getColumnModel().getColumn(columnIndex).setPreferredWidth(75);
+			columnIndex++;
+			testSuiteTable.getColumnModel().getColumn(columnIndex).setPreferredWidth(200);
+			columnIndex++;
+		}
+	       
+	}
+
+	private void executeTestSuite(String testSuiteName) throws SintaxException, IOException {
+		TestSuiteFiles tsf = new TestSuiteFiles(testSuiteName);
+		ExectionWindow ew = new ExectionWindow(tsf);
+		ew.setVisible(true);
 	}
 
 	private void loadTestSuite(String testSuiteName) throws SintaxException, IOException {
@@ -420,16 +462,25 @@ public class MainWindow {
 	
 	@SuppressWarnings("resource")
 	private void loadTestSuiteFile(String testSuiteName) throws SintaxException, IOException {
-		String testSuite = "";
+		while(testSuitedtm.getRowCount() > 0) {
+			testSuitedtm.removeRow(0);			
+		}
 		FileReader arq = new FileReader("testSuites//" + testSuiteName + ".txt");
 		BufferedReader lerArq = new BufferedReader(arq);
 		String linha = lerArq.readLine();
+		int number = 0;
 		while(linha != null) {
-			testSuite += linha + "\n";
+			number++;
+			String[] newRow = new String[14];
+			String[] lineElements = linha.split("\t");
+			newRow[0] = "" + number;
+			for (int i = 0; i < lineElements.length; i++) {
+				newRow[i+1] = lineElements[i];
+			}					
+			testSuitedtm.addRow(newRow);		
 			linha = lerArq.readLine();
 		}
 		lerArq.close();
-		testSuiteTextArea.setText(testSuite);
 	}
 
 	private void generateTestSuite() {
@@ -451,9 +502,9 @@ public class MainWindow {
 					createTestSuiteButton.setEnabled(false);
 					changeGeneratingLabel();
 					ArrayList<String[]> pathsAndSpeeds = new ArrayList<String[]>();
-					int rowCount = dtm.getRowCount();
+					int rowCount = speedTabelDtm.getRowCount();
 					for (int i = 0; i < rowCount; i++) {
-						String[] aux = {(String) dtm.getValueAt(i, 0), (String) dtm.getValueAt(i, 1)};
+						String[] aux = {(String) speedTabelDtm.getValueAt(i, 0), (String) speedTabelDtm.getValueAt(i, 1)};
 						pathsAndSpeeds.add(aux);
 					}
 					try {
@@ -479,6 +530,8 @@ public class MainWindow {
 		    public void run() {
 		    	while(generatingJLabel.isVisible()) {
 		    		try {
+		    			generatingJLabel.setText("Generating");
+						Thread.sleep(1000);
 		    			generatingJLabel.setText("Generating.");
 						Thread.sleep(1000);
 						generatingJLabel.setText("Generating..");
@@ -533,9 +586,9 @@ public class MainWindow {
 	}
 
 	private boolean allSpeedsInformed() {
-		int qteRows = dtm.getRowCount();
+		int qteRows = speedTabelDtm.getRowCount();
 		for (int i = 0; i < qteRows; i++) {
-			String speedStr = (String) dtm.getValueAt(i, 1);
+			String speedStr = (String) speedTabelDtm.getValueAt(i, 1);
 			try {
 				int speed = Integer.valueOf(speedStr);				
 			}catch(Exception e) {
@@ -597,8 +650,8 @@ public class MainWindow {
 	}
 
 	private void removerTodasLinhasTabela() {
-		while(dtm.getRowCount() > 0) {
-			dtm.removeRow(0);
+		while(speedTabelDtm.getRowCount() > 0) {
+			speedTabelDtm.removeRow(0);
 		}
 	}
 }

@@ -1,0 +1,1177 @@
+--------- beginning of main
+06-28 13:39:56.990  1603  3971 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:39:57.057  1603  2151 I WifiService: releaseWifiLock uid=10014
+06-28 13:39:57.524  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:39:57.844  1603  1612 I zygote  : Background concurrent copying GC freed 42488(1952KB) AllocSpace objects, 0(0B) LOS objects, 27% free, 15MB/21MB, paused 1.898ms total 229.103ms
+06-28 13:39:58.035  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:39:58.035  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:39:58.035  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:39:58.461  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:39:58.461  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:39:58.462  1603  1620 I WifiService: getSupportedFeatures uid=1000
+--------- beginning of system
+06-28 13:40:03.818  1603  2149 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000
+06-28 13:40:03.855  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:03.892  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:03.900  1603  3971 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@2e54191)
+06-28 13:40:03.900  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@2e54191)
+06-28 13:40:03.933  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:03.936 12507 12507 D net.osmand: Disable sensor
+06-28 13:40:04.033 12507 12507 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 13:40:04.044  1412  1412 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-28 13:40:04.063  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:04.123 12507 12638 D EGL_emulation: eglMakeCurrent: 0xa6785900: ver 2 0 (tinfo 0xa6783410)
+06-28 13:40:04.123  2999  3054 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783260)
+06-28 13:40:04.133  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:04.183  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:04.287  1975  1975 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 13:40:04.314  2999  2999 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 13:40:04.422  2548  2548 I zygote  : IncrementDisableThreadFlip blocked for 104.705ms
+06-28 13:40:04.435  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 13:40:04.464  2999  3059 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-28 13:40:04.497  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:04.567  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 13:40:04.643  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:04.909  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 13:40:04.909  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 13:40:04.974  2548  2558 I zygote  : Background concurrent copying GC freed 17782(994KB) AllocSpace objects, 18(3MB) LOS objects, 49% free, 4MB/9MB, paused 25.925ms total 751.734ms
+06-28 13:40:04.992 12507 18224 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-28 13:40:05.012  1603  4070 I WifiService: getWifiEnabledState uid=10032
+06-28 13:40:05.074  1603  6820 I WifiService: getWifiEnabledState uid=10032
+06-28 13:40:05.078  2999 16819 W LocationOracle: No location history returned by ContextManager
+06-28 13:40:05.147  2999  3059 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 13:40:05.153  2999  3059 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 13:40:05.153  2999  3059 I MicroDetector: Keeping mic open: false
+06-28 13:40:05.154  2999  3059 I MicroDetectionWorker: #onError(false)
+06-28 13:40:05.260  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:05.273  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 35803(1766KB) AllocSpace objects, 0(0B) LOS objects, 46% free, 6MB/12MB, paused 6.690ms total 597.626ms
+06-28 13:40:05.345  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:05.356  1975  1975 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-28 13:40:05.373  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:05.444  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 10377(718KB) AllocSpace objects, 3(60KB) LOS objects, 27% free, 15MB/21MB, paused 870us total 387.740ms
+06-28 13:40:05.463  1975 18114 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17455022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 1975). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-28 13:40:05.540  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:05.541  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:05.598  1975 18235 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 13:40:05.605  1975 18235 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 13:40:05.684  1975 18114 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-28 13:40:05.856  1975 18235 I Places  : ?: PlacesBleScanner start() with priority 2
+06-28 13:40:05.859  1975 18235 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 13:40:05.859  1975 18235 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 13:40:05.872  1975 18235 I Places  : Converted 1 out of 1 WiFi scans
+06-28 13:40:05.873  1603  4070 I WifiService: getConnectionInfo uid=10014
+06-28 13:40:05.873  1975  1975 E BeaconBle: Missing BluetoothAdapter
+06-28 13:40:05.873  1975  1975 I BeaconBle: BLE 'KK+' software access layer enabled
+06-28 13:40:05.886  1975 18235 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 13:40:05.886  1975 18235 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 13:40:05.913  1975  1975 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-28 13:40:05.914  1975  1975 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 13:40:05.916  1975  1975 E BeaconBle: Scan couldn't start for Places
+06-28 13:40:05.916  1975  1975 W Places  : BLE failure while scanning - code 5
+06-28 13:40:06.069  1975  1985 I zygote  : Background concurrent copying GC freed 82702(3MB) AllocSpace objects, 28(1748KB) LOS objects, 32% free, 12MB/18MB, paused 969us total 144.173ms
+06-28 13:40:06.135  1975 17207 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 13:40:06.260  1975 17207 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 13:40:06.954  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 8218(485KB) AllocSpace objects, 0(0B) LOS objects, 27% free, 15MB/21MB, paused 1.154ms total 112.236ms
+06-28 13:40:07.233  1603  4070 I ActivityManager: Force stopping com.skgames.trafficrider appid=10081 user=0: from pid 18244
+06-28 13:40:07.251  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 13:40:07.442  1603  1638 I ActivityManager: Force stopping com.EvilChaotic.ModernWarplanes appid=10082 user=0: from pid 18248
+06-28 13:40:07.643  1603  1638 I ActivityManager: Force stopping com.ea.games.r3_row appid=10083 user=0: from pid 18252
+06-28 13:40:07.853  1603  1638 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+06-28 13:40:07.457  1844  1844 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+06-28 13:40:07.657  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 13:40:09.745 18270 18270 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 13:40:09.752 18270 18270 W app_process: Could not reserve sentinel fault page
+06-28 13:40:09.872 18270 18270 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 13:40:09.875 18270 18270 I app_process: The ClassLoaderContext is a special shared library.
+06-28 13:40:09.931 18270 18270 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-28 13:40:09.934 18270 18270 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-28 13:40:09.936 18270 18270 W Monkey  :  arg: "-p"
+06-28 13:40:09.937 18270 18270 W Monkey  :  arg: "net.osmand"
+06-28 13:40:09.937 18270 18270 W Monkey  :  arg: "-c"
+06-28 13:40:09.939 18270 18270 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-28 13:40:09.940 18270 18270 W Monkey  :  arg: "1"
+06-28 13:40:09.940 18270 18270 W Monkey  : data="net.osmand"
+06-28 13:40:09.941 18270 18270 W Monkey  : data="android.intent.category.LAUNCHER"
+06-28 13:40:09.980  1603  1617 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{c92ded8 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{d7ee231 18270 (unknown name)/2000/u-1 remote:384364a}: process gone or crashing
+06-28 13:40:10.025  1603  6820 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-28 13:40:10.025  1603  6820 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-28 13:40:10.025  1603  6820 W Binder  : java.lang.Throwable
+06-28 13:40:10.025  1603  6820 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-28 13:40:10.025  1603  6820 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 13:40:10.065 18270 18270 I Monkey  : Events injected: 1
+06-28 13:40:10.093  2999  3054 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783260)
+06-28 13:40:10.119 18270 18270 I Monkey  : ## Network stats: elapsed time=52ms (0ms mobile, 0ms wifi, 52ms not connected)
+06-28 13:40:10.120 18270 18270 I com.android.commands.monkey: System.exit called, status: 0
+06-28 13:40:10.120 18270 18270 I AndroidRuntime: VM exiting with result code 0.
+06-28 13:40:10.147  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 13:40:10.162  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:10.231  1603  1618 W Looper  : Dispatch took 116ms on android.ui, h=Handler (com.android.server.policy.PhoneWindowManager$PolicyHandler) {f76a93d} cb=android.database.ContentObserver$NotificationRunnable@5544a2 msg=0
+06-28 13:40:10.289  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 1 line
+06-28 13:40:10.300  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:10.368 12507 12507 D InAppPurchaseHelper: Destroying helper.
+06-28 13:40:10.471 12507 12507 D net.osmand: Enable sensor
+06-28 13:40:10.492  1603  6820 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@e708ee)
+06-28 13:40:10.494  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@e708ee)
+06-28 13:40:10.510 12507 12507 W System.err: OnCreate for MapActivity took 142 ms
+06-28 13:40:10.572 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 13:40:10.573 12507 12507 I chatty  : uid=10104(net.osmand) identical 3 lines
+06-28 13:40:10.573 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 13:40:10.582  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:10.586 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 13:40:10.626 12507 12507 I chatty  : uid=10104(net.osmand) identical 63 lines
+06-28 13:40:10.626 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 13:40:10.635  1412  1467 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=12507, uid<=10104
+06-28 13:40:10.636 12507 12507 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 13:40:10.643  1412  1699 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=12507, uid<=10104
+06-28 13:40:10.644 12507 12507 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 13:40:10.653  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:10.661  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:10.670 12507 12638 D EGL_emulation: eglMakeCurrent: 0xa6785900: ver 2 0 (tinfo 0xa6783410)
+06-28 13:40:10.692  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:10.723  1603  6820 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:40:10.794  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 13:40:10.797  1975  1975 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 13:40:11.023  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 13:40:11.040  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 13:40:11.058  2999 16961 I PBSessionCacheImpl: Deleted sessionId[6750126012172] from persistence.
+06-28 13:40:11.071  1603  1638 I WifiService: getWifiEnabledState uid=10032
+06-28 13:40:11.073  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 13:40:11.096  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:11.132  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:11.165  2999  3059 W SearchServiceCore: Abort, client detached.
+06-28 13:40:11.224  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:11.399  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 6 lines
+06-28 13:40:11.405  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:11.605  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 13:40:12.833 12507 12519 I zygote  : Background concurrent copying GC freed 262358(12MB) AllocSpace objects, 15(684KB) LOS objects, 25% free, 17MB/23MB, paused 1.366ms total 154.324ms
+06-28 13:40:13.530  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:40:13.530  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:40:13.530  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:40:13.775  1603  1638 D WificondControl: Scan result ready event
+06-28 13:40:13.848  1603  7712 I WifiService: releaseWifiLock uid=10014
+06-28 13:40:16.273  1975 18235 I Places  : ?: PlacesBleScanner stop()
+06-28 13:40:16.275  1975  1975 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 13:40:16.275  1975  1975 I BeaconBle: Scan canceled successfully.
+06-28 13:40:16.284  1975 18235 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 13:40:16.284  1975 18235 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 13:40:16.327  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:16.663  1975  1985 I zygote  : Background concurrent copying GC freed 172248(7MB) AllocSpace objects, 14(988KB) LOS objects, 37% free, 10MB/16MB, paused 1.039ms total 146.017ms
+06-28 13:40:21.288  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:40:21.288  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:40:21.288  1975  1975 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 13:40:21.344  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:40:21.344  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:40:25.152  2999  3059 I WorkerManager: dispose()
+06-28 13:40:25.153  2999  3059 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 13:40:26.977  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:27.537  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:40:28.653  1603  1603 I GnssLocationProvider: WakeLock acquired by sendMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+06-28 13:40:28.686  1844  1844 D MccTable: updateMccMncConfiguration mccmnc='null' fromServiceState=true
+06-28 13:40:28.688  1844  1844 D MccTable: WIFI_COUNTRY_CODE set to 
+06-28 13:40:28.688  1603  6824 I WifiService: WifiService trying to set country code to  with persist set to false
+06-28 13:40:28.689  1603  6824 I WifiService: setCountryCode uid=1001
+06-28 13:40:28.698  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:28.733  1844  1844 D ServiceStateProvider: subId=1
+06-28 13:40:28.742  1603  1616 E GnssLocationProvider: no AGPS interface in set_agps_server
+06-28 13:40:28.743  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+06-28 13:40:28.771  1603  1603 I Telecom : CallLogManager: Country ISO changed. Retrieving new ISO...: CLM.oCD@BEk
+06-28 13:40:28.827  1844  1844 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {438750e}
+06-28 13:40:28.843  1603  1681 I WifiService: getConnectionInfo uid=1000
+06-28 13:40:28.875  1603  6824 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}(lbl:  -> Android)(desc:  -> Android)]: TSI.rPA@BEo
+06-28 13:40:28.879  1844  1844 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: [****]] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+06-28 13:40:28.879  1844  1844 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {438750e}
+06-28 13:40:28.883  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T13:40:28.883Z[GMT]
+06-28 13:40:28.889  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T13:40:28.888Z[GMT]
+06-28 13:40:28.897  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 13:40:28.899  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 13:40:28.900  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 13:40:28.905  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 13:40:28.907  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 13:40:28.920  1603  1674 D NetworkStats: Resolved to plan null
+06-28 13:40:28.940  1844  1844 I Telephony: PstnPhoneCapabilitiesNotifier: handleVideoCapabilitesChanged. Video capability - false
+06-28 13:40:28.949  1603  1638 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}]: TSI.rPA@BE0
+06-28 13:40:28.934  1844  1844 I chatty  : uid=1001(radio) com.android.phone identical 6 lines
+06-28 13:40:28.937  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 13:40:29.716 18288 18288 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 13:40:29.725 18288 18288 W app_process: Could not reserve sentinel fault page
+06-28 13:40:29.870 18288 18288 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 13:40:29.878 18288 18288 I app_process: The ClassLoaderContext is a special shared library.
+06-28 13:40:29.948 18288 18288 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+06-28 13:40:29.953 18288 18288 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=9524949, downTime=9524949, deviceId=-1, source=0x101 }
+06-28 13:40:29.960 18288 18288 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=9524949, downTime=9524949, deviceId=-1, source=0x101 }
+06-28 13:40:29.967  1603  1665 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000
+06-28 13:40:29.994  1603  6824 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@cfc3620)
+06-28 13:40:29.994  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@cfc3620)
+06-28 13:40:30.001 12507 12507 D net.osmand: Disable sensor
+06-28 13:40:30.028 18288 18288 D AndroidRuntime: Shutting down VM
+06-28 13:40:30.032  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:30.081  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:30.085 12507 12507 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 13:40:30.118  1603  2155 I zygote  : IncrementDisableThreadFlip blocked for 26.324ms
+06-28 13:40:30.124  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:30.183  1412  1412 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-28 13:40:30.231  1401  1437 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:30.280  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:30.338  2999  3054 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783260)
+06-28 13:40:30.343  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:30.413 12507 12638 D EGL_emulation: eglMakeCurrent: 0xa6785900: ver 2 0 (tinfo 0xa6783410)
+06-28 13:40:30.462  1975  1975 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 13:40:30.473  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 13:40:30.519  2999  2999 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 13:40:30.683  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:30.743  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 13:40:30.789  1603  1618 W Looper  : Dispatch took 167ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {5717402} cb=null msg=53
+06-28 13:40:30.813  2999  3059 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-28 13:40:30.836  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:31.034  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 13:40:31.034  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 13:40:31.124  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:31.183  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:31.243 12507 18224 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-28 13:40:31.319  1603  2149 I WifiService: getWifiEnabledState uid=10032
+06-28 13:40:31.385  1603  4070 I WifiService: getWifiEnabledState uid=10032
+06-28 13:40:31.431  2999 16819 W LocationOracle: No location history returned by ContextManager
+06-28 13:40:31.444  2999  3059 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 13:40:31.448  2999  3059 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 13:40:31.450  2999  3059 I MicroDetector: Keeping mic open: false
+06-28 13:40:31.450  2999  3059 I MicroDetectionWorker: #onError(false)
+06-28 13:40:31.547  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:31.561  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 22662(1315KB) AllocSpace objects, 0(0B) LOS objects, 46% free, 7MB/13MB, paused 89.154ms total 729.587ms
+06-28 13:40:31.662  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:31.668  1975  1975 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-28 13:40:31.684  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:31.702  1603  1612 I zygote  : Background concurrent copying GC freed 43362(2MB) AllocSpace objects, 34(1320KB) LOS objects, 27% free, 16MB/22MB, paused 24.944ms total 1.615s
+06-28 13:40:31.736  1975 18198 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17455022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 1975). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-28 13:40:31.854  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:31.857  1975 18198 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-28 13:40:31.867  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:31.884  1975 18303 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 13:40:31.890  1975 18303 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 13:40:32.043  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:40:32.043  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:40:32.043  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:40:32.286  1975 18303 I Places  : ?: PlacesBleScanner start() with priority 2
+06-28 13:40:32.286  1975 18303 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 13:40:32.286  1975 18303 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 13:40:32.312  1975 18303 I Places  : Converted 1 out of 1 WiFi scans
+06-28 13:40:32.312  1603  2149 I WifiService: getConnectionInfo uid=10014
+06-28 13:40:32.319  1975  1975 E BeaconBle: Missing BluetoothAdapter
+06-28 13:40:32.319  1975  1975 I BeaconBle: BLE 'KK+' software access layer enabled
+06-28 13:40:32.332  1975 18303 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 13:40:32.332  1975 18303 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 13:40:32.379  1975  1975 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-28 13:40:32.379  1975  1975 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 13:40:32.381  1975  1975 E BeaconBle: Scan couldn't start for Places
+06-28 13:40:32.382  1975  1975 W Places  : BLE failure while scanning - code 5
+06-28 13:40:32.461  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 7437(632KB) AllocSpace objects, 1(20KB) LOS objects, 27% free, 15MB/21MB, paused 1.715ms total 414.875ms
+06-28 13:40:32.698  1975  1985 I zygote  : Background concurrent copying GC freed 70218(3MB) AllocSpace objects, 30(1852KB) LOS objects, 33% free, 11MB/17MB, paused 1.101ms total 153.819ms
+06-28 13:40:32.795  1975 18304 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 13:40:35.821  1603  4070 I ActivityManager: START u0 {act=android.media.action.IMAGE_CAPTURE flg=0x10000000 cmp=com.android.camera2/com.android.camera.CaptureActivity} from uid 2000
+06-28 13:40:35.822  1603  4070 I ActivityManager: Cannot find package info for null
+06-28 13:40:35.908  1603 12888 I ActivityManager: Start proc 18315:com.android.camera2/u0a39 for activity com.android.camera2/com.android.camera.CaptureActivity
+06-28 13:40:32.897  1975 18304 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 13:40:35.912 18315 18315 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-28 13:40:35.984  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 7753728
+06-28 13:40:36.015  1603  2149 W ActivityManager: Slow operation: 88ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+06-28 13:40:36.056 18315 18315 I zygote  : The ClassLoaderContext is a special shared library.
+06-28 13:40:36.089  2999  3054 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783260)
+06-28 13:40:36.094  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 13:40:36.153 18315 18315 I CAM_Profiler: [ 24.413ms][ui] GUARD: FirstRunDetector getTimeOfFirstRun - [22.513ms] preferences.getLong
+06-28 13:40:36.154 18315 18315 I CAM_Profiler: [ 24.742ms][ui] GUARD: FirstRunDetector getTimeOfFirstRun - STOP
+06-28 13:40:36.155 18315 18315 I CAM_Profiler: [ 32.349ms][ui] GUARD: CameraApp onCreate() - [32.349ms] initializeTimeOfFirstRun
+06-28 13:40:36.159 18315 18315 I CAM_Profiler: [ 36.247ms][ui] GUARD: CameraApp onCreate() - STOP
+06-28 13:40:36.169  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:36.279 18315 18315 W SoundPool: Use of stream types is deprecated for operations other than volume control
+06-28 13:40:36.279 18315 18315 W SoundPool: See the documentation of SoundPool() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:40:36.279 18315 18315 I CAM_OneCamFtrCnfgCrtr: CaptureModule? true
+06-28 13:40:36.328 18315 18315 I CAM_Profiler: [120.651ms][ui] GUARD: CameraActivity.onCreateTasks - [40.801ms] Glide.setup
+06-28 13:40:36.370 18315 18338 V NuMediaExtractor: setDataSource fd=35 (/system/media/audio/ui/camera_click.ogg), offset=0, length=4851
+06-28 13:40:36.375 18315 18315 I CameraManagerGlobal: Connecting to camera service
+06-28 13:40:36.388 18315 18338 V NuMediaExtractor: track of type 'audio/vorbis' does not publish bitrate
+06-28 13:40:36.403 18315 18339 I OMXClient: Treble IOmx obtained
+06-28 13:40:36.405  1487  1527 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-28 13:40:36.414  1487  1527 E OMXNodeInstance: getConfig(0xb5ba0d20:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-28 13:40:36.421  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:36.460 18315 18315 I CAM_Profiler: [252.022ms][ui] GUARD: CameraActivity.onCreateTasks - [31.218ms] computePictureSizes
+06-28 13:40:36.460  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:36.509  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 9 lines
+06-28 13:40:36.523  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:36.626  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:36.627 18315 18315 W CAM_Log : Tag RoundedThumbnailView is 1 chars longer than limit.
+06-28 13:40:36.655  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:36.841  1482  1525 D MediaAnalyticsService: MediaAnalyticsService::newSummarizerSet
+06-28 13:40:36.972 18315 18315 I CAM_Profiler: [763.379ms][ui] GUARD: CameraActivity.onCreateTasks - [509.099ms] setContentView()
+06-28 13:40:37.015 18315 18315 I CAM_Profiler: [807.541ms][ui] GUARD: CameraActivity.onCreateTasks - [44.162ms] Configure Camera UI
+06-28 13:40:37.048 18315 18333 W CAM2PORT_AndCamAgntImp: Releasing camera without any camera opened.
+06-28 13:40:37.059 18315 18315 W SoundPool: Use of stream types is deprecated for operations other than volume control
+06-28 13:40:37.059 18315 18315 W SoundPool: See the documentation of SoundPool() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:40:37.092 18315 18315 I CAM_Profiler: [883.509ms][ui] GUARD: CameraActivity.onCreateTasks - [19.537ms] Init Current Module UI
+06-28 13:40:37.107 18315 18315 V NFC     : this device does not have NFC support
+06-28 13:40:37.114 18315 18315 I CAM_Profiler: [906.429ms][ui] GUARD: CameraActivity.onCreateTasks - STOP
+06-28 13:40:37.193  1603 12888 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@d7f6434)
+06-28 13:40:37.202 18315 18315 I CAM_Profiler: [ 54.914ms][ui] GUARD: CameraActivity.resume - STOP
+06-28 13:40:37.203  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@d7f6434)
+06-28 13:40:37.231  1412  1426 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 13:40:37.237 18315 18350 D OpenGLRenderer: HWUI GL Pipeline
+06-28 13:40:37.394 18315 18350 D         : HostConnection::get() New Host Connection established 0x932d0800, tid 18350
+06-28 13:40:37.397  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:37.400 18315 18350 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 13:40:37.400 18315 18350 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 13:40:37.400 18315 18350 D OpenGLRenderer: Swap behavior 1
+06-28 13:40:37.402 18315 18350 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 13:40:37.402 18315 18350 D OpenGLRenderer: Swap behavior 0
+06-28 13:40:37.408  1603  6824 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:40:37.422  1975  1975 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 13:40:37.435 18315 18350 D EGL_emulation: eglCreateContext: 0xa3c7cd40: maj 2 min 0 rcv 2
+06-28 13:40:37.436  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:37.456 18315 18350 D EGL_emulation: eglMakeCurrent: 0xa3c7cd40: ver 2 0 (tinfo 0x935aa9c0)
+06-28 13:40:37.457  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:40:37.458  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.460  1412  1466 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 13:40:37.494  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.547  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 2 lines
+06-28 13:40:37.559  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.568 18315 18315 I CAM_OneCamera1Opnr: Opening Camera: CameraId{Api2='0',Api1:0}
+06-28 13:40:37.573  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.579  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.581  1476  5965 I CameraService: CameraService::connect call (PID -1 "com.android.camera2", camera ID 0) for HAL version default and Camera API version 2
+06-28 13:40:37.594  1476  5965 I Camera2ClientBase: Camera 0: Opened. Client: com.android.camera2 (PID 18315, UID 10039)
+06-28 13:40:37.597  1476  5965 I CameraDeviceClient: CameraDeviceClient 0: Opened
+06-28 13:40:37.597  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.618  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 1 line
+06-28 13:40:37.638  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.649 18315 18315 I CAM_FocusRingView: Computing center via view bounds.
+06-28 13:40:37.651 18315 18347 I CAM_OneCamCreator: Camera support level: LIMITED_YUV
+06-28 13:40:37.652 18315 18350 D EGL_emulation: eglMakeCurrent: 0xa3c7cd40: ver 2 0 (tinfo 0x935aa9c0)
+06-28 13:40:37.657  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.674  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.679 18315 18347 I CAM_OneCamCreator: Picture Size Configuration: PictureSizeCalculator.Configuration{native size=1280x960, crop=Rect(0, 0 - 1280, 960)}
+06-28 13:40:37.686  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.706  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 1 line
+06-28 13:40:37.720  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.734  1603  2149 E memtrack: Couldn't load memtrack module
+06-28 13:40:37.734  1603  2149 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:40:37.753  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.770  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 1 line
+06-28 13:40:37.782  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.807  1603  1624 I ActivityManager: Displayed com.android.camera2/com.android.camera.CaptureActivity: +1s912ms
+06-28 13:40:37.834  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.845  1476  5965 W CameraDeviceClient: createSurfaceFromGbp: Camera 0 with consumer usage flag: 256: Forcing asynchronous mode for stream
+06-28 13:40:37.849  1476  5965 W CameraDeviceClient: createSurfaceFromGbp: Camera 0: Overriding format 0x1 to IMPLEMENTATION_DEFINED
+06-28 13:40:37.849  1476  5965 E Camera3-Device: configureStreams: Stream 0: DataSpace override not allowed for format 0x23
+06-28 13:40:37.850  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.855  1476  5965 D Camera3-Device: Set real time priority for request queue thread (tid 18356)
+06-28 13:40:37.864 18315 18315 W CAM_ResSurfaceTexture: Do nothing since mPreviewLayoutSize is 0
+06-28 13:40:37.868  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.930  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:37.941  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 13:40:37.955  1603  2149 I WifiService: getWifiEnabledState uid=10032
+06-28 13:40:37.975  2999  3059 W SearchServiceCore: Abort, client detached.
+06-28 13:40:37.982  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:38.011 18315 18347 W SoundPool: Use of stream types is deprecated for operations other than volume control
+06-28 13:40:38.011 18315 18347 W SoundPool: See the documentation of SoundPool() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:40:38.035 18315 18364 V NuMediaExtractor: setDataSource fd=64 (/system/app/Camera2/Camera2.apk), offset=6748376, length=19122
+06-28 13:40:38.036 18315 18315 W CAM_IndicatorIconCtrlr: Trying to sync a pano indicator that is not initialized.
+06-28 13:40:38.064  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:38.079  2999 18300 I PBSessionCacheImpl: Deleted sessionId[6750126012434] from persistence.
+06-28 13:40:38.083 18315 18325 I zygote  : NativeAlloc concurrent copying GC freed 9589(1151KB) AllocSpace objects, 2(40KB) LOS objects, 49% free, 2037KB/3MB, paused 20.398ms total 387.765ms
+06-28 13:40:38.085  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4919296
+06-28 13:40:38.095  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:38.097 18315 18344 D         : HostConnection::get() New Host Connection established 0xa3c26600, tid 18344
+06-28 13:40:38.111 18315 18364 V NuMediaExtractor: track of type 'audio/vorbis' does not publish bitrate
+06-28 13:40:38.118  1476 18356 D         : HostConnection::get() New Host Connection established 0xacd1e100, tid 18356
+06-28 13:40:38.143  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:38.149 18315 18368 I OMXClient: Treble IOmx obtained
+06-28 13:40:38.149  1487  1757 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-28 13:40:38.154  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4919296
+06-28 13:40:38.155  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:38.166  1487  1757 E OMXNodeInstance: getConfig(0xb5ba0ba0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-28 13:40:38.173  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:38.182  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:38.186  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 2 lines
+06-28 13:40:38.188  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:38.189  1394 18353 I EmulatedCamera3_QemuSensor: captureRGBA: Dimensions for the current request (1280x960) differ from the previous request (-1x-1). Restarting camera
+06-28 13:40:38.953  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4919296
+06-28 13:40:38.957  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:38.966  1708  1708 I Choreographer: Skipped 47 frames!  The application may be doing too much work on its main thread.
+06-28 13:40:38.977 18315 18326 D         : HostConnection::get() New Host Connection established 0x932d08c0, tid 18326
+06-28 13:40:38.997  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:39.000  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:40:39.002  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:39.046  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 5 lines
+06-28 13:40:39.048  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:39.086  1394 18354 D         : HostConnection::get() New Host Connection established 0xa6b0b200, tid 18354
+06-28 13:40:39.097  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4919296
+06-28 13:40:39.119 18315 18315 D CameraPerformanceTracker: First preview frame received
+06-28 13:40:39.171  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4919296
+06-28 13:40:39.199 18315 18371 D         : HostConnection::get() New Host Connection established 0x932d0bc0, tid 18371
+06-28 13:40:39.841 18315 18364 V NuMediaExtractor: setDataSource fd=66 (/system/app/Camera2/Camera2.apk), offset=6786880, length=7617
+06-28 13:40:40.029 18315 18364 V NuMediaExtractor: track of type 'audio/vorbis' does not publish bitrate
+06-28 13:40:40.110 18315 18372 I OMXClient: Treble IOmx obtained
+06-28 13:40:40.110  1487  1809 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-28 13:40:40.113  1487  1809 E OMXNodeInstance: getConfig(0xb5ba0ba0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-28 13:40:40.209  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:40.307  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 10 lines
+06-28 13:40:40.315  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:41.242  1603 12888 D WificondControl: Scan result ready event
+06-28 13:40:41.803  1975  3210 I zygote  : IncrementDisableThreadFlip blocked for 11.290ms
+06-28 13:40:41.810  1975  2509 I zygote  : IncrementDisableThreadFlip blocked for 16.442ms
+06-28 13:40:41.913 18315 18364 V NuMediaExtractor: setDataSource fd=67 (/system/app/Camera2/Camera2.apk), offset=6794560, length=7755
+06-28 13:40:41.954 18315 18378 D         : HostConnection::get() New Host Connection established 0xa67c0900, tid 18378
+06-28 13:40:42.162 18315 18364 V NuMediaExtractor: track of type 'audio/vorbis' does not publish bitrate
+06-28 13:40:42.212 18315 18379 I OMXClient: Treble IOmx obtained
+06-28 13:40:42.213  1487  1527 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-28 13:40:42.218  1487  1527 E OMXNodeInstance: getConfig(0xb5ba0a80:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-28 13:40:42.221  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:42.274  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 10 lines
+06-28 13:40:42.274  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:42.624  1603 12888 I WifiService: releaseWifiLock uid=10014
+06-28 13:40:43.644  1975  1985 I zygote  : Background concurrent copying GC freed 134108(5MB) AllocSpace objects, 9(452KB) LOS objects, 33% free, 11MB/17MB, paused 187.760ms total 1.996s
+06-28 13:40:45.499  1975 18303 I Places  : ?: PlacesBleScanner stop()
+06-28 13:40:45.504  1975  1975 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 13:40:45.504  1975  1975 I BeaconBle: Scan canceled successfully.
+06-28 13:40:45.519  1975 18303 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 13:40:45.519  1975 18303 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 13:40:46.194  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:40:46.194  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:40:47.152  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:40:47.156  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:40:47.157  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:40:47.535  1975  1975 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 13:40:49.462  1409  1409 I boot-pipe: done populating /dev/random
+06-28 13:40:49.599 12507 12507 I net.osmand: TTSCommandPlayerImpl Send message to pebble mantenha-se à direita para   Rua Marquês do Herval 
+06-28 13:40:49.599 12507 12507 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 13:40:49.599 12507 12507 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 13:40:49.599 12507 12507 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:40:49.602  1603 12888 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@dae83a9 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 13:40:49.604 12507 12507 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 13:40:49.615 12744 12795 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 13:40:49.616 12744 12795 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 13:40:49.997 12744 12797 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 13:40:49.999  1603 12888 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:40:50.002  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78552745 , only wrote 78552720
+06-28 13:40:50.170  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:50.170  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78560780 , only wrote 78559920
+06-28 13:40:50.171  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78559946 , only wrote 78559920
+06-28 13:40:50.188  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78560726 , only wrote 78560640
+06-28 13:40:50.238  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78563043 , only wrote 78562080
+06-28 13:40:50.314  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78565730 , only wrote 78564960
+06-28 13:40:50.314  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78564986 , only wrote 78564960
+06-28 13:40:50.331  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78565751 , only wrote 78565680
+06-28 13:40:50.348  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:50.415  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78569723 , only wrote 78568560
+06-28 13:40:50.415  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78568569 , only wrote 78568560
+06-28 13:40:50.431  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78569295 , only wrote 78569280
+06-28 13:40:50.442  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:50.475  1975 18305 W ctxmgr  : [WorkManager] Long workInfo: pkg=com.google.android.gms, lbl=BaseProducer_write_to_store, start=2019-06-28 13:40:45.858+0000, stop=2019-06-28 13:40:50.473+0000, durtn=4615ms [CONTEXT service_id=47 ]
+06-28 13:40:50.548  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78574933 , only wrote 78573600
+06-28 13:40:50.549  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78573615 , only wrote 78573600
+06-28 13:40:50.566  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78574438 , only wrote 78574320
+06-28 13:40:50.573  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:50.590  1975  1975 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 13:40:50.644  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:40:50.647  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:40:50.704  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78580952 , only wrote 78580800
+06-28 13:40:50.707  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78580943 , only wrote 78580800
+06-28 13:40:50.724 18315 18388 D         : HostConnection::get() New Host Connection established 0xa67c0ac0, tid 18388
+06-28 13:40:50.728  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:50.831  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78586734 , only wrote 78586560
+06-28 13:40:50.831  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78586581 , only wrote 78586560
+06-28 13:40:50.848  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78587370 , only wrote 78587280
+06-28 13:40:50.886  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78589068 , only wrote 78588000
+06-28 13:40:50.887  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(8)
+06-28 13:40:50.928  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78590061 , only wrote 78589440
+06-28 13:40:50.930  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:51.026  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78594117 , only wrote 78593760
+06-28 13:40:51.026  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78593786 , only wrote 78593760
+06-28 13:40:51.043  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78594558 , only wrote 78594480
+06-28 13:40:51.091  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(5)
+06-28 13:40:51.092  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78596811 , only wrote 78595920
+06-28 13:40:51.094  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:40:51.094  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:40:51.123  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(11)
+06-28 13:40:51.180  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78600177 , only wrote 78599520
+06-28 13:40:51.206  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:51.283  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78604427 , only wrote 78603840
+06-28 13:40:51.283  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78603878 , only wrote 78603840
+06-28 13:40:51.300  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78604636 , only wrote 78604560
+06-28 13:40:51.353  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78607119 , only wrote 78606000
+06-28 13:40:51.353  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:51.461  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78611190 , only wrote 78608880
+06-28 13:40:51.462  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78608892 , only wrote 78608880
+06-28 13:40:51.462  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(9)
+06-28 13:40:51.478  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78609675 , only wrote 78609600
+06-28 13:40:51.556  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78613327 , only wrote 78610320
+06-28 13:40:51.556  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78610329 , only wrote 78610320
+06-28 13:40:51.562  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(7)
+06-28 13:40:51.572  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78611070 , only wrote 78611040
+06-28 13:40:51.578  2999  3059 I WorkerManager: dispose()
+06-28 13:40:51.583  2999  3059 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 13:40:51.588  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:51.755  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78619851 , only wrote 78616800
+06-28 13:40:51.756  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78616831 , only wrote 78616800
+06-28 13:40:51.775  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78617691 , only wrote 78617520
+06-28 13:40:51.782  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:51.899  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78623475 , only wrote 78619680
+06-28 13:40:51.899  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78619718 , only wrote 78619680
+06-28 13:40:51.917  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78620514 , only wrote 78620400
+06-28 13:40:52.003  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78624516 , only wrote 78621840
+06-28 13:40:52.003  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:52.037  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.039  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(10)
+06-28 13:40:52.149  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78628853 , only wrote 78626880
+06-28 13:40:52.149  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78626903 , only wrote 78626880
+06-28 13:40:52.166  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78627708 , only wrote 78627600
+06-28 13:40:52.167  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.170  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.183  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:52.261  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78632142 , only wrote 78629760
+06-28 13:40:52.261  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.277  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78630504 , only wrote 78630480
+06-28 13:40:52.277  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.279  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.351  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78634054 , only wrote 78631920
+06-28 13:40:52.351  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.361  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:52.367  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78632668 , only wrote 78632640
+06-28 13:40:52.367  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.371  1393  3231 I chatty  : uid=1041(audioserver) writer identical 1 line
+06-28 13:40:52.477  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.478  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78637984 , only wrote 78635520
+06-28 13:40:52.478  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78635527 , only wrote 78635520
+06-28 13:40:52.494  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78636266 , only wrote 78636240
+06-28 13:40:52.494  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.496  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.507  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:52.600  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.601  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78641407 , only wrote 78639120
+06-28 13:40:52.602  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78639131 , only wrote 78639120
+06-28 13:40:52.602  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.619  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78639932 , only wrote 78639840
+06-28 13:40:52.620  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.632  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:52.667  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.682  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.808  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78648939 , only wrote 78646320
+06-28 13:40:52.809  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78646369 , only wrote 78646320
+06-28 13:40:52.816 18376 18376 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 13:40:52.825  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78647086 , only wrote 78647040
+06-28 13:40:52.829 18376 18376 W app_process: Could not reserve sentinel fault page
+06-28 13:40:52.842  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:52.861  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.875  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:52.967  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78653867 , only wrote 78651360
+06-28 13:40:52.968  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78651389 , only wrote 78651360
+06-28 13:40:52.985  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78652179 , only wrote 78652080
+06-28 13:40:52.986  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.006  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(7)
+06-28 13:40:53.072  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78656260 , only wrote 78654960
+06-28 13:40:53.073  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78654977 , only wrote 78654960
+06-28 13:40:53.073  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.090  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78655783 , only wrote 78655680
+06-28 13:40:53.100  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:53.231  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.233  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78662577 , only wrote 78658560
+06-28 13:40:53.235  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78658620 , only wrote 78658560
+06-28 13:40:53.250  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78659306 , only wrote 78659280
+06-28 13:40:53.265  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:53.389  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78665924 , only wrote 78663600
+06-28 13:40:53.389  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78663617 , only wrote 78663600
+06-28 13:40:53.407  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78664455 , only wrote 78664320
+06-28 13:40:53.418  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(8)
+06-28 13:40:53.505  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78669019 , only wrote 78667200
+06-28 13:40:53.505  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78667224 , only wrote 78667200
+06-28 13:40:53.505  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.520  1393  3231 I chatty  : uid=1041(audioserver) writer identical 1 line
+06-28 13:40:53.522  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.619  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78672638 , only wrote 78669360
+06-28 13:40:53.621  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.622  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(15)
+06-28 13:40:53.637  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.653  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.662  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:53.668  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.756  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78675954 , only wrote 78673680
+06-28 13:40:53.756  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78673688 , only wrote 78673680
+06-28 13:40:53.773  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78674493 , only wrote 78674400
+06-28 13:40:53.779  1603 12888 I WifiService: getConnectionInfo uid=10014
+06-28 13:40:53.789  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:40:53.789  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:40:53.789  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:40:53.789  1975 18040 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 13:40:53.803  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(10)
+06-28 13:40:53.808  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.886  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78679842 , only wrote 78678000
+06-28 13:40:53.887  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78678027 , only wrote 78678000
+06-28 13:40:53.903  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78678742 , only wrote 78678720
+06-28 13:40:53.903  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.904  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:53.918  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(7)
+06-28 13:40:53.994  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78683098 , only wrote 78680880
+06-28 13:40:53.994  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:54.009  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78681602 , only wrote 78681600
+06-28 13:40:54.009  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:54.012  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:54.026  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:54.072  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:54.072  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78684643 , only wrote 78684480
+06-28 13:40:54.072  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78684490 , only wrote 78684480
+06-28 13:40:54.089  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78685286 , only wrote 78685200
+06-28 13:40:54.100  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(11)
+06-28 13:40:54.149  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78688084 , only wrote 78688080
+06-28 13:40:54.150  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78688089 , only wrote 78688080
+06-28 13:40:54.150  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:54.165  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78688840 , only wrote 78688800
+06-28 13:40:54.189  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(5)
+06-28 13:40:54.228  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:54.229  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78691858 , only wrote 78691680
+06-28 13:40:54.230  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78691709 , only wrote 78691680
+06-28 13:40:54.245  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78692428 , only wrote 78692400
+06-28 13:40:54.314  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(3)
+06-28 13:40:54.314  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78695700 , only wrote 78693840
+06-28 13:40:54.338  1603 12888 I WifiService: getConnectionInfo uid=10014
+06-28 13:40:54.345  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(10)
+06-28 13:40:54.405  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78698213 , only wrote 78697440
+06-28 13:40:54.406  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78697456 , only wrote 78697440
+06-28 13:40:54.422  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78698210 , only wrote 78698160
+06-28 13:40:54.506  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:54.507  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78702245 , only wrote 78699600
+06-28 13:40:54.507  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:54.535  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:54.635  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78705767 , only wrote 78705360
+06-28 13:40:54.635  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78705374 , only wrote 78705360
+06-28 13:40:54.653  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78706191 , only wrote 78706080
+06-28 13:40:54.657 18376 18376 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 13:40:54.695  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(10)
+06-28 13:40:54.695  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78708124 , only wrote 78707520
+06-28 13:40:54.698 18376 18376 I app_process: The ClassLoaderContext is a special shared library.
+06-28 13:40:54.798  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:54.799  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78712499 , only wrote 78710400
+06-28 13:40:54.800  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78710443 , only wrote 78710400
+06-28 13:40:54.816  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78711159 , only wrote 78711120
+06-28 13:40:54.828  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:54.903  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78715324 , only wrote 78712560
+06-28 13:40:54.992  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(11)
+06-28 13:40:54.992  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78716822 , only wrote 78714000
+06-28 13:40:55.091  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.092  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78718784 , only wrote 78716880
+06-28 13:40:55.092  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78716888 , only wrote 78716880
+06-28 13:40:55.092  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.093  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(9)
+06-28 13:40:55.107  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78717601 , only wrote 78717600
+06-28 13:40:55.107  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.109  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.137  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(12)
+06-28 13:40:55.142  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.239  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.240  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78723971 , only wrote 78721200
+06-28 13:40:55.240  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78721224 , only wrote 78721200
+06-28 13:40:55.257  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78721982 , only wrote 78721920
+06-28 13:40:55.260  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.348  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(9)
+06-28 13:40:55.348  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78726321 , only wrote 78723360
+06-28 13:40:55.349  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.407  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78726180 , only wrote 78724800
+06-28 13:40:55.408  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(11)
+06-28 13:40:55.409  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.465 12744 12797 D AudioTrack: stop() called with 77330 frames delivered
+06-28 13:40:55.467  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.475 12507 16610 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 13:40:55.475  1603  4070 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@dae83a9
+06-28 13:40:55.476 12507 16610 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 13:40:55.522  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78730297 , only wrote 78729840
+06-28 13:40:55.522  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78729878 , only wrote 78729840
+06-28 13:40:55.523  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.540  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78730664 , only wrote 78730560
+06-28 13:40:55.627  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.628  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78734815 , only wrote 78733440
+06-28 13:40:55.629  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78733461 , only wrote 78733440
+06-28 13:40:55.647  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78734310 , only wrote 78734160
+06-28 13:40:55.728  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78738060 , only wrote 78737040
+06-28 13:40:55.728  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78737051 , only wrote 78737040
+06-28 13:40:55.744  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78737796 , only wrote 78737760
+06-28 13:40:55.745  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.839  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78742298 , only wrote 78740640
+06-28 13:40:55.839  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78740650 , only wrote 78740640
+06-28 13:40:55.855  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78741400 , only wrote 78741360
+06-28 13:40:55.931  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78745010 , only wrote 78742800
+06-28 13:40:55.931  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.932  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:55.936 18376 18376 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+06-28 13:40:55.938 18376 18376 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CAMERA, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=9550936, downTime=9550936, deviceId=-1, source=0x101 }
+06-28 13:40:55.971 18315 18362 I CAM_FlashBasedPhotoCmd: running flash-auto command: com.android.camera.one.v2.photo.ConvergedImageCaptureCommand@78b60d
+06-28 13:40:55.977 18376 18376 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_CAMERA, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=9550936, downTime=9550936, deviceId=-1, source=0x101 }
+06-28 13:40:56.002 18376 18376 D AndroidRuntime: Shutting down VM
+06-28 13:40:56.139  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78752766 , only wrote 78751440
+06-28 13:40:56.139  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78751453 , only wrote 78751440
+06-28 13:40:56.154  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78752181 , only wrote 78752160
+06-28 13:40:56.236  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78756086 , only wrote 78755040
+06-28 13:40:56.236  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78755053 , only wrote 78755040
+06-28 13:40:56.288  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78757514 , only wrote 78755760
+06-28 13:40:56.389  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78760633 , only wrote 78760080
+06-28 13:40:56.390  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78760089 , only wrote 78760080
+06-28 13:40:56.485  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78764686 , only wrote 78762240
+06-28 13:40:56.486  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:56.580  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78766784 , only wrote 78763680
+06-28 13:40:56.612  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:56.706  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78769727 , only wrote 78768000
+06-28 13:40:56.706  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78768009 , only wrote 78768000
+06-28 13:40:56.724  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78768855 , only wrote 78768720
+06-28 13:40:56.815  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78773065 , only wrote 78770160
+06-28 13:40:56.815  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:56.830  1393  3231 I chatty  : uid=1041(audioserver) writer identical 2 lines
+06-28 13:40:56.910  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:56.911  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78774759 , only wrote 78773040
+06-28 13:40:56.911  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78773048 , only wrote 78773040
+06-28 13:40:56.927  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78773813 , only wrote 78773760
+06-28 13:40:56.927  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:56.929  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:57.032  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78778818 , only wrote 78775200
+06-28 13:40:57.032  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:57.034  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:57.290  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78787556 , only wrote 78776640
+06-28 13:40:57.475  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78785559 , only wrote 78782400
+06-28 13:40:57.476  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78782427 , only wrote 78782400
+06-28 13:40:57.492  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78783178 , only wrote 78783120
+06-28 13:40:57.598  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78788180 , only wrote 78784560
+06-28 13:40:57.702  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78789558 , only wrote 78786000
+06-28 13:40:57.702  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:57.706  1603 12888 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:40:57.718  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:57.734  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:57.860  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78793567 , only wrote 78791040
+06-28 13:40:57.860  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78791076 , only wrote 78791040
+06-28 13:40:57.961  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78795859 , only wrote 78791760
+06-28 13:40:57.978  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:58.079  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:58.080  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78797488 , only wrote 78794640
+06-28 13:40:58.081  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78794669 , only wrote 78794640
+06-28 13:40:58.097  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78795415 , only wrote 78795360
+06-28 13:40:58.098  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:58.113  1393  3231 I chatty  : uid=1041(audioserver) writer identical 1 line
+06-28 13:40:58.222  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:58.223  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78801402 , only wrote 78798240
+06-28 13:40:58.223  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78798250 , only wrote 78798240
+06-28 13:40:58.223  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:58.240  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78799057 , only wrote 78798960
+06-28 13:40:58.379  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78805648 , only wrote 78801840
+06-28 13:40:58.380  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78801852 , only wrote 78801840
+06-28 13:40:58.397  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78802657 , only wrote 78802560
+06-28 13:40:58.398  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:40:58.502  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 78809444 , only wrote 78805440
+06-28 13:40:58.639  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:40:58.664  1603  2149 I WifiService: releaseWifiLock uid=10014
+06-28 13:40:58.710  1401  6331 W gralloc_ranchu: gralloc_alloc: Requested YCbCr_420_888, taking experimental path. usage: 1280 x 960, usage 20003
+06-28 13:40:58.712  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1847296
+06-28 13:40:59.115  1603  1612 I zygote  : Background concurrent copying GC freed 29903(1602KB) AllocSpace objects, 6(248KB) LOS objects, 27% free, 16MB/22MB, paused 4.013ms total 1.530s
+06-28 13:40:59.123 18315 18366 V NuMediaExtractor: setDataSource fd=77 (/system/media/audio/ui/camera_click.ogg), offset=0, length=4851
+06-28 13:40:59.187 18315 18366 V NuMediaExtractor: track of type 'audio/vorbis' does not publish bitrate
+06-28 13:40:59.193 18315 18400 I OMXClient: Treble IOmx obtained
+06-28 13:40:59.193  1487  1527 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-28 13:40:59.195  1487  1527 E OMXNodeInstance: getConfig(0xb5ba0a80:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-28 13:40:59.199  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:55.469  1603 12888 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:40:59.409  1603 12888 W ActivityManager: Unable to start service Intent { cmp=com.android.camera2/com.android.camera.processing.ProcessingService } U=0: not found
+06-28 13:40:59.329  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 10 lines
+06-28 13:40:59.366  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:59.671 18315 18366 V NuMediaExtractor: setDataSource fd=85 (/system/media/audio/ui/camera_click.ogg), offset=0, length=4851
+06-28 13:40:59.688 18315 18366 V NuMediaExtractor: track of type 'audio/vorbis' does not publish bitrate
+06-28 13:40:59.697 18315 18405 I OMXClient: Treble IOmx obtained
+06-28 13:40:59.697  1487  1527 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-28 13:40:59.699  1487  1527 E OMXNodeInstance: getConfig(0xb5ba0a80:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-28 13:40:59.702  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:59.730  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 10 lines
+06-28 13:40:59.730  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 13:40:59.863 18315 18325 I zygote  : NativeAlloc concurrent copying GC freed 17818(908KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3MB/6MB, paused 43.506ms total 895.556ms
+06-28 13:41:00.052  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:41:00.052  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:41:00.469  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:41:00.676 18315 18327 D         : HostConnection::get() New Host Connection established 0xa3c263c0, tid 18327
+06-28 13:41:01.511  1603  4070 D WificondControl: Scan result ready event
+06-28 13:41:01.716 18315 18347 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied, rates do not match 44100 Hz, require 48000 Hz
+06-28 13:41:01.722  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78805494 , only wrote 78805440
+06-28 13:41:01.760 12507 12507 D net.osmand: RoutingHelper Processed point bearing deltas : 112.89366912841797 20.259050369262695
+06-28 13:41:01.857  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78811928 , only wrote 78809760
+06-28 13:41:01.857  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78809770 , only wrote 78809760
+06-28 13:41:01.906  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(10)
+06-28 13:41:01.994  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78816300 , only wrote 78814800
+06-28 13:41:01.994  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78814807 , only wrote 78814800
+06-28 13:41:02.006 18315 18325 I zygote  : NativeAlloc concurrent copying GC freed 3520(318KB) AllocSpace objects, 1(148KB) LOS objects, 49% free, 3MB/6MB, paused 10.066ms total 1.975s
+06-28 13:41:02.010  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78815568 , only wrote 78815520
+06-28 13:41:02.122  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78820924 , only wrote 78818400
+06-28 13:41:02.123  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78818411 , only wrote 78818400
+06-28 13:41:02.139  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78819206 , only wrote 78819120
+06-28 13:41:02.266  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78825214 , only wrote 78822000
+06-28 13:41:02.267  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78822008 , only wrote 78822000
+06-28 13:41:02.282  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78822763 , only wrote 78822720
+06-28 13:41:02.458  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78831162 , only wrote 78827040
+06-28 13:41:02.459  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78827085 , only wrote 78827040
+06-28 13:41:02.477  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78827858 , only wrote 78827760
+06-28 13:41:02.543  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78830963 , only wrote 78828480
+06-28 13:41:02.543  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78828499 , only wrote 78828480
+06-28 13:41:02.559  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78829246 , only wrote 78829200
+06-28 13:41:02.770  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78839310 , only wrote 78834960
+06-28 13:41:02.770  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78834972 , only wrote 78834960
+06-28 13:41:02.919  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78842100 , only wrote 78835680
+06-28 13:41:03.046  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78841753 , only wrote 78837840
+06-28 13:41:03.061  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78838561 , only wrote 78838560
+06-28 13:41:03.193  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:03.195  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78844991 , only wrote 78841440
+06-28 13:41:03.195  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78841449 , only wrote 78841440
+06-28 13:41:03.211  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78842220 , only wrote 78842160
+06-28 13:41:03.336  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78848173 , only wrote 78845040
+06-28 13:41:03.337  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78845066 , only wrote 78845040
+06-28 13:41:03.352  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78845782 , only wrote 78845760
+06-28 13:41:03.354  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:03.483  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78852011 , only wrote 78849360
+06-28 13:41:03.483  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78849376 , only wrote 78849360
+06-28 13:41:03.501  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78850208 , only wrote 78850080
+06-28 13:41:03.612  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78855418 , only wrote 78851520
+06-28 13:41:03.734  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:03.735  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78857425 , only wrote 78854400
+06-28 13:41:03.737  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78854480 , only wrote 78854400
+06-28 13:41:03.752  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78855157 , only wrote 78855120
+06-28 13:41:03.871  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78860822 , only wrote 78858000
+06-28 13:41:03.871  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78858010 , only wrote 78858000
+06-28 13:41:03.888  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78858792 , only wrote 78858720
+06-28 13:41:03.890  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:03.993  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78863751 , only wrote 78860160
+06-28 13:41:03.993  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:03.993  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.181  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78869181 , only wrote 78865200
+06-28 13:41:04.182  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.320  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78871879 , only wrote 78868080
+06-28 13:41:04.321  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78868116 , only wrote 78868080
+06-28 13:41:04.374  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.491  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78876267 , only wrote 78873120
+06-28 13:41:04.491  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78873132 , only wrote 78873120
+06-28 13:41:04.508  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78873908 , only wrote 78873840
+06-28 13:41:04.542  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.660  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78881124 , only wrote 78878880
+06-28 13:41:04.660  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78878887 , only wrote 78878880
+06-28 13:41:04.675  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78879621 , only wrote 78879600
+06-28 13:41:04.675  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.677  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.755  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78883441 , only wrote 78881040
+06-28 13:41:04.755  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.788  1393  3231 I chatty  : uid=1041(audioserver) writer identical 2 lines
+06-28 13:41:04.900  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:04.900  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78888001 , only wrote 78886080
+06-28 13:41:04.901  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78886094 , only wrote 78886080
+06-28 13:41:04.921  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 78887064 , only wrote 78886800
+06-28 13:41:07.013 18315 18416 I CAM_JpegUtilNative: Compressing jpeg with size = (1280, 960); y-channel pixel stride = 1; y-channel row stride =  1280; cb-channel pixel stride = 2; cb-channel row stride =  1280; cr-channel pixel stride = 2; cr-channel row stride =  1280; crop = [(0, 0) - (1280, 960)]; rotation = 3 * 90 deg. 
+06-28 13:41:07.655 18315 18417 D         : HostConnection::get() New Host Connection established 0xa67c0200, tid 18417
+06-28 13:41:09.265  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:41:09.265  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:41:09.265  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:41:10.035 18410 18410 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 13:41:10.085 18410 18410 W app_process: Could not reserve sentinel fault page
+06-28 13:41:11.132 18410 18410 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 13:41:11.135 18410 18410 I app_process: The ClassLoaderContext is a special shared library.
+06-28 13:41:11.623 18410 18410 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-28 13:41:11.629 18410 18410 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-28 13:41:11.630 18410 18410 W Monkey  :  arg: "-p"
+06-28 13:41:11.630 18410 18410 W Monkey  :  arg: "net.osmand"
+06-28 13:41:11.630 18410 18410 W Monkey  :  arg: "-c"
+06-28 13:41:11.631 18410 18410 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-28 13:41:11.632 18410 18410 W Monkey  :  arg: "1"
+06-28 13:41:11.637 18410 18410 W Monkey  : data="net.osmand"
+06-28 13:41:11.638 18410 18410 W Monkey  : data="android.intent.category.LAUNCHER"
+06-28 13:41:12.007  1603  1617 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{a0978e7 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{2890c94 18410 (unknown name)/2000/u-1 remote:70b8801}: process gone or crashing
+06-28 13:41:13.039  1603  4070 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-28 13:41:13.040  1603  4070 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-28 13:41:13.040  1603  4070 W Binder  : java.lang.Throwable
+06-28 13:41:13.040  1603  4070 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-28 13:41:13.040  1603  4070 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 13:41:13.108 18315 18315 D         : HostConnection::get() New Host Connection established 0x93054c80, tid 18315
+06-28 13:41:13.232 18410 18410 I Monkey  : Events injected: 1
+06-28 13:41:13.253 18410 18410 I Monkey  : ## Network stats: elapsed time=214ms (0ms mobile, 0ms wifi, 214ms not connected)
+06-28 13:41:13.254 18410 18410 I com.android.commands.monkey: System.exit called, status: 0
+06-28 13:41:13.254 18410 18410 I AndroidRuntime: VM exiting with result code 0.
+06-28 13:41:13.359  1476  5965 I Camera3-Device: disconnect: E
+06-28 13:41:13.363  1476  5965 I CameraLatencyHistogram: ProcessCaptureRequest latency histogram (363) samples:
+06-28 13:41:13.363  1476  5965 I CameraLatencyHistogram:        40     80    120    160    200    240    280    320    360    inf (max ms)
+06-28 13:41:13.364  1476  5965 I CameraLatencyHistogram:      65.01   19.01   11.57   3.31   0.55   0.00   0.28   0.00   0.00   0.28 (%)
+06-28 13:41:13.440  1476  5965 I CameraLatencyHistogram: Stream 0 dequeueBuffer latency histogram (1) samples:
+06-28 13:41:13.441  1476  5965 I CameraLatencyHistogram:         5     10     15     20     25     30     35     40     45    inf (max ms)
+06-28 13:41:13.441  1476  5965 I CameraLatencyHistogram:      0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   100.00 (%)
+06-28 13:41:13.458  1476  5965 I CameraLatencyHistogram: Stream 1 dequeueBuffer latency histogram (363) samples:
+06-28 13:41:13.460  1476  5965 I CameraLatencyHistogram:         5     10     15     20     25     30     35     40     45    inf (max ms)
+06-28 13:41:13.460  1476  5965 I CameraLatencyHistogram:      92.29   4.96   0.00   0.28   0.28   0.28   0.00   0.28   0.00   1.65 (%)
+06-28 13:41:13.460  1476  5965 I Camera3-Device: disconnect: X
+06-28 13:41:13.460  1476  5965 I Camera3-Device: disconnect: E
+06-28 13:41:13.469  1476  5965 I CameraService: disconnect: Disconnected client for camera 0 for PID 18315
+06-28 13:41:13.495  1603 12888 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b6abc83)
+06-28 13:41:13.496  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b6abc83)
+06-28 13:41:13.500 18315 18333 W CAM2PORT_AndCamAgntImp: Releasing camera without any camera opened.
+06-28 13:41:13.501 18315 18315 I CAM_Profiler: [403.502ms][ui] GUARD: CameraActivity.onPause - STOP
+06-28 13:41:13.578  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:41:13.608  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 13:41:13.617 18315 18315 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+06-28 13:41:13.624  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:41:13.625  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:41:13.680 18315 18350 D EGL_emulation: eglMakeCurrent: 0xa3c7cd40: ver 2 0 (tinfo 0x935aa9c0)
+06-28 13:41:13.801  1975  1975 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 13:41:13.891 12507 12507 D InAppPurchaseHelper: Destroying helper.
+06-28 13:41:13.898  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:41:14.018  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 7 lines
+06-28 13:41:14.032  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:41:14.039  1603  3242 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 13:41:14.039  1603  3242 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 13:41:14.049 12507 12507 D net.osmand: Enable sensor
+06-28 13:41:14.056  1603  3242 D OpenGLRenderer: Swap behavior 1
+06-28 13:41:14.059  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:41:14.063  1603  3242 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 13:41:14.071  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:41:14.088  1603  3242 D OpenGLRenderer: Swap behavior 0
+06-28 13:41:14.089  1603  6824 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@a2d38fb)
+06-28 13:41:14.090  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@a2d38fb)
+06-28 13:41:14.102  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 13:41:14.114 12507 12507 W System.err: OnCreate for MapActivity took 223 ms
+06-28 13:41:14.122 12507 12507 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+06-28 13:41:14.156  1603  3242 D EGL_emulation: eglCreateContext: 0x8dfc8040: maj 2 min 0 rcv 2
+06-28 13:41:14.192  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:41:14.205 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 13:41:14.247 12507 12507 I chatty  : uid=10104(net.osmand) identical 68 lines
+06-28 13:41:14.247 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 13:41:14.270  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 19381(1038KB) AllocSpace objects, 0(0B) LOS objects, 46% free, 7MB/13MB, paused 1.123ms total 635.408ms
+06-28 13:41:14.284  1412  1428 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=12507, uid<=10104
+06-28 13:41:14.285 12507 12507 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 13:41:14.293  1412  1428 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=12507, uid<=10104
+06-28 13:41:14.293 12507 12507 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 13:41:14.304 12507 12638 D EGL_emulation: eglMakeCurrent: 0xa6785900: ver 2 0 (tinfo 0xa6783410)
+06-28 13:41:14.327  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:41:14.372  1975  1975 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 13:41:14.411  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 13:41:14.524  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 13:41:14.539  1603  3242 D EGL_emulation: eglMakeCurrent: 0x8dfc8040: ver 2 0 (tinfo 0x8dfe60d0)
+06-28 13:41:14.543  1603  2149 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:41:14.663 12507 12507 I net.osmand: TTSCommandPlayerImpl Send message to pebble após  50 metros vire à direita para   Rua Cardoso Vieira 
+06-28 13:41:14.665 12507 12507 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 13:41:14.666 12507 12507 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 13:41:14.669 12507 12507 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:41:14.671  1603  4070 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@cc2c048 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 13:41:14.673 12507 12507 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 13:41:14.690 12744 12795 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 13:41:14.693 12744 12795 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 13:41:14.754  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 13:41:14.849 12744 12797 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 13:41:14.854  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 13:41:14.864  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 78886976 , only wrote 78886800
+06-28 13:41:14.866  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:14.874  1603  2149 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:41:14.867  1393  3231 I chatty  : uid=1041(audioserver) writer identical 1 line
+06-28 13:41:14.883  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 13:41:15.012  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(1)
+06-28 13:41:15.148  1603 12888 I WifiService: releaseWifiLock uid=10014
+06-28 13:41:15.404  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 8113(457KB) AllocSpace objects, 0(0B) LOS objects, 45% free, 7MB/13MB, paused 1.568ms total 1.128s
+06-28 13:41:15.450  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 23985(1214KB) AllocSpace objects, 5(228KB) LOS objects, 26% free, 16MB/22MB, paused 2.998ms total 1.768s
+06-28 13:41:16.271  1402  1417 D hwcomposer: hw_composer sent 240 syncs in 95s
+06-28 13:41:16.640  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 15875(873KB) AllocSpace objects, 9(436KB) LOS objects, 27% free, 16MB/22MB, paused 932us total 204.262ms
+06-28 13:41:18.795  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79075491 , only wrote 79075440
+06-28 13:41:18.976  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79084116 , only wrote 79084080
+06-28 13:41:18.991  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79084802 , only wrote 79084800
+06-28 13:41:19.534  1476  5965 I Camera2ClientBase: Closed Camera 0. Client was: com.android.camera2 (PID 18315, UID 10039)
+06-28 13:41:19.731 12744 12797 D AudioTrack: stop() called with 105490 frames delivered
+06-28 13:41:19.751 12507 16759 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 13:41:19.751  1603 12888 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@cc2c048
+06-28 13:41:19.753 12507 16759 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 13:41:19.948  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79130744 , only wrote 79130160
+06-28 13:41:19.964  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79130921 , only wrote 79130880
+06-28 13:41:19.978  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79131533 , only wrote 79130880
+06-28 13:41:19.998  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79131845 , only wrote 79131600
+06-28 13:41:20.028  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79133056 , only wrote 79133040
+06-28 13:41:20.059  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79134497 , only wrote 79134480
+06-28 13:41:20.083  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79135626 , only wrote 79135200
+06-28 13:41:20.083  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79135211 , only wrote 79135200
+06-28 13:41:20.104  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79136221 , only wrote 79135920
+06-28 13:41:22.474  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79249694 , only wrote 79249680
+06-28 13:41:22.762  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 79276596 , only wrote 79263360
+06-28 13:41:26.665  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:41:26.665  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:41:26.780  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:41:26.781  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:41:28.581  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:41:32.053  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:41:32.054  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:41:32.054  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:41:32.263 12086 12104 I Finsky  : [562] imb.run(3): Stats for Executor: BlockingExecutor ink@1fb7b13[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 21]
+06-28 13:41:32.264 12086 12104 I Finsky  : [562] imb.run(3): Stats for Executor: LightweightExecutor ink@b456150[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 74]
+06-28 13:41:32.394 12086 12104 I Finsky  : [562] imb.run(3): Stats for Executor: bgExecutor ink@410ff49[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 118]
+06-28 13:41:32.398 12507 12507 D net.osmand: RoutingHelper Processed point bearing deltas : 89.32344436645508 3.8391246795654297
+06-28 13:41:34.553  1603  2149 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:41:37.534  1603 12888 D WificondControl: Scan result ready event
+06-28 13:41:37.576  1603 12888 I WifiService: releaseWifiLock uid=10014
+06-28 13:41:41.998 12507 12507 I net.osmand: TTSCommandPlayerImpl Send message to pebble vire à direita para   Rua Cardoso Vieira 
+06-28 13:41:41.998 12507 12507 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 13:41:41.998 12507 12507 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 13:41:41.998 12507 12507 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:41:42.001  1603  4070 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@531fee1 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 13:41:42.006 12507 12507 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 13:41:42.010 12744 12795 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 13:41:42.012 12744 12795 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 13:41:42.092 12744 12797 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 13:41:19.747  1603  2149 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:41:42.115  1603  4070 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:41:42.125  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79263582 , only wrote 79263360
+06-28 13:41:45.537 12744 12797 D AudioTrack: stop() called with 74250 frames delivered
+06-28 13:41:45.546 12507 13142 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 13:41:45.547  1603  3971 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@531fee1
+06-28 13:41:45.548 12507 13142 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 13:41:48.562  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 79880387 , only wrote 79572240
+06-28 13:41:49.464  1409  1409 I boot-pipe: done populating /dev/random
+06-28 13:41:55.631  1603 12888 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:41:55.646  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:41:55.646  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:41:55.789  1603  2149 I WifiService: releaseWifiLock uid=10014
+06-28 13:41:57.851 12507 12507 D net.osmand: RoutingHelper Processed point bearing deltas : 125.83822250366211 0.22799301147460938
+06-28 13:41:58.598  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:42:06.507 12507 12519 I zygote  : Background concurrent copying GC freed 141786(6MB) AllocSpace objects, 15(684KB) LOS objects, 26% free, 16MB/22MB, paused 5.672ms total 176.788ms
+06-28 13:42:13.642  1603  1612 I zygote  : Background concurrent copying GC freed 60596(2MB) AllocSpace objects, 11(540KB) LOS objects, 27% free, 15MB/21MB, paused 11.838ms total 171.414ms
+06-28 13:42:15.633  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:42:15.633  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:42:15.633  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:42:15.655  1603  6824 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:42:16.648  1402  1417 D hwcomposer: hw_composer sent 300 syncs in 60s
+06-28 13:42:18.634  1603  4070 D WificondControl: Scan result ready event
+06-28 13:42:18.703  1603  4070 I WifiService: releaseWifiLock uid=10014
+06-28 13:42:25.016  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:42:25.016  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:42:25.017  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:42:28.613  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:42:35.684  1603  6824 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:42:35.731  1603  2149 I WifiService: releaseWifiLock uid=10014
+06-28 13:42:40.034  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:42:40.034  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:42:40.034  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:42:43.403 12507 12507 D net.osmand: RoutingHelper Processed point bearing deltas : 102.16152572631836 0.7328338623046875
+06-28 13:42:44.416  1603  3971 I WifiService: getConnectionInfo uid=10014
+06-28 13:42:44.419  1975 18040 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 13:42:44.423  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:42:44.423  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:42:44.424  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:42:44.863  1975 18046 W GCM     : Raising heartbeat interval to 230000, good=30 bad=1
+06-28 13:42:44.864  1603  6824 I WifiService: getConnectionInfo uid=10014
+06-28 13:42:49.467  1409  1409 I boot-pipe: done populating /dev/random
+06-28 13:42:49.542  1975  1985 I zygote  : Background concurrent copying GC freed 148200(6MB) AllocSpace objects, 7(640KB) LOS objects, 37% free, 10MB/16MB, paused 1.341ms total 164.739ms
+06-28 13:42:56.717  1603  2149 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:42:58.620  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:42:59.714  1603  3971 D WificondControl: Scan result ready event
+06-28 13:42:59.777  1603  2149 I WifiService: releaseWifiLock uid=10014
+06-28 13:43:02.194  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:43:02.194  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:43:02.194  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:43:06.587  1603  1612 I zygote  : Background concurrent copying GC freed 56964(2MB) AllocSpace objects, 4(208KB) LOS objects, 27% free, 15MB/21MB, paused 1.609ms total 188.185ms
+06-28 13:43:13.702 12507 12507 I net.osmand: TTSCommandPlayerImpl Send message to pebble após  50 metros vire à direita para   Rua Maciel Pinheiro 
+06-28 13:43:13.702 12507 12507 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 13:43:13.702 12507 12507 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 13:43:13.702 12507 12507 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:43:13.703  1603  3971 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@36ea81d callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 13:43:13.706 12507 12507 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 13:43:13.712 12744 12795 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 13:43:13.714 12744 12795 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 13:43:13.771 12744 12797 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 13:41:45.539  1603  4070 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:43:13.773  1603  3971 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:43:13.778  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79572262 , only wrote 79572240
+06-28 13:43:14.797  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(6)
+06-28 13:43:16.734  1603  4070 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:43:16.831  1603  6824 I WifiService: releaseWifiLock uid=10014
+06-28 13:43:17.363  1402  1417 D hwcomposer: hw_composer sent 300 syncs in 61s
+06-28 13:43:18.607 12744 12797 D AudioTrack: stop() called with 103730 frames delivered
+06-28 13:43:18.615  1603  2149 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:43:18.619 12507 16759 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 13:43:18.619  1603  4070 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@36ea81d
+06-28 13:43:18.620 12507 16759 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 13:43:21.624  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 80324936 , only wrote 79948800
+06-28 13:43:29.408  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:43:37.494  1603  3971 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:43:37.505  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:43:37.505  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:43:37.563  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 13:43:37.563  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 13:43:40.494  1603 12888 D WificondControl: Scan result ready event
+06-28 13:43:40.567  1603  4070 I WifiService: releaseWifiLock uid=10014
+06-28 13:43:41.657 12507 12507 I net.osmand: TTSCommandPlayerImpl Send message to pebble vire à direita para   Rua Maciel Pinheiro 
+06-28 13:43:41.658 12507 12507 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 13:43:41.658 12507 12507 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 13:43:41.658 12507 12507 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 13:43:41.658  1603  3971 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@c49a92 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 13:43:41.658 12507 12507 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 13:43:41.660 12744 12795 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 13:43:41.662 12744 12795 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 13:43:41.737 12744 12797 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 13:43:41.744  1603  6824 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:43:41.748  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 79948868 , only wrote 79948800
+06-28 13:43:42.877  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(4)
+06-28 13:43:45.123 12744 12797 D AudioTrack: stop() called with 72710 frames delivered
+06-28 13:43:45.126  1603 12888 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 13:43:45.129 12507 16759 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 13:43:45.129  1603  3971 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/12507 clientId=android.media.AudioManager@9a87ae1net.osmand.plus.api.AudioFocusHelperImpl@c49a92
+06-28 13:43:45.130 12507 16759 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 13:43:46.882 12507 12519 I zygote  : Background concurrent copying GC freed 162495(6MB) AllocSpace objects, 0(0B) LOS objects, 27% free, 16MB/22MB, paused 1.451ms total 232.163ms
+06-28 13:43:47.152  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:43:47.152  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:43:47.152  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:43:48.170  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 80563790 , only wrote 80256960
+06-28 13:43:48.886 12507 12507 D net.osmand: RoutingHelper Processed point bearing deltas : 127.51435279846191 90.65757751464844
+06-28 13:43:49.469  1409  1409 I boot-pipe: done populating /dev/random
+06-28 13:43:58.515  1603  4070 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:43:58.587  1603 12888 I WifiService: releaseWifiLock uid=10014
+06-28 13:43:59.288  1603  1612 I zygote  : Background concurrent copying GC freed 53646(2MB) AllocSpace objects, 4(208KB) LOS objects, 27% free, 15MB/21MB, paused 962us total 211.171ms
+06-28 13:43:59.676  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:44:03.236  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 13:44:03.236  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 13:44:03.236  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 13:44:09.668 12507 12507 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 13:44:15.418 12507 12507 I chatty  : uid=10104(net.osmand) identical 9 lines
+06-28 13:44:15.670 12507 12507 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 13:44:17.749  1402  1417 D hwcomposer: hw_composer sent 306 syncs in 60s
+06-28 13:44:18.524  1603  6824 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 13:44:21.523  1603  6824 D WificondControl: Scan result ready event
+06-28 13:44:21.570  1603  4070 I WifiService: releaseWifiLock uid=10014
+06-28 13:44:29.686  1975  1975 I GeofencerStateMachine: sendNewTransitions called.
+06-28 13:44:31.228 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 13:44:31.228 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 13:44:31.287 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 13:44:31.288 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 13:44:31.348 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 13:44:31.349 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 13:44:31.673 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 13:44:31.674 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 13:44:31.713 12507 12551 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.217966666666666, lon=-35.88372833333334, rotate=22.145958, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1345, pixWidth=1800, pixHeight=2690]
+06-28 13:44:31.781 12507 12551 I net.osmand:native: Route objects 422
+06-28 13:44:31.781 12507 12551 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 13:44:31.781 12507 12551 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 13:44:31.782 12507 12551 I net.osmand:native: Search : tree - read( 580), accept( 55), objs - visit( 3157), accept(453), in result(422) 
+06-28 13:44:31.785 12507 12551 I net.osmand: MapRenderRepositories BLat=-7.225040078163147, TLat=-7.210896372795105, LLong=-35.88921356201172, RLong=-35.87824630737305, zoom=17
+06-28 13:44:31.785 12507 12551 I net.osmand: MapRenderRepositories Native search: 67 ms 
+06-28 13:44:31.792 12507 12551 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-28 13:44:31.792 12507 12551 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-28 13:44:31.792 12507 12551 I net.osmand:native: Locked 19368000 bytes at 0x6e880000
+06-28 13:44:31.792 12507 12551 I net.osmand:native: Initializing rendering
+06-28 13:44:31.793 12507 12551 I net.osmand:native: Rendering image
+06-28 13:44:32.154 12507 12551 I net.osmand:native: Native ok (rendering 4, text 156 ms) 
+06-28 13:44:32.154 12507 12551 I net.osmand:native:  (4870 points, 1154 points inside, 679 of 920 objects visible)
+06-28 13:44:32.154 12507 12551 I net.osmand:native: End Rendering image
+06-28 13:44:32.154 12507 12551 I net.osmand:native: Native ok (init 1, rendering 4) 
+06-28 13:44:32.162 12507 12551 I net.osmand: MapRenderRepositories true
+06-28 13:44:32.266 12086 12104 I Finsky  : [562] imb.run(3): Stats for Executor: BlockingExecutor ink@1fb7b13[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 21]
+06-28 13:44:32.267 12086 12104 I Finsky  : [562] imb.run(3): Stats for Executor: LightweightExecutor ink@b456150[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 74]
+06-28 13:44:32.399 12086 12104 I Finsky  : [562] imb.run(3): Stats for Executor: bgExecutor ink@410ff49[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 119]

@@ -1,0 +1,467 @@
+--------- beginning of main
+06-28 15:25:31.856  1603 11127 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:25:31.864  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:25:31.864  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:25:31.902  1603  5056 I WifiService: releaseWifiLock uid=10014
+06-28 15:25:31.955  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:25:31.955  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:25:33.581 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+--------- beginning of system
+06-28 15:25:43.191  1603  5056 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000
+06-28 15:25:43.233  1603 11127 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@4c44ede)
+06-28 15:25:43.234  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@4c44ede)
+06-28 15:25:43.258  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:43.266 29061 29061 D net.osmand: Disable sensor
+06-28 15:25:43.302  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:43.354  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:43.411  1412  1412 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-28 15:25:43.450  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:43.498  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:43.535 29061 29061 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:25:43.546  8540  8573 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783400)
+06-28 15:25:43.549  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:43.646  8540  8540 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 15:25:43.658  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 15:25:43.688 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 15:25:43.757  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:43.800  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:43.814  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 15:25:43.846  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:43.907  8540  8574 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-28 15:25:43.922  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:44.074 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:25:44.174  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 15:25:44.175  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 15:25:44.364 29061  9255 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-28 15:25:44.426  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:44.520  2548  2558 I zygote  : NativeAlloc concurrent copying GC freed 17646(987KB) AllocSpace objects, 3(192KB) LOS objects, 49% free, 4MB/9MB, paused 14.107ms total 700.593ms
+06-28 15:25:44.842  1603  2505 I WifiService: getWifiEnabledState uid=10032
+06-28 15:25:44.900  1603  2151 I WifiService: getWifiEnabledState uid=10032
+06-28 15:25:44.921  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 43145(1850KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 10MB/16MB, paused 1.402ms total 927.791ms
+06-28 15:25:44.939  8540  8567 W LocationOracle: No location history returned by ContextManager
+06-28 15:25:45.071  8540  8574 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 15:25:45.077  8540  8574 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 15:25:45.082  8540  8574 I MicroDetector: Keeping mic open: false
+06-28 15:25:45.082  8540  8574 I MicroDetectionWorker: #onError(false)
+06-28 15:25:45.206 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:25:45.212 19546 19546 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-28 15:25:45.232 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:25:45.300 19546  9267 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17785022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 19546). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-28 15:25:45.414  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 32991(1491KB) AllocSpace objects, 2(40KB) LOS objects, 17% free, 28MB/34MB, paused 2.579ms total 1.015s
+06-28 15:25:45.510 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:25:45.513 19546  9267 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-28 15:25:45.517 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:25:45.525 19546  9269 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 15:25:45.533 19546  9269 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 15:25:45.594 19546  9269 I Places  : Converted 1 out of 1 WiFi scans
+06-28 15:25:45.595  1603  2151 I WifiService: getConnectionInfo uid=10014
+06-28 15:25:45.986 19546  9269 I Places  : ?: PlacesBleScanner start() with priority 2
+06-28 15:25:45.986 19546  9269 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 15:25:45.986 19546  9269 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 15:25:46.007 19546 19546 E BeaconBle: Missing BluetoothAdapter
+06-28 15:25:46.007 19546 19546 I BeaconBle: BLE 'KK+' software access layer enabled
+06-28 15:25:46.013 19546  9269 I Places  : Converted 1 out of 1 WiFi scans
+06-28 15:25:46.013  1603  2151 I WifiService: getConnectionInfo uid=10014
+06-28 15:25:46.029 19546  9269 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 15:25:46.029 19546  9269 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 15:25:46.084 19546 19546 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-28 15:25:46.085 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 15:25:46.087 19546 19546 E BeaconBle: Scan couldn't start for Places
+06-28 15:25:46.087 19546 19546 W Places  : BLE failure while scanning - code 5
+06-28 15:25:46.127 19546 19556 I zygote  : Background concurrent copying GC freed 103562(4MB) AllocSpace objects, 6(284KB) LOS objects, 31% free, 12MB/18MB, paused 1.046ms total 303.591ms
+06-28 15:25:46.467 19546  9129 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 15:25:46.774  1603  5056 I ActivityManager: Force stopping com.skgames.trafficrider appid=10081 user=0: from pid 9275
+06-28 15:25:46.783 19546 19556 I zygote  : Background concurrent copying GC freed 94184(4MB) AllocSpace objects, 23(1500KB) LOS objects, 30% free, 13MB/19MB, paused 1.205ms total 272.914ms
+06-28 15:25:46.793  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 15:25:46.843 19546  9129 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 15:25:47.169  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 7533(477KB) AllocSpace objects, 3(124KB) LOS objects, 17% free, 28MB/34MB, paused 3.466ms total 393.841ms
+06-28 15:25:47.213  1603 11127 I ActivityManager: Force stopping com.EvilChaotic.ModernWarplanes appid=10082 user=0: from pid 9281
+06-28 15:25:47.238  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 15:25:47.490  1603 11127 I ActivityManager: Force stopping com.ea.games.r3_row appid=10083 user=0: from pid 9285
+06-28 15:25:47.851  1603  5056 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+06-28 15:25:47.501  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 15:25:49.189 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:49.191 29061 29061 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:25:49.192 29061 29061 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-28 15:25:49.196 29061  9303 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561749949000,mLatitude=-7.589195000000001,mLongitude=-37.541068333333335,mHasAltitude=true,mAltitude=0.0,mHasSpeed=false,mSpeed=0.0,mHasBearing=false,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2184305 Lon -35.883266 using OsmAnd (offline)
+06-28 15:25:49.197 29061  9303 W net.osmand: RouteProvider Use 343 MB Free 1.7718506 of 24.144829 max 384.0
+06-28 15:25:49.200 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:49.200 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:49.283 29061  9303 I net.osmand:native: Start point was found 25957571909 [Native]
+06-28 15:25:49.340 29061  9303 I net.osmand:native: End point was found 34867160039 [Native]
+06-28 15:25:49.510 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.3680386962835
+06-28 15:25:49.593 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 15:25:49.600 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.3680386962835
+06-28 15:25:49.998  8540  8574 I zygote  : Deoptimizing com.google.common.collect.ek com.google.common.collect.ek.a(java.util.Collection) due to JIT inline cache
+06-28 15:25:50.116  8540  8574 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 15:25:50.139  8540  8574 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 15:25:50.144  8540  8574 I MicroDetector: Keeping mic open: false
+06-28 15:25:50.144  8540  8574 I MicroDetectionWorker: #onError(false)
+06-28 15:25:50.569 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.3680386962835
+06-28 15:25:50.572 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.3680386962835
+06-28 15:25:50.645 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:50.651 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:50.652 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:51.150  9304  9304 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 15:25:51.162  9304  9304 W app_process: Could not reserve sentinel fault page
+06-28 15:25:51.362  9304  9304 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 15:25:51.366  9304  9304 I app_process: The ClassLoaderContext is a special shared library.
+06-28 15:25:51.464  9304  9304 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-28 15:25:51.466  9304  9304 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-28 15:25:51.472  9304  9304 W Monkey  :  arg: "-p"
+06-28 15:25:51.472  9304  9304 W Monkey  :  arg: "net.osmand"
+06-28 15:25:51.472  9304  9304 W Monkey  :  arg: "-c"
+06-28 15:25:51.473  9304  9304 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-28 15:25:51.473  9304  9304 W Monkey  :  arg: "1"
+06-28 15:25:51.474  9304  9304 W Monkey  : data="net.osmand"
+06-28 15:25:51.474  9304  9304 W Monkey  : data="android.intent.category.LAUNCHER"
+06-28 15:25:51.534  1603  1617 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{fab165f u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{923a8ac 9304 (unknown name)/2000/u-1 remote:c50dab9}: process gone or crashing
+06-28 15:25:51.568 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:51.600 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:51.600 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:51.627  1603  2151 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-28 15:25:51.627  1603  2151 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-28 15:25:51.627  1603  2151 W Binder  : java.lang.Throwable
+06-28 15:25:51.627  1603  2151 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-28 15:25:51.627  1603  2151 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 15:25:51.646  9304  9304 I Monkey  : Events injected: 1
+06-28 15:25:51.728  8540  8573 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783400)
+06-28 15:25:51.740  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 15:25:51.815  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:51.826  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 1 line
+06-28 15:25:51.841  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:51.850  9304  9304 I Monkey  : ## Network stats: elapsed time=177ms (0ms mobile, 0ms wifi, 177ms not connected)
+06-28 15:25:51.867  9304  9304 I com.android.commands.monkey: System.exit called, status: 0
+06-28 15:25:51.867  9304  9304 I AndroidRuntime: VM exiting with result code 0.
+06-28 15:25:51.885  1603  1618 W Looper  : Dispatch took 122ms on android.ui, h=Handler (com.android.server.policy.PhoneWindowManager$PolicyHandler) {f76a93d} cb=android.database.ContentObserver$NotificationRunnable@bf09fd6 msg=0
+06-28 15:25:51.958 29061 29061 D InAppPurchaseHelper: Destroying helper.
+06-28 15:25:52.019 29061 29061 D net.osmand: Enable sensor
+06-28 15:25:52.086  1603  1603 W NotificationService: Removed summary didn't match old notification: old=0|net.osmand|100|null|10104, removed=0|net.osmand|100|null|10104
+06-28 15:25:52.116  1603  2505 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3aee362)
+06-28 15:25:52.123  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3aee362)
+06-28 15:25:52.132  1603  2505 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:25:52.150  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:52.173 29061 29061 W System.err: OnCreate for MapActivity took 215 ms
+06-28 15:25:52.191  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:52.219 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 15:25:52.223 29061 29061 I chatty  : uid=10104(net.osmand) identical 8 lines
+06-28 15:25:52.223 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 15:25:52.224  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:52.224 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 15:25:52.271 29061 29061 I chatty  : uid=10104(net.osmand) identical 58 lines
+06-28 15:25:52.271 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 15:25:52.301  1412  1466 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=29061, uid<=10104
+06-28 15:25:52.301 29061 29061 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 15:25:52.308  1412  1428 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=29061, uid<=10104
+06-28 15:25:52.309 29061 29061 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 15:25:52.315 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:52.324 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 15:25:52.352  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:52.388 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:52.388 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:52.444  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 15:25:52.553  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:25:52.637  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 15:25:52.682  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 15:25:52.771 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:25:52.771 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:25:52.775  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 15:25:52.835  8540  8609 I PBSessionCacheImpl: Deleted sessionId[7093723603245] from persistence.
+06-28 15:25:52.838 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:25:52.865 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:52.865 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:52.868 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:25:52.868 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:25:52.931 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:52.934 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:25:52.934 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:25:52.967  1603  2505 I WifiService: getWifiEnabledState uid=10032
+06-28 15:25:52.986  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:52.996  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:53.036 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:25:53.039 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:25:53.107 29061 29088 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.589195000000001, lon=-37.541068333333335, rotate=22.145784, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1345, pixWidth=1800, pixHeight=2690]
+06-28 15:25:53.141  8540  8574 W SearchServiceCore: Abort, client detached.
+06-28 15:25:53.293  2548  2558 I zygote  : NativeAlloc concurrent copying GC freed 5202(294KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 4MB/9MB, paused 1.671ms total 490.695ms
+06-28 15:25:53.354  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:53.387  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:53.398 29061 29088 I net.osmand:native: Route objects 152
+06-28 15:25:53.399 29061 29088 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 15:25:53.399 29061 29088 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 15:25:53.399 29061 29088 I net.osmand:native: Search : tree - read( 413), accept( 34), objs - visit( 2366), accept(164), in result(152) 
+06-28 15:25:53.401 29061 29088 I net.osmand: MapRenderRepositories BLat=-7.596262979507446, TLat=-7.582131338119507, LLong=-37.546546936035156, RLong=-37.53558349609375, zoom=17
+06-28 15:25:53.401 29061 29088 I net.osmand: MapRenderRepositories Native search: 292 ms 
+06-28 15:25:53.435 29061 29088 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-28 15:25:53.435 29061 29088 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-28 15:25:53.435 29061 29088 I net.osmand:native: Locked 19368000 bytes at 0x7b300000
+06-28 15:25:53.435 29061 29088 I net.osmand:native: Initializing rendering
+06-28 15:25:53.437 29061 29088 I net.osmand:native: Rendering image
+06-28 15:25:53.548  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:25:53.580 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:53.580 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:53.714 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:53.727 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:53.727 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:53.733 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:53.935  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 20246(1074KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 10MB/16MB, paused 34.222ms total 1.784s
+06-28 15:25:54.112 29061 29088 I net.osmand:native: Native ok (rendering 2, text 222 ms) 
+06-28 15:25:54.112 29061 29088 I net.osmand:native:  (1318 points, 634 points inside, 296 of 309 objects visible)
+06-28 15:25:54.112 29061 29088 I net.osmand:native: End Rendering image
+06-28 15:25:54.113 29061 29088 I net.osmand:native: Native ok (init 1, rendering 2) 
+06-28 15:25:54.121 29061 29088 I net.osmand: MapRenderRepositories true
+06-28 15:25:54.580 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:54.581 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:54.640 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:55.042 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:55.042 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:55.132 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:55.221  1603 11127 D WificondControl: Scan result ready event
+06-28 15:25:55.396  1603  2151 I WifiService: releaseWifiLock uid=10014
+06-28 15:25:55.509  1603  1603 I GnssLocationProvider: WakeLock acquired by sendMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+06-28 15:25:55.545  1603  1616 E GnssLocationProvider: no AGPS interface in set_agps_server
+06-28 15:25:55.546  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+06-28 15:25:55.557  1844  1844 D MccTable: updateMccMncConfiguration mccmnc='null' fromServiceState=true
+06-28 15:25:55.558  1844  1844 D MccTable: WIFI_COUNTRY_CODE set to 
+06-28 15:25:55.558  1603  2151 I WifiService: WifiService trying to set country code to  with persist set to false
+06-28 15:25:55.558  1603  2151 I WifiService: setCountryCode uid=1001
+06-28 15:25:55.577 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:55.613 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 15:25:55.613 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 15:25:55.663  1844  1844 D ServiceStateProvider: subId=1
+06-28 15:25:55.717  1603  1603 I Telecom : CallLogManager: Country ISO changed. Retrieving new ISO...: CLM.oCD@E3E
+06-28 15:25:55.759  1844  1844 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {438750e}
+06-28 15:25:55.779  1603  1681 I WifiService: getConnectionInfo uid=1000
+06-28 15:25:55.792  1603  2151 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}(lbl:  -> Android)(desc:  -> Android)]: TSI.rPA@E3I
+06-28 15:25:55.796  1844  1844 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: [****]] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+06-28 15:25:55.798  1844  1844 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {438750e}
+06-28 15:25:55.814  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:25:55.818  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T19:25:55.818Z[GMT]
+06-28 15:25:55.821  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T19:25:55.821Z[GMT]
+06-28 15:25:55.827  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:25:55.828  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 15:25:55.828  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 15:25:55.832  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:25:55.842  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 15:25:55.852  1603  1674 D NetworkStats: Resolved to plan null
+06-28 15:25:55.872  1844  1844 I Telephony: PstnPhoneCapabilitiesNotifier: handleVideoCapabilitesChanged. Video capability - false
+06-28 15:25:55.881  1603  2151 I Telecom : PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}]: TSI.rPA@E3U
+06-28 15:25:55.864  1844  1844 I chatty  : uid=1001(radio) com.android.phone identical 5 lines
+06-28 15:25:55.867  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:25:56.306 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180.64801697984453
+06-28 15:25:56.310 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:25:56.311 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:25:56.317 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180.64801697984453
+06-28 15:25:56.332 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:25:56.333 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:25:56.378 29061 29088 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.219501666666668, lon=-35.88448666666667, rotate=22.145784, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1345, pixWidth=1800, pixHeight=2690]
+06-28 15:25:56.565 29061 29088 I net.osmand:native: Route objects 436
+06-28 15:25:56.565 29061 29088 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 15:25:56.566 29061 29088 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 15:25:56.566 29061 29088 I net.osmand:native: Search : tree - read( 580), accept( 63), objs - visit( 3477), accept(467), in result(436) 
+06-28 15:25:56.572 29061 29088 I net.osmand: MapRenderRepositories BLat=-7.2265726089477536, TLat=-7.212429428100586, LLong=-35.88996124267578, RLong=-35.87900924682617, zoom=17
+06-28 15:25:56.572 29061 29088 I net.osmand: MapRenderRepositories Native search: 191 ms 
+06-28 15:25:56.591 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180.64801697984453
+06-28 15:25:56.599 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180.64801697984453
+06-28 15:25:56.647 29061 29088 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-28 15:25:56.647 29061 29088 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-28 15:25:56.647 29061 29088 I net.osmand:native: Locked 19368000 bytes at 0x84b80000
+06-28 15:25:56.667 29061 29088 I net.osmand:native: Initializing rendering
+06-28 15:25:56.672 29061 29088 I net.osmand:native: Rendering image
+06-28 15:25:57.122 29061 29088 I net.osmand:native: Native ok (rendering 5, text 157 ms) 
+06-28 15:25:57.122 29061 29088 I net.osmand:native:  (4939 points, 1160 points inside, 675 of 912 objects visible)
+06-28 15:25:57.123 29061 29088 I net.osmand:native: End Rendering image
+06-28 15:25:57.123 29061 29088 I net.osmand:native: Native ok (init 2, rendering 5) 
+06-28 15:25:57.123 29061 29088 I net.osmand: MapRenderRepositories true
+06-28 15:25:57.575 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180.64801697984453
+06-28 15:25:57.600 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 180.64801697984453
+06-28 15:25:57.742 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179.93902885895818
+06-28 15:25:57.751 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179.93902885895818
+06-28 15:25:58.208 19546  9269 I Places  : ?: PlacesBleScanner stop()
+06-28 15:25:58.211 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 15:25:58.217 19546 19546 I BeaconBle: Scan canceled successfully.
+06-28 15:25:58.231 19546  9269 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 15:25:58.231 19546  9269 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 15:25:58.303 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:25:58.317 19546 19557 W MessageQueue: Handler (aeyl) {5fa77ad} sending message to a Handler on a dead thread
+06-28 15:25:58.317 19546 19557 W MessageQueue: java.lang.IllegalStateException: Handler (aeyl) {5fa77ad} sending message to a Handler on a dead thread
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at aeyl.sendMessageAtTime(Unknown Source:3)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at android.os.Handler.post(Handler.java:357)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at bcln.execute(Unknown Source:2)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at aanh.execute(Unknown Source:9)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at avft.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at avgk.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):8)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at avgn.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):43)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at avgj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at agos.a(Unknown Source:2)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at rnt.a(Unknown Source:11)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at aamg.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at cwm.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-28 15:25:58.317 19546 19557 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 15:25:58.579 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179.93902885895818
+06-28 15:25:58.654 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179.93902885895818
+06-28 15:25:59.119 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179.50228128479063
+06-28 15:26:00.587 29061 29061 I chatty  : uid=10104(net.osmand) identical 4 lines
+06-28 15:26:00.601 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 179.50228128479063
+06-28 15:26:00.758 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178.81578546569642
+06-28 15:26:00.880  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:26:00.880  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:26:00.880  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:26:00.893 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178.81578546569642
+06-28 15:26:01.584 29061 29061 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 15:26:01.595 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178.81578546569642
+06-28 15:26:02.118 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178.1406993545027
+06-28 15:26:02.603 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 15:26:02.734 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 178.1406993545027
+06-28 15:26:03.246  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:26:03.246  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:26:03.250 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 15:26:03.347  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:26:03.347  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:26:03.464 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 177.7382763515344
+06-28 15:26:04.576 29061 29061 I chatty  : uid=10104(net.osmand) identical 4 lines
+06-28 15:26:04.588 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 177.7382763515344
+06-28 15:26:04.632 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:26:04.742 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:26:04.745 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:26:04.781 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 177.08638172610918
+06-28 15:26:04.786 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 177.08638172610918
+06-28 15:26:05.003 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:26:05.014 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:26:05.055  8540  8574 I WorkerManager: dispose()
+06-28 15:26:05.057  8540  8574 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 15:26:05.426  1603  1612 I zygote  : Background concurrent copying GC freed 47351(2MB) AllocSpace objects, 24(864KB) LOS objects, 17% free, 28MB/34MB, paused 2.522ms total 589.517ms
+06-28 15:26:05.577 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 177.08638172610918
+06-28 15:26:05.585 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 177.08638172610918
+06-28 15:26:05.963 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 176.44626886305008
+06-28 15:26:06.578 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 15:26:06.589 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 176.44626886305008
+06-28 15:26:07.326 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 176.07908207386666
+06-28 15:26:07.585 29061 29061 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 15:26:07.593 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 176.07908207386666
+06-28 15:26:07.890 29061 29071 I zygote  : Background concurrent copying GC freed 135970(5MB) AllocSpace objects, 15(684KB) LOS objects, 24% free, 18MB/24MB, paused 1.380ms total 274.162ms
+06-28 15:26:08.103 29061  9303 W net.osmand:native: [Native] Result visited (visited roads 22908, visited segments 10991 / 30885 , queue sizes 304 / 4302 ) 
+06-28 15:26:08.103 29061  9303 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 18762, loaded tiles 216) 
+06-28 15:26:08.103 29061  9303 W net.osmand:native: [Native] Memory occupied (Routing context 9500 Kb, search 690 Kb)
+06-28 15:26:08.179 29061  9303 I net.osmand:native: Routing calculated time distance 163074.968750
+06-28 15:26:08.595 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 176.07908207386666
+06-28 15:26:08.679 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 176.07908207386666
+06-28 15:26:08.692 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 175.4628462796536
+06-28 15:26:08.712 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 175.4628462796536
+06-28 15:26:09.279 29061  9303 I net.osmand: RoutePlannerFrontEnd Native routing took 20.073 seconds
+06-28 15:26:09.282 29061 29071 I zygote  : Background concurrent copying GC freed 17017(654KB) AllocSpace objects, 0(0B) LOS objects, 20% free, 23MB/29MB, paused 905us total 302.958ms
+06-28 15:26:09.371 29061  9303 I System.out: ROUTE : 
+06-28 15:26:09.371 29061  9303 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 15:26:09.371 29061  9303 I net.osmand:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21843" target_lon="-35.88327"  routing_time="163074.97" loadedTiles="216" visitedSegments="22908" complete_distance="209462.69" complete_time="157093.95" >
+06-28 15:26:09.371 29061  9303 I System.out: <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 15:26:09.372 29061  9303 I System.out:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21843" target_lon="-35.88327"  routing_time="163074.97" loadedTiles="216" visitedSegments="22908" complete_distance="209462.69" complete_time="157093.95" >
+06-28 15:26:09.372 29061  9303 I System.out: </test>
+06-28 15:26:09.372 29061  9303 I System.out: <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 15:26:09.372 29061  9303 I System.out:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21843" target_lon="-35.88327"  routing_time="163074.97" loadedTiles="216" visitedSegments="22908" complete_distance="209462.69" complete_time="157093.95" >
+06-28 15:26:09.399 29061  9303 I net.osmand: RouteProvider Finding route contained 2050 points for 20202 ms
+06-28 15:26:09.589 29061 29061 D net.osmand: RoutingHelper Processed by distance : (new) 187160.08950962455 (old) 187286.296875
+06-28 15:26:09.670 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187160.08950962455
+06-28 15:26:09.702 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187160.08950962455
+06-28 15:26:09.702 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187160.1
+06-28 15:26:10.166 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.8802057416
+06-28 15:26:10.188 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.8802057416
+06-28 15:26:10.188 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.88
+06-28 15:26:10.582 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.8802057416
+06-28 15:26:10.583 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.88
+06-28 15:26:10.601 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.8802057416
+06-28 15:26:10.994 29061 29071 I zygote  : Background concurrent copying GC freed 240411(6MB) AllocSpace objects, 0(0B) LOS objects, 20% free, 23MB/29MB, paused 1.104ms total 289.906ms
+06-28 15:26:11.395 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.4504926112
+06-28 15:26:11.396 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.45
+06-28 15:26:11.415 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.4504926112
+06-28 15:26:11.609 29061 29061 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 15:26:11.639 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.4504926112
+06-28 15:26:11.639 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.45
+06-28 15:26:12.608 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.24121376578
+06-28 15:26:12.609 29061 29061 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-28 15:26:12.613 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.24121376578
+06-28 15:26:12.613 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.23
+06-28 15:26:12.616 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.24121376578
+06-28 15:26:12.617 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.23
+06-28 15:26:12.624 29061  9333 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561749973000,mLatitude=-7.219348333333333,mLongitude=-35.88455333333333,mHasAltitude=true,mAltitude=0.0,mHasSpeed=false,mSpeed=0.0,mHasBearing=false,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.2184305 Lon -35.883266 using OsmAnd (offline)
+06-28 15:26:12.625 29061  9333 W net.osmand: RouteProvider Use 339 MB Free 3.015625 of 29.283257 max 384.0
+06-28 15:26:12.626 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.24121376578
+06-28 15:26:12.679  1402  1417 D hwcomposer: hw_composer sent 175 syncs in 60s
+06-28 15:26:12.791 29061  9333 I net.osmand:native: Start point was found 20947066703 [Native]
+06-28 15:26:12.825 29061  9333 I net.osmand:native: End point was found 14392021889 [Native]
+06-28 15:26:12.958  1603  2151 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:26:12.965  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:26:12.965  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:26:13.064  1603  5056 I WifiService: releaseWifiLock uid=10014
+06-28 15:26:13.586 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.24121376578
+06-28 15:26:13.586 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.23
+06-28 15:26:13.642 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.24121376578
+06-28 15:26:14.094 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.0319480263
+06-28 15:26:14.094 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.03
+06-28 15:26:14.147 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.0319480263
+06-28 15:26:14.425 29061 29071 I zygote  : Background concurrent copying GC freed 270534(6MB) AllocSpace objects, 0(0B) LOS objects, 19% free, 24MB/30MB, paused 1.266ms total 581.646ms
+06-28 15:26:14.585 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.0319480263
+06-28 15:26:14.585 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187159.03
+06-28 15:26:14.639 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187159.0319480263
+06-28 15:26:15.377 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.78160171586
+06-28 15:26:15.408 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.78160171586
+06-28 15:26:15.408 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.78
+06-28 15:26:15.598 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.78160171586
+06-28 15:26:15.598 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.78
+06-28 15:26:15.634 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.78160171586
+06-28 15:26:16.592 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.78160171586
+06-28 15:26:16.592 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.78
+06-28 15:26:16.665 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.78160171586
+06-28 15:26:16.857 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.3930289123
+06-28 15:26:16.860 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.3930289123
+06-28 15:26:16.862 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.39
+06-28 15:26:17.249 29061 29071 I zygote  : Background concurrent copying GC freed 313026(6MB) AllocSpace objects, 0(0B) LOS objects, 19% free, 24MB/30MB, paused 2.340ms total 461.278ms
+06-28 15:26:17.631 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.3930289123
+06-28 15:26:17.641 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.3930289123
+06-28 15:26:17.642 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.39
+06-28 15:26:18.304 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.14270474997
+06-28 15:26:18.311 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.14
+06-28 15:26:18.362 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.14270474997
+06-28 15:26:18.659 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.14270474997
+06-28 15:26:18.659 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.14
+06-28 15:26:18.685 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.14270474997
+06-28 15:26:19.622 29061 29061 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 15:26:19.673 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187158.14270474997
+06-28 15:26:19.673 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187158.14
+06-28 15:26:20.150 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.93348874972
+06-28 15:26:20.182 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.93348874972
+06-28 15:26:20.182 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187157.94
+06-28 15:26:20.576 29061 29071 I zygote  : Background concurrent copying GC freed 306011(6MB) AllocSpace objects, 0(0B) LOS objects, 19% free, 24MB/30MB, paused 6.653ms total 675.214ms
+06-28 15:26:20.592 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.93348874972
+06-28 15:26:20.621 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.93348874972
+06-28 15:26:20.622 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187157.94
+06-28 15:26:21.640 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.54495506798
+06-28 15:26:21.646 29061 29061 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 15:26:21.647 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.54495506798
+06-28 15:26:21.647 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187157.55
+06-28 15:26:21.703 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.54495506798
+06-28 15:26:21.703 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187157.55
+06-28 15:26:22.346  1603  1620 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-28 15:26:22.609 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.54495506798
+06-28 15:26:22.614 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.54495506798
+06-28 15:26:22.614 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187157.55
+06-28 15:26:23.010 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.29466464932
+06-28 15:26:23.010 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187157.3
+06-28 15:26:23.017 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.29466464932
+06-28 15:26:23.625 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.29466464932
+06-28 15:26:23.625 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187157.3
+06-28 15:26:23.626 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187157.29466464932
+06-28 15:26:23.652 29061 29071 I zygote  : Background concurrent copying GC freed 321233(7MB) AllocSpace objects, 0(0B) LOS objects, 19% free, 24MB/30MB, paused 2.607ms total 572.630ms
+06-28 15:26:24.248  1409  1409 I boot-pipe: done populating /dev/random

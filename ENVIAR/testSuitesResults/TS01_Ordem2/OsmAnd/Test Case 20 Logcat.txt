@@ -1,0 +1,1188 @@
+--------- beginning of main
+06-28 11:28:35.981 19546 19557 I GeofencerStateMachine: addGeofences called by com.google.android.apps.maps
+06-28 11:28:36.028  1603  4580 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3af4f0c)
+06-28 11:28:36.029  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3af4f0c)
+06-28 11:28:36.071  1603  1614 I WifiService: getWifiEnabledState uid=10062
+06-28 11:28:36.098  1603  1614 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@9e8ba6a)
+06-28 11:28:36.099  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@9e8ba6a)
+06-28 11:28:36.379 19546 19595 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+--------- beginning of system
+06-28 11:27:44.377  1603  2151 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 11:28:36.765  1603  4580 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000
+06-28 11:28:36.800  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:36.854  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:36.864  1603  6820 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@8dfdb5b)
+06-28 11:28:36.865  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@8dfdb5b)
+06-28 11:28:36.871 12507 12507 D net.osmand: Disable sensor
+06-28 11:28:36.943  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:36.991  1412  1412 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-28 11:28:36.993 12507 12507 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:37.020  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:37.063  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:37.109 22551 22593 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783330)
+06-28 11:28:37.112 12507 12638 D EGL_emulation: eglMakeCurrent: 0xa6785900: ver 2 0 (tinfo 0xa6783410)
+06-28 11:28:37.113  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:37.187 22551 22551 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 11:28:37.215  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 11:28:37.282  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:37.323  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:37.333  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 11:28:37.399 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 11:28:37.426 22551 22596 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-28 11:28:37.763  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 11:28:37.763  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 11:28:37.927  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:37.962 12507 27028 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-28 11:28:38.165  2548  2558 I zygote  : NativeAlloc concurrent copying GC freed 6262(328KB) AllocSpace objects, 2(104KB) LOS objects, 49% free, 4MB/9MB, paused 1.701ms total 646.929ms
+06-28 11:28:38.190  1603  4580 I WifiService: getWifiEnabledState uid=10032
+06-28 11:28:38.227  1603  2151 I WifiService: getWifiEnabledState uid=10032
+06-28 11:28:38.232 22551 25742 W LocationOracle: No location history returned by ContextManager
+06-28 11:28:38.298 22551 22596 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 11:28:38.306 22551 22596 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 11:28:38.307 22551 22596 I MicroDetector: Keeping mic open: false
+06-28 11:28:38.307 22551 22596 I MicroDetectionWorker: #onError(false)
+06-28 11:28:38.385  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 68229(2MB) AllocSpace objects, 0(0B) LOS objects, 41% free, 8MB/14MB, paused 17.429ms total 954.495ms
+06-28 11:28:38.462 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 11:28:38.470 19546 19546 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-28 11:28:38.478 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 11:28:38.572 19546 26869 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17785022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 19546). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-28 11:28:38.577  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 43159(2039KB) AllocSpace objects, 2(40KB) LOS objects, 22% free, 20MB/26MB, paused 18.492ms total 499.293ms
+06-28 11:28:38.695 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 11:28:38.704 19546 27037 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 11:28:38.709 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 11:28:38.749 19546 27037 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 11:28:38.787 19546 26869 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-28 11:28:38.926 19546 26869 I zygote  : IncrementDisableThreadFlip blocked for 8.305ms
+06-28 11:28:39.050 19546 27037 I Places  : ?: PlacesBleScanner start() with priority 2
+06-28 11:28:39.051 19546 27037 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 11:28:39.051 19546 27037 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 11:28:39.064 19546 27037 I Places  : Converted 1 out of 1 WiFi scans
+06-28 11:28:39.065  1603  2974 I WifiService: getConnectionInfo uid=10014
+06-28 11:28:39.076 19546 19546 E BeaconBle: Missing BluetoothAdapter
+06-28 11:28:39.076 19546 19546 I BeaconBle: BLE 'KK+' software access layer enabled
+06-28 11:28:39.090 19546 27037 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 11:28:39.090 19546 27037 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 11:28:39.128 19546 19546 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-28 11:28:39.130 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 11:28:39.132 19546 19546 E BeaconBle: Scan couldn't start for Places
+06-28 11:28:39.133 19546 19546 W Places  : BLE failure while scanning - code 5
+06-28 11:28:39.165 19546 19556 I zygote  : Background concurrent copying GC freed 107918(4MB) AllocSpace objects, 24(976KB) LOS objects, 32% free, 12MB/18MB, paused 4.145ms total 276.632ms
+06-28 11:28:39.469 19546 27039 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 11:28:39.553  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 6731(426KB) AllocSpace objects, 0(0B) LOS objects, 22% free, 20MB/26MB, paused 774us total 190.793ms
+06-28 11:28:39.703 19546 19556 I zygote  : Background concurrent copying GC freed 101560(5MB) AllocSpace objects, 5(808KB) LOS objects, 32% free, 12MB/18MB, paused 931us total 137.382ms
+06-28 11:28:39.729 19546 27039 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 11:28:40.239  1603  4231 I ActivityManager: Force stopping com.skgames.trafficrider appid=10081 user=0: from pid 27052
+06-28 11:28:40.261  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 11:28:40.483  1603  4580 I ActivityManager: Force stopping com.EvilChaotic.ModernWarplanes appid=10082 user=0: from pid 27056
+06-28 11:28:40.685  1603  4580 I ActivityManager: Force stopping com.ea.games.r3_row appid=10083 user=0: from pid 27060
+06-28 11:28:40.893  1603  4580 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+06-28 11:28:40.503  1844  1844 I chatty  : uid=1001(radio) com.android.phone identical 1 line
+06-28 11:28:40.698  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 11:28:41.102  1402  1417 D hwcomposer: hw_composer sent 330 syncs in 63s
+06-28 11:28:41.944 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 11:28:41.945 12507 12507 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 11:28:41.946 12507 12507 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-28 11:28:41.949 12507 27078 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561735722000,mLatitude=-7.589195000000001,mLongitude=-37.541068333333335,mHasAltitude=true,mAltitude=0.0,mHasSpeed=false,mSpeed=0.0,mHasBearing=false,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.218485 Lon -35.88326 using OsmAnd (offline)
+06-28 11:28:41.949 12507 27078 W net.osmand: RouteProvider Use 336 MB Free 0.41249847 of 30.283516 max 384.0
+06-28 11:28:41.959 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187390.04204691527
+06-28 11:28:41.959 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187437.33
+06-28 11:28:41.978 12507 27078 I net.osmand:native: Start point was found 25957571909 [Native]
+06-28 11:28:42.013 12507 27078 I net.osmand:native: End point was found 34867160039 [Native]
+06-28 11:28:42.098 12507 12507 D net.osmand: RoutingHelper Processed by distance : 181.1728699456946 181.3680386962835
+06-28 11:28:42.127 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.1728699456946
+06-28 11:28:42.181 12507 12507 I chatty  : uid=10104(net.osmand) identical 2 lines
+06-28 11:28:42.237 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.1728699456946
+06-28 11:28:42.669  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 16184(867KB) AllocSpace objects, 0(0B) LOS objects, 42% free, 7MB/13MB, paused 3.461ms total 531.177ms
+06-28 11:28:43.184 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.1728699456946
+06-28 11:28:43.198 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 181.1728699456946
+06-28 11:28:43.286 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:43.296 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:43.296 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:43.319 22551 22596 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 11:28:43.322 22551 22596 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 11:28:43.335 22551 22596 I MicroDetector: Keeping mic open: false
+06-28 11:28:43.335 22551 22596 I MicroDetectionWorker: #onError(false)
+06-28 11:28:43.523 27080 27080 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 11:28:43.529 27080 27080 W app_process: Could not reserve sentinel fault page
+06-28 11:28:43.661 27080 27080 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 11:28:43.665 27080 27080 I app_process: The ClassLoaderContext is a special shared library.
+06-28 11:28:43.728 27080 27080 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-28 11:28:43.733 27080 27080 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-28 11:28:43.736 27080 27080 W Monkey  :  arg: "-p"
+06-28 11:28:43.737 27080 27080 W Monkey  :  arg: "net.osmand"
+06-28 11:28:43.744 27080 27080 W Monkey  :  arg: "-c"
+06-28 11:28:43.747 27080 27080 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-28 11:28:43.750 27080 27080 W Monkey  :  arg: "1"
+06-28 11:28:43.756 27080 27080 W Monkey  : data="net.osmand"
+06-28 11:28:43.764 27080 27080 W Monkey  : data="android.intent.category.LAUNCHER"
+06-28 11:28:43.808  1603  1617 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{2d33c8a u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{d1f02fb 27080 (unknown name)/2000/u-1 remote:5b43c2c}: process gone or crashing
+06-28 11:28:43.860  1603  4580 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-28 11:28:43.860  1603  4580 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-28 11:28:43.860  1603  4580 W Binder  : java.lang.Throwable
+06-28 11:28:43.860  1603  4580 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-28 11:28:43.860  1603  4580 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 11:28:43.876 27080 27080 I Monkey  : Events injected: 1
+06-28 11:28:43.947 22551 22593 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783330)
+06-28 11:28:43.958 27080 27080 I Monkey  : ## Network stats: elapsed time=69ms (0ms mobile, 0ms wifi, 69ms not connected)
+06-28 11:28:43.970 27080 27080 I com.android.commands.monkey: System.exit called, status: 0
+06-28 11:28:43.970 27080 27080 I AndroidRuntime: VM exiting with result code 0.
+06-28 11:28:44.006  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 11:28:44.012  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:44.111 12507 12507 D InAppPurchaseHelper: Destroying helper.
+06-28 11:28:44.227  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:44.234 12507 12507 D net.osmand: Enable sensor
+06-28 11:28:44.251  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:44.269  1603  4231 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@964d673)
+06-28 11:28:44.273  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@964d673)
+06-28 11:28:44.373 12507 12507 W System.err: OnCreate for MapActivity took 262 ms
+06-28 11:28:44.423  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:44.424 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 11:28:44.448 12507 12507 I chatty  : uid=10104(net.osmand) identical 68 lines
+06-28 11:28:44.448 12507 12507 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 11:28:44.478 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 11:28:44.505  1412  1428 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=12507, uid<=10104
+06-28 11:28:44.506 12507 12507 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 11:28:44.514  1412  1426 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=12507, uid<=10104
+06-28 11:28:44.515 12507 12507 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 11:28:44.527 12507 12638 D EGL_emulation: eglMakeCurrent: 0xa6785900: ver 2 0 (tinfo 0xa6783410)
+06-28 11:28:44.565  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:44.594  1603  2974 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:28:44.629  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 11:28:44.663  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:44.678  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:44.783 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:44.805  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:44.807 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:44.807 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:44.811  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 11:28:44.816 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 11:28:44.816 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:44.836 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 11:28:44.837 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:44.905  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:44.916  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:44.965  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 11:28:44.966 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 11:28:44.966 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:45.034  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:45.055  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:45.098 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 11:28:45.098 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:45.157  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 11:28:45.183 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:45.187 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 11:28:45.187 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:45.228 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:45.229 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:45.233 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 11:28:45.233 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:45.280 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 11:28:45.280 12507 12552 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 11:28:45.315  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:45.331  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:45.342 22551 26867 I PBSessionCacheImpl: Deleted sessionId[6887565030772] from persistence.
+06-28 11:28:45.389  1603  4580 I WifiService: getWifiEnabledState uid=10032
+06-28 11:28:45.471  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:28:45.471  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:28:45.474 12507 12551 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.589195000000001, lon=-37.541068333333335, rotate=22.145958, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1345, pixWidth=1800, pixHeight=2690]
+06-28 11:28:45.507 22551 22596 W SearchServiceCore: Abort, client detached.
+06-28 11:28:45.558  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:45.610  1603  2151 I WifiService: releaseWifiLock uid=10014
+06-28 11:28:45.619 12507 12551 I net.osmand:native: Route objects 152
+06-28 11:28:45.619 12507 12551 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 11:28:45.619 12507 12551 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 11:28:45.620 12507 12551 I net.osmand:native: Search : tree - read( 413), accept( 34), objs - visit( 2366), accept(164), in result(152) 
+06-28 11:28:45.621 12507 12551 I net.osmand: MapRenderRepositories BLat=-7.596262979507446, TLat=-7.582131338119507, LLong=-37.546546936035156, RLong=-37.53558349609375, zoom=17
+06-28 11:28:45.621 12507 12551 I net.osmand: MapRenderRepositories Native search: 146 ms 
+06-28 11:28:45.621 12507 12551 W net.osmand: MapRenderRepositories Create new image ? 1800 != 1800 (w) 2690 != 2595 (h) 
+06-28 11:28:45.622 12507 12551 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-28 11:28:45.622 12507 12551 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-28 11:28:45.622 12507 12551 I net.osmand:native: Locked 19368000 bytes at 0x7fd00000
+06-28 11:28:45.622 12507 12551 I net.osmand:native: Initializing rendering
+06-28 11:28:45.657 12507 12551 I net.osmand:native: Rendering image
+06-28 11:28:46.171 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:46.171 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:46.230 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:46.231 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:46.266 12507 12551 I net.osmand:native: Native ok (rendering 2, text 238 ms) 
+06-28 11:28:46.266 12507 12551 I net.osmand:native:  (1318 points, 634 points inside, 296 of 309 objects visible)
+06-28 11:28:46.266 12507 12551 I net.osmand:native: End Rendering image
+06-28 11:28:46.267 12507 12551 I net.osmand:native: Native ok (init 35, rendering 2) 
+06-28 11:28:46.285 12507 12551 I net.osmand: MapRenderRepositories true
+06-28 11:28:46.351 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:46.417 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:46.426 12507 12519 I zygote  : Background concurrent copying GC freed 135765(5MB) AllocSpace objects, 15(684KB) LOS objects, 19% free, 24MB/30MB, paused 1.064ms total 2.099s
+06-28 11:28:46.837 12507 12519 I zygote  : NativeAlloc concurrent copying GC freed 16378(698KB) AllocSpace objects, 0(0B) LOS objects, 20% free, 23MB/29MB, paused 6.091ms total 386.456ms
+06-28 11:28:46.855  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:28:46.855  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:28:47.190 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:47.190 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:47.296 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:47.604  1603  1681 D ConnectivityService: NetworkAgentInfo [MOBILE (GPRS) - 100] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to SUSPENDED
+06-28 11:28:47.609  1603  1681 D ConnectivityService: Sending SUSPENDED broadcast for type 0 NetworkAgentInfo [MOBILE (GPRS) - 100] isDefaultNetwork=true
+06-28 11:28:47.652  1603  4760 I Telecom : : Adding new incoming call with phoneAccountHandle ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}: TSI.aNIC@DRo
+06-28 11:28:47.670  1603  1674 I WifiService: getConnectionInfo uid=1000
+06-28 11:28:47.674  1603  5561 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=25280 uid=10068 pkg=com.google.android.apps.messaging
+06-28 11:28:47.676 25280 25280 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.CountryCodeDetectorAction-CountryCodeDetectorAction:13037572028
+06-28 11:28:47.676 25280 25280 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{f070878 u0a68 CEM  idle change:cached procs:1 seq(0,0,0)}
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1521)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1477)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:650)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(SourceFile:21)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.b(SourceFile:18)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at efs.a(SourceFile:137)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at efs.a(SourceFile:85)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at eex.b(SourceFile:31)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at eex.a(SourceFile:93)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.common.ThrottledAction.h(SourceFile:32)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at dnz.a(SourceFile:4)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at guo.a(SourceFile:6)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at glv.onReceive(SourceFile:12)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at gvr.onReceive(SourceFile:5)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at guo.onReceive(SourceFile:8)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$-android_app_LoadedApk$ReceiverDispatcher$Args_52497(LoadedApk.java:1313)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.app.-$Lambda$aS31cHIhRx41653CMnd4gZqshIQ.$m$7(Unknown Source:4)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.app.-$Lambda$aS31cHIhRx41653CMnd4gZqshIQ.run(Unknown Source:39)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:790)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:164)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+06-28 11:28:47.676 25280 25280 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+06-28 11:28:47.676 25280 25280 I BugleAction: ActionSchedulerImpl: class com.google.android.apps.messaging.shared.datamodel.action.CountryCodeDetectorAction-CountryCodeDetectorAction:13037572028 deferred since it was started from unsafe context
+06-28 11:28:47.705  1603  1613 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=25280 uid=10068 pkg=com.google.android.apps.messaging
+06-28 11:28:47.712  1603  4760 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null: TSI.aNIC@DRo
+06-28 11:28:47.732  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:28:47.731Z[GMT]
+06-28 11:28:47.736  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:28:47.735Z[GMT]
+06-28 11:28:47.740  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 11:28:47.744  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 11:28:47.757  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 11:28:47.764 25280 25351 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+06-28 11:28:47.777  1603  1674 D NetworkStats: Resolved to plan null
+06-28 11:28:47.850 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:47.861 19546 19546 W GCM     : ACTIVE NETWORK NOT CONNECTED
+06-28 11:28:47.868 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:47.868 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:47.866  1603  4760 I Telecom : LogUtils: EventRecord added as Call: [TC@14, NEW, null, tel:****, A, childs(0), has_parent(false), [Capabilities:], [Properties:]]: TSI.aNIC@DRo
+06-28 11:28:47.870  1603  4760 I Telecom : Event: RecordEntry TC@14: CREATED, null: TSI.aNIC@DRo
+06-28 11:28:47.899 19546 27093 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 11:28:47.899 19546 27093 W WakeLock: GCM_HB_ALARM counter does not exist
+06-28 11:28:47.902  1603  1681 D ConnectivityService: reportNetworkConnectivity(100, false) by 10014
+06-28 11:28:47.904  1603  2020 D NetworkMonitor/NetworkAgentInfo [MOBILE (GPRS) - 100]: Forcing reevaluation for UID 10014
+06-28 11:28:47.917  1603  4760 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null: TSI.aNIC@DRo
+06-28 11:28:47.917  1603  4760 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}): TSI.aNIC@DRo
+06-28 11:28:47.916 19546 27093 W WakeLock: GCM_CONN_ALARM counter does not exist
+06-28 11:28:47.923  1603  1618 W Looper  : Dispatch took 124ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {5717402} cb=null msg=53
+06-28 11:28:47.926  1603  4760 I Telecom : Event: RecordEntry TC@14: BIND_CS, ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}: TSI.aNIC@DRo
+06-28 11:28:47.960  1603  1603 I Telecom : TelecomSystem: CallerInfoAsyncQuery.startQuery number=[****] cookie=TSI.aNIC->CILH.sL->CILH.sL@DRo: TSI.aNIC->CILH.sL@DRo
+06-28 11:28:48.116  1603  1603 I Telecom : ServiceBinderConnection: Service bound ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}: SBC.oSC@DRs
+06-28 11:28:48.116  1603  1603 I Telecom : Event: RecordEntry TC@14: CS_BOUND, ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}: SBC.oSC@DRs
+06-28 11:28:48.121  1603  1603 I Telecom : Event: RecordEntry TC@14: START_CONNECTION, tel:****: SBC.oSC@DRs
+06-28 11:28:48.142  1603  4760 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null: (...->CS.aCSA->H.CS.aCSA)->CSW.qRCS@E-E-DRs
+06-28 11:28:48.153  1844  1844 I Telephony: TelephonyConnectionService: onCreateIncomingConnection, request: ConnectionRequest xxxxxxxx Bundle[mParcelledData.dataSize=472]: (SBC.oSC)->CS.crCo->H.CS.crCo->H.CS.crCo.pICR@E-DRs
+06-28 11:28:48.176  1603  1603 I Telecom : CallerInfoLookupHelper: CI query for handle tel:**** has completed; notifying all listeners.: TSI.aNIC->CILH.sL->CILH.oQC@DRo
+06-28 11:28:48.177  1603  1603 I Telecom : Call: CallerInfo received for tel:****: com.android.internal.telephony.CallerInfo@7bacbde { name null, phoneNumber non-null }: TSI.aNIC->CILH.sL->CILH.oQC@DRo
+06-28 11:28:48.177  1603  1603 I Telecom : CallerInfoLookupHelper: There is no photo for this contact, skipping photo query: TSI.aNIC->CILH.sL->CILH.oQC@DRo
+06-28 11:28:48.202  1603  2151 I Telecom : Event: RecordEntry TC@14: CAPABILITY_CHANGE, Current: [[ sup_hld mut !v2a spd_aud]], Removed [[]], Added [[ sup_hld mut !v2a spd_aud]]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-DRs
+06-28 11:28:48.203  1603  2151 I Telecom : Event: RecordEntry TC@14: FILTERING_INITIATED, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-DRs
+06-28 11:28:48.203  1603  2151 I Telecom : Event: RecordEntry TC@14: DIRECT_TO_VM_INITIATED, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-DRs
+06-28 11:28:48.204  1603  2151 I Telecom : Event: RecordEntry TC@14: SCREENING_SENT, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-DRs
+06-28 11:28:48.205  1603  2151 I Telecom : CallScreeningServiceFilter: There are no call screening services installed on this device.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-DRs
+06-28 11:28:48.206  1603  2151 I Telecom : CallScreeningServiceFilter: Could not bind to call screening service: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-DRs
+06-28 11:28:48.206  1603  2151 I Telecom : Event: RecordEntry TC@14: SCREENING_COMPLETED, [Allow, logged, notified]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-DRs
+06-28 11:28:48.210  1844  1844 I Telephony: TelephonyConnectionService: notifyCreateConnectionComplete TC@14_1: (...->CSW.hCCC)->CS.crCoC->H.CS.crCoC@E-E-E-DRs
+06-28 11:28:48.214  1603  1603 I Telecom : TelecomSystem: CallerInfoAsyncQuery.startQuery number=[****] cookie=(...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->CILH.sL->CILH.sL@E-E-DRs: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->CILH.sL@E-E-DRs
+06-28 11:28:48.225 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:48.225 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:48.267 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:48.306  1603 27099 I Telecom : Event: RecordEntry TC@14: BLOCK_CHECK_INITIATED, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.dIB@E-E-DRs
+06-28 11:28:48.407  1603  1603 I Telecom : CallerInfoLookupHelper: CI query for handle tel:**** has completed; notifying all listeners.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->CILH.sL->CILH.oQC@E-E-DRs
+06-28 11:28:48.407  1603  1603 I Telecom : Event: RecordEntry TC@14: DIRECT_TO_VM_FINISHED, [Allow, logged, notified]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->CILH.sL->CILH.oQC@E-E-DRs
+06-28 11:28:48.407  1603  1603 I Telecom : CallerInfoLookupHelper: There is no photo for this contact, skipping photo query: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->CILH.sL->CILH.oQC@E-E-DRs
+06-28 11:28:48.477 25687 25697 I zygote  : Background concurrent copying GC freed 4030(296KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 1427KB/2MB, paused 57.941ms total 186.579ms
+06-28 11:28:48.548  1603  1603 I Telecom : Event: RecordEntry TC@14: BLOCK_CHECK_FINISHED, [Allow, logged, notified]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE@E-E-DRs
+06-28 11:28:48.549  1603  1603 I Telecom : Event: RecordEntry TC@14: FILTERING_COMPLETED, [Allow, logged, notified]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.549  1603  1603 I Telecom : CallsManager: setCallState NEW -> RINGING, call: [TC@14, NEW, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.556  1603  1603 I Telecom : Event: RecordEntry TC@14: SET_RINGING, successful incoming call: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.561  1603  1603 I Telecom : IncomingCallNotifier: updateIncomingCall: foundIncomingcall = null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.564  1603  1603 I Telecom : TelecomWakeLock: Acquiring WakeLock with id: 26: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.564  1603  1603 I Telecom : InCallWakeLockController: Acquiring full wake lock: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.564  1603  1902 I Telecom : CallAudioRouteStateMachine: Message received: UPDATE_SYSTEM_AUDIO_ROUTE=1201, arg1=0: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@E-E-DRs
+06-28 11:28:48.566  1603  1904 I Telecom : CallAudioModeStateMachine: Message received: NEW_RINGING_CALL.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-DRs
+06-28 11:28:48.566  1603  1904 I Telecom : CallAudioModeStateMachine: Audio focus entering RINGING state: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-DRs
+06-28 11:28:48.576  1603  1603 I Telecom : InCallController: onCallAdded: [TC@14, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]; not bound or connected.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.577  1603  1603 I Telecom : InCallController: defaultDialer: null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.577  1603  1603 I Telecom : InCallController: defaultDialer: null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.579  1603  1603 I Telecom : CarSwappingInCallServiceConnection: carmodechange: false => false: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.580  1603  1603 I Telecom : EmergencyCallHelper: ShouldGrantTemporaryLocationPermission, not emergency: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.580  1603  1603 I Telecom : EmergencyInCallServiceConnection: Attempting to bind to InCall [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl} supportsExternal? true supportsSelfMg?false], with Intent { act=android.telecom.InCallService cmp=com.google.android.dialer/com.android.incallui.InCallServiceImpl }: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.584  1603 14086 I AudioTrack: AUDIO_OUTPUT_FLAG_FAST successful; frameCount 1440 -> 1440
+06-28 11:28:48.584  1603 14086 D AudioTrack: Client defaulted notificationFrames to 720 for frameCount 1440
+06-28 11:28:48.619  1603 27103 W ContextImpl: Failed to ensure /data/user_de/0/com.android.phone/shared_prefs: mkdir failed: EACCES (Permission denied)
+06-28 11:28:48.622  1603  1617 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to ProcessRecord{3fbc596 4685:com.mapfactor.navigator:Notifications/u0a88} (pid=4685, uid=10088) requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+06-28 11:28:48.622  1603  1617 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to ProcessRecord{7311bef 1708:com.android.systemui/u0a29} (pid=1708, uid=10029) requires android.permission.READ_PHONE_STATE due to sender android (uid 1000)
+06-28 11:28:48.625  1603  1603 I Telecom : PhoneStateBroadcaster: Broadcasted state change: 1: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-DRs
+06-28 11:28:48.626  1603  1902 I Telecom : CallAudioRouteStateMachine: setSystemAudioState: changing from [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER] to [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@E-E-DRs
+06-28 11:28:48.627  1603  1603 D MediaSessionService: Global priority session is updated, active=true
+06-28 11:28:48.627  1603  1603 D GpsNetInitiatedHandler: onCallStateChanged(): state is 1
+06-28 11:28:48.655  1603  1904 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-28 11:28:48.655  1603  1904 W Binder  : java.lang.Throwable
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.content.ContentProviderProxy.openTypedAssetFile(ContentProviderNative.java:696)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:1410)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1247)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1170)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.media.MediaPlayer.attemptDataSource(MediaPlayer.java:1103)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1075)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1003)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.media.Ringtone.setUri(Ringtone.java:297)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.media.RingtoneManager.getRingtone(RingtoneManager.java:740)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.media.RingtoneManager.getRingtone(RingtoneManager.java:719)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at com.android.server.telecom.RingtoneFactory.getRingtone(RingtoneFactory.java:81)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at com.android.server.telecom.Ringer.startRinging(Ringer.java:124)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at com.android.server.telecom.CallAudioManager.startRinging(CallAudioManager.java:430)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at com.android.server.telecom.CallAudioModeStateMachine$RingingFocusState.enter(CallAudioModeStateMachine.java:208)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at com.android.internal.util.StateMachine$SmHandler.invokeEnterMethods(StateMachine.java:1037)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at com.android.internal.util.StateMachine$SmHandler.performTransitions(StateMachine.java:879)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:819)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.os.Looper.loop(Looper.java:164)
+06-28 11:28:48.655  1603  1904 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:65)
+06-28 11:28:48.658 26607 26607 I Dialer  : AudioModeProvider.getApproximatedAudioRoute - Routing to earpiece
+06-28 11:28:48.689 26607 26607 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: EARPIECE
+06-28 11:28:48.689 26607 26607 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+06-28 11:28:48.693  1483  1483 D NuPlayerDriver: NuPlayerDriver(0xab7a5a80) created, clientPid(1603)
+06-28 11:28:48.696 26607 26607 I Dialer  : EnrichedCallModule.isEnabledFromBuildType - true
+06-28 11:28:48.696 26607 26607 I Dialer  : EnrichedCallModule.provideEnrichedCallManager - returning impl
+06-28 11:28:48.713 26607 26607 I Dialer  : EnrichedCallManagerImpl.registerStateChangedListener - listener: bmz@b07eb88
+06-28 11:28:48.717 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+06-28 11:28:48.717 26607 26607 I Dialer  : VideoPauseController.setUp - enter
+06-28 11:28:48.722  1483 27107 D GenericSource: FileSource remote
+06-28 11:28:48.724  1603  1603 I Telecom : InCallController: onConnected to ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}: ICSBC.oSC@DR0
+06-28 11:28:48.725  1603  1603 I Telecom : InCallController: Adding 1 calls to InCallService after onConnected: ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}, including external calls: ICSBC.oSC@DR0
+06-28 11:28:48.729  1603  1603 I Telecom : InCallController: 1 calls sent to InCallService.: ICSBC.oSC@DR0
+06-28 11:28:48.743  1483 27106 D NuPlayerDriver: notifyListener_l(0xab7a5a80), (1, 0, 0, -1), loop setting(0, 0)
+06-28 11:28:48.764 26607 26607 W Dialer  : CountryDetector.registerForLocationUpdates - no location permissions, not registering for location updates
+06-28 11:28:48.775  1603  1904 D Ringtone: Successfully created local player
+06-28 11:28:48.775  1603  1904 W Ringtone: Use of stream types is deprecated for operations other than volume control
+06-28 11:28:48.776  1603  1904 W Ringtone: See the documentation of setStreamType() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 11:28:48.776  1483  1483 D NuPlayerDriver: reset(0xab7a5a80) at state 4
+06-28 11:28:48.776  1483  1483 D NuPlayerDriver: notifyListener_l(0xab7a5a80), (8, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:48.776  1483 27106 D NuPlayerDriver: notifyResetComplete(0xab7a5a80)
+06-28 11:28:48.777  1483  1483 D NuPlayerDriver: reset(0xab7a5a80) at state 0
+06-28 11:28:48.778  1603  1904 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:28:48.778  1603  1904 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:28:48.778  1603  1904 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:28:48.778  1603  1904 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:28:48.798  1483  1483 D NuPlayerDriver: NuPlayerDriver(0xab7a5380) created, clientPid(1603)
+06-28 11:28:48.825  1483 27112 D GenericSource: FileSource remote
+06-28 11:28:48.858  1483 27111 D NuPlayerDriver: notifyListener_l(0xab7a5380), (1, 0, 0, -1), loop setting(0, 0)
+06-28 11:28:48.872  1603  1904 D Ringtone: Successfully created local player
+06-28 11:28:48.884  1603  1904 I Telecom : Event: RecordEntry TC@14: START_RINGER, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-DRs
+06-28 11:28:48.911  1603  1904 I Telecom : Event: RecordEntry TC@14: SKIP_VIBRATION, hasVibrator=false, userRequestsVibrate=false, ringerMode=2, isVibrating=false: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-DRs
+06-28 11:28:48.911  1603  1904 I MediaFocusControl: requestAudioFocus() from uid/pid 1000/1603 clientId=AudioFocus_For_Phone_Ring_And_Calls callingPack=com.android.server.telecom req=2 flags=0x4 sdk=0
+06-28 11:28:48.922  1603 27114 I Telecom : AsyncRingtonePlayer: Play ringtone.
+06-28 11:28:48.958  1603  1902 I Telecom : CallAudioRouteStateMachine: Message received: SWITCH_FOCUS=4001, arg1=3: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-DRs
+06-28 11:28:48.959  1603  1902 I Telecom : Event: RecordEntry TC@14: AUDIO_ROUTE, Leaving state QuiescentEarpieceRoute: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-DRs
+06-28 11:28:48.966  1603  1902 I Telecom : Event: RecordEntry TC@14: AUDIO_ROUTE, Entering state ActiveEarpieceRoute: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-DRs
+06-28 11:28:48.966  1603  1902 I Telecom : Event: RecordEntry TC@14: AUDIO_ROUTE_EARPIECE, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-DRs
+06-28 11:28:48.966  1603  1902 I Telecom : CallAudioRouteStateMachine: turning speaker phone false: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-DRs
+06-28 11:28:48.967  1603  1902 I Telecom : CallAudioRouteStateMachine: setSystemAudioState: changing from [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER] to [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-DRs
+06-28 11:28:48.968  1603  1902 I Telecom : InCallController: Calling onAudioStateChanged, audioState: [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER] -> [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-DRs
+06-28 11:28:48.974  1483 12219 D NuPlayerDriver: NuPlayerDriver(0xab7a53f0) created, clientPid(1603)
+06-28 11:28:49.019  1483 27117 D GenericSource: FileSource remote
+06-28 11:28:49.035  1483 27116 D NuPlayerDriver: notifyListener_l(0xab7a53f0), (1, 0, 0, -1), loop setting(0, 0)
+06-28 11:28:49.062  1603 27114 D Ringtone: Successfully created local player
+06-28 11:28:49.063  1603 27114 W Ringtone: Use of stream types is deprecated for operations other than volume control
+06-28 11:28:49.063  1603 27114 W Ringtone: See the documentation of setStreamType() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 11:28:49.063  1483 12219 D NuPlayerDriver: reset(0xab7a53f0) at state 4
+06-28 11:28:49.063  1483 12219 D NuPlayerDriver: notifyListener_l(0xab7a53f0), (8, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:49.067  1483 27116 D NuPlayerDriver: notifyResetComplete(0xab7a53f0)
+06-28 11:28:49.068  1483 12219 D NuPlayerDriver: reset(0xab7a53f0) at state 0
+06-28 11:28:49.069  1603 27114 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:28:49.069  1603 27114 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:28:49.069  1603 27114 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:28:49.070  1603 27114 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:28:49.109  1483 12219 D NuPlayerDriver: NuPlayerDriver(0xab7a54d0) created, clientPid(1603)
+06-28 11:28:49.136 26607 26607 I Dialer  : InCallPresenter.shouldAttemptBlocking - not attempting to block incoming call because framework blocking is in use
+06-28 11:28:49.133 26607 26617 I zygote  : Background concurrent copying GC freed 1739(245KB) AllocSpace objects, 2(40KB) LOS objects, 49% free, 2MB/4MB, paused 1.223ms total 238.653ms
+06-28 11:28:49.155  1483 27121 D GenericSource: FileSource remote
+06-28 11:28:49.159 26607 26607 I Dialer  : EnrichedCallModule.isEnabledFromBuildType - true
+06-28 11:28:49.165 26607 26607 I Dialer  : EnrichedCallManagerImpl.registerCapabilitiesListener - listener: bca@d051e3a
+06-28 11:28:49.165 26607 26607 I Dialer  : VideoShareManager.registerListener - enter
+06-28 11:28:49.200  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (1, 0, 0, -1), loop setting(0, 0)
+06-28 11:28:49.201 26607 26607 I Dialer  : LightbringerModule.provideLightbringer - enabled, returning impl
+06-28 11:28:49.210  1603 27114 D Ringtone: Successfully created local player
+06-28 11:28:49.214  1603  1603 V MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+06-28 11:28:49.214  1603  1603 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+06-28 11:28:49.219  1483 12219 D NuPlayerDriver: start(0xab7a54d0), state is 4, eos is 0
+06-28 11:28:49.220  1603 27114 I Telecom : AsyncRingtonePlayer: Repeat ringtone.
+06-28 11:28:49.221  1483 27119 I GenericSource: start
+06-28 11:28:49.230 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:49.230 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:49.257 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:49.269  1483 27125 I OMXClient: Treble IOmx obtained
+06-28 11:28:49.270  1487  1809 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+06-28 11:28:49.274  1487 26926 E OMXNodeInstance: setConfig(0xb5ba0e40:google.vorbis.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
+06-28 11:28:49.283  1483 27125 I ACodec  : codec does not support config priority (err -2147483648)
+06-28 11:28:49.286  1487 26926 E OMXNodeInstance: getConfig(0xb5ba0e40:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-28 11:28:49.289  1483 27125 I MediaCodec: MediaCodec will operate in async mode
+06-28 11:28:49.309  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 11:28:49.319  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 6 lines
+06-28 11:28:49.319  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 11:28:49.340 26607 26607 I Dialer  : EnrichedCallManagerImpl.registerCapabilitiesListener - listener: [DialerCall_0, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:28:49.343 26607 26607 I Dialer  : EnrichedCallManagerImpl.registerStateChangedListener - listener: [DialerCall_0, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:28:49.401  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 11:28:49.408  1392  1392 I chatty  : uid=1000(system) allocator@1.0-s identical 2 lines
+06-28 11:28:49.409  1392  1392 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xa8e9b830, 32768)
+06-28 11:28:49.427  1483 27123 D AudioTrack: Client defaulted notificationFrames to 7406 for frameCount 22218
+06-28 11:28:49.433  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (6, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:49.439  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 129927715 , only wrote 129927600
+06-28 11:28:49.486 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:49.487 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:49.519  1483 27123 W AudioTrack: getTimestamp() location moved from kernel to server
+06-28 11:28:49.558 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:49.705 26607 26607 I Dialer  : CallList.onIncoming - [DialerCall_0, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:28:49.766 26607 26607 I Dialer  : InCallPresenter.startOrFinishUi - Start Full Screen in call UI
+06-28 11:28:49.920 26607 26607 D OpenGLRenderer: HWUI GL Pipeline
+06-28 11:28:49.959 26607 26607 I Dialer  : StatusBarNotifier.buildAndSendNotification - notificationType=2
+06-28 11:28:49.967 26607 26607 I Dialer  : StatusBarNotifier.buildAndSendNotification - Canceling old notification so this one can be noisy
+06-28 11:28:50.014 26607 26607 I Dialer  : StatusBarNotifier.buildAndSendNotification - displaying notification for 2
+06-28 11:28:50.023 26607 26607 I Dialer  : InCallPresenter.onIncomingCall - Phone switching state: NO_CALLS -> INCOMING
+06-28 11:28:50.024 26607 26607 I Dialer  : VideoPauseController.onIncomingCall - oldState: NO_CALLS, newState: INCOMING, call: [DialerCall_0, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:28:50.038 26607 26607 I Dialer  : VideoPauseController.onPrimaryCallChanged - new call: [DialerCall_0, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1], old call: null, mIsInBackground: false
+06-28 11:28:50.038 26607 26607 I Dialer  : InCallPresenter.setBoundAndWaitingForOutgoingCall - setBoundAndWaitingForOutgoingCall: false
+06-28 11:28:50.038 26607 26607 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: EARPIECE
+06-28 11:28:50.038 26607 26607 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+06-28 11:28:50.105 26607 26607 I Dialer  : CallList.onUpdateCall - [DialerCall_0, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:28:50.105 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: INCOMING -> INCOMING
+06-28 11:28:50.105 26607 26607 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+06-28 11:28:50.213 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:50.225 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:50.225 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:50.407 26607 26612 I zygote  : Do partial code cache collection, code=3KB, data=30KB
+06-28 11:28:50.449 26607 26612 I zygote  : After code cache collection, code=3KB, data=30KB
+06-28 11:28:50.452 26607 26612 I zygote  : Increasing code cache capacity to 128KB
+06-28 11:28:50.688 26607 26617 I zygote  : Background concurrent copying GC freed 17000(1427KB) AllocSpace objects, 5(496KB) LOS objects, 46% free, 6MB/12MB, paused 16.272ms total 505.643ms
+06-28 11:28:50.775  1409  1409 I boot-pipe: done populating /dev/random
+06-28 11:28:50.914 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:50.916 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:50.916 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:51.215 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:51.217 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:51.217 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:51.628  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 11:28:51.966 19546 27037 I Places  : ?: PlacesBleScanner stop()
+06-28 11:28:51.967 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 11:28:51.969 19546 19546 I BeaconBle: Scan canceled successfully.
+06-28 11:28:51.982  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:51.994  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:52.034  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:28:52.057 19546 27037 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 11:28:52.057 19546 27037 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 11:28:52.088  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:52.192  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:28:52.222  1483 27124 I NuPlayerDecoder: [audio] saw output EOS
+06-28 11:28:52.223  1483 27123 D AudioTrack: stop() called with 132300 frames delivered
+06-28 11:28:52.332 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:52.332 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:52.394 19546 27037 I Places  : Converted 1 out of 1 WiFi scans
+06-28 11:28:52.396  1603  4580 I WifiService: getConnectionInfo uid=10014
+06-28 11:28:52.518  1603  1612 I zygote  : Background concurrent copying GC freed 52234(2MB) AllocSpace objects, 29(1092KB) LOS objects, 22% free, 20MB/26MB, paused 9.709ms total 2.302s
+06-28 11:28:52.543  1603  1610 W MediaPlayer-JNI: MediaPlayer finalized without being released
+06-28 11:28:52.545  1483 12219 D NuPlayerDriver: reset(0xab7a5380) at state 4
+06-28 11:28:52.545  1483 12219 D NuPlayerDriver: notifyListener_l(0xab7a5380), (8, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:52.557  1483 27111 D NuPlayerDriver: notifyResetComplete(0xab7a5380)
+06-28 11:28:52.563 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:52.613  1603  1610 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:28:52.613  1603  1610 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:28:52.765 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:52.771 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:52.771 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:52.788  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (2, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:52.856  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:28:52.857  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:28:52.864 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 11:28:52.882  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (6, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:52.887  1483 12219 W AudioTrack: getTimestamp() location moved from kernel to server
+06-28 11:28:52.933  1483 27123 W AudioTrack: getTimestamp() location moved from kernel to server
+06-28 11:28:52.980  1483 27123 W AudioTrack: retrograde timestamp position corrected, -1059 = 0 - 1059
+06-28 11:28:53.005  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 11:28:53.072 19546 19557 W MessageQueue: Handler (aeyl) {f0b7ba9} sending message to a Handler on a dead thread
+06-28 11:28:53.072 19546 19557 W MessageQueue: java.lang.IllegalStateException: Handler (aeyl) {f0b7ba9} sending message to a Handler on a dead thread
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at aeyl.sendMessageAtTime(Unknown Source:3)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at android.os.Handler.post(Handler.java:357)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at bcln.execute(Unknown Source:2)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at aanh.execute(Unknown Source:9)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at avft.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at avgk.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):8)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at avgn.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):43)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at avgj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at agos.a(Unknown Source:2)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at rnt.a(Unknown Source:11)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at aamg.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at cwm.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-28 11:28:53.072 19546 19557 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 11:28:53.196 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:53.196 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:53.222 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:54.021 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:54.022 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:54.042  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(4)
+06-28 11:28:54.209 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:54.296 12507 12507 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 11:28:54.298 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:54.298 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:55.217 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:55.217 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:55.220 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:55.221  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130205142 , only wrote 130204800
+06-28 11:28:55.223  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(10)
+06-28 11:28:55.403  1483 27124 I NuPlayerDecoder: [audio] saw output EOS
+06-28 11:28:55.405  1483 27123 D AudioTrack: stop() called with 132300 frames delivered
+06-28 11:28:55.495 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:55.507 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:55.508 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:55.985  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (2, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:56.007  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:28:56.009  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:28:56.023  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (6, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:56.052  1483 27123 W AudioTrack: getTimestamp() location moved from kernel to server
+06-28 11:28:56.052  1483 27123 W NuPlayerRenderer: getPendingAudioPlayoutDurationUs: pendingUs -1845 < 0, clamping to zero, potential resume after pause writtenAudioDurationUs: 20317, audioSinkPlayedUs: 22162
+06-28 11:28:56.075  1483 27123 W AudioTrack: retrograde timestamp position corrected, -896 = 0 - 896
+06-28 11:28:56.281 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:56.281 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:56.356 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:56.744  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:28:56.744  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:28:56.983 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 11:28:57.048  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:28:57.058  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:28:57.219 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:57.219 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:57.279 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:57.969  1603 27094 D NetworkMonitor/NetworkAgentInfo [MOBILE (GPRS) - 100]: PROBE_DNS www.google.com 10049ms OK 172.217.28.228
+06-28 11:28:57.980  1603 27095 D NetworkMonitor/NetworkAgentInfo [MOBILE (GPRS) - 100]: PROBE_DNS connectivitycheck.gstatic.com 10051ms OK 172.217.172.131
+06-28 11:28:58.213 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:58.216 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:58.284 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:58.337 22551 22596 I WorkerManager: dispose()
+06-28 11:28:58.359 22551 22596 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 11:28:58.456  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(1)
+06-28 11:28:58.524  1483 27124 I NuPlayerDecoder: [audio] saw output EOS
+06-28 11:28:58.543 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:58.543 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:58.571 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:58.786  1483 27123 D AudioTrack: stop() called with 132300 frames delivered
+06-28 11:28:59.088  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (2, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:59.109  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:28:59.110  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:28:59.121  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (6, 0, 0, -1), loop setting(1, 0)
+06-28 11:28:59.149  1483 27123 W AudioTrack: getTimestamp() location moved from kernel to server
+06-28 11:28:59.195  1483 27123 W AudioTrack: retrograde timestamp position corrected, -1060 = 0 - 1060
+06-28 11:28:59.203 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:59.274 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:28:59.274 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:28:59.645  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130417142 , only wrote 130416480
+06-28 11:28:59.646  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130416536 , only wrote 130416480
+06-28 11:28:59.671  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130417655 , only wrote 130417200
+06-28 11:28:59.692  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(5)
+06-28 11:28:59.857  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130426159 , only wrote 130425120
+06-28 11:28:59.858  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130425137 , only wrote 130425120
+06-28 11:28:59.874  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130425913 , only wrote 130425840
+06-28 11:28:59.909  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(5)
+06-28 11:29:00.032  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(2)
+06-28 11:29:00.043 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:00.209  1393  3231 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+06-28 11:29:00.237 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:00.237 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:00.352 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:00.357 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:00.358 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:01.302 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:01.303 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:01.331 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:01.346 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:29:01.458  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(3)
+06-28 11:29:01.495  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(4)
+06-28 11:29:01.567 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:01.567 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:01.583 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:01.664  1483 27124 I NuPlayerDecoder: [audio] saw output EOS
+06-28 11:29:01.915  1483 27123 D AudioTrack: stop() called with 132300 frames delivered
+06-28 11:29:02.165 19546 19595 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+06-28 11:29:02.202 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:02.202 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:02.230  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (2, 0, 0, -1), loop setting(1, 0)
+06-28 11:29:02.281  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:29:02.284  1483 27124 I NuPlayerDecoder: [OMX.google.vorbis.decoder] resubmitting CSD
+06-28 11:29:02.307  1483 27119 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (6, 0, 0, -1), loop setting(1, 0)
+06-28 11:29:02.312  1483 27123 W AudioTrack: getTimestamp() location moved from kernel to server
+06-28 11:29:02.341 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:02.359  1483 27123 W AudioTrack: getTimestamp() location moved from kernel to server
+06-28 11:29:02.359  1483 27123 W NuPlayerRenderer: getPendingAudioPlayoutDurationUs: pendingUs -2713 < 0, clamping to zero, potential resume after pause writtenAudioDurationUs: 23219, audioSinkPlayedUs: 25932
+06-28 11:29:02.384  1483 27123 W AudioTrack: retrograde timestamp position corrected, -588 = 52 - 640
+06-28 11:29:02.740  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130563404 , only wrote 130563360
+06-28 11:29:02.742  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130563452 , only wrote 130563360
+06-28 11:29:02.757  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130564091 , only wrote 130564080
+06-28 11:29:02.794  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130565867 , only wrote 130565520
+06-28 11:29:02.813  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130566424 , only wrote 130566240
+06-28 11:29:02.856  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130568269 , only wrote 130567680
+06-28 11:29:02.907  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(13)
+06-28 11:29:03.052 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:03.130  1603  2020 D NetworkMonitor/NetworkAgentInfo [MOBILE (GPRS) - 100]: PROBE_FALLBACK http://www.google.com/gen_204 time=12206ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Content-Type=[text/html; charset=UTF-8], Date=[Fri, 28 Jun 2019 15:28:57 GMT], P3P=[CP="This is not a P3P policy! See g.co/p3phelp for more info."], Server=[gws], Set-Cookie=[1P_JAR=2019-06-28-15; expires=Sun, 28-Jul-2019 15:28:57 GMT; path=/; domain=.google.com, NID=186=ceshmOsQ9MEQ3c_gggvhMGR0qAXwzEfdvMS9x9L5Y6RKJ4plPwSZsY0DlfwyisJZJieIUfaRNradvmOWhyMpFsjdw3loM-rrhsubeYCWndRNnvd_f1HLBeLTapDTQmwJhHzbrCDcKr5HzE7nOaQZ3WSmIbfXo_1bYoHeBy5KGd8; expires=Sat, 28-Dec-2019 15:28:57 GMT; path=/; domain=.google.com; HttpOnly], X-Android-Received-Millis=[1561735743129], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1561735736996], X-Frame-Options=[SAMEORIGIN], X-XSS-Protection=[0]}
+06-28 11:29:03.296  1603 27095 D NetworkMonitor/NetworkAgentInfo [MOBILE (GPRS) - 100]: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=5312ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Fri, 28 Jun 2019 15:29:03 GMT], X-Android-Received-Millis=[1561735743293], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1561735743213]}
+06-28 11:29:03.329  1603  1681 D ConnectivityService: NetworkAgentInfo [MOBILE (GPRS) - 100] EVENT_NETWORK_INFO_CHANGED, going from SUSPENDED to CONNECTED
+06-28 11:29:03.346  1603  5561 I Telecom : InCallController: Sending updateCall [TC@14, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sSH@DSo
+06-28 11:29:03.362  1603  1681 D ConnectivityService: Sending CONNECTED broadcast for type 0 NetworkAgentInfo [MOBILE (GPRS) - 100] isDefaultNetwork=true
+06-28 11:29:03.418  1603  5561 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sSH@DSo
+06-28 11:29:03.422  1603  2505 I Telecom : InCallController: Sending updateCall [TC@14, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sCC@DSs
+06-28 11:29:03.434  1603  1674 I WifiService: getConnectionInfo uid=1000
+06-28 11:29:03.436  1603  2505 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sCC@DSs
+06-28 11:29:03.437  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:03.437Z[GMT]
+06-28 11:29:03.440  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:03.440Z[GMT]
+06-28 11:29:03.442  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 11:29:03.443  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 11:29:03.449  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 11:29:03.460  1603  2505 I Telecom : CallsManager: setCallState RINGING -> DISCONNECTED, call: [TC@14, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sDc@DSw
+06-28 11:29:03.458  1603  1674 D NetworkStats: Resolved to plan null
+06-28 11:29:03.460  1603  2505 I Telecom : Event: RecordEntry TC@14: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (MISSED) Label: () Description: () Reason: (INCOMING_MISSED) Tone: (-1) ]: CSW.sDc@DSw
+06-28 11:29:03.546  1603 27094 D NetworkMonitor/NetworkAgentInfo [MOBILE (GPRS) - 100]: PROBE_HTTPS https://www.google.com/generate_204 time=5575ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[quic=":443"; ma=2592000; v="46,44,43,39"], Content-Length=[0], Date=[Fri, 28 Jun 2019 15:29:03 GMT], X-Android-Received-Millis=[1561735743545], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1561735743433]}
+06-28 11:29:03.548  1603  1681 D ConnectivityService: NetworkAgentInfo [MOBILE (GPRS) - 100] validation passed
+06-28 11:29:03.567 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:03.568 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:03.706 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:03.707 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:03.720 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:03.727  1603  2505 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:981 android.content.ContextWrapper.sendBroadcast:442 com.android.server.telecom.CallLogManager.sendAddCallBroadcast:444 com.android.server.telecom.CallLogManager.logCall:287 com.android.server.telecom.CallLogManager.logCall:233 
+06-28 11:29:03.727  1603  2505 I Telecom : IncomingCallNotifier: updateIncomingCall: foundIncomingcall = null: CSW.sDc@DSw
+06-28 11:29:03.748  1603  2505 I Telecom : TelecomWakeLock: Releasing WakeLock with id: 26: CSW.sDc@DSw
+06-28 11:29:03.748  1603  2505 I Telecom : InCallWakeLockController: Releasing full wake lock: CSW.sDc@DSw
+06-28 11:29:03.749  1603  1902 I Telecom : CallAudioRouteStateMachine: Message received: UPDATE_SYSTEM_AUDIO_ROUTE=1201, arg1=0: CSW.sDc->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@DSw
+06-28 11:29:03.750  1603  2505 I Telecom : InCallController: Sending updateCall [TC@14, DISCONNECTED, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sDc@DSw
+06-28 11:29:03.751  1603  1904 I Telecom : CallAudioModeStateMachine: Message received: NO_MORE_RINGING_CALLS.: CSW.sDc->CAMSM.pM_1002@DSw
+06-28 11:29:03.755  1603  1904 I Telecom : Event: RecordEntry TC@14: STOP_RINGER, null: CSW.sDc->CAMSM.pM_1002@DSw
+06-28 11:29:03.757  1603  1904 I Telecom : CallAudioModeStateMachine: Abandoning audio focus: now UNFOCUSED: CSW.sDc->CAMSM.pM_1002@DSw
+06-28 11:29:03.758  1603  1904 I MediaFocusControl: abandonAudioFocus() from uid/pid 1000/1603 clientId=AudioFocus_For_Phone_Ring_And_Calls
+06-28 11:29:03.769  1603 27114 I Telecom : AsyncRingtonePlayer: Stop ringtone.
+06-28 11:29:03.771  1483 12219 D NuPlayerDriver: reset(0xab7a54d0) at state 5
+06-28 11:29:03.774  1483 12219 D NuPlayerDriver: notifyListener_l(0xab7a54d0), (8, 0, 0, -1), loop setting(1, 0)
+06-28 11:29:03.852  1483 27119 D NuPlayerDriver: notifyResetComplete(0xab7a54d0)
+06-28 11:29:03.852  1483 12219 D NuPlayerDriver: reset(0xab7a54d0) at state 0
+06-28 11:29:03.856  1603 27114 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:29:03.856  1603 27114 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:29:03.857  1483 12219 D AudioTrack: stop() called with 0 frames delivered
+06-28 11:29:03.872 26607 26607 I Dialer  : DialerCallListenerImpl.onDialerCallDisconnect - [DialerCall_0, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:29:03.874  1603  2505 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sDc@DSw
+06-28 11:29:03.874  1603  1603 D GpsNetInitiatedHandler: onCallStateChanged(): state is 0
+06-28 11:29:03.875  1603 27114 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:29:03.875  1603 27114 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:29:03.879 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: INCOMING -> INCALL
+06-28 11:29:03.879 26607 26607 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: true, videoCanPause: false, isInBackground: false
+06-28 11:29:03.894  1603  1617 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to ProcessRecord{3fbc596 4685:com.mapfactor.navigator:Notifications/u0a88} (pid=4685, uid=10088) requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+06-28 11:29:03.934  1603  1617 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x1000010 (has extras) } to ProcessRecord{7311bef 1708:com.android.systemui/u0a29} (pid=1708, uid=10029) requires android.permission.READ_PHONE_STATE due to sender android (uid 1000)
+06-28 11:29:03.938  1603  2505 I Telecom : PhoneStateBroadcaster: Broadcasted state change: 0: CSW.sDc@DSw
+06-28 11:29:03.940  1603  1902 I Telecom : CallAudioRouteStateMachine: setSystemAudioState: changing from [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER] to [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]: CSW.sDc->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@DSw
+06-28 11:29:03.940  1603  1902 I Telecom : InCallController: Calling onAudioStateChanged, audioState: [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER] -> [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]: CSW.sDc->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@DSw
+06-28 11:29:03.942  1603  2505 I Telecom : InCallController: Sending updateCall [TC@14, DISCONNECTED, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sCC@DS0
+06-28 11:29:03.953 26607 26607 I Dialer  : VideoPauseController.onPrimaryCallChanged - new call: null, old call: [DialerCall_0, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1], mIsInBackground: false
+06-28 11:29:03.954 26607 26607 I Dialer  : StatusBarNotifier.cancelNotification - cancel
+06-28 11:29:03.988  1603  2505 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sCC@DS0
+06-28 11:29:03.989  1603  2505 I Telecom : ConnectionServiceWrapper: Service unbound ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, from unbind.: CSW.rC@DS4
+06-28 11:29:04.036 26607 26607 I Dialer  : EnrichedCallManagerImpl.onDisconnect - enter
+06-28 11:29:04.036 26607 26607 I Dialer  : EnrichedCallManagerImpl.onDisconnect - disconnected call with no enriched call session
+06-28 11:29:04.036 26607 26607 I Dialer  : EnrichedCallManagerImpl.unregisterCapabilitiesListener - listener: [DialerCall_0, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:29:04.037 26607 26607 I Dialer  : EnrichedCallManagerImpl.unregisterStateChangedListener - listener: [DialerCall_0, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:29:04.038 19569 19643 I TelephonySpam: TelephonySpamInit - scheduleCallLogTask
+06-28 11:29:04.054  1844  1844 D ServiceStateProvider: subId=1
+06-28 11:29:04.092  1603  2505 I Telecom : CallsManager: handleConnectionServiceDeath: service com.android.server.telecom.ConnectionServiceWrapper@8b4e293 died: CSW.rC@DS4
+06-28 11:29:04.093  1603  2505 I Telecom : Event: RecordEntry TC@14: DESTROYED, null: CSW.rC@DS4
+06-28 11:29:04.095  1603  2505 I Telecom : IncomingCallNotifier: updateIncomingCall: foundIncomingcall = null: CSW.rC@DS4
+06-28 11:29:04.095  1603  2505 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@DS4
+06-28 11:29:04.096  1603  2505 I Telecom : TelecomWakeLock: WakeLock already released with id: 32: CSW.rC@DS4
+06-28 11:29:04.096  1603  2505 I Telecom : TelecomWakeLock: WakeLock already released with id: 26: CSW.rC@DS4
+06-28 11:29:04.103 26607 26607 I Dialer  : DialerCall.setState - ignoring state transition from DISCONNECTED to DISCONNECTED. Duration would have changed from 0 to 0
+06-28 11:29:04.117  1603  2505 I Telecom : InCallWakeLockController: Releasing full wake lock: CSW.rC@DS4
+06-28 11:29:04.118  1603  2505 I Telecom : InCallController: onCallRemoved: [TC@14, DISCONNECTED, null, tel:****, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.rC@DS4
+06-28 11:29:04.133 26607 26607 I Dialer  : CallList.onUpdateCall - [DialerCall_0, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:29:04.133 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: INCALL -> INCALL
+06-28 11:29:04.135 26607 26607 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+06-28 11:29:04.137 26607 26607 I Dialer  : EnrichedCallManagerImpl.unregisterCapabilitiesListener - listener: [DialerCall_0, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:29:04.140 26607 26607 I Dialer  : EnrichedCallManagerImpl.unregisterStateChangedListener - listener: [DialerCall_0, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+06-28 11:29:04.170 19546 27143 W WakeLock: GCM_CONN_ALARM counter does not exist
+06-28 11:29:04.220  1603  1603 D MediaSessionService: Global priority session is updated, active=false
+06-28 11:29:04.259  1603  1902 I Telecom : CallAudioRouteStateMachine: Message received: SWITCH_FOCUS=4001, arg1=1: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@DSw
+06-28 11:29:04.271  1603  1902 I Telecom : CallAudioRouteStateMachine: turning speaker phone false: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@DSw
+06-28 11:29:04.272  1603  1902 I Telecom : Logging.Events: Non-call EVENT: UNMUTE, null: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@DSw
+06-28 11:29:04.278  1393  1575 W DeviceHAL: Device 0xa7c11b80 get_mic_mute: Function not implemented
+06-28 11:29:04.285  1603  1902 I Telecom : Logging.Events: Non-call EVENT: AUDIO_ROUTE, Leaving state ActiveEarpieceRoute: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@DSw
+06-28 11:29:04.285  1603  1902 I Telecom : Logging.Events: Non-call EVENT: AUDIO_ROUTE, Entering state QuiescentEarpieceRoute: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@DSw
+06-28 11:29:04.287  1844 27148 D CallNotifier: SignalInfoTonePlayer.run(toneId = 98)...
+06-28 11:29:04.287  1844 27148 D CallNotifier: mSignalInfoToneGenerator created already, hence skipping
+06-28 11:29:04.299  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 11:29:04.344  1603  1681 I WifiService: getConnectionInfo uid=1000
+06-28 11:29:04.350  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:04.349Z[GMT]
+06-28 11:29:04.366 26607 26607 W Dialer  : CallList.onCallRemoved - Removing call not previously disconnected DialerCall_0
+06-28 11:29:04.366 26607 26607 I Dialer  : VideoShareManager.unregisterListener - enter
+06-28 11:29:04.366 26607 26607 I Dialer  : EnrichedCallManagerImpl.unregisterCapabilitiesListener - listener: bca@d051e3a
+06-28 11:29:04.367 26607 26607 I Dialer  : InCallPresenter.attemptFinishActivity - Hide in call UI: false
+06-28 11:29:04.371  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:04.353Z[GMT]
+06-28 11:29:04.367 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: INCALL -> NO_CALLS
+06-28 11:29:04.377  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 11:29:04.377  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 11:29:04.375 26607 26607 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+06-28 11:29:04.380 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+06-28 11:29:04.385 26607 26607 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+06-28 11:29:04.385 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+06-28 11:29:04.386 26607 26607 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+06-28 11:29:04.395  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 11:29:04.401  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 130641880 , only wrote 130641840
+06-28 11:29:04.432  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 11:29:04.437  1603  1674 D NetworkStats: Resolved to plan null
+06-28 11:29:04.458  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 11:29:04.485  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:29:04.490  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 11:29:04.553  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 11:29:04.564 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:04.564 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:04.570 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:04.576 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:04.576 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:04.581 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:04.614  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:29:04.655  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 11:29:04.703  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 11:29:04.717  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 11:29:04.810  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 11:29:04.815  1603  2505 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:29:04.927  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 11:29:05.031  1844  1844 I chatty  : uid=1001(radio) com.android.phone identical 2 lines
+06-28 11:29:05.064  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 11:29:05.182  1844  1855 I zygote  : Background concurrent copying GC freed 34819(2MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/5MB, paused 22.560ms total 274.158ms
+06-28 11:29:05.266 27149 27149 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-28 11:29:05.271  1603  1617 W ActivityManager: Slow operation: 64ms so far, now at startProcess: returned from zygote!
+06-28 11:29:05.271  1603  1617 W ActivityManager: Slow operation: 64ms so far, now at startProcess: done updating battery stats
+06-28 11:29:05.271  1603  1617 W ActivityManager: Slow operation: 65ms so far, now at startProcess: building log message
+06-28 11:29:05.272  1603  1617 I ActivityManager: Start proc 27149:com.android.calllogbackup/u0a2 for broadcast com.android.calllogbackup/.CallLogChangeReceiver
+06-28 11:29:05.272  1603  1617 W ActivityManager: Slow operation: 65ms so far, now at startProcess: starting to update pids map
+06-28 11:29:05.273  1603  1617 W ActivityManager: Slow operation: 66ms so far, now at startProcess: done updating pids map
+06-28 11:29:05.273  1603  1617 W ActivityManager: Slow operation: 66ms so far, now at startProcess: done starting proc!
+06-28 11:29:05.275 26607 26607 I Dialer  : LightbringerImpl.handleDuoReachabilityLoaded - loaded 0 reachable contacts
+06-28 11:29:05.334 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:05.334 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:05.344  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:05.344  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:05.348 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:05.546 27149 27149 I zygote  : The ClassLoaderContext is a special shared library.
+06-28 11:29:05.574  1603  1603 I Telecom : MissedCallNotifierImpl: showMissedCallNotification()
+06-28 11:29:05.574  1603  1603 W Telecom : MissedCallNotifierImpl: Showing missed calls through default dialer.
+06-28 11:29:05.738 19546 19895 I GeofencerStateMachine: addGeofences called by com.google.android.apps.maps
+06-28 11:29:05.994 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:05.995 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:06.133  1603  1603 I Telecom : EmergencyInCallServiceConnection: Disconnect forced!: CSW.rC->ICC.oCR@DS4
+06-28 11:29:06.141  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:06.141  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:06.143 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:06.145 26607 26607 I Dialer  : InCallPresenter.setBoundAndWaitingForOutgoingCall - setBoundAndWaitingForOutgoingCall: false
+06-28 11:29:06.148 26607 26607 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+06-28 11:29:06.149 26607 26607 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+06-28 11:29:06.172 26607 26607 I Dialer  : InCallPresenter.attemptCleanup - Cleaning up
+06-28 11:29:06.172 26607 26607 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+06-28 11:29:06.172 26607 26607 I Dialer  : EnrichedCallManagerImpl.unregisterStateChangedListener - listener: bmz@b07eb88
+06-28 11:29:06.172 26607 26607 I Dialer  : VideoPauseController.tearDown - enter
+06-28 11:29:06.238 26607 26624 I Dialer  : MissedCallNotifier.updateMissedCallNotification - adding missed call notification
+06-28 11:29:06.281  1603  1603 E VibratorService: vibratorOff command failed (1).
+06-28 11:29:06.298  1603 27166 E VibratorService: vibratorOn command failed (1).
+06-28 11:29:06.407 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:06.408 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:06.429 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:06.833  1393  1575 W audio_hw_generic: Not supplying enough data to HAL, expected position 130874444 , only wrote 130758480
+06-28 11:29:06.902  1603  1603 E VibratorService: vibratorOff command failed (1).
+06-28 11:29:06.921  1603 27167 E VibratorService: vibratorOn command failed (1).
+06-28 11:29:06.989 26607 26607 I Dialer  : MissedCallNotificationReceiver.onReceive - update missed call notifications successful
+06-28 11:29:07.011 26607 26607 I Dialer  : MissedCallNotificationReceiver.updateBadgeCount - update badge count: 1 success: false
+06-28 11:29:07.205 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:07.206 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:07.269 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:07.498 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:07.498 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:07.525  1603 27167 E VibratorService: vibratorOn command failed (1).
+06-28 11:29:07.572 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:07.804  1603  2151 D WificondControl: Scan result ready event
+06-28 11:29:07.845 19546 19556 I zygote  : Background concurrent copying GC freed 175471(6MB) AllocSpace objects, 17(1232KB) LOS objects, 36% free, 10MB/16MB, paused 1.254ms total 247.097ms
+06-28 11:29:07.877  1603 27167 E VibratorService: vibratorOff command failed (1).
+06-28 11:29:07.943  1603  1614 I WifiService: releaseWifiLock uid=10014
+06-28 11:29:08.204 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:08.204 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:08.314 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:08.650 12507 12519 I zygote  : Background concurrent copying GC freed 99890(3MB) AllocSpace objects, 4(144KB) LOS objects, 18% free, 26MB/32MB, paused 1.488ms total 591.685ms
+06-28 11:29:08.932 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:08.932 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:09.006 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:09.206 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:09.207 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:09.266 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:09.836 12507 27078 W net.osmand:native: [Native] Result visited (visited roads 22877, visited segments 10991 / 30885 , queue sizes 259 / 4302 ) 
+06-28 11:29:09.837 12507 27078 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 27823, loaded tiles 216) 
+06-28 11:29:09.837 12507 27078 W net.osmand:native: [Native] Memory occupied (Routing context 9500 Kb, search 689 Kb)
+06-28 11:29:09.908 12507 27078 I net.osmand:native: Routing calculated time distance 163076.031250
+06-28 11:29:10.195 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:10.269 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:10.270 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:10.287 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:10.445 12507 12507 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187437.32689634964
+06-28 11:29:10.446 12507 12507 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187449.81
+06-28 11:29:10.779 12507 12519 I zygote  : Background concurrent copying GC freed 127683(5MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.145ms total 664.985ms
+06-28 11:29:11.064 12507 27078 I net.osmand: RoutePlannerFrontEnd Native routing took 29.114 seconds
+06-28 11:29:11.127 12507 27078 I System.out: ROUTE : 
+06-28 11:29:11.127 12507 27078 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 11:29:11.127 12507 27078 I net.osmand:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21848" target_lon="-35.88326"  routing_time="163076.03" loadedTiles="216" visitedSegments="22877" complete_distance="209465.64" complete_time="157096.08" >
+06-28 11:29:11.128 12507 27078 I System.out: <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 11:29:11.128 12507 27078 I System.out:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21848" target_lon="-35.88326"  routing_time="163076.03" loadedTiles="216" visitedSegments="22877" complete_distance="209465.64" complete_time="157096.08" >
+06-28 11:29:11.128 12507 27078 I System.out: </test>
+06-28 11:29:11.132 12507 27078 I System.out: <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 11:29:11.133 12507 27078 I System.out:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21848" target_lon="-35.88326"  routing_time="163076.03" loadedTiles="216" visitedSegments="22877" complete_distance="209465.64" complete_time="157096.08" >
+06-28 11:29:11.158 12507 27078 I net.osmand: RouteProvider Finding route contained 2050 points for 29209 ms
+06-28 11:29:11.433  1603  1603 I zygote  : IncrementDisableThreadFlip blocked for 5.405ms
+06-28 11:29:11.943  1603  1612 I zygote  : Background concurrent copying GC freed 57214(2MB) AllocSpace objects, 4(208KB) LOS objects, 22% free, 20MB/26MB, paused 11.003ms total 539.551ms
+06-28 11:29:11.955  1603  1610 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.telecom.ServiceBinder$ServiceDeathRecipient
+06-28 11:29:12.593 12507 12519 I zygote  : Background concurrent copying GC freed 249193(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.209ms total 339.469ms
+06-28 11:29:13.137  1603 27168 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_DNS www.google.com 22ms OK 172.217.28.228,2800:3f0:4001:801::2004
+06-28 11:29:13.151  1603 27169 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_DNS connectivitycheck.gstatic.com 28ms OK 172.217.172.131,2800:3f0:4001:81a::2003
+06-28 11:29:13.236  1603 27169 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=76ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Date=[Fri, 28 Jun 2019 15:29:13 GMT], X-Android-Received-Millis=[1561735753235], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1561735753160]}
+06-28 11:29:13.368  1603 27168 D NetworkMonitor/NetworkAgentInfo [WIFI () - 101]: PROBE_HTTPS https://www.google.com/generate_204 time=224ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[quic=":443"; ma=2592000; v="46,44,43,39"], Content-Length=[0], Date=[Fri, 28 Jun 2019 15:29:13 GMT], X-Android-Received-Millis=[1561735753367], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1561735753295]}
+06-28 11:29:13.369  1603  1681 D ConnectivityService: NetworkAgentInfo [WIFI () - 101] validation passed
+06-28 11:29:13.374  1603  1681 D ConnectivityService: Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "AndroidWifi", failover: false, available: true, roaming: false]}  network{101}  nethandle{433808132830}  lp{{InterfaceName: wlan0 LinkAddresses: [fe80::ff:fe44:5566/64,192.168.232.2/21,fec0::ff:fe44:5566/64,fec0::ad77:da2d:1b12:7b64/64,]  Routes: [fe80::/64 -> :: wlan0,::/0 -> fe80::ff:fe00:100 wlan0,fec0::/64 -> :: wlan0,192.168.232.0/21 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.232.1 wlan0,] DnsAddresses: [10.0.2.3,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&FOREGROUND LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -50]}  Score{60}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} clat{null} }
+06-28 11:29:13.383  1603  1839 D NetworkTimeUpdateService: New default network 101; checking time.
+06-28 11:29:13.387 19782 19800 I DeviceStatusMonitor: NetworkCallback#onAvailable(): 101
+06-28 11:29:13.394 19782 19782 I DeviceStatusMonitor: getCurrentNetworkState(): activeNetwork = 101,  newState = NON_METERED
+06-28 11:29:13.395 19782 19782 I HWRSuperpacksManager: onNetworkAvailable
+06-28 11:29:13.396 19782 19782 I NetworkInfo: onNetworkAvailable: networkState = NON_METERED
+06-28 11:29:13.409  1603  1681 D ConnectivityService: Lingering NetworkAgentInfo [MOBILE (LTE) - 100] for 30000ms
+06-28 11:29:13.424  1603  1681 D ConnectivityService: Sending DISCONNECTED broadcast for type 0 NetworkAgentInfo [MOBILE (LTE) - 100] isDefaultNetwork=true
+06-28 11:29:13.443  1603  1681 D ConnectivityService: Sending CONNECTED broadcast for type 1 NetworkAgentInfo [WIFI () - 101] isDefaultNetwork=true
+06-28 11:29:13.399 19782 19782 I NetworkInfo: onNetworkAvailable: networkState = NON_METERED
+06-28 11:29:13.455 19782 27172 I NetworkInfo: onNetworkAvailable: networkState = NON_METERED
+06-28 11:29:13.490  1603  1674 I WifiService: getConnectionInfo uid=1000
+06-28 11:29:13.506  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:13.505Z[GMT]
+06-28 11:29:13.518  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:13.516Z[GMT]
+06-28 11:29:13.521  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 11:29:13.521  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 11:29:13.524  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 11:29:13.533  1603  1674 D NetworkStats: Resolved to plan null
+06-28 11:29:13.540  1603  1674 I WifiService: getConnectionInfo uid=1000
+06-28 11:29:13.546  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:13.546Z[GMT]
+06-28 11:29:13.548  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T15:29:13.548Z[GMT]
+06-28 11:29:13.550  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 11:29:13.551  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 11:29:13.552  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 11:29:13.563  1603  1674 D NetworkStats: Resolved to plan null
+06-28 11:29:13.575  1603  4580 I WifiService: getConnectionInfo uid=10014
+06-28 11:29:13.597  1603  5561 I WifiService: getConnectionInfo uid=10014
+06-28 11:29:13.603  1603  4580 I WifiService: getConnectionInfo uid=10032
+06-28 11:29:13.660 18809 18809 I Finsky  : [2] khj.a(267): Installer: found apps to install. apps=[]
+06-28 11:29:13.661  1603  4580 I WifiService: getConnectionInfo uid=10014
+06-28 11:29:13.669 18809 18809 I Finsky  : [2] khj.a(267): Installer: found apps to install. apps=[]
+06-28 11:29:13.690  1603  5561 I WifiService: getConnectionInfo uid=10014
+06-28 11:29:13.705 19782 19783 I zygote  : Do full code cache collection, code=244KB, data=136KB
+06-28 11:29:13.705 19782 19783 I zygote  : After code cache collection, code=181KB, data=89KB
+06-28 11:29:13.955 19546 27174 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 11:29:13.955 19546 27174 W WakeLock: GCM_HB_ALARM counter does not exist
+06-28 11:29:13.962  1603  4580 I WifiService: getConnectionInfo uid=10014
+06-28 11:29:14.329  1603  4580 I WifiService: getConnectionInfo uid=10014
+06-28 11:29:14.333 19546 27176 W WakeLock: GCM_CONN_ALARM counter does not exist
+06-28 11:29:14.386  1603  4580 I WifiService: getConnectionInfo uid=10014
+06-28 11:29:15.641 12507 12519 I zygote  : Background concurrent copying GC freed 269459(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.032ms total 376.795ms
+06-28 11:29:18.309 12507 12519 I zygote  : Background concurrent copying GC freed 321250(7MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 31MB/37MB, paused 3.271ms total 332.740ms
+06-28 11:29:18.429  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:18.429  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:18.494  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:18.494  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:20.053  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:20.053  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:21.600 12507 12519 I zygote  : Background concurrent copying GC freed 342295(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 3.337ms total 287.998ms
+06-28 11:29:23.980  1603  1620 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-28 11:29:24.523 12507 12519 I zygote  : Background concurrent copying GC freed 287905(6MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 32MB/38MB, paused 7.481ms total 414.180ms
+06-28 11:29:24.824  1603  1677 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConfigStore$1@2affd16
+06-28 11:29:24.844  1603  1735 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:29:24.866  1603  1677 D WifiConfigStore: Writing to stores completed in 43 ms.
+06-28 11:29:24.897  1603  4580 I WifiService: releaseWifiLock uid=10014
+06-28 11:29:26.985 12507 12519 I zygote  : Background concurrent copying GC freed 382640(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.173ms total 258.572ms
+06-28 11:29:29.299  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:29:29.299  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:29:29.299  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:29:29.398  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:29:29.398  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:29:29.398  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:29:29.556 12507 12519 I zygote  : Background concurrent copying GC freed 273812(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.365ms total 318.372ms
+06-28 11:29:31.230 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:29:31.272 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:29:31.288 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 11:29:31.500 19546 19546 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-28 11:29:31.504 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 11:29:32.523 12507 12519 I zygote  : Background concurrent copying GC freed 319718(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.278ms total 276.759ms
+06-28 11:29:33.402  1603  1735 I ActivityManager: Killing 21766:com.google.android.calendar/u0a45 (adj 906): empty #17
+06-28 11:29:33.406  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:33.406  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:33.408  1603  1619 W zygote  : kill(-21766, 9) failed: No such process
+06-28 11:29:33.452  1603  1619 I chatty  : uid=1000(system) ActivityManager identical 1 line
+06-28 11:29:33.495  1603  1619 W zygote  : kill(-21766, 9) failed: No such process
+06-28 11:29:33.497  1603  1619 I zygote  : Successfully killed process cgroup uid 10045 pid 21766 in 88ms
+06-28 11:29:34.543 12507 12519 I zygote  : Background concurrent copying GC freed 296951(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 939us total 225.175ms
+06-28 11:29:37.524 12507 12519 I zygote  : Background concurrent copying GC freed 271761(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 4.016ms total 289.400ms
+06-28 11:29:39.181  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 11:29:39.255  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:29:39.267  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:29:39.350  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:29:39.356  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 11:29:39.367  1483 12219 D NuPlayerDriver: stop(0xab7a5310)
+06-28 11:29:39.367  1483 12219 D NuPlayerDriver: notifyListener_l(0xab7a5310), (8, 0, 0, -1), loop setting(0, 0)
+06-28 11:29:39.367  1708  1880 W MessageQueue: Handler (android.media.MediaPlayer$EventHandler) {de410a3} sending message to a Handler on a dead thread
+06-28 11:29:39.367  1708  1880 W MessageQueue: java.lang.IllegalStateException: Handler (android.media.MediaPlayer$EventHandler) {de410a3} sending message to a Handler on a dead thread
+06-28 11:29:39.367  1708  1880 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-28 11:29:39.367  1708  1880 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+06-28 11:29:39.367  1708  1880 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+06-28 11:29:39.367  1708  1880 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+06-28 11:29:39.367  1708  1880 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:538)
+06-28 11:29:39.367  1708  1880 W MessageQueue: 	at android.media.MediaPlayer.postEventFromNative(MediaPlayer.java:3461)
+06-28 11:29:39.368  1708 27185 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+06-28 11:29:39.368  1708 27185 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+06-28 11:29:39.368  1483 12219 D NuPlayerDriver: reset(0xab7a5310) at state 8
+06-28 11:29:39.391  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:29:39.456  1483 25213 D NuPlayerDriver: notifyResetComplete(0xab7a5310)
+06-28 11:29:39.559  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 11:29:40.341 12507 12519 I zygote  : Background concurrent copying GC freed 309758(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 6.475ms total 522.855ms
+06-28 11:29:41.371  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 11:29:41.520  1708  1708 D StatusBar: disable<e i a s b h r c s q >
+06-28 11:29:41.583  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:29:41.593  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 11:29:41.615  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 11:29:41.636  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 11:29:41.655  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 274432
+06-28 11:29:42.580 12507 12519 I zygote  : Background concurrent copying GC freed 282510(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.585ms total 343.508ms
+06-28 11:29:43.277  1402  1417 D hwcomposer: hw_composer sent 157 syncs in 62s
+06-28 11:29:43.370  1603  1681 D ConnectivityService: handleLingerComplete for NetworkAgentInfo [MOBILE (LTE) - 100]
+06-28 11:29:43.373  1484  1515 I Netd    : Destroyed 2 sockets for netId 100 permission=1 in 1.1 ms
+06-28 11:29:45.565 12507 12519 I zygote  : Background concurrent copying GC freed 306489(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 4.742ms total 262.880ms
+06-28 11:29:45.882  1603  1735 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:29:45.898  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:45.898  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:45.988  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:45.988  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:46.039  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:46.039  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:46.103  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:46.103  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:46.152  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:29:46.152  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:29:48.534 12507 12519 I zygote  : Background concurrent copying GC freed 271030(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.288ms total 358.118ms
+06-28 11:29:48.864  1603  1735 D WificondControl: Scan result ready event
+06-28 11:29:48.922  1603  4580 I WifiService: releaseWifiLock uid=10014
+06-28 11:29:49.114  1603  1612 I zygote  : Background concurrent copying GC freed 72077(3MB) AllocSpace objects, 17(1068KB) LOS objects, 22% free, 20MB/26MB, paused 1.554ms total 202.312ms
+06-28 11:29:50.777  1409  1409 I boot-pipe: done populating /dev/random
+06-28 11:29:51.072 12507 12519 I zygote  : Background concurrent copying GC freed 314745(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 12.776ms total 255.283ms
+06-28 11:29:53.442  1603  1620 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-28 11:29:53.590 12507 12519 I zygote  : Background concurrent copying GC freed 282639(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.758ms total 336.856ms
+06-28 11:29:56.079 12507 12519 I zygote  : Background concurrent copying GC freed 309192(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.400ms total 268.423ms
+06-28 11:29:58.423  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:29:58.423  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:29:58.423  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:29:58.834 12507 12519 I zygote  : Background concurrent copying GC freed 273762(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 4.926ms total 362.927ms
+06-28 11:30:01.291 12507 12519 I zygote  : Background concurrent copying GC freed 310068(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.436ms total 309.744ms
+06-28 11:30:02.102 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:30:02.328 18809 18825 I Finsky  : [779] imb.run(3): Stats for Executor: BlockingExecutor ink@1808074[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 45]
+06-28 11:30:02.329 18809 18825 I Finsky  : [779] imb.run(3): Stats for Executor: LightweightExecutor ink@892399d[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 75]
+06-28 11:30:02.335 18809 18825 I Finsky  : [779] imb.run(3): Stats for Executor: bgExecutor ink@3e8e12[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1046]
+06-28 11:30:03.757 12507 12519 I zygote  : Background concurrent copying GC freed 305208(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 930us total 301.335ms
+06-28 11:30:05.905  1603  5561 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:30:06.006  1603  1735 I WifiService: releaseWifiLock uid=10014
+06-28 11:30:06.371 12507 12519 I zygote  : Background concurrent copying GC freed 295338(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.932ms total 371.626ms
+06-28 11:30:09.613 12507 12519 I zygote  : Background concurrent copying GC freed 297054(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 925us total 367.316ms
+06-28 11:30:10.600  1603  1616 I UsageStatsService: User[0] Flushing usage stats to disk
+06-28 11:30:11.605 12507 12519 I zygote  : Background concurrent copying GC freed 316999(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.543ms total 289.760ms
+06-28 11:30:14.642 12507 12519 I zygote  : Background concurrent copying GC freed 279127(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.805ms total 316.979ms
+06-28 11:30:17.638 12507 12519 I zygote  : Background concurrent copying GC freed 286727(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 5.029ms total 378.423ms
+06-28 11:30:20.203 12507 12519 I zygote  : Background concurrent copying GC freed 317545(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.802ms total 278.459ms
+06-28 11:30:23.537 12507 12519 I zygote  : Background concurrent copying GC freed 278027(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.084ms total 278.462ms
+06-28 11:30:25.567 12507 12519 I zygote  : Background concurrent copying GC freed 310934(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.207ms total 292.383ms
+06-28 11:30:25.937  1603  4580 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:30:28.642 12507 12519 I zygote  : Background concurrent copying GC freed 301149(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 9.716ms total 395.764ms
+06-28 11:30:28.876  1603  4580 D WificondControl: Scan result ready event
+06-28 11:30:28.945  1603  4231 I WifiService: releaseWifiLock uid=10014
+06-28 11:30:29.945  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:30:29.945  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:30:29.946  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:30:30.553 12507 12519 I zygote  : Background concurrent copying GC freed 315246(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.267ms total 290.128ms
+06-28 11:30:32.258 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:30:33.621 12507 12519 I zygote  : Background concurrent copying GC freed 308367(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 966us total 298.926ms
+06-28 11:30:35.618 12507 12519 I zygote  : Background concurrent copying GC freed 294226(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.312ms total 224.763ms
+06-28 11:30:38.620 12507 12519 I zygote  : Background concurrent copying GC freed 264789(5MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.196ms total 312.448ms
+06-28 11:30:41.463 12507 12519 I zygote  : Background concurrent copying GC freed 291598(6MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 32MB/38MB, paused 1.151ms total 416.134ms
+06-28 11:30:43.323  1402  1417 D hwcomposer: hw_composer sent 288 syncs in 60s
+06-28 11:30:44.613 12507 12519 I zygote  : Background concurrent copying GC freed 377605(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 969us total 315.927ms
+06-28 11:30:46.589 12507 12519 I zygote  : Background concurrent copying GC freed 299459(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.888ms total 232.745ms
+06-28 11:30:47.764  1603  4231 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=25280 uid=10068 pkg=com.google.android.apps.messaging
+06-28 11:30:47.773 25280 25351 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+06-28 11:30:47.773  1603  4231 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:30:47.843  1603  1735 I WifiService: releaseWifiLock uid=10014
+06-28 11:30:48.045  1603  1612 I zygote  : Background concurrent copying GC freed 52686(2MB) AllocSpace objects, 10(520KB) LOS objects, 22% free, 20MB/26MB, paused 3.410ms total 181.761ms
+06-28 11:30:50.155 12507 12519 I zygote  : Background concurrent copying GC freed 270220(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.122ms total 299.213ms
+06-28 11:30:50.781  1409  1409 I boot-pipe: done populating /dev/random
+06-28 11:30:52.683 12507 12519 I zygote  : Background concurrent copying GC freed 319196(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.978ms total 281.283ms
+06-28 11:30:55.616 12507 12519 I zygote  : Background concurrent copying GC freed 277288(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 3.427ms total 337.175ms
+06-28 11:30:57.738 12507 12519 I zygote  : Background concurrent copying GC freed 309706(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.948ms total 298.340ms
+06-28 11:31:00.004  1603  1603 I ActivityManager: Killing 21725:com.android.providers.calendar/u0a4 (adj 904): empty for 1801s
+06-28 11:31:00.007  1603  1619 W zygote  : kill(-21725, 9) failed: No such process
+06-28 11:31:00.009  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:31:00.009  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:31:00.063  1603  1619 W zygote  : kill(-21725, 9) failed: No such process
+06-28 11:31:00.103  1603  1619 I chatty  : uid=1000(system) ActivityManager identical 1 line
+06-28 11:31:00.142  1603  1619 W zygote  : kill(-21725, 9) failed: No such process
+06-28 11:31:00.162  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:31:00.163  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:31:00.188  1603  1619 W zygote  : kill(-21725, 9) failed: No such process
+06-28 11:31:00.189  1603  1619 I zygote  : Successfully killed process cgroup uid 10004 pid 21725 in 181ms
+06-28 11:31:00.423 12507 12519 I zygote  : Background concurrent copying GC freed 305094(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 2.326ms total 452.579ms
+06-28 11:31:02.287 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:31:02.822 12507 12519 I zygote  : Background concurrent copying GC freed 314318(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.332ms total 252.272ms
+06-28 11:31:03.013  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:31:03.013  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:31:03.013  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:31:04.406  1603  4580 I WifiService: getConnectionInfo uid=10014
+06-28 11:31:04.416  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:31:04.417  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:31:04.417  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:31:04.421 19546 27174 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 11:31:04.607 19546 19557 I GeofencerStateMachine: addGeofences called by com.google.android.apps.maps
+06-28 11:31:04.684  1603  1614 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3b3a7c2)
+06-28 11:31:04.688  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3b3a7c2)
+06-28 11:31:04.730  1603  4231 I WifiService: getConnectionInfo uid=10014
+06-28 11:31:04.764 19546 19556 I zygote  : Background concurrent copying GC freed 155686(6MB) AllocSpace objects, 0(0B) LOS objects, 39% free, 9MB/15MB, paused 1.278ms total 246.818ms
+06-28 11:31:04.774  1603  2119 I WifiService: getWifiEnabledState uid=10062
+06-28 11:31:04.816  1603  2119 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@83a9910)
+06-28 11:31:04.817  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@83a9910)
+06-28 11:31:04.830 19678 19692 I zygote  : Waiting for a blocking GC ProfileSaver
+06-28 11:31:04.979 19678 19692 I zygote  : WaitForGcToComplete blocked ProfileSaver on HeapTrim for 149.228ms
+06-28 11:31:05.510 19546 19595 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+06-28 11:31:05.516 19546 19605 V NativeCrypto: Read error: ssl=0xae4ad678: I/O error during system call, Software caused connection abort
+06-28 11:31:05.517 19546 19605 V NativeCrypto: SSL shutdown failed: ssl=0xae4ad678: I/O error during system call, Broken pipe
+06-28 11:31:05.664 19546 19605 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 11:31:05.674 19546 19605 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:05.674 19546 19605 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:05.677 19569 21629 I TelephonySpam: TelephonySpamChimeraService - Running Telephony Spam Chimera Service
+06-28 11:31:05.769 19546 19605 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 11:31:05.770 19546 19605 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:05.770 19546 19605 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:05.879 12507 12519 I zygote  : Background concurrent copying GC freed 297843(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 5.972ms total 425.802ms
+06-28 11:31:06.051 19546 19605 W GLSUser : [AppCertManager] IOException while requesting key: 
+06-28 11:31:06.051 19546 19605 W GLSUser : java.io.IOException: Invalid device key response.
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at imb.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):48)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at ima.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):13)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at ilw.a(Unknown Source:0)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at ilt.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):8)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at hjl.call(:com.google.android.gms@17785022@17.7.85 (040700-253824076):7)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at squ.b(:com.google.android.gms@17785022@17.7.85 (040700-253824076):37)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at squ.run(:com.google.android.gms@17785022@17.7.85 (040700-253824076):21)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at swz.run(Unknown Source:7)
+06-28 11:31:06.051 19546 19605 W GLSUser : 	at java.lang.Thread.run(Thread.java:764)
+06-28 11:31:07.794  1603  4231 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:31:08.095 12507 12519 I zygote  : Background concurrent copying GC freed 289071(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.714ms total 275.273ms
+06-28 11:31:10.646 12507 12519 I zygote  : Background concurrent copying GC freed 286125(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 3.623ms total 349.307ms
+06-28 11:31:10.785  1603  4580 D WificondControl: Scan result ready event
+06-28 11:31:10.831  1603  4580 I WifiService: releaseWifiLock uid=10014
+06-28 11:31:13.402 12507 12519 I zygote  : Background concurrent copying GC freed 303467(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.888ms total 377.603ms
+06-28 11:31:15.980  1603  1620 E BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+06-28 11:31:16.725 12507 12519 I zygote  : Background concurrent copying GC freed 331190(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 6.323ms total 341.753ms
+06-28 11:31:19.669  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:31:19.669  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:31:19.859 12507 12519 I zygote  : Background concurrent copying GC freed 276076(6MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 32MB/38MB, paused 4.893ms total 566.592ms
+06-28 11:31:22.523 12507 12519 I zygote  : Background concurrent copying GC freed 382394(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.412ms total 373.867ms
+06-28 11:31:25.559 12507 12519 I zygote  : Background concurrent copying GC freed 318967(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.341ms total 212.450ms
+06-28 11:31:27.094  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:31:27.095  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:31:27.095  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:31:28.128  1603  4580 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:31:28.236  1603  1614 I WifiService: releaseWifiLock uid=10014
+06-28 11:31:28.796 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 11:31:28.796 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 11:31:28.831  1603  1612 I zygote  : Background concurrent copying GC freed 46569(2MB) AllocSpace objects, 0(0B) LOS objects, 22% free, 20MB/26MB, paused 3.460ms total 628.132ms
+06-28 11:31:28.889 12507 12519 I zygote  : Background concurrent copying GC freed 276177(6MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 31MB/37MB, paused 1.820ms total 614.696ms
+06-28 11:31:28.976 19546 19559 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+06-28 11:31:28.976 19546 19559 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+06-28 11:31:28.991  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:31:28.991  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:31:28.991  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:31:29.124 19569 27207 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 11:31:29.124 19569 27207 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:29.125 19569 27207 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:29.287 19569 27207 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-28 11:31:29.287 19569 27207 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:29.288 19569 27207 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 11:31:31.169 12507 12519 I zygote  : Background concurrent copying GC freed 349100(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.666ms total 275.494ms
+06-28 11:31:33.269 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:31:34.703 12507 12519 I zygote  : Background concurrent copying GC freed 281092(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 10.833ms total 412.852ms
+06-28 11:31:36.704 12507 12519 I zygote  : Background concurrent copying GC freed 312399(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.860ms total 314.072ms
+06-28 11:31:40.198 12507 12519 I zygote  : Background concurrent copying GC freed 269063(5MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.214ms total 337.462ms
+06-28 11:31:43.372 12507 12519 I zygote  : Background concurrent copying GC freed 315639(6MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 32MB/38MB, paused 2.576ms total 924.641ms
+06-28 11:31:44.346  1402  1417 D hwcomposer: hw_composer sent 300 syncs in 61s
+06-28 11:31:44.576  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:31:44.576  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:31:44.576  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:31:46.068 12507 12519 I zygote  : Background concurrent copying GC freed 390949(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.895ms total 258.971ms
+06-28 11:31:48.676 12507 12519 I zygote  : Background concurrent copying GC freed 276077(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.080ms total 317.494ms
+06-28 11:31:49.136  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:31:49.136  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:31:49.163 19569 27214 I MS_RegisterService: Tachyon host: instantmessaging-pa.googleapis.com, Tachyon port: 443
+06-28 11:31:49.191  1603  4231 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:31:49.253  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:31:49.253  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:31:49.288 19569 27216 I MS_RegisterService: RegisterService intent:Intent { act=com.google.android.gms.matchstick.register_intent_action cat=[targeted_intent_op_prefix:com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation] flg=0x4 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) } isPeriodic:false
+06-28 11:31:49.354 19569 27216 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+06-28 11:31:49.369 19569 27216 W ProviderHelper: Unknown dynamite feature providerinstaller
+06-28 11:31:49.369 19569 27216 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+06-28 11:31:49.369 19569 27216 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+06-28 11:31:49.408  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 11:31:49.408  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 11:31:49.932 19569 19579 I zygote  : Background concurrent copying GC freed 67679(3MB) AllocSpace objects, 27(2012KB) LOS objects, 31% free, 12MB/18MB, paused 1.410ms total 279.947ms
+06-28 11:31:49.947 19569 27216 I TY_PREINIT_SyncUtils: removeSyncAccount. Success: true
+06-28 11:31:50.792  1409  1409 I boot-pipe: done populating /dev/random
+06-28 11:31:51.626 12507 12519 I zygote  : Background concurrent copying GC freed 289990(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.155ms total 285.975ms
+06-28 11:31:52.199  1603  1613 D WificondControl: Scan result ready event
+06-28 11:31:52.265  1603  1735 I WifiService: releaseWifiLock uid=10014
+06-28 11:31:52.538  1603  1612 I zygote  : Background concurrent copying GC freed 38775(1703KB) AllocSpace objects, 0(0B) LOS objects, 22% free, 20MB/26MB, paused 1.050ms total 266.392ms
+06-28 11:31:54.979 12507 12519 I zygote  : Background concurrent copying GC freed 296056(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 4.092ms total 373.911ms
+06-28 11:31:57.461 12507 12519 I zygote  : Background concurrent copying GC freed 312781(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.023ms total 377.800ms
+06-28 11:32:00.134  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:32:00.134  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:32:00.134  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:32:00.623 12507 12519 I zygote  : Background concurrent copying GC freed 331710(7MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 1.638ms total 291.623ms
+06-28 11:32:02.652 12507 12519 I zygote  : Background concurrent copying GC freed 302854(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.958ms total 237.893ms
+06-28 11:32:03.290 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 11:32:06.530 12507 12519 I zygote  : Background concurrent copying GC freed 265227(5MB) AllocSpace objects, 0(0B) LOS objects, 15% free, 32MB/38MB, paused 3.267ms total 478.469ms
+06-28 11:32:09.203  1603  1735 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 11:32:09.262  1603  4231 I WifiService: releaseWifiLock uid=10014
+06-28 11:32:09.675 12507 12519 I zygote  : Background concurrent copying GC freed 380859(8MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 1.946ms total 272.583ms
+06-28 11:32:12.922 12507 12519 I zygote  : Background concurrent copying GC freed 274161(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 31MB/37MB, paused 1.200ms total 366.754ms
+06-28 11:32:15.176  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 11:32:15.176  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 11:32:15.176  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 11:32:15.643 12507 12519 I zygote  : Background concurrent copying GC freed 313983(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 30MB/36MB, paused 2.376ms total 344.231ms
+06-28 11:32:18.081 12507 12519 I zygote  : Background concurrent copying GC freed 301017(6MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 29MB/35MB, paused 2.238ms total 240.802ms

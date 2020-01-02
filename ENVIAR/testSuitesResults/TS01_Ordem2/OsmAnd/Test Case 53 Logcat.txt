@@ -1,0 +1,783 @@
+--------- beginning of main
+06-28 15:38:04.653  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:38:04.653  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:38:04.653  1603  1620 I WifiService: getSupportedFeatures uid=1000
+--------- beginning of system
+06-28 15:37:50.784  1603  2151 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:38:06.594  1603  2974 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000
+06-28 15:38:06.669  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:06.724  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:06.760  1603  1614 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@db7fc52)
+06-28 15:38:06.761  1603  1618 W Looper  : Dispatch took 129ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {5717402} cb=null msg=31
+06-28 15:38:06.796  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:06.804  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@db7fc52)
+06-28 15:38:06.824 29061 29061 D net.osmand: Disable sensor
+06-28 15:38:06.894  8540  8573 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783400)
+06-28 15:38:06.918  1603  2151 I zygote  : IncrementDisableThreadFlip blocked for 15.471ms
+06-28 15:38:06.925 29061 29061 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:06.925  1603  1638 I zygote  : IncrementDisableThreadFlip blocked for 23.276ms
+06-28 15:38:06.941  1412  1412 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+06-28 15:38:06.975  1401  6331 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:07.018  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:07.068  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:07.076  8540  8540 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 15:38:07.162  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 15:38:07.191 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 15:38:07.297  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:07.351  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:07.360  1412  1412 E EGL_emulation: tid 1412: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+06-28 15:38:07.535  8540  8574 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-28 15:38:07.701  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 15:38:07.702  2548  2598 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-28 15:38:07.805 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:38:07.906 29061 10053 E FA      : Task exception on worker thread: java.lang.IllegalAccessError: Method 'void android.support.v4.content.ContextCompat.<init>()' is inaccessible to class 'com.google.firebase.iid.zzg' (declaration of 'com.google.firebase.iid.zzg' appears in /data/app/net.osmand-3e2027wrPNiMXbTSfYMHIA==/base.apk): com.google.android.gms.measurement.internal.zzt.zzEd(Unknown Source:3)
+06-28 15:38:07.949  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:08.171  1603  1735 I WifiService: getWifiEnabledState uid=10032
+06-28 15:38:08.186  2548  2558 I zygote  : NativeAlloc concurrent copying GC freed 7306(421KB) AllocSpace objects, 4(1272KB) LOS objects, 50% free, 4MB/9MB, paused 2.120ms total 405.469ms
+06-28 15:38:08.355  1603  3971 I WifiService: getWifiEnabledState uid=10032
+06-28 15:38:08.362  8540  8614 W LocationOracle: No location history returned by ContextManager
+06-28 15:38:08.445  8540  8574 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 15:38:08.527  8540  8574 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 15:38:08.530  8540  8574 I MicroDetector: Keeping mic open: false
+06-28 15:38:08.530  8540  8574 I MicroDetectionWorker: #onError(false)
+06-28 15:38:08.552 29061 29165 I net.osmand: GeocodingUtilities Search street by name Avenida Marechal Floriano Peixoto [floriano, marechal, peixoto]
+06-28 15:38:08.554 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: FLORIANO
+06-28 15:38:08.711  1708  1728 I zygote  : NativeAlloc concurrent copying GC freed 87149(3MB) AllocSpace objects, 0(0B) LOS objects, 34% free, 11MB/17MB, paused 8.024ms total 1.139s
+06-28 15:38:08.731 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 177ms. Found 1 subtress
+06-28 15:38:08.755 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 201ms. Found 10
+06-28 15:38:08.755 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Avenida Marechal Floriano Peixoto (Centro) Campina Grande 116
+06-28 15:38:08.756 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Avenida Marechal Floriano Peixoto Centro 117
+06-28 15:38:08.756 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Marechal Floriano Peixoto Campina Grande 25742
+06-28 15:38:08.756 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Marechal Floriano Peixoto Centro 25743
+06-28 15:38:08.756 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Avenida Marechal Floriano Peixoto Jardim Tavares 23245
+06-28 15:38:08.756 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Avenida Marechal Floriano Peixoto Santo Antônio 27330
+06-28 15:38:08.757 29061 29165 I net.osmand: GeocodingUtilities Search street by name Praça da Bandeira [bandeira, praça]
+06-28 15:38:08.758 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: BANDEIRA
+06-28 15:38:08.861 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 103ms. Found 1 subtress
+06-28 15:38:08.864 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 106ms. Found 2
+06-28 15:38:08.864 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Praça da Bandeira (Centro) Campina Grande 23187
+06-28 15:38:08.864 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Praça da Bandeira Centro 23188
+06-28 15:38:08.864 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Irineu Jofili [irineu, jofili]
+06-28 15:38:08.865 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: IRINEU
+06-28 15:38:08.881 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:38:08.891 19546 19546 I chatty  : uid=10014 com.google.android.gms.persistent identical 1 line
+06-28 15:38:08.930 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:38:08.952 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 86ms. Found 1 subtress
+06-28 15:38:08.956 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 90ms. Found 2
+06-28 15:38:08.956 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Irineu Jofili Campina Grande 9918
+06-28 15:38:08.956 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Irineu Jofili Centro 9919
+06-28 15:38:08.957 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Marquês do Herval [herval, marquês]
+06-28 15:38:08.958 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: MARQUÊS
+06-28 15:38:09.044 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 86ms. Found 1 subtress
+06-28 15:38:09.050 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 91ms. Found 2
+06-28 15:38:09.050 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Marquês do Herval Campina Grande 11499
+06-28 15:38:09.050 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Marquês do Herval Centro 11500
+06-28 15:38:09.050 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Venâncio Neiva [neiva, venâncio]
+06-28 15:38:09.052 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: VENÂNCIO
+06-28 15:38:09.122 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 70ms. Found 2 subtress
+06-28 15:38:09.126 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 74ms. Found 2
+06-28 15:38:09.126 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Venâncio Neiva (Centro) Campina Grande 22868
+06-28 15:38:09.126 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Venâncio Neiva Centro 22869
+06-28 15:38:09.126 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Vidal de Negreiros [negreiros, vidal]
+06-28 15:38:09.127 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: NEGREIROS
+06-28 15:38:09.150 19546 19556 I zygote  : Background concurrent copying GC freed 118719(5MB) AllocSpace objects, 15(944KB) LOS objects, 36% free, 10MB/16MB, paused 1.154ms total 674.722ms
+06-28 15:38:09.190 19546 10087 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10014):UserVelocityProducer, vrsn=17785022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 19546). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+06-28 15:38:09.224 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 96ms. Found 1 subtress
+06-28 15:38:09.226 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 98ms. Found 2
+06-28 15:38:09.226 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Vidal de Negreiros (Centro) Campina Grande 22843
+06-28 15:38:09.227 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Vidal de Negreiros Centro 22844
+06-28 15:38:09.227 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Senador Leal [leal, senador]
+06-28 15:38:09.229 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: SENADOR
+06-28 15:38:09.303 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 74ms. Found 1 subtress
+06-28 15:38:09.310 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 81ms. Found 2
+06-28 15:38:09.310 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Senador Leal Campina Grande 16051
+06-28 15:38:09.311 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Senador Leal Centro 16052
+06-28 15:38:09.311 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Afonso Campos [afonso, campos]
+06-28 15:38:09.312 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: AFONSO
+06-28 15:38:09.385 29061 29071 I zygote  : Background concurrent copying GC freed 274197(14MB) AllocSpace objects, 28(1112KB) LOS objects, 21% free, 22MB/28MB, paused 20.776ms total 1.177s
+06-28 15:38:09.397 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 85ms. Found 1 subtress
+06-28 15:38:09.415 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 103ms. Found 2
+06-28 15:38:09.415 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Afonso Campos (Centro) Campina Grande 22866
+06-28 15:38:09.416 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Afonso Campos Centro 22867
+06-28 15:38:09.416 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Treze de Maio [maio, treze]
+06-28 15:38:09.428 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: TREZE
+06-28 15:38:09.468 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:38:09.476 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:38:09.496  1603  1612 I zygote  : Background concurrent copying GC freed 49825(2MB) AllocSpace objects, 11(412KB) LOS objects, 17% free, 28MB/34MB, paused 7.499ms total 2.675s
+06-28 15:38:09.533 19546 10089 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 15:38:09.590 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 161ms. Found 1 subtress
+06-28 15:38:09.599 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 170ms. Found 3
+06-28 15:38:09.600 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Treze de Maio (Centro) Campina Grande 303
+06-28 15:38:09.602 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Treze de Maio Centro 304
+06-28 15:38:09.602 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Cardoso Vieira [cardoso, vieira]
+06-28 15:38:09.606 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: CARDOSO
+06-28 15:38:09.643 19546 10089 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 15:38:09.695 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 88ms. Found 1 subtress
+06-28 15:38:09.698 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 91ms. Found 2
+06-28 15:38:09.698 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Cardoso Vieira (Centro) Campina Grande 16063
+06-28 15:38:09.698 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Cardoso Vieira Centro 16064
+06-28 15:38:09.699 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Major Juvino do O [juvino, major]
+06-28 15:38:09.707 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: JUVINO
+06-28 15:38:09.775 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 68ms. Found 1 subtress
+06-28 15:38:09.778 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 71ms. Found 2
+06-28 15:38:09.778 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Major Juvino do O Campina Grande 9896
+06-28 15:38:09.780 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Major Juvino do O Centro 9897
+06-28 15:38:09.780 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua João Loureiro Porto [joão, loureiro, porto]
+06-28 15:38:09.782 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: LOUREIRO
+06-28 15:38:09.859 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 77ms. Found 1 subtress
+06-28 15:38:09.875 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 93ms. Found 2
+06-28 15:38:09.876 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua João Loureiro Porto Campina Grande 22870
+06-28 15:38:09.876 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua João Loureiro Porto Centro 22871
+06-28 15:38:09.876 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Félix Araújo [araújo, félix]
+06-28 15:38:09.877 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: ARAÚJO
+06-28 15:38:09.921 19546 10087 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+06-28 15:38:09.954 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 76ms. Found 2 subtress
+06-28 15:38:10.020 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 141ms. Found 2
+06-28 15:38:10.020 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Félix Araújo Centro 16058
+06-28 15:38:10.021 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Félix Araújo (Centro) Campina Grande 16057
+06-28 15:38:10.022 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Afonso Pena [afonso, pena]
+06-28 15:38:10.024 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: AFONSO
+06-28 15:38:10.110 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 86ms. Found 1 subtress
+06-28 15:38:10.114 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 90ms. Found 2
+06-28 15:38:10.115 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Afonso Pena (Centro) Campina Grande 252
+06-28 15:38:10.115 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Afonso Pena Centro 253
+06-28 15:38:10.115 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Maciel Pinheiro [maciel, pinheiro]
+06-28 15:38:10.116 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: PINHEIRO
+06-28 15:38:10.175 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 58ms. Found 1 subtress
+06-28 15:38:10.182 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 66ms. Found 2
+06-28 15:38:10.182 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Maciel Pinheiro (Centro) Campina Grande 16055
+06-28 15:38:10.183 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Maciel Pinheiro Centro 16056
+06-28 15:38:10.183 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Teodósio de Oliveira Lêdo [lêdo, oliveira, teodósio]
+06-28 15:38:10.186 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: OLIVEIRA
+06-28 15:38:10.247 19546 10089 I Places  : Converted 1 out of 1 WiFi scans
+06-28 15:38:10.248  1603  2080 I WifiService: getConnectionInfo uid=10014
+06-28 15:38:10.262 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 75ms. Found 2 subtress
+06-28 15:38:10.336 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 149ms. Found 2
+06-28 15:38:10.337 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Teodósio de Oliveira Lêdo Centro 16062
+06-28 15:38:10.337 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Teodósio de Oliveira Lêdo Campina Grande 16061
+06-28 15:38:10.337 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Rui Barbosa [barbosa, rui]
+06-28 15:38:10.340 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: BARBOSA
+06-28 15:38:10.441 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 101ms. Found 2 subtress
+06-28 15:38:10.500  1603  2080 I ActivityManager: Force stopping com.skgames.trafficrider appid=10081 user=0: from pid 10093
+06-28 15:38:10.505 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 165ms. Found 2
+06-28 15:38:10.505 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Rui Barbosa Centro 16042
+06-28 15:38:10.505 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Rui Barbosa (Centro) Campina Grande 16041
+06-28 15:38:10.505 29061 29165 I net.osmand: GeocodingUtilities Search street by name Beco 31 [31]
+06-28 15:38:10.506 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: 31
+06-28 15:38:10.537  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 15:38:10.626 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 119ms. Found 2 subtress
+06-28 15:38:10.627 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 121ms. Found 2
+06-28 15:38:10.628 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Beco 31 Centro 28997
+06-28 15:38:10.632 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Beco 31 Campina Grande 28996
+06-28 15:38:10.632 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Tiradentes [tiradentes]
+06-28 15:38:10.633 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: TIRADENTES
+06-28 15:38:10.657 19546 10089 I Places  : ?: PlacesBleScanner start() with priority 2
+06-28 15:38:10.657 19546 10089 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 15:38:10.657 19546 10089 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 15:38:10.699 19546 19546 E BeaconBle: Missing BluetoothAdapter
+06-28 15:38:10.699 19546 19546 I BeaconBle: BLE 'KK+' software access layer enabled
+06-28 15:38:10.724 19546 10089 I Places  : Converted 1 out of 1 WiFi scans
+06-28 15:38:10.724  1603  2974 I WifiService: getConnectionInfo uid=10014
+06-28 15:38:10.749 19546 10089 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+06-28 15:38:10.749 19546 10089 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+06-28 15:38:10.791 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 158ms. Found 1 subtress
+06-28 15:38:10.791 19546 19546 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+06-28 15:38:10.792 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 15:38:10.793 19546 19546 E BeaconBle: Scan couldn't start for Places
+06-28 15:38:10.793 19546 19546 W Places  : BLE failure while scanning - code 5
+06-28 15:38:10.794 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 161ms. Found 2
+06-28 15:38:10.795 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Tiradentes Centro 9867
+06-28 15:38:10.795 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Tiradentes (Centro) Campina Grande 9866
+06-28 15:38:10.795 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Presidente João Pessoa [joão, pessoa, presidente]
+06-28 15:38:10.796 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: PRESIDENTE
+06-28 15:38:10.865 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 66ms. Found 1 subtress
+06-28 15:38:10.875 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 75ms. Found 4
+06-28 15:38:10.875 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Presidente João Pessoa Centro 255
+06-28 15:38:10.875 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Presidente João Pessoa (Centro) Campina Grande 254
+06-28 15:38:10.875 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Presidente João Pessoa Monte Santo 29249
+06-28 15:38:10.876 29061 29165 I net.osmand: GeocodingUtilities Search street by name Rua Doutor João Tavares [doutor, joão, tavares]
+06-28 15:38:10.876 29061 29165 I net.osmand: Postcode Not matches Brazil's postcode regex: TAVARES
+06-28 15:38:10.922  1603  1612 I zygote  : NativeAlloc concurrent copying GC freed 9676(637KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 3.682ms total 1.379s
+06-28 15:38:10.974 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Searched address structure in 98ms. Found 1 subtress
+06-28 15:38:11.010 29061 29165 I net.osmand: BinaryMapAddressReaderAdapter Whole address search by name is done in 134ms. Found 2
+06-28 15:38:11.011 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Doutor João Tavares Campina Grande 15440
+06-28 15:38:11.011 29061 29165 I net.osmand: GeocodingUtilities Preload buildings Rua Doutor João Tavares Centro 15441
+06-28 15:38:11.030  1603  2504 I ActivityManager: Force stopping com.EvilChaotic.ModernWarplanes appid=10082 user=0: from pid 10098
+06-28 15:38:11.065  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 15:38:11.119  8540  8545 I zygote  : Compiler allocated 4MB to compile com.google.android.apps.gsa.search.core.state.d.ae com.google.android.apps.gsa.binaries.velvet.app.re.bG()
+06-28 15:38:11.554  1603  2080 I ActivityManager: Force stopping com.ea.games.r3_row appid=10083 user=0: from pid 10103
+06-28 15:38:11.590  1844  1844 D CarrierSvcBindHelper: No carrier app for: 0
+06-28 15:38:11.713 19546 19556 I zygote  : Background concurrent copying GC freed 73256(3MB) AllocSpace objects, 28(1748KB) LOS objects, 32% free, 12MB/18MB, paused 8.800ms total 324.300ms
+06-28 15:38:11.837 19546 10086 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 15:38:11.993  1603  2080 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+06-28 15:38:12.028 19546 10086 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+06-28 15:38:12.388 19546 19556 I zygote  : Background concurrent copying GC freed 115555(5MB) AllocSpace objects, 6(280KB) LOS objects, 31% free, 13MB/19MB, paused 5.958ms total 231.394ms
+06-28 15:38:13.363  1844  1844 D ServiceStateProvider: subId=1
+06-28 15:38:13.445  1603  1681 I WifiService: getConnectionInfo uid=1000
+06-28 15:38:13.475  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T19:38:13.475Z[GMT]
+06-28 15:38:13.482  1603  1674 D RecurrenceRule: Resolving using anchor 2019-06-28T19:38:13.482Z[GMT]
+06-28 15:38:13.486  1603  1674 D RecurrenceRule: Cycle 17 from 2019-06-09T00:00Z[GMT] to 2019-07-09T00:00Z[GMT]
+06-28 15:38:13.488  1603  1674 D NetworkStats: Resolving plan for NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=310260..., matchSubscriberIds=[310260...]
+06-28 15:38:13.498  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:38:13.509  1603  1674 D NetworkStats: Found active matching subId 1
+06-28 15:38:13.529  1603  1674 D NetworkStats: Resolved to plan null
+06-28 15:38:13.546  8540  8574 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-28 15:38:13.551  8540  8574 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-28 15:38:13.553  8540  8574 I MicroDetector: Keeping mic open: false
+06-28 15:38:13.553  8540  8574 I MicroDetectionWorker: #onError(false)
+06-28 15:38:13.559  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:38:13.656  1844  1844 I chatty  : uid=1001(radio) com.android.phone identical 3 lines
+06-28 15:38:13.677  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:38:13.738 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:38:13.764  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:38:13.787 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:38:13.805 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:38:13.807  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:38:13.844  1844  1844 D TelephonyProvider: subIdString = 1 subId = 1
+06-28 15:38:13.916  1603  2974 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:38:13.955 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:38:13.973 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:38:14.915 10123 10123 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-28 15:38:14.928 10123 10123 W app_process: Could not reserve sentinel fault page
+06-28 15:38:15.150 10123 10123 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-28 15:38:15.183 10123 10123 I app_process: The ClassLoaderContext is a special shared library.
+06-28 15:38:15.288 10123 10123 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-28 15:38:15.290 10123 10123 W Monkey  : args: [-p, net.osmand, -c, android.intent.category.LAUNCHER, 1]
+06-28 15:38:15.291 10123 10123 W Monkey  :  arg: "-p"
+06-28 15:38:15.291 10123 10123 W Monkey  :  arg: "net.osmand"
+06-28 15:38:15.291 10123 10123 W Monkey  :  arg: "-c"
+06-28 15:38:15.292 10123 10123 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+06-28 15:38:15.293 10123 10123 W Monkey  :  arg: "1"
+06-28 15:38:15.294 10123 10123 W Monkey  : data="net.osmand"
+06-28 15:38:15.294 10123 10123 W Monkey  : data="android.intent.category.LAUNCHER"
+06-28 15:38:15.351  1603  1617 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{17b4ec3 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{1522340 10123 (unknown name)/2000/u-1 remote:d2db7d}: process gone or crashing
+06-28 15:38:15.411  1603  3971 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=net.osmand/.plus.activities.MapActivity} from uid 2000
+06-28 15:38:15.412  1603  3971 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+06-28 15:38:15.412  1603  3971 W Binder  : java.lang.Throwable
+06-28 15:38:15.412  1603  3971 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4532)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4519)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+06-28 15:38:15.412  1603  3971 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 15:38:15.438 10123 10123 I Monkey  : Events injected: 1
+06-28 15:38:15.563  8540  8573 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783400)
+06-28 15:38:15.581  2548  2598 D EGL_emulation: eglMakeCurrent: 0xa6785780: ver 2 0 (tinfo 0xa6783370)
+06-28 15:38:15.603 10123 10123 I Monkey  : ## Network stats: elapsed time=186ms (0ms mobile, 0ms wifi, 186ms not connected)
+06-28 15:38:15.608 10123 10123 I com.android.commands.monkey: System.exit called, status: 0
+06-28 15:38:15.608 10123 10123 I AndroidRuntime: VM exiting with result code 0.
+06-28 15:38:15.631 29061 29061 D InAppPurchaseHelper: Destroying helper.
+06-28 15:38:15.717  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:15.723 29061 29061 D net.osmand: Enable sensor
+06-28 15:38:15.763  1603  2504 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3a91a58)
+06-28 15:38:15.775  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@3a91a58)
+06-28 15:38:15.810 29061 29061 W System.err: OnCreate for MapActivity took 178 ms
+06-28 15:38:15.842  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:15.847 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 15:38:15.896 29061 29061 I chatty  : uid=10104(net.osmand) identical 68 lines
+06-28 15:38:15.896 29061 29061 W ResourceType: For resource 0x7f0e013b, entry index(315) is beyond type entryCount(142)
+06-28 15:38:15.941  1412  1426 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=29061, uid<=10104
+06-28 15:38:15.941 29061 29061 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 15:38:15.947  1412  1466 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=29061, uid<=10104
+06-28 15:38:15.947 29061 29061 E BpSurfaceComposerClient: Failed to transact (-1)
+06-28 15:38:15.970 29061 29102 D EGL_emulation: eglMakeCurrent: 0xa6785600: ver 2 0 (tinfo 0xa6783370)
+06-28 15:38:15.983  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:15.997  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:16.012 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:38:16.013  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:16.101  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 15:38:16.229  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+06-28 15:38:16.270  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 15:38:16.361  1401  1401 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3878912
+06-28 15:38:16.368  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:16.393  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:16.491  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 15:38:16.491  1412  1412 W SurfaceFlinger: couldn't log to binary event log: overflow.
+06-28 15:38:16.531  8540  8571 I PBSessionCacheImpl: Deleted sessionId[7093723610679] from persistence.
+06-28 15:38:16.612  1603  1638 I WifiService: getWifiEnabledState uid=10032
+06-28 15:38:16.619  2548  2558 I zygote  : NativeAlloc concurrent copying GC freed 3038(204KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4MB/8MB, paused 44.822ms total 424.578ms
+06-28 15:38:16.639  8540  8574 W SearchServiceCore: Abort, client detached.
+06-28 15:38:16.700  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:16.886  1708  1926 I chatty  : uid=10029(com.android.systemui) RenderThread identical 4 lines
+06-28 15:38:16.896  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:16.912  1603  2974 D WificondControl: Scan result ready event
+06-28 15:38:16.954  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:16.965  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:17.014  1603  2504 I WifiService: releaseWifiLock uid=10014
+06-28 15:38:17.094  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:17.106  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:20.612  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:38:20.612  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:38:20.612  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:38:21.773 19546 10089 I Places  : ?: PlacesBleScanner stop()
+06-28 15:38:21.775 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 15:38:21.778 19546 19546 I BeaconBle: Scan canceled successfully.
+06-28 15:38:21.798 19546 10089 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+06-28 15:38:21.798 19546 10089 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+06-28 15:38:21.894 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:38:21.954 19546 19867 W MessageQueue: Handler (aeyl) {17260fc} sending message to a Handler on a dead thread
+06-28 15:38:21.954 19546 19867 W MessageQueue: java.lang.IllegalStateException: Handler (aeyl) {17260fc} sending message to a Handler on a dead thread
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at aeyl.sendMessageAtTime(Unknown Source:3)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at android.os.Handler.post(Handler.java:357)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at bcln.execute(Unknown Source:2)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at aanh.execute(Unknown Source:9)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at avft.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at avgk.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):8)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at avgn.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):43)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at avgj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):3)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at rpj.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):2)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at agos.a(Unknown Source:2)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at rnt.a(Unknown Source:11)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at aamg.a(:com.google.android.gms@17785022@17.7.85 (040700-253824076):1)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at cwm.onTransact(:com.google.android.gms@17785022@17.7.85 (040700-253824076):4)
+06-28 15:38:21.954 19546 19867 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:697)
+06-28 15:38:21.955 19546 19546 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+06-28 15:38:22.235  1603  1612 I zygote  : Background concurrent copying GC freed 39784(1929KB) AllocSpace objects, 25(884KB) LOS objects, 17% free, 28MB/34MB, paused 1.353ms total 390.323ms
+06-28 15:38:22.524 29061 29071 I zygote  : Background concurrent copying GC freed 375355(11MB) AllocSpace objects, 9(312KB) LOS objects, 26% free, 16MB/22MB, paused 11.121ms total 226.249ms
+06-28 15:38:23.908 29061 29061 D net.osmand: RoutingHelper Processed point bearing deltas : 139.98855209350586 1.7683677673339844
+06-28 15:38:24.041  1708  1926 D EGL_emulation: eglMakeCurrent: 0x9268e860: ver 2 0 (tinfo 0x92690770)
+06-28 15:38:24.307  1409  1409 I boot-pipe: done populating /dev/random
+06-28 15:38:25.143 29061 29061 I net.osmand: TTSCommandPlayerImpl Send message to pebble após  50 metros mantenha-se à direita para   Rua Marquês do Herval 
+06-28 15:38:25.143 29061 29061 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 15:38:25.143 29061 29061 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 15:38:25.143 29061 29061 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 15:38:25.144  1603  2504 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@d94d4f1 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 15:38:25.146 29061 29061 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 15:38:25.152 12744 29258 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 15:38:25.154 12744 29258 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 15:38:25.262 12744 29259 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 15:38:25.327  1603  2974 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:38:25.335  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 195665171 , only wrote 195665040
+06-28 15:38:26.509  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(2)
+06-28 15:38:26.802  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:38:26.802  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:38:26.810 19546 19546 I BeaconBle: Scan : No clients left, canceling alarm.
+06-28 15:38:26.903  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:38:26.903  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:38:27.854 19546 10084 V NativeCrypto: SSL shutdown failed: ssl=0xa65eda68: I/O error during system call, Connection reset by peer
+06-28 15:38:28.477  8540  8574 I WorkerManager: dispose()
+06-28 15:38:28.479  8540  8574 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+06-28 15:38:28.510  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(1)
+06-28 15:38:30.062  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 195891931 , only wrote 195891840
+06-28 15:38:30.070  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 195892242 , only wrote 195891840
+06-28 15:38:30.087  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 195892626 , only wrote 195892560
+06-28 15:38:30.705 12744 29259 D AudioTrack: stop() called with 115280 frames delivered
+06-28 15:38:30.709  1603  7712 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:38:30.715 29061 30790 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:38:30.715  1603  1638 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@d94d4f1
+06-28 15:38:30.715 29061 30790 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 15:38:32.613  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196013796 , only wrote 196013520
+06-28 15:38:33.725  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 196119558 , only wrote 196066800
+06-28 15:38:34.098 29061 29061 D net.osmand: RoutingHelper Processed by distance : (new) 187253.251405671 (old) 187263.21073522267
+06-28 15:38:34.146 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:34.147 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:34.149 29061 29061 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:38:34.151 29061 29061 W MaterialProgressBar: Current drawable is not a MaterialProgressDrawable, you may want to set app:mpb_setBothDrawables
+06-28 15:38:34.161 29061 10144 I net.osmand: RouteProvider Start finding route from Location[mProvider=gps,mTime=1561750714000,mLatitude=-7.589195000000001,mLongitude=-37.541068333333335,mHasAltitude=false,mAltitude=0.0,mHasSpeed=true,mSpeed=0.0,mHasBearing=true,mBearing=0.0,mHasAccuracy=true,mAccuracy=20.0 to Lat -7.21844 Lon -35.883247 using OsmAnd (offline)
+06-28 15:38:34.162 29061 10144 W net.osmand: RouteProvider Use 348 MB Free 4.9350433 of 22.57669 max 384.0
+06-28 15:38:34.183 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:34.183 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:34.200 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:34.201 29061 10144 I net.osmand:native: Start point was found 25957571909 [Native]
+06-28 15:38:34.233 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:34.233 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:34.271 29061 10144 I net.osmand:native: End point was found 34867160039 [Native]
+06-28 15:38:34.277 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:34.279 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:34.286 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:34.287 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:34.322 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:34.322 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:34.365 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:34.399 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:34.399 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:34.433 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:34.433 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:34.782 29061 29088 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.589195000000001, lon=-37.541068333333335, rotate=22.145784, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1345, pixWidth=1800, pixHeight=2690]
+06-28 15:38:34.829 29061 29088 I net.osmand:native: Route objects 152
+06-28 15:38:34.829 29061 29088 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 15:38:34.829 29061 29088 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 15:38:34.829 29061 29088 I net.osmand:native: Search : tree - read( 413), accept( 34), objs - visit( 2366), accept(164), in result(152) 
+06-28 15:38:34.832 29061 29088 I net.osmand: MapRenderRepositories BLat=-7.596262979507446, TLat=-7.582131338119507, LLong=-37.546546936035156, RLong=-37.53558349609375, zoom=17
+06-28 15:38:34.832 29061 29088 I net.osmand: MapRenderRepositories Native search: 50 ms 
+06-28 15:38:34.838 29061 29088 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-28 15:38:34.838 29061 29088 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-28 15:38:34.838 29061 29088 I net.osmand:native: Locked 19368000 bytes at 0x6e880000
+06-28 15:38:34.838 29061 29088 I net.osmand:native: Initializing rendering
+06-28 15:38:34.839 29061 29088 I net.osmand:native: Rendering image
+06-28 15:38:35.061 29061 29088 I net.osmand:native: Native ok (rendering 1, text 97 ms) 
+06-28 15:38:35.061 29061 29088 I net.osmand:native:  (1318 points, 634 points inside, 296 of 309 objects visible)
+06-28 15:38:35.061 29061 29088 I net.osmand:native: End Rendering image
+06-28 15:38:35.062 29061 29088 I net.osmand:native: Native ok (init 1, rendering 1) 
+06-28 15:38:35.062 29061 29088 I net.osmand: MapRenderRepositories true
+06-28 15:38:35.181 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:35.241 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:35.241 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:35.458 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:35.476 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:35.480 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:35.923  1603  7712 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:38:35.991  1603  2974 I WifiService: releaseWifiLock uid=10014
+06-28 15:38:36.174 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:36.174 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:36.220 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:36.654 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:36.655 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:36.667 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:37.180 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:37.181 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:37.193 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:38.011 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:38.012 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:38.064 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:38.190 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:38.190 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:38.260 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:38.872  1603  1638 D WificondControl: Scan result ready event
+06-28 15:38:39.175 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:39.175 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:39.243 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:39.412 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:39.412 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:39.515 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:40.172 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:40.172 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:40.196 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:40.728 29061 29061 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 15:38:40.751 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:40.751 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:41.185 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:41.198 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:41.198 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:42.024 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:42.024 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:42.133 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:42.210 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:42.210 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:42.235 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:42.891  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:38:42.891  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:38:42.891  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:38:43.186 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:43.252 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:43.252 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:43.270 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:43.271 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:43.364 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:44.188 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:44.188 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:44.200 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:38:44.247 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:44.585 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:44.585 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:44.642 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:45.173 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:45.174 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:45.221 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:45.874 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:45.874 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:45.970 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:46.179 29061 29061 I chatty  : uid=10104(net.osmand) identical 1 line
+06-28 15:38:46.190 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:46.190 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:47.173 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:47.173 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:47.250 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:47.256 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:47.256 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:47.260 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:48.186 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:48.186 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:48.290 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:48.456 29061 10144 W net.osmand:native: [Native] Result visited (visited roads 22898, visited segments 10991 / 30885 , queue sizes 304 / 4302 ) 
+06-28 15:38:48.456 29061 10144 W net.osmand:native: [Native] Result timing (time to load 0, time to calc 14184, loaded tiles 216) 
+06-28 15:38:48.456 29061 10144 W net.osmand:native: [Native] Memory occupied (Routing context 9500 Kb, search 690 Kb)
+06-28 15:38:48.580 29061 10144 I net.osmand:native: Routing calculated time distance 163074.968750
+06-28 15:38:48.645 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:48.645 29061 29061 I net.osmand: RoutingHelper Recalculate route, because wrong movement direction: 187253.25
+06-28 15:38:48.705 29061 29061 I net.osmand: RoutingHelper Recalculate route, because correlation  : 187253.251405671
+06-28 15:38:49.143 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:49.143 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:49.167 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:49.168 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:49.266 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:49.266 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:49.311 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: update due to tile box
+06-28 15:38:49.311 29061 29089 I net.osmand: MapRenderRepositories RENDER MAP: Interrupt rendering map
+06-28 15:38:49.347 29061 29088 I net.osmand: MapRenderRepositories RENDER MAP: new request RotatedTileBox [lat=-7.219170000000001, lon=-35.88463, rotate=22.145784, density=2.625, zoom=17, mapDensity=2.625, zoomAnimation=0.0, zoomFloatPart=0.0, cx=900, cy=1345, pixWidth=1800, pixHeight=2690]
+06-28 15:38:49.530 29061 29088 I net.osmand:native: Route objects 440
+06-28 15:38:49.530 29061 29088 I net.osmand:native: Ocean: no completed & incompleted coastlines 0
+06-28 15:38:49.531 29061 29088 I net.osmand:native: Detailed coastlines = 0, basemap coastlines 0, ocean tile 0.000000. Detailed added 0, basemap processed 1, basemap added 0.
+06-28 15:38:49.532 29061 29088 I net.osmand:native: Search : tree - read( 580), accept( 62), objs - visit( 3437), accept(471), in result(440) 
+06-28 15:38:49.533 29061 29088 I net.osmand: MapRenderRepositories BLat=-7.226231098175049, TLat=-7.212110996246338, LLong=-35.890113830566406, RLong=-35.879146575927734, zoom=17
+06-28 15:38:49.533 29061 29088 I net.osmand: MapRenderRepositories Native search: 185 ms 
+06-28 15:38:49.541 29061 29088 I net.osmand:native: Creating SkBitmap in native w:1800 h:2690 s:7200 f:1!
+06-28 15:38:49.541 29061 29088 I net.osmand:native: Row bytes for RGBA_8888 is 7200
+06-28 15:38:49.541 29061 29088 I net.osmand:native: Locked 19368000 bytes at 0x78700000
+06-28 15:38:49.541 29061 29088 I net.osmand:native: Initializing rendering
+06-28 15:38:49.543 29061 29088 I net.osmand:native: Rendering image
+06-28 15:38:49.986 29061 29088 I net.osmand:native: Native ok (rendering 4, text 243 ms) 
+06-28 15:38:49.986 29061 29088 I net.osmand:native:  (5018 points, 1123 points inside, 683 of 914 objects visible)
+06-28 15:38:49.986 29061 29088 I net.osmand:native: End Rendering image
+06-28 15:38:49.987 29061 29088 I net.osmand:native: Native ok (init 2, rendering 4) 
+06-28 15:38:49.996 29061 29088 I net.osmand: MapRenderRepositories true
+06-28 15:38:50.022 29061 29071 I zygote  : Background concurrent copying GC freed 54850(2MB) AllocSpace objects, 0(0B) LOS objects, 20% free, 22MB/28MB, paused 1.392ms total 952.051ms
+06-28 15:38:50.116 29061 10144 I net.osmand: RoutePlannerFrontEnd Native routing took 15.954 seconds
+06-28 15:38:50.235 29061 10144 I System.out: ROUTE : 
+06-28 15:38:50.236 29061 10144 I net.osmand: RouteResultPreparation <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 15:38:50.236 29061 10144 I net.osmand:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21844" target_lon="-35.88325"  routing_time="163074.97" loadedTiles="216" visitedSegments="22898" complete_distance="209462.69" complete_time="157093.95" >
+06-28 15:38:50.236 29061 10144 I System.out: <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 15:38:50.236 29061 10144 I System.out:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21844" target_lon="-35.88325"  routing_time="163074.97" loadedTiles="216" visitedSegments="22898" complete_distance="209462.69" complete_time="157093.95" >
+06-28 15:38:50.236 29061 10144 I System.out: </test>
+06-28 15:38:50.237 29061 10144 I System.out: <test regions="" description="" best_percent="" vehicle="pedestrian" 
+06-28 15:38:50.237 29061 10144 I System.out:   start_lat="-7.58920" start_lon="-37.54107" target_lat="-7.21844" target_lon="-35.88325"  routing_time="163074.97" loadedTiles="216" visitedSegments="22898" complete_distance="209462.69" complete_time="157093.95" >
+06-28 15:38:50.309 29061 10144 I net.osmand: RouteProvider Finding route contained 2050 points for 16148 ms
+06-28 15:38:51.056  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:38:51.057  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:38:51.057  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:38:51.059 19546 10084 V NativeCrypto: SSL shutdown failed: ssl=0xa4ed4e08: I/O error during system call, Connection reset by peer
+06-28 15:38:55.936  1603  1638 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:38:55.959  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:38:55.959  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:38:56.018  1603  1638 I WifiService: releaseWifiLock uid=10014
+06-28 15:38:56.064  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:38:56.064  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:39:00.025  1402  1417 D hwcomposer: hw_composer sent 198 syncs in 60s
+06-28 15:39:07.812 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: BlockingExecutor ink@477781[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 22]
+06-28 15:39:07.812 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: LightweightExecutor ink@39d6026[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 92]
+06-28 15:39:07.813 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: bgExecutor ink@b1b467[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 70]
+06-28 15:39:15.056 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:39:15.062  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:39:15.062  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:39:15.062  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:39:15.464 19546 19605 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+06-28 15:39:16.962  1603  3971 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:39:17.301  1603  1612 I zygote  : Background concurrent copying GC freed 71527(2MB) AllocSpace objects, 8(416KB) LOS objects, 17% free, 28MB/34MB, paused 1.288ms total 346.244ms
+06-28 15:39:19.972  1603  1638 D WificondControl: Scan result ready event
+06-28 15:39:20.077  1603  7712 I WifiService: releaseWifiLock uid=10014
+06-28 15:39:21.039  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:39:21.040  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:39:21.040  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:39:24.182  1603  2080 I WifiService: getConnectionInfo uid=10014
+06-28 15:39:24.189 19546  9863 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 15:39:24.310  1409  1409 I boot-pipe: done populating /dev/random
+06-28 15:39:24.381  1603  7712 W ActivityManager: Slow operation: 56ms so far, now at startProcess: returned from zygote!
+06-28 15:39:24.382  1603  7712 W ActivityManager: Slow operation: 56ms so far, now at startProcess: done updating battery stats
+06-28 15:39:24.382  1603  7712 W ActivityManager: Slow operation: 57ms so far, now at startProcess: building log message
+06-28 15:39:24.382  1603  7712 I ActivityManager: Start proc 10154:com.google.android.videos/u0a74 for service com.google.android.videos/com.google.android.apps.play.movies.common.service.drm.RefreshLicenseTaskService
+06-28 15:39:24.382  1603  7712 W ActivityManager: Slow operation: 57ms so far, now at startProcess: starting to update pids map
+06-28 15:39:24.382  1603  7712 W ActivityManager: Slow operation: 57ms so far, now at startProcess: done updating pids map
+06-28 15:39:24.382  1603  7712 W ActivityManager: Slow operation: 58ms so far, now at startProcess: done starting proc!
+06-28 15:39:24.406 10154 10154 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+06-28 15:39:24.553 19546 19604 I GeofencerStateMachine: addGeofences called by com.google.android.apps.maps
+06-28 15:39:24.631  1603  2504 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@df9d2c9)
+06-28 15:39:24.633  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@df9d2c9)
+06-28 15:39:24.779  1603  7712 I WifiService: getWifiEnabledState uid=10062
+06-28 15:39:24.840  9132  9137 I zygote  : Do partial code cache collection, code=125KB, data=76KB
+06-28 15:39:24.840  9132  9137 I zygote  : After code cache collection, code=123KB, data=76KB
+06-28 15:39:24.841  9132  9137 I zygote  : Increasing code cache capacity to 512KB
+06-28 15:39:24.872  1603  7712 I WifiService: getConnectionInfo uid=10014
+06-28 15:39:24.957 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:39:25.022  1603  2504 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@d5274ef)
+06-28 15:39:25.023  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@d5274ef)
+06-28 15:39:25.071 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 15:39:25.071 19546 19546 W ChimeraUtils: Non Chimera context
+06-28 15:39:25.278 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:39:25.564 19546 19556 I zygote  : Background concurrent copying GC freed 179237(7MB) AllocSpace objects, 10(812KB) LOS objects, 36% free, 10MB/16MB, paused 19.054ms total 305.735ms
+06-28 15:39:25.804 10154 10154 V MediaRouter: Adding route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+06-28 15:39:25.820 10154 10154 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+06-28 15:39:25.835 10154 10154 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+06-28 15:39:25.936 10154 10154 W PrimesInit: Primes instant initialization
+06-28 15:39:25.941 10154 10190 W Primes  : background initialization
+06-28 15:39:25.972 10154 10154 W PlayMovies: VideosInitializer.initializeApp:31 Installer Package: com.android.vending
+06-28 15:39:25.972 10154 10154 W PlayMovies: 
+06-28 15:39:25.998 10154 10190 I PrimesTesting: GserviceFlagsSupplier.get()
+06-28 15:39:26.025 10154 10154 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+06-28 15:39:26.073  1603  2974 I WifiService: acquireWifiLock uid=10074 lockMode=3
+06-28 15:39:26.086  1603  1638 I WifiService: releaseWifiLock uid=10074
+06-28 15:39:26.099 29111 29204 I Finsky  : [1167] bgc.a(1): Received content filters request from com.google.android.videos
+06-28 15:39:26.310 19546 19546 W SystemServiceRegistry: No service published for: persistent_data_block
+06-28 15:39:26.634 10154 10198 I VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-28 15:39:36.973  1603  2504 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:39:37.056  1603  1614 I WifiService: releaseWifiLock uid=10014
+06-28 15:39:37.360  1603  1612 I zygote  : Background concurrent copying GC freed 27187(1442KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 28MB/34MB, paused 1.140ms total 367.328ms
+06-28 15:39:42.220 29061 29061 I net.osmand: TTSCommandPlayerImpl Send message to pebble vire à direita para   Rua Cardoso Vieira 
+06-28 15:39:42.220 29061 29061 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 15:39:42.220 29061 29061 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 15:39:42.220 29061 29061 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 15:39:42.221  1603  2974 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@c961c62 callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 15:39:42.225 29061 29061 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 15:39:42.232 12744 29258 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 15:39:42.234 12744 29258 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 15:39:42.262 12744 29259 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 15:39:42.265  1603  2974 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:39:42.270  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196066928 , only wrote 196066800
+06-28 15:39:45.222 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:39:45.322 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:39:45.338 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:39:45.466 19546 19546 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+06-28 15:39:45.746 12744 29259 D AudioTrack: stop() called with 74250 frames delivered
+06-28 15:39:45.753 29061 31342 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:39:45.755  1603  3971 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@c961c62
+06-28 15:39:45.756 29061 31342 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 15:39:47.445  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196315208 , only wrote 196315200
+06-28 15:39:47.446  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196315236 , only wrote 196315200
+06-28 15:39:47.462  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196315948 , only wrote 196315920
+06-28 15:39:48.784  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 196441738 , only wrote 196379280
+06-28 15:39:50.479 29061 29071 I zygote  : Background concurrent copying GC freed 234058(11MB) AllocSpace objects, 0(0B) LOS objects, 26% free, 17MB/23MB, paused 2.457ms total 250.265ms
+06-28 15:39:50.492  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:39:50.492  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:39:50.492  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:39:50.851  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:39:50.852  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:39:50.852  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:39:56.986  1603  7712 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:39:45.752  1603  2974 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:39:56.997  1603  2504 I ActivityManager: Killing 7570:com.ustwo.lwp/u0a76 (adj 906): empty #17
+06-28 15:39:57.005  1603  1619 W zygote  : kill(-7570, 9) failed: No such process
+06-28 15:39:57.006  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:39:57.006  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:39:57.050  1603  1619 W zygote  : kill(-7570, 9) failed: No such process
+06-28 15:39:57.096  1603  1619 W zygote  : kill(-7570, 9) failed: No such process
+06-28 15:39:57.100  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:39:57.100  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:39:57.140  1603  1619 W zygote  : kill(-7570, 9) failed: No such process
+06-28 15:39:57.140  1603  1619 I zygote  : Successfully killed process cgroup uid 10076 pid 7570 in 135ms
+06-28 15:39:57.203  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:39:57.203  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:39:57.302 29061 29061 D net.osmand: RoutingHelper Processed point bearing deltas : 80.87679290771484 45.189422607421875
+06-28 15:39:59.971  1603  7712 D WificondControl: Scan result ready event
+06-28 15:40:00.039  1603  1638 I WifiService: releaseWifiLock uid=10014
+06-28 15:40:01.032  1402  1417 D hwcomposer: hw_composer sent 324 syncs in 61s
+06-28 15:40:15.236 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:40:18.009  1603  2504 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:40:18.067  1603  2974 I WifiService: releaseWifiLock uid=10014
+06-28 15:40:22.588  1603  1612 I zygote  : Background concurrent copying GC freed 56604(2MB) AllocSpace objects, 4(208KB) LOS objects, 17% free, 28MB/34MB, paused 3.256ms total 355.391ms
+06-28 15:40:24.311  1409  1409 I boot-pipe: done populating /dev/random
+06-28 15:40:38.030  1603  1614 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:40:38.073  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:40:38.073  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:40:38.191  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:40:38.191  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:40:41.041  1603  7712 D WificondControl: Scan result ready event
+06-28 15:40:41.086  1603  7712 I WifiService: releaseWifiLock uid=10014
+06-28 15:40:42.854 29061 29061 D net.osmand: RoutingHelper Processed point bearing deltas : 91.57589721679688 4.46221923828125
+06-28 15:40:45.262 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:40:45.892  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:40:45.893  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:40:45.893  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:40:54.972  1603  1616 I UsageStatsService: User[0] Flushing usage stats to disk
+06-28 15:40:58.042  1603  1638 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:40:58.075  9021 10218 I zygote  : Deoptimizing java.lang.Object efn.a() due to JIT inline cache
+06-28 15:40:58.110  1603  3971 I WifiService: releaseWifiLock uid=10014
+06-28 15:40:58.173  9021 10218 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-28 15:40:58.202  9021  9021 I Dialer  : SpamAsyncTaskUtil.getAndUpdateServerSpamList - request:a: "us"
+06-28 15:40:58.202  9021  9021 I Dialer  : b: 230502
+06-28 15:40:58.202  9021  9021 I Dialer  : c: 230502
+06-28 15:40:58.202  9021  9021 I Dialer  : d: 1561738645000
+06-28 15:40:58.202  9021  9021 I Dialer  : e: "us"
+06-28 15:40:58.202  9021  9021 I Dialer  : f: ""
+06-28 15:40:58.202  9021  9021 I Dialer  : p: -1
+06-28 15:40:58.214  1603  1620 I WifiService: requestActivityInfo uid=1000
+06-28 15:40:58.214  1603  1620 I WifiService: reportActivityInfo uid=1000
+06-28 15:40:58.215  1603  1620 I WifiService: getSupportedFeatures uid=1000
+06-28 15:41:01.207  1402  1417 D hwcomposer: hw_composer sent 324 syncs in 60s
+06-28 15:41:14.744 29061 29061 I net.osmand: TTSCommandPlayerImpl Send message to pebble após  50 metros vire à direita para   Rua Maciel Pinheiro 
+06-28 15:41:14.744 29061 29061 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 15:41:14.744 29061 29061 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 15:41:14.744 29061 29061 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 15:41:14.745  1603  1638 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@abd9cae callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 15:41:14.745 29061 29061 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 15:41:14.748 12744 29258 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 15:41:14.750 12744 29258 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 15:41:14.775 12744 29259 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 15:41:14.795  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196379317 , only wrote 196379280
+06-28 15:41:14.797  1603  1638 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:41:14.893  1603  7712 I WifiService: getConnectionInfo uid=10014
+06-28 15:41:14.897 19546  9863 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-28 15:41:15.029 19546 19781 I GeofencerStateMachine: addGeofences called by com.google.android.apps.maps
+06-28 15:41:15.072  1603  2974 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@65ffa16)
+06-28 15:41:15.073  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@65ffa16)
+06-28 15:41:15.162  1603  1614 I WifiService: getWifiEnabledState uid=10062
+06-28 15:41:15.185  1603  2974 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b96e584)
+06-28 15:41:15.189  1603  1616 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b96e584)
+06-28 15:41:15.304 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:41:15.484 19546 19556 I zygote  : Background concurrent copying GC freed 131022(5MB) AllocSpace objects, 0(0B) LOS objects, 38% free, 9MB/15MB, paused 1.134ms total 361.691ms
+06-28 15:41:15.557  1603  1612 I zygote  : Background concurrent copying GC freed 58280(2MB) AllocSpace objects, 15(772KB) LOS objects, 17% free, 28MB/34MB, paused 951us total 467.392ms
+06-28 15:41:15.590 19546 19603 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+06-28 15:41:18.379  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(2)
+06-28 15:41:18.484  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196556341 , only wrote 196555680
+06-28 15:41:19.071  1603  7712 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:41:19.086  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:41:19.086  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:41:19.616 12744 29259 D AudioTrack: stop() called with 103730 frames delivered
+06-28 15:41:19.617  1603  1614 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:41:19.622 29061 29366 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:41:19.622  1603  1614 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@abd9cae
+06-28 15:41:19.623 29061 29366 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 15:41:21.004  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196676642 , only wrote 196676640
+06-28 15:41:21.034  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196678072 , only wrote 196677360
+06-28 15:41:21.035  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196677419 , only wrote 196677360
+06-28 15:41:21.050  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196678094 , only wrote 196678080
+06-28 15:41:22.050  1603  7712 D WificondControl: Scan result ready event
+06-28 15:41:22.114  1603  1614 I WifiService: releaseWifiLock uid=10014
+06-28 15:41:22.375  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196741693 , only wrote 196741440
+06-28 15:41:22.632  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 196765761 , only wrote 196753680
+06-28 15:41:24.314  1409  1409 I boot-pipe: done populating /dev/random
+06-28 15:41:26.716  1603  1638 I WifiService: getConnectionInfo uid=10014
+06-28 15:41:30.081  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:41:30.081  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:41:30.529 29061 29071 I zygote  : Background concurrent copying GC freed 163467(5MB) AllocSpace objects, 0(0B) LOS objects, 25% free, 17MB/23MB, paused 1.132ms total 252.173ms
+06-28 15:41:39.084  1603  2974 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:41:39.149  1603  2974 I WifiService: releaseWifiLock uid=10014
+06-28 15:41:43.472 29061 29061 I net.osmand: TTSCommandPlayerImpl Send message to pebble vire à direita para   Rua Maciel Pinheiro 
+06-28 15:41:43.472 29061 29061 D net.osmand: AbstractPrologCommandPlayer requestAudioFocus
+06-28 15:41:43.473 29061 29061 W AudioManager: Use of stream types is deprecated for operations other than volume control
+06-28 15:41:43.473 29061 29061 W AudioManager: See the documentation of requestAudioFocus() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+06-28 15:41:43.473  1603  7712 I MediaFocusControl: requestAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@50cea4f callingPack=net.osmand req=3 flags=0x0 sdk=26
+06-28 15:41:43.479 29061 29061 D net.osmand: TTSCommandPlayerImpl ttsRequests=1
+06-28 15:41:43.482 12744 29258 I TTS.GoogleTTSServiceImp: Synthesis request for locale por-BRA and name pt-BR-language
+06-28 15:41:43.483 12744 29258 I TTS.GoogleTTSServiceImp: TTS dispatch: pt-br-x-afs-lstm-embedded
+06-28 15:41:43.504 12744 29259 D AudioTrack: Client defaulted notificationFrames to 1365 for frameCount 4096
+06-28 15:41:43.541  1603  3971 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:41:43.546  1393  3231 W audio_hw_generic: Not supplying enough data to HAL, expected position 196753704 , only wrote 196753680
+06-28 15:41:44.774  1475  1571 D AudioFlinger: mixer(0xaa803cc0) throttle end: throttle time(3)
+06-28 15:41:45.293 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:41:46.947 12744 29259 D AudioTrack: stop() called with 72710 frames delivered
+06-28 15:41:46.950  1603  2974 V MediaRouterService: restoreBluetoothA2dp(false)
+06-28 15:41:46.954 29061 29072 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:41:46.955  1603  2974 I MediaFocusControl: abandonAudioFocus() from uid/pid 10104/29061 clientId=android.media.AudioManager@e0b46a6net.osmand.plus.api.AudioFocusHelperImpl@50cea4f
+06-28 15:41:46.955 29061 29072 D net.osmand: TTSCommandPlayerImpl ttsRequests=0
+06-28 15:41:49.982  1393  1565 W audio_hw_generic: Not supplying enough data to HAL, expected position 197370386 , only wrote 197062560
+06-28 15:41:53.569 29061 29061 D net.osmand: RoutingHelper Processed point bearing deltas : 127.51435279846191 90.65757751464844
+06-28 15:41:59.102  1603  7712 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:41:59.114  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:41:59.114  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:41:59.206  1603  1616 E memtrack: Couldn't load memtrack module
+06-28 15:41:59.206  1603  1616 W android.os.Debug: failed to get memory consumption info: -1
+06-28 15:42:00.989  1402  1417 D hwcomposer: hw_composer sent 306 syncs in 60s
+06-28 15:42:02.103  1603  2974 D WificondControl: Scan result ready event
+06-28 15:42:02.193  1603  2974 I WifiService: releaseWifiLock uid=10014
+06-28 15:42:06.078  1603  1612 I zygote  : Background concurrent copying GC freed 60253(2MB) AllocSpace objects, 4(208KB) LOS objects, 17% free, 28MB/34MB, paused 1.237ms total 318.039ms
+06-28 15:42:07.814 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: BlockingExecutor ink@477781[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 22]
+06-28 15:42:07.815 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: LightweightExecutor ink@39d6026[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 92]
+06-28 15:42:07.815 29111 29127 I Finsky  : [1119] imb.run(3): Stats for Executor: bgExecutor ink@b1b467[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 70]
+06-28 15:42:12.284 29061 29061 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:42:14.560 29061 29061 I chatty  : uid=10104(net.osmand) identical 3 lines
+06-28 15:42:15.296 29061 29061 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:42:15.301 19546 19546 I GeofencerStateMachine: sendNewTransitions called.
+06-28 15:42:15.743 29061 29061 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:42:17.297 29061 29061 I chatty  : uid=10104(net.osmand) identical 3 lines
+06-28 15:42:18.293 29061 29061 D net.osmand: AbstractPrologCommandPlayer abandonAudioFocus
+06-28 15:42:20.124  1603  3971 I WifiService: acquireWifiLock uid=10014 lockMode=2
+06-28 15:42:20.175  1603  7712 I WifiService: releaseWifiLock uid=10014
+06-28 15:42:24.318  1409  1409 I boot-pipe: done populating /dev/random

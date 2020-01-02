@@ -1,0 +1,79 @@
+adb logcat -c
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -37.541069 -7.589196
+adb shell am start -a android.intent.action.MAIN -c android.intent.category.HOME
+adb logcat
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -37.541069 -7.589196
+adb shell am force-stop com.skgames.trafficrider
+adb emu geo fix -37.541069 -7.589196
+adb shell am force-stop com.EvilChaotic.ModernWarplanes
+adb emu geo fix -37.541069 -7.589196
+adb shell am force-stop com.ea.games.r3_row
+adb shell am force-stop android.media.action.IMAGE_CAPTURE
+adb shell settings put system accelerometer_rotation 0
+adb emu geo fix -37.541069 -7.589196
+adb shell settings put secure location_providers_allowed +gps
+adb emu geo fix -37.541069 -7.589196
+adb shell settings put system user_rotation 3
+adb emu network speed full
+adb emu geo fix -35.884482 -7.219515
+adb shell monkey -p net.osmand -c android.intent.category.LAUNCHER 1
+adb emu geo fix -35.884482 -7.219515
+adb emu geo fix -35.884487539413755 -7.219502246790486
+adb emu geo fix -35.884493076086414 -7.2194894998917105
+adb emu geo fix -35.8844986072728 -7.219476765623788
+adb emu geo fix -35.88450414137446 -7.219464024644164
+adb emu geo fix -35.88450967118844 -7.219451293535917
+adb emu geo fix -35.884515205975816 -7.219438550977585
+adb emu geo fix -35.88452073716221 -7.219425816709665
+adb emu geo fix -35.88452626903469 -7.2194130808622
+adb shell input keyevent KEYCODE_HOME
+adb emu geo fix -35.884531802964894 -7.219400340277285
+adb emu geo fix -35.88453733243571 -7.2193876099590755
+adb emu geo fix -35.88454286550863 -7.219374871347885
+adb emu geo fix -35.88454839412146 -7.219362143004993
+adb emu geo fix -35.88455392822311 -7.219349402025371
+adb emu geo fix -35.8845594604386 -7.219336665388209
+adb shell am start -a android.media.action.IMAGE_CAPTURE
+adb emu geo fix -35.88456499299707 -7.2193239279614
+adb emu geo fix -35.88457052847008 -7.219311183824557
+adb emu geo fix -35.88457605725452 -7.219298455086577
+adb shell input keyevent 27
+adb emu geo fix -35.88458159341308 -7.2192857093714125
+adb emu geo fix -35.88458712802903 -7.219272967207742
+adb emu geo fix -35.884592658357704 -7.2192602349145245
+adb emu geo fix -35.884598185940774 -7.219247508942415
+adb emu geo fix -35.884603716097885 -7.219234777044173
+adb emu geo fix -35.88460924917079 -7.21922203843298
+adb emu geo fix -35.884614773491684 -7.2192093199712675
+adb emu geo fix -35.8846203019329 -7.219196592023474
+adb emu geo fix -35.88462583294776 -7.219183858150471
+adb emu geo fix -35.88463136482024 -7.219171122303011
+adb emu geo fix -35.884636895492015 -7.2191583892198725
+adb emu geo fix -35.88464242633534 -7.219145655741795
+adb emu geo fix -35.88464795700712 -7.219132922658659
+adb shell monkey -p net.osmand -c android.intent.category.LAUNCHER 1
+adb emu geo fix -35.884653492480126 -7.219120178521811
+adb emu geo fix -35.884659024695615 -7.21910744188465
+adb emu geo fix -35.884664557597056 -7.21909470366824
+adb emu geo fix -35.8846700865531 -7.219081974535182
+adb emu geo fix -35.88467561568074 -7.219069245007062
+adb emu geo fix -35.884681149782395 -7.2190565040274395
+adb emu geo fix -35.88468668165487 -7.2190437681799775
+adb emu geo fix -35.88469221112569 -7.219031037861767
+adb emu geo fix -35.88469775036817 -7.219018285046583
+adb emu geo fix -35.884703283955474 -7.219005545251121
+adb emu geo fix -35.884708814284146 -7.218992812957902
+adb emu geo fix -35.88471434752853 -7.218980073951945
+adb emu geo fix -35.88471987631297 -7.218967345213963
+adb emu geo fix -35.88472540338109 -7.21895462042741
+adb emu geo fix -35.884730939196885 -7.218941875501381
+adb emu geo fix -35.88473646780972 -7.218929147158489
+adb emu geo fix -35.88474199882457 -7.218916413285485
+adb logcat -d
