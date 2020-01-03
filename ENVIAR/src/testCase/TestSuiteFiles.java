@@ -13,6 +13,7 @@ public class TestSuiteFiles {
 	
 	private String testSuiteName;
 	private String testSuite;
+	private String chosenApp;
 	private ArrayList<String> testedApps;
 	private HashMap<String, String> mainResults;
 	private HashMap<String, ArrayList<String>> testedTestCases;
@@ -21,13 +22,22 @@ public class TestSuiteFiles {
 	
 	public TestSuiteFiles(String testSuiteName) throws SintaxException, IOException {
 		this.testSuiteName = testSuiteName;
+		this.chosenApp = "";
 		loadTestSuiteFile();
 		loadTestedApps();
 		loadMainResults();
 		loadTestedTestCases();
 		loadSentCommands();
 		loadLogcats();
-	}	
+	}
+
+	public String getChosenApp() {
+		return chosenApp;
+	}
+
+	public void setChosenApp(String chosenApp) {
+		this.chosenApp = chosenApp;
+	}
 
 	private void loadTestSuiteFile() throws SintaxException, IOException {
 		FileReader arq = new FileReader("testSuites//" + testSuiteName + ".txt");

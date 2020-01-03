@@ -6,6 +6,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 import exceptions.CrashException;
+import util.GuiUpdater;
+import util.TerminalManagerLogger;
 import util.Util;
 
 public class ADBComunicator {
@@ -13,6 +15,7 @@ public class ADBComunicator {
 	private boolean gpsOn;
 	private boolean gpsCalibrated;
 	private String sentCommands;
+	private GuiUpdater guiUpdater;
 	
 	private static ADBComunicator instance = null;
 	
@@ -20,26 +23,28 @@ public class ADBComunicator {
 		this.gpsOn = true;
 		this.gpsCalibrated = true;
 		this.sentCommands = "";
+		guiUpdater = new GuiUpdater();
 	}
 	
 	public static synchronized ADBComunicator getInstance() {
         if (instance == null)
-        	instance = new ADBComunicator();
- 
+        	instance = new ADBComunicator(); 
         return instance;
     }
 	
-	public String runADBCommand(String adbCommand, boolean print) throws IOException {
+	public String runADBCommand(String adbCommand) throws IOException {
+		guiUpdater.updateSentCommands(adbCommand);
 		sentCommands += adbCommand + "\n";
+		TerminalManagerLogger.appendSentCommands(adbCommand);
 		if(adbCommand.equals(Commands.GPS_ON)) {
 			gpsOn = true;
 		}
 		if(adbCommand.equals(Commands.GPS_OFF)) {
 			gpsOn = false;
 		}
-		if(print) {
-			System.out.println(adbCommand);			
-		}
+//		if(print) {
+//			System.out.println(adbCommand);			
+//		}
         StringBuffer returnValue = new StringBuffer();
         String line;
         InputStream inStream = null;
@@ -51,9 +56,9 @@ public class ADBComunicator {
             BufferedReader brCleanUp = new BufferedReader(
                     new InputStreamReader(inStream));
             while ((line = brCleanUp.readLine()) != null) {
-            	if(print) {
-            		System.out.println(line);            		
-            	}
+//            	if(print) {
+//            		System.out.println(line);            		
+//            	}
                 returnValue.append(line).append("\n");
             }
 
@@ -74,7 +79,9 @@ public class ADBComunicator {
     }
 	
 	public String runADBLogcatCommand() throws IOException, CrashException {
+		guiUpdater.updateSentCommands(Commands.GET_LOGCAT_ON_DEMAND);
 		sentCommands += Commands.GET_LOGCAT_ON_DEMAND + "\n";
+		TerminalManagerLogger.appendSentCommands(Commands.GET_LOGCAT_ON_DEMAND);
         StringBuffer returnValue = new StringBuffer();
         String line;
         Process process = Runtime.getRuntime().exec(Commands.GET_LOGCAT_ON_DEMAND);
@@ -130,10 +137,9 @@ public class ADBComunicator {
 	public String getSentCommands() {
 		return sentCommands;
 	}
-
-	public void clearSendCommands() {
+	
+	public void clear() {
 		this.sentCommands = "";
-		
 	}
 	
 }

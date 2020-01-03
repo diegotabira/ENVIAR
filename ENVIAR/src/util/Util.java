@@ -22,10 +22,10 @@ public class Util {
 //	gps.maps.navigation.offlinemaps.drivingdirections
 //	com.google.android.apps.maps
 //	com.EvilChaotic.ModernWarplanes
-	
+	public static final String APP_PKG = "com.google.android.apps.maps";
 //	public static final String APP_PKG = "net.osmand";
 //	public static final String APP_PKG = "com.offline.routemaps.gps.directionfinder.free";
-	public static final String APP_PKG = "hr.mireo.arthur";
+//	public static final String APP_PKG = "hr.mireo.arthur";
 //	public static final String APP_PKG = "com.voicenavigation.gps.driving.directions";
 	
 	public static final String JOGO_1 = "com.skgames.trafficrider";
@@ -112,7 +112,7 @@ public class Util {
 	public static boolean autIsRunning() throws IOException {
 //		adb shell pidof net.osmand
 		ADBComunicator adbComunicator = ADBComunicator.getInstance();
-		String pid = adbComunicator.runADBCommand(Commands.APP_PID, false);
+		String pid = adbComunicator.runADBCommand(Commands.APP_PID);
 		if(pid == null || pid.equals("")) {
 			return false;
 		}else {

@@ -20,6 +20,7 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JProgressBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextArea;
@@ -29,9 +30,12 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 
+import exceptions.SintaxException;
+import main.TestSuiteExecutor;
 import testCase.TestSuiteFiles;
+import util.Monitor;
 
-public class ExectionWindow extends JFrame {
+public class ExecutionWindow extends JFrame {
 
 	/**
 	 * 
@@ -49,19 +53,36 @@ public class ExectionWindow extends JFrame {
 	private JLabel failedLabel;
 	private JLabel notTestedLabel;
 	private JTextArea sentCommandsTextArea;
+	private JScrollPane sentCommandsScrollPane;
 	private JTextArea logcatTextArea;
+	private JButton executeButton;
+	private JLabel sentCommandsLabel;
+	private JProgressBar progressBar;
+	
+	private JButton btnNewApp;
+	private JButton btnClose;
+	private JButton deleteButton;
+	
+	private JButton acceptButton;
+	private JButton rejectButton;
+	private JButton stopButton;
 	
 	private TestSuiteFiles testSuiteFiles;
 	
 	private boolean loading;
+	private boolean executingTestSuite;
+	
+	private Monitor monitor;
 
 	/**
 	 * Create the frame.
 	 * @param tsf 
 	 */
-	public ExectionWindow(TestSuiteFiles tsf) {
+	public ExecutionWindow(TestSuiteFiles tsf) {
 		loading = false;
+		executingTestSuite = false;
 		this.testSuiteFiles = tsf;
+		monitor = Monitor.getInstance();
 		setResizable(false);
 		setUndecorated(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -74,7 +95,7 @@ public class ExectionWindow extends JFrame {
 		JLabel lblTestSuiteExecution = new JLabel("Test Suite Execution");
 		lblTestSuiteExecution.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTestSuiteExecution.setFont(new Font("Tahoma", Font.PLAIN, 18));
-		lblTestSuiteExecution.setBounds(10, 10, 1143, 22);
+		lblTestSuiteExecution.setBounds(10, 10, 993, 22);
 		contentPane.add(lblTestSuiteExecution);
 		
 		JPanel panel = new JPanel();
@@ -94,9 +115,7 @@ public class ExectionWindow extends JFrame {
 		testCasesListModel = new DefaultListModel<String>();
 		testCasesList = new JList<String>(testCasesListModel);
 		testCasesList.setBorder(new LineBorder(new Color(0, 0, 0)));
-		scrollPane.setViewportView(testCasesList);
-		
-		
+		scrollPane.setViewportView(testCasesList);	
 		
 		testCasesList.addMouseListener(new java.awt.event.MouseAdapter() {  
 
@@ -107,11 +126,12 @@ public class ExectionWindow extends JFrame {
 					String app = appPackageJList.getSelectedValue();
 					try {
 						if(!loading) {
+							sentCommandsLabel.setText("Sent Commands");
 							loadSentCommands(app, testCase);
 							loadLogcat(app, testCase);
 						}
 					} catch (IOException e1) {
-						JOptionPane.showMessageDialog(ExectionWindow.this, e1.getMessage(), "ERROR",
+						JOptionPane.showMessageDialog(ExecutionWindow.this, e1.getMessage(), "ERROR",
 								JOptionPane.ERROR_MESSAGE);
 					}
 				}
@@ -124,17 +144,18 @@ public class ExectionWindow extends JFrame {
 		panel_1.setBounds(120, 311, 419, 259);
 		contentPane.add(panel_1);
 		
-		JLabel lblSentCommands = new JLabel("Sent Commands");
-		lblSentCommands.setFont(new Font("Tahoma", Font.PLAIN, 18));
-		lblSentCommands.setBounds(0, 0, 148, 22);
-		panel_1.add(lblSentCommands);
+		sentCommandsLabel = new JLabel("Sent Commands");
+		sentCommandsLabel.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		sentCommandsLabel.setBounds(0, 0, 148, 22);
+		panel_1.add(sentCommandsLabel);
 		
-		JScrollPane scrollPane_1 = new JScrollPane();
-		scrollPane_1.setBounds(0, 24, 419, 235);
-		panel_1.add(scrollPane_1);
+		sentCommandsScrollPane = new JScrollPane();
+		sentCommandsScrollPane.setBounds(0, 24, 419, 235);
+		panel_1.add(sentCommandsScrollPane);
 		
 		sentCommandsTextArea = new JTextArea();
-		scrollPane_1.setViewportView(sentCommandsTextArea);
+		sentCommandsTextArea.setEditable(false);
+		sentCommandsScrollPane.setViewportView(sentCommandsTextArea);
 		
 		JPanel panel_2 = new JPanel();
 		panel_2.setLayout(null);
@@ -179,10 +200,10 @@ public class ExectionWindow extends JFrame {
 		notTestedLabel.setBounds(706, 128, 89, 22);
 		panel_2.add(notTestedLabel);
 		
-		JButton btnClose = new JButton("Close");
+		btnClose = new JButton("Close");
 		btnClose.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				ExectionWindow.this.dispose();
+				ExecutionWindow.this.dispose();
 			}
 		});
 		btnClose.setBounds(105, 597, 85, 21);
@@ -219,7 +240,7 @@ public class ExectionWindow extends JFrame {
 		});
 		loadAppList();
 		
-		JButton deleteButton = new JButton("Delete");
+		deleteButton = new JButton("Delete");
 		deleteButton.setBounds(84, 238, 80, 21);
 		panel_3.add(deleteButton);
 		deleteButton.addActionListener(new ActionListener() {
@@ -228,9 +249,9 @@ public class ExectionWindow extends JFrame {
 				ArrayList<String> selectedApps = (ArrayList<String>) appPackageJList.getSelectedValuesList();
 
 				if(selectedApps.size() == 0) {
-					JOptionPane.showMessageDialog(ExectionWindow.this, "No selected item", "Attention", JOptionPane.WARNING_MESSAGE);
+					JOptionPane.showMessageDialog(ExecutionWindow.this, "No selected item", "Attention", JOptionPane.WARNING_MESSAGE);
 				} else {
-					int option = JOptionPane.showConfirmDialog(ExectionWindow.this, "Do you really want to remove the app(s)?", "Attention", JOptionPane.WARNING_MESSAGE);
+					int option = JOptionPane.showConfirmDialog(ExecutionWindow.this, "Do you really want to remove the app(s)?", "Attention", JOptionPane.WARNING_MESSAGE);
 					if(option == 0) {
 						for (String selectedApp : selectedApps) {
 							File appDirectory = new File("testSuitesResults//" + testSuiteFiles.getTestSuiteName() + "//" + selectedApp);
@@ -250,7 +271,7 @@ public class ExectionWindow extends JFrame {
 			}
 		});
 		
-		JButton btnNewApp = new JButton("New");
+		btnNewApp = new JButton("New");
 		btnNewApp.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String appName = JOptionPane.showInputDialog("Type the App Name");
@@ -265,9 +286,26 @@ public class ExectionWindow extends JFrame {
 		btnNewApp.setBounds(0, 238, 80, 21);
 		panel_3.add(btnNewApp);
 		
-		JButton btnExecute = new JButton("Execute");
-		btnExecute.setBounds(10, 597, 85, 21);
-		contentPane.add(btnExecute);
+		executeButton = new JButton("Execute");
+		executeButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(appPackageJList.isSelectionEmpty()) {
+					JOptionPane.showMessageDialog(ExecutionWindow.this, "Please, select an application", "Attention",
+							JOptionPane.WARNING_MESSAGE);
+				}else {
+					monitor.start();
+					executeButton.setEnabled(false);
+					sentCommandsLabel.setText("Terminal");
+					executingTestSuite = true;
+					String app = appPackageJList.getSelectedValue();
+					testSuiteFiles.setChosenApp(app);
+					enableDisableElements();
+					executeTestSuite();
+				}
+			}
+		});
+		executeButton.setBounds(10, 597, 85, 21);
+		contentPane.add(executeButton);
 		
 		JPanel panel_4 = new JPanel();
 		panel_4.setLayout(null);
@@ -284,7 +322,98 @@ public class ExectionWindow extends JFrame {
 		panel_4.add(scrollPane_4);
 		
 		logcatTextArea = new JTextArea();
+		logcatTextArea.setEditable(false);
 		scrollPane_4.setViewportView(logcatTextArea);
+		
+		JPanel panel_5 = new JPanel();
+		panel_5.setBounds(393, 581, 310, 62);
+		contentPane.add(panel_5);
+		panel_5.setLayout(null);
+		
+		acceptButton = new JButton("Accept");
+		acceptButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		});
+		acceptButton.setBounds(10, 31, 85, 21);
+		panel_5.add(acceptButton);
+		acceptButton.setVisible(false);
+		
+		rejectButton = new JButton("Reject");
+		rejectButton.setBounds(105, 31, 85, 21);
+		panel_5.add(rejectButton);
+		rejectButton.setVisible(false);
+		
+		stopButton = new JButton("Stop");
+		stopButton.setBounds(200, 31, 85, 21);
+		panel_5.add(stopButton);
+		stopButton.setVisible(false);
+		stopButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				executingTestSuite = false;
+				enableDisableElements();
+				monitor.stop();
+			}
+		});
+		
+		progressBar = new JProgressBar();
+		progressBar.setBounds(10, 10, 275, 11);
+		panel_5.add(progressBar);
+		progressBar.setVisible(false);
+		progressBar.setMaximum(100);
+	}
+	
+	private void executeTestSuite() {
+		new Thread() {
+		     
+		    @Override
+		    public void run() {
+		    	TestSuiteExecutor tse = new TestSuiteExecutor(ExecutionWindow.this, testSuiteFiles);
+		    	try {
+					tse.execute();
+				} catch (SintaxException | IOException | InterruptedException e) {
+					JOptionPane.showMessageDialog(ExecutionWindow.this, e.getMessage(), "ERROR",
+							JOptionPane.ERROR_MESSAGE);
+				}
+		    }
+		  }.start();
+		
+	}
+
+	public JTextArea getSentCommandsTextArea() {
+		return this.sentCommandsTextArea;
+	}
+	
+	public JTextArea getLogcatTextArea() {
+		return this.logcatTextArea;
+	}
+	
+	public JScrollPane getSentCommandsScrollPane() {
+		return this.sentCommandsScrollPane;
+	}
+	
+	public JProgressBar getProgressBar() {
+		return this.progressBar;
+	}
+
+	private void enableDisableElements() {
+		boolean enable = !executingTestSuite;
+		appPackageJList.setEnabled(enable);
+		testCasesList.setEnabled(enable);
+		btnNewApp.setEnabled(enable);
+		btnClose.setEnabled(enable);
+		executeButton.setEnabled(enable);
+		deleteButton.setVisible(executingTestSuite);
+		acceptButton.setVisible(executingTestSuite);
+		rejectButton.setVisible(executingTestSuite);
+		stopButton.setVisible(executingTestSuite);
+		progressBar.setVisible(executingTestSuite);
+		if(executingTestSuite) {
+			sentCommandsTextArea.setText("");
+			logcatTextArea.setText("");
+		}
+		
 	}
 
 	private void loadMainResult(String app) {
@@ -374,10 +503,10 @@ public class ExectionWindow extends JFrame {
 							lerArq.close();
 							sentCommandsTextArea.setText(result);
 						} catch (FileNotFoundException e) {
-							JOptionPane.showMessageDialog(ExectionWindow.this, e.getMessage(), "ERROR",
+							JOptionPane.showMessageDialog(ExecutionWindow.this, e.getMessage(), "ERROR",
 									JOptionPane.ERROR_MESSAGE);
 						} catch (IOException e) {
-							JOptionPane.showMessageDialog(ExectionWindow.this, e.getMessage(), "ERROR",
+							JOptionPane.showMessageDialog(ExecutionWindow.this, e.getMessage(), "ERROR",
 									JOptionPane.ERROR_MESSAGE);
 						}
 						break;
@@ -421,10 +550,10 @@ public class ExectionWindow extends JFrame {
 							logcatTextArea.setText(result);
 							break;
 						} catch (FileNotFoundException e) {
-							JOptionPane.showMessageDialog(ExectionWindow.this, e.getMessage(), "ERROR",
+							JOptionPane.showMessageDialog(ExecutionWindow.this, e.getMessage(), "ERROR",
 									JOptionPane.ERROR_MESSAGE);
 						} catch (IOException e) {
-							JOptionPane.showMessageDialog(ExectionWindow.this, e.getMessage(), "ERROR",
+							JOptionPane.showMessageDialog(ExecutionWindow.this, e.getMessage(), "ERROR",
 									JOptionPane.ERROR_MESSAGE);
 						}
 					}

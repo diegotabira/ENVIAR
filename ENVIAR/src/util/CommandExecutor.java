@@ -27,14 +27,14 @@ public class CommandExecutor {
 			return;
 		}
 		if(cmd.equals("CLEAR_RAM")) {
-			adb.runADBCommand(Commands.closeApp(Util.JOGO_1), true);
-			adb.runADBCommand(Commands.closeApp(Util.JOGO_2), true);
-			adb.runADBCommand(Commands.closeApp(Util.JOGO_3), true);
-			adb.runADBCommand(Commands.closeApp(Util.CAMERA), true);
+			adb.runADBCommand(Commands.closeApp(Util.JOGO_1));
+			adb.runADBCommand(Commands.closeApp(Util.JOGO_2));
+			adb.runADBCommand(Commands.closeApp(Util.JOGO_3));
+			adb.runADBCommand(Commands.closeApp(Util.CAMERA));
 			return;
 		}
 		if(cmd.equals("CLEAR_LOGCAT")) {
-			adb.runADBCommand(Commands.CLEAR_LOGCAT, true);
+			adb.runADBCommand(Commands.CLEAR_LOGCAT);
 			return;
 		}
 		if(cmd.contains("GPS_CALIBRATED")) {
@@ -47,27 +47,27 @@ public class CommandExecutor {
 			return;
 		}
 		if(cmd.equals("SIMULATE_LONG_BACKGROUND")) {
-			adb.runADBCommand(Commands.PRESS_HOME, true);
+			adb.runADBCommand(Commands.PRESS_HOME);
 			dormir(5000);
-			adb.runADBCommand(Commands.openApp(Util.JOGO_1), true);
+			adb.runADBCommand(Commands.openApp(Util.JOGO_1));
 			dormir(15000);
-			adb.runADBCommand(Commands.openApp(Util.JOGO_2), true);
+			adb.runADBCommand(Commands.openApp(Util.JOGO_2));
 			dormir(15000);
-			adb.runADBCommand(Commands.openApp(Util.JOGO_3), true);
+			adb.runADBCommand(Commands.openApp(Util.JOGO_3));
 			dormir(15000);
-			adb.runADBCommand(Commands.PRESS_HOME, true);
+			adb.runADBCommand(Commands.PRESS_HOME);
 			dormir(5000);
-			adb.runADBCommand(Commands.openApp(Util.APP_PKG), true);
+			adb.runADBCommand(Commands.openApp(Util.APP_PKG));
 			return;
 		}
 		if(cmd.equals("TAKE_A_PICTURE")){
-			adb.runADBCommand(Commands.PRESS_HOME, true);
+			adb.runADBCommand(Commands.PRESS_HOME);
 			dormir(5000);
-			adb.runADBCommand(Commands.OPEN_CAMERA, true);
+			adb.runADBCommand(Commands.OPEN_CAMERA);
 			dormir(5000);
-			adb.runADBCommand(Commands.TAKE_A_PICTURE, true);
+			adb.runADBCommand(Commands.TAKE_A_PICTURE);
 			dormir(5000);
-			adb.runADBCommand(Commands.openApp(Util.APP_PKG), true);
+			adb.runADBCommand(Commands.openApp(Util.APP_PKG));
 			return;
 		}
 		String command = "";
@@ -123,7 +123,7 @@ public class CommandExecutor {
 		}else if(cmd.contains("adb emu geo fix ")){
 			command = cmd;
 		}
-		adb.runADBCommand(command, true);		
+		adb.runADBCommand(command);		
 	}
 
 	private void simulateNotCalibrationGPS() {
@@ -132,7 +132,7 @@ public class CommandExecutor {
             public void run() {
             	try {
             		do {
-            			adb.runADBCommand(Commands.sendGeo(-7.589196, -37.541069), false);
+            			adb.runADBCommand(Commands.sendGeo(-7.589196, -37.541069));
             			dormir(1000);            			
             		}while(!adb.isGpsCalibrated());
         		} catch (IOException e) {

@@ -11,6 +11,7 @@ import path.Line;
 import path.Location;
 import path.Path;
 import terminal.Commands;
+import util.PathBuilderOptimizer;
 import util.Util;
 
 public class TestCase {
@@ -27,9 +28,13 @@ public class TestCase {
 		this.pathName = pathName;
 		
 		this.setupName = setupName;
-		this.setup = Util.getSetup(setupName);		
-		Path path = getCaminho(pathName);
-		locations = path.getLocationsPath();
+		this.setup = Util.getSetup(setupName);
+		locations = PathBuilderOptimizer.getPath(pathName);
+		if(locations == null) {
+			Path path = getCaminho(pathName);
+			locations = path.getLocationsPath();
+			PathBuilderOptimizer.putPath(pathName, locations);
+		}
 		Location startingLocation = locations.get(0);
 		setup.add(Commands.sendGeo(startingLocation.getLat(), startingLocation.getLng()));
 		

@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import exceptions.CrashException;
 import terminal.ADBComunicator;
 import testCase.TestCase;
+import testCase.TestSuiteFiles;
 
 public class LogManager {
 	
@@ -20,10 +21,12 @@ public class LogManager {
 	private ArrayList<String[]> testSuite;
 	private String text;
 	private Logcather logcather;
+	private TestSuiteFiles testSuiteFiles;
 	
-	public LogManager(String appPackage) {
+	public LogManager(String appPackage, TestSuiteFiles testSuiteFiles) {
+		this.testSuiteFiles = testSuiteFiles;
 		logcather = new Logcather();
-		pathFile = "results/" + appPackage + "/";
+		pathFile = "testSuitesResults/" + this.testSuiteFiles.getTestSuiteName() + "/" + this.testSuiteFiles.getChosenApp() + "/";
 		testSuitResults = pathFile + "0 - Test Suite Results.txt";		
 		try {
 			loadTestCases();
@@ -137,7 +140,7 @@ public class LogManager {
 			buffWrite = new BufferedWriter(new FileWriter(pathFile + "/" + sentCommandsName));
 			buffWrite.append(ADBComunicator.getInstance().getSentCommands());
 			buffWrite.close();
-			ADBComunicator.getInstance().clearSendCommands();
+			ADBComunicator.getInstance().clear();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

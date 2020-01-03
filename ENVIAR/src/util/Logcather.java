@@ -45,13 +45,13 @@ public class Logcather {
 	
 	public String getLogcat() throws IOException {
 		String cmd = Commands.GET_ALL_LOGCAT;
-		logcat = ADBComunicator.getInstance().runADBCommand(cmd, false);
+		logcat = ADBComunicator.getInstance().runADBCommand(cmd);
 		return logcat;
 	}
 
 	public void clear() throws IOException {
 		String cmd = Commands.CLEAR_LOGCAT;
-		ADBComunicator.getInstance().runADBCommand(cmd, false);
+		ADBComunicator.getInstance().runADBCommand(cmd);
 	}
 
 }

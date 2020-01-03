@@ -2,7 +2,6 @@ package util;
 
 import java.io.IOException;
 import java.util.Observable;
-import java.util.Scanner;
 
 import exceptions.CrashException;
 
@@ -10,32 +9,57 @@ public class Monitor extends Observable{
 	
 	private boolean hasPassed;
 	private boolean hasCrashed;
+	private boolean hasStopped;
 	
-	@SuppressWarnings("resource")
-	public void startTesterMonitor() {
-		
-		Thread t1 = new Thread() {
-            @Override
-            public void run() {
-            	do {
-        			Scanner in = new Scanner(System.in);
-        			String response = in.next();
-        			if(response.equalsIgnoreCase("A")) {
-        				hasPassed = true;
-        			}else if(response.equalsIgnoreCase("F")) {
-        				hasPassed = false;
-        			}else {
-        				
-        			}
-        			setChanged();
-        			notifyObservers();
-        		}while(true);
-            }
- 
-        };
-        t1.start();	
-				
+	private static Monitor instance = null;
+	
+	private Monitor() {
+		this.hasPassed = false;
+		this.hasCrashed = false;
+		this.hasStopped = false;
 	}
+	
+	public static synchronized Monitor getInstance() {
+        if (instance == null)
+        	instance = new Monitor(); 
+        return instance;
+    }
+	
+	public void start() {
+		this.hasStopped = false;
+	}
+	
+	public void stop() {
+		this.hasStopped = true;
+		setChanged();
+		notifyObservers();
+	}
+	
+//	@SuppressWarnings("resource")
+//	public void startTesterMonitor() {
+//		
+//		Thread t1 = new Thread() {
+//            @Override
+//            public void run() {
+//            	do {
+//        			Scanner in = new Scanner(System.in);
+//        			String response = in.next();
+//        			if(response.equalsIgnoreCase("A")) {
+//        				hasPassed = true;
+//        			}else if(response.equalsIgnoreCase("F")) {
+//        				hasPassed = false;
+//        			}else {
+//        				
+//        			}
+//        			setChanged();
+//        			notifyObservers();
+//        		}while(true);
+//            }
+// 
+//        };
+//        t1.start();	
+//				
+//	}
 	
 	public void startLogcatMonitor(LogManager log) throws IOException {
 		log.clearLogcat();
@@ -62,56 +86,9 @@ public class Monitor extends Observable{
 				
 	}
 	
-//	public void startLogcatMonitor(LogManager log) throws IOException {
-//		log.clearLogcat();
-//		hasCrashed = false;
-//		
-//		Thread t1 = new Thread() {
-//            @Override
-//            public void run() {
-//            	do {
-//        			try {
-//						String logcat = log.getLogcat();
-//						if(hasCrashed(logcat)) {
-//							hasPassed = false;
-//							hasCrashed = true;
-//							setChanged();
-//		        			notifyObservers();
-//						}else {
-//							Thread.sleep(1000);
-//						}
-//					} catch (IOException e) {
-//						// TODO Auto-generated catch block
-//						e.printStackTrace();
-//					} catch (InterruptedException e) {
-//						// TODO Auto-generated catch block
-//						e.printStackTrace();
-//					}
-//        		}while(true);
-//            }
-// 
-//        };
-//        t1.start();	
-//				
-//	}
-
-//	private boolean hasCrashed(String logcat) {
-//		Scanner scan = new Scanner(logcat);
-//		while(scan.hasNextLine()) {
-//			String line = scan.nextLine();
-//			if(line.contains("beginning of crash")) {
-//				line = scan.nextLine();
-//				if(line.contains("AndroidRuntime: FATAL EXCEPTION")) {
-//					line = scan.nextLine();
-//					if(line.contains("AndroidRuntime: Process: " + Util.APP_PKG)) {
-//						return true;
-//					}
-//				}
-//			}
-//		}
-//		scan.close();
-//		return false;
-//	}
+	public boolean hasStopped() {
+		return hasStopped;
+	}
 	
 	public boolean hasCrashed() {
 		return hasCrashed;

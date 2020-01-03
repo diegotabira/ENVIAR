@@ -452,7 +452,7 @@ public class MainWindow {
 
 	private void executeTestSuite(String testSuiteName) throws SintaxException, IOException {
 		TestSuiteFiles tsf = new TestSuiteFiles(testSuiteName);
-		ExectionWindow ew = new ExectionWindow(tsf);
+		ExecutionWindow ew = new ExecutionWindow(tsf);
 		ew.setVisible(true);
 	}
 
