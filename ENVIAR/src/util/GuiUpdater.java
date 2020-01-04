@@ -9,6 +9,17 @@ import view.ExecutionWindow;
 public class GuiUpdater {
 	
 	private static ExecutionWindow exWindow = null;
+	private static GuiUpdater instance = null;
+	
+	private GuiUpdater() {
+		
+	}
+	
+	public static synchronized GuiUpdater getInstance() {
+        if (instance == null)
+        	instance = new GuiUpdater(); 
+        return instance;
+    }
 	
 	public void setExecutionWindow(ExecutionWindow exWindow) {
 		this.exWindow = exWindow;
@@ -39,6 +50,13 @@ public class GuiUpdater {
 	public void setProgressBar(int percentage) {
 		JProgressBar progressBar = this.exWindow.getProgressBar();
 		progressBar.setValue(percentage);
+	}
+
+	public void updateLogcat(String response) {
+		JTextArea logcatTextArea = this.exWindow.getLogcatTextArea();
+		logcatTextArea.append(response + "\n");
+		JScrollBar vertical = exWindow.getLogcateScrollPane().getVerticalScrollBar();
+		vertical.setValue(vertical.getMaximum());
 	}
 
 }

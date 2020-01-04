@@ -11,7 +11,6 @@ import javax.swing.JOptionPane;
 
 import exceptions.SintaxException;
 import path.Walker;
-import terminal.ADBComunicator;
 import testCase.TestCase;
 import testCase.TestSuiteFiles;
 import util.CommandExecutor;
@@ -36,12 +35,11 @@ public class TestSuiteExecutor implements Observer{
 	public TestSuiteExecutor(ExecutionWindow exectionWindow, TestSuiteFiles testSuiteFiles) {
 		this.exectionWindow = exectionWindow;
 		this.testSuiteFiles = testSuiteFiles;
-		guiUpdater = new GuiUpdater();
-		guiUpdater.setExecutionWindow(exectionWindow);
+		guiUpdater = GuiUpdater.getInstance();
 	}
 
 	public void execute() throws SintaxException, IOException, InterruptedException {
-		log = new LogManager(Util.APP_PKG, this.testSuiteFiles);
+		log = new LogManager(this.testSuiteFiles);
 		commandExecutor = new CommandExecutor();
 		loadTestSuite();
 		executeTestSuite();
@@ -62,10 +60,11 @@ public class TestSuiteExecutor implements Observer{
 					if(!log.alreadyTested(testCase)) {
 						guiUpdater.clearSentCommands();
 						try {
+							exectionWindow.addTestCase(testCase.toString());
 							prepareLogsTestCase();
 							setupTestCase(testCase);
 							executeTestCase(testCase, i);				
-						} catch (IOException | InterruptedException e) {
+						} catch (IOException | InterruptedException | SintaxException e) {
 							JOptionPane.showMessageDialog(TestSuiteExecutor.this.exectionWindow, e.getMessage(), "ERROR",
 									JOptionPane.ERROR_MESSAGE);
 						}
@@ -73,12 +72,10 @@ public class TestSuiteExecutor implements Observer{
 				}
 
 		    }
-		  }.start();
-		
-		
+		  }.start();		
 	}
 
-	private void prepareLogsTestCase() throws IOException {
+	private void prepareLogsTestCase() throws IOException, InterruptedException {
 		monitor.startLogcatMonitor(log);		
 	}
 
@@ -105,7 +102,7 @@ public class TestSuiteExecutor implements Observer{
 		commandExecutor.executeCmd("OPEN_APP");
 	}
 
-	private void executeTestCase(TestCase testCase, int i) {	
+	private void executeTestCase(TestCase testCase, int i) throws IOException, InterruptedException, SintaxException {	
 		if(monitor.hasStopped()) {
 			guiUpdater.updateSentCommands("Test case stopped");
 			return;
@@ -122,12 +119,6 @@ public class TestSuiteExecutor implements Observer{
 		monitor.addObserver(walker);
 		monitor.setPassed(true);
 		long now = Calendar.getInstance().getTimeInMillis();
-		ADBComunicator adb = ADBComunicator.getInstance();
-//		try {
-//			adb.runADBCommand("");
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
 		walker.walk(testCase, i);
 		long sleptTime = Calendar.getInstance().getTimeInMillis() - now;
 		sleptTime /= 1000;
@@ -145,7 +136,9 @@ public class TestSuiteExecutor implements Observer{
 			log.saveTestCase("Fail", sleptTime, testCase, i);
 		}
 		monitor.deleteObservers();
-		
+		commandExecutor.executeCmd("GPS_CALIBRATED");
+		exectionWindow.updateResults();
+		exectionWindow.updateResults();
 	}	
 
 	@SuppressWarnings("resource")

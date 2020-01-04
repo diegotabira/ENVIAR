@@ -22,7 +22,7 @@ public class Util {
 //	gps.maps.navigation.offlinemaps.drivingdirections
 //	com.google.android.apps.maps
 //	com.EvilChaotic.ModernWarplanes
-	public static final String APP_PKG = "com.google.android.apps.maps";
+	public static String APP_PKG;
 //	public static final String APP_PKG = "net.osmand";
 //	public static final String APP_PKG = "com.offline.routemaps.gps.directionfinder.free";
 //	public static final String APP_PKG = "hr.mireo.arthur";
@@ -109,7 +109,7 @@ public class Util {
 		return linha;
 	}
 	
-	public static boolean autIsRunning() throws IOException {
+	public static boolean autIsRunning() throws IOException, InterruptedException {
 //		adb shell pidof net.osmand
 		ADBComunicator adbComunicator = ADBComunicator.getInstance();
 		String pid = adbComunicator.runADBCommand(Commands.APP_PID);

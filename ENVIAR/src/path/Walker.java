@@ -25,40 +25,35 @@ public class Walker implements Observer{
 		adb = ADBComunicator.getInstance();
 		interromper = false;
 		progress = -1;
-		guiUpdater = new GuiUpdater();
+		guiUpdater = GuiUpdater.getInstance();
 	}
 	
 	public int getProgress() {
 		return progress;
 	}
 	
-	public void walk(TestCase testCase, int index) {
+	public void walk(TestCase testCase, int index) throws IOException, InterruptedException {
 		eventosAcabaram = false;
 		sendEvents(testCase);
 		ArrayList<Location> locations = testCase.getLocations();
 		int size = locations.size();
 		int i = 0;
-		try {
-			for (Location location : locations) {
-				i++;
-				if(progress != (i*100)/size) {
-					progress = (i*100)/size;
-					guiUpdater.setProgressBar(progress);
-					if(eventosAcabaram) {
-						TerminalManagerLogger.appendSentCommands("End of events");
-					}
-				}
-				if(adb.isGpsOn() && adb.isGpsCalibrated()) {
-					adb.runADBCommand(Commands.sendGeo(location.getLat(), location.getLng()));
-				}
-				dormir(sleepTime);
-				if(interromper) {
-					break;
+		for (Location location : locations) {
+			i++;
+			if(progress != (i*100)/size) {
+				progress = (i*100)/size;
+				guiUpdater.setProgressBar(progress);
+				if(eventosAcabaram) {
+					TerminalManagerLogger.appendSentCommands("End of events");
 				}
 			}
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			if(adb.isGpsOn() && adb.isGpsCalibrated()) {
+				adb.runADBCommand(Commands.sendGeo(location.getLat(), location.getLng()));
+			}
+			dormir(sleepTime);
+			if(interromper) {
+				break;
+			}
 		}
 		
 	}

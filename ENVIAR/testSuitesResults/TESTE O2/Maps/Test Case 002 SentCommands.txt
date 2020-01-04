@@ -1,0 +1,65 @@
+adb emu network speed full
+adb logcat -c
+adb shell am start -a android.intent.action.MAIN -c android.intent.category.HOME
+adb logcat
+adb emu gsm cancel 8888
+adb shell am force-stop com.skgames.trafficrider
+adb shell am force-stop com.EvilChaotic.ModernWarplanes
+adb shell am force-stop com.ea.games.r3_row
+adb shell am force-stop android.media.action.IMAGE_CAPTURE
+adb shell settings put system accelerometer_rotation 0
+adb shell settings put secure location_providers_allowed +gps
+adb shell settings put system user_rotation 3
+adb emu network speed 1 1
+adb emu geo fix -35.892664 -7.223515
+adb shell monkey -p com.google.android.apps.maps -c android.intent.category.LAUNCHER 1
+adb emu geo fix -35.892664 -7.223515
+adb emu geo fix -37.541069 -7.589196
+adb emu geo fix -35.89316601584968 -7.223752954515033
+adb emu geo fix -35.89366803166543 -7.2239909090139856
+adb emu geo fix -35.89417004734548 -7.224228863448618
+adb emu geo fix -35.89467206285592 -7.224466817802851
+adb emu geo fix -35.895174078569895 -7.224704772253566
+adb emu geo fix -35.89567609421602 -7.224942726672119
+adb emu geo fix -35.895683 -7.224946
+adb emu geo fix -35.895683 -7.224946
+adb emu geo fix -35.89618677429425 -7.225180208774578
+adb emu geo fix -35.89669054872042 -7.225414417610485
+adb emu geo fix -35.89719432261892 -7.225648626201073
+adb emu geo fix -35.8976980967153 -7.225882834883655
+adb emu geo fix -35.898201870481884 -7.226117043412912
+adb emu geo fix -35.89870564454529 -7.226351252080164
+adb emu geo fix -35.89920941870763 -7.226585460793416
+adb emu geo fix -35.899713192705065 -7.2268196694300055
+adb emu geo fix -35.90021696673548 -7.227053878081917
+adb emu geo fix -35.899929 -7.22692
+adb emu geo fix -35.899929 -7.22692
+adb emu geo fix -35.90043810057145 -7.227142392280544
+adb emu geo fix -35.90094720165374 -7.2273647847842435
+adb emu geo fix -35.90145630252569 -7.227587177196055
+adb emu geo fix -35.901965403307486 -7.227809569568488
+adb emu geo fix -35.90247450432969 -7.228031962045936
+adb emu geo fix -35.902983605141536 -7.228254354431495
+adb emu geo fix -35.903492705893285 -7.228476746790803
+adb emu geo fix -35.90400180664503 -7.228699139150109
+adb emu geo fix -35.903681 -7.228559
+adb emu geo fix -35.903681 -7.228559
+adb emu geo fix -35.904188952594936 -7.2287840026396895
+adb emu geo fix -35.90469690518987 -7.229009005279379
+adb emu geo fix -35.905204857692745 -7.229234007878286
+adb emu geo fix -35.905712810379754 -7.22945901055876
+adb emu geo fix -35.906220763066756 -7.229684013239233
+adb emu geo fix -35.90672871578445 -7.229909015933301
+adb emu geo fix -35.90723666841008 -7.2301340185865834
+adb emu geo fix -35.90774462097433 -7.230359021212674
+adb emu geo fix -35.907573 -7.230283
+adb emu geo fix -35.907573 -7.230283
+adb emu geo fix -35.908083906807306 -7.230501211645742
+adb emu geo fix -35.90859481361461 -7.230719423291484
+adb emu geo fix -35.909105720363854 -7.230937634912427
+adb emu geo fix -35.90961662705503 -7.231155846508568
+adb emu geo fix -35.909816 -7.231241
+adb emu geo fix -35.909816 -7.231241
+adb emu geo fix -35.910242 -7.231224
+adb emu geo fix -35.910242 -7.231224
+adb logcat -d

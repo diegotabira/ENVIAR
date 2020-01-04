@@ -131,14 +131,18 @@ public class CommandExecutor {
             @Override
             public void run() {
             	try {
+            		Monitor monitor = Monitor.getInstance();
             		do {
             			adb.runADBCommand(Commands.sendGeo(-7.589196, -37.541069));
             			dormir(1000);            			
-            		}while(!adb.isGpsCalibrated());
+            		}while(!adb.isGpsCalibrated() && !monitor.hasStopped());
         		} catch (IOException e) {
         			// TODO Auto-generated catch block
         			e.printStackTrace();
-        		}
+        		} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
             }
  
         };

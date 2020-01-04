@@ -1,0 +1,376 @@
+--------- beginning of main
+01-04 18:27:16.667 16689 16689 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:16.672 16689 16689 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:16.758 16689 16689 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:16.769 16689 16689 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:16.812 16689 16689 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:16.812 16689 16689 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:16.813 16689 16689 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:16.840 16689 16689 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+--------- beginning of system
+01-04 18:27:16.849  1660  1671 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 2000 on display 0
+01-04 18:27:16.886  1315  3815 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2789376
+01-04 18:27:16.902  1315  1315 E EGL_emulation: tid 1315: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+01-04 18:27:16.955 16689 16689 D AndroidRuntime: Shutting down VM
+01-04 18:27:17.049 11995 11995 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+01-04 18:27:17.061 11995 12068 D EGL_emulation: eglMakeCurrent: 0xa1c85fc0: ver 2 0 (tinfo 0xa1c835c0)
+01-04 18:27:17.114  2042  2116 D EGL_emulation: eglMakeCurrent: 0xa1c853c0: ver 2 0 (tinfo 0xa1c83310)
+01-04 18:27:17.308 11995 12072 I MicroDataManager: isInitializing-false locale not changed-true model not changed-true
+01-04 18:27:17.359  5162 11991 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=null serviceId=36
+01-04 18:27:17.372  1660  1669 I art     : Background partial concurrent mark sweep GC freed 11478(428KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 18MB/22MB, paused 16.297ms total 449.372ms
+01-04 18:27:17.391 11995 12072 I StreamController: registerScope: nowcards-15-19c7d7c-b035
+01-04 18:27:17.479 13372 13423 D EGL_emulation: eglMakeCurrent: 0xa1c871c0: ver 2 0 (tinfo 0x86962de0)
+01-04 18:27:17.481 11995 12005 W art     : Suspending all threads took: 14.652ms
+01-04 18:27:17.524 11995 12005 I art     : Background sticky concurrent mark sweep GC freed 17172(846KB) AllocSpace objects, 0(0B) LOS objects, 6% free, 21MB/22MB, paused 21.118ms total 98.393ms
+01-04 18:27:17.635  2042  2116 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+01-04 18:27:17.635  2042  2116 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+01-04 18:27:17.734 11995 15894 I OptInChecker: getSettingsStatusMap(): udcCacheApi is available.
+01-04 18:27:17.741 11995 15896 W LocationOracle: No location history returned by ContextManager
+01-04 18:27:17.789 11995 12072 I MicroDetectionState: Should stop hotword detection immediately - false
+01-04 18:27:17.822 11995 12072 I MicroDetectionState: Should stop hotword detection immediately - false
+01-04 18:27:17.828 11995 12072 I MicroDetectionState: Should stop hotword detection immediately - false
+01-04 18:27:17.853 11995 12072 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+01-04 18:27:17.858 11995 12072 I AudioController: Created new AudioSource
+01-04 18:27:17.863 11995 16535 I MicroDataManager: isInitializedWithLatestParams-true
+01-04 18:27:17.863 11995 16535 I MicroDataManager: isInitializing-false locale not changed-true model not changed-true
+01-04 18:27:17.865 11995 12072 I MicroDetectionWorker: onReady
+01-04 18:27:17.871 11995 16535 I MicroDataManager: Already initialized, obtaining the hotword data immediately.
+01-04 18:27:17.926 11995 15883 I MicroRecognitionRunner: Starting detection.
+01-04 18:27:17.926 11995 15883 I InputStreamUtils: Using micInputStream
+01-04 18:27:17.934 11995 15890 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+01-04 18:27:17.948  1362 16708 I AudioFlinger: AudioFlinger's thread 0xade83700 ready to run
+01-04 18:27:17.963 11995 15890 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+01-04 18:27:17.994 11995 15883 W SpeechLevelGenerator: Really low audio levels detected. The audio input may have issues.
+01-04 18:27:17.995 11995 12072 I MicroDetectionWorker: onReady
+01-04 18:27:18.005  5111  5111 I GeofencerStateMachine: sendNewTransitions called.
+01-04 18:27:18.117 11995 12005 I art     : Background partial concurrent mark sweep GC freed 26251(1108KB) AllocSpace objects, 1(64KB) LOS objects, 15% free, 21MB/25MB, paused 3.756ms total 250.010ms
+01-04 18:27:18.232  1660  1704 D WifiNative-HAL: Failing getSupportedFeatureset because HAL isn't started
+01-04 18:27:18.234  1660  3376 E BluetoothAdapter: Bluetooth binder is null
+01-04 18:27:18.235  1660  3376 E BatteryStatsService: no controller energy info supplied
+01-04 18:27:18.242  1660  3376 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+01-04 18:27:18.242  1660  3376 E KernelUidCpuTimeReader: Failed to read uid_cputime: /proc/uid_cputime/show_uid_stat (No such file or directory)
+01-04 18:27:18.246  1660  3376 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+01-04 18:27:18.381  5162 14237 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+01-04 18:27:18.468 13372 13372 I Choreographer: Skipped 63 frames!  The application may be doing too much work on its main thread.
+01-04 18:27:18.503  5111  5111 W ChimeraUtils: Non Chimera context
+01-04 18:27:18.510  5111 16711 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:18.512  1660 20102 I GnssLocationProvider: WakeLock acquired by sendMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@7d159d)
+01-04 18:27:18.546  1660  1672 I GnssLocationProvider: WakeLock released by handleMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@7d159d)
+01-04 18:27:18.554  1660  2226 I GnssLocationProvider: WakeLock acquired by sendMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@1e6ae5b)
+01-04 18:27:18.595  1660  1672 I GnssLocationProvider: WakeLock released by handleMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@1e6ae5b)
+01-04 18:27:18.605  5162 14237 I Icing   : Usage reports ok 3, Failed Usage reports 0, indexed 0, rejected 0
+01-04 18:27:18.680  5111  5111 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+01-04 18:27:18.683  5111  5111 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+01-04 18:27:18.740  5111  5111 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+01-04 18:27:18.748  5111  5111 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+01-04 18:27:18.754  5111  5111 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+01-04 18:27:18.835  5111 16711 W ctxmgr  : [AclManager] No 3 for (accnt=account#1066226748#, com.google.android.gms(10013):UserVelocityProducer, vrsn=19831022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 5111). Was: 2 for 1, account#1066226748# [CONTEXT service_id=47 ]
+01-04 18:27:18.889  5111 16710 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:18.939  5111  5111 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+01-04 18:27:18.944  5111  5111 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+01-04 18:27:18.987  5111 16716 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+01-04 18:27:18.988  5111 16717 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:18.988  5111 16717 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:18.989  5111 16716 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+01-04 18:27:18.991  5111 16674 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.082  5111 16705 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.125  5111 16718 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.182  5111 16711 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+01-04 18:27:19.200  5111 16718 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.263  5111 16718 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.292  5111 16716 I Places  : ?: PlacesBleScanner start() with priority 2
+01-04 18:27:19.294  5111 16716 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+01-04 18:27:19.294  5111 16716 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+01-04 18:27:19.308  5111 16716 I Places  : Converted 1 out of 1 WiFi scans
+01-04 18:27:19.308  5111  5111 E BeaconBle: Missing BluetoothAdapter
+01-04 18:27:19.309  5111  5111 I BeaconBle: BLE 'KK+' software access layer enabled
+01-04 18:27:19.326  5111 16716 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 1
+01-04 18:27:19.326  5111 16716 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+01-04 18:27:19.328  5111 16718 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.330  5111 16705 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.381  5111  5111 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+01-04 18:27:19.382  5111  5111 I BeaconBle: Scan : No clients left, canceling alarm.
+01-04 18:27:19.385  5111  5111 E BeaconBle: Scan couldn't start for Places
+01-04 18:27:19.386  5111  5111 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: true]
+01-04 18:27:19.391  5111  5111 W Places  : BLE failure while scanning - code 5
+01-04 18:27:19.439  5111 16674 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.460  5111 16716 I PlaceInferenceEngine: Too few candidate results: percentageOfMissingArea 68
+01-04 18:27:19.480  5111 16719 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.482  5111 16674 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.482  5111 16705 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:19.535 11995 16438 E PlaceStateUpdater: Received no places
+01-04 18:27:19.570  5111 16723 E cida    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+01-04 18:27:19.570  5111 16723 E cida    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
+01-04 18:27:19.570  5111 16723 E cida    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+01-04 18:27:19.570  5111 16723 E cida    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
+01-04 18:27:19.671  5111 16717 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+01-04 18:27:19.671  5111 16717 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:19.671  5111 16717 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:19.839  5111 16717 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+01-04 18:27:19.839  5111 16717 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:19.839  5111 16717 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:20.278  5111 16723 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:20.356  5111 16723 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:20.358  5111 16711 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+01-04 18:27:20.606  1362 16707 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+01-04 18:27:20.606  1362 16707 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+01-04 18:27:20.610  1362 16707 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+01-04 18:27:20.756  1362 16707 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+01-04 18:27:20.757  1362 16707 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+01-04 18:27:20.840  1362 16707 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+01-04 18:27:20.854  5111 16720 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:20.858  5111 16711 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+01-04 18:27:21.276  5111 16723 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:21.525 16726 16726 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:21.532 16726 16726 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:21.611 16726 16726 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:21.619 16726 16726 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:21.657 16726 16726 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:21.657 16726 16726 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:21.660 16726 16726 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:21.691 16726 16726 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+01-04 18:27:21.698  1660  5073 W ActivityManager: Invalid packageName: com.skgames.trafficrider
+01-04 18:27:21.699 16726 16726 D AndroidRuntime: Shutting down VM
+01-04 18:27:22.810 16736 16736 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:22.815 16736 16736 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:22.917 16736 16736 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:22.925 16736 16736 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:22.962 16736 16736 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:22.962 16736 16736 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:22.963 16736 16736 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:22.986 16736 16736 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+01-04 18:27:22.989  1660 20103 W ActivityManager: Invalid packageName: com.EvilChaotic.ModernWarplanes
+01-04 18:27:22.989 16736 16736 D AndroidRuntime: Shutting down VM
+01-04 18:27:24.072 16745 16745 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:24.077 16745 16745 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:24.161 16745 16745 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:24.169 16745 16745 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:24.209 16745 16745 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:24.209 16745 16745 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:24.211 16745 16745 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:24.235 16745 16745 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+01-04 18:27:24.240  1660  1770 W ActivityManager: Invalid packageName: com.ea.games.r3_row
+01-04 18:27:24.241 16745 16745 D AndroidRuntime: Shutting down VM
+01-04 18:27:25.324 16755 16755 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:25.331 16755 16755 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:25.419 16755 16755 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:25.430 16755 16755 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:25.471 16755 16755 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:25.471 16755 16755 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:25.472 16755 16755 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:25.505 16755 16755 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+01-04 18:27:25.511  1660  3373 W ActivityManager: Invalid packageName: android.media.action.IMAGE_CAPTURE
+01-04 18:27:25.511 16755 16755 D AndroidRuntime: Shutting down VM
+01-04 18:27:25.520 16755 16764 W art     : Thread attaching while runtime is shutting down: Binder:16755_2
+01-04 18:27:25.520 16755 16764 I AndroidRuntime: NOTE: attach of thread 'Binder:16755_2' failed
+01-04 18:27:26.614 16765 16765 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:26.619 16765 16765 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:26.714 16765 16765 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:26.724 16765 16765 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:26.770 16765 16765 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:26.770 16765 16765 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:26.772 16765 16765 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:26.800 16765 16765 D AndroidRuntime: Calling main entry com.android.commands.settings.SettingsCmd
+01-04 18:27:26.817 16765 16765 D AndroidRuntime: Shutting down VM
+01-04 18:27:27.936 16775 16775 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:27.944 16775 16775 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:28.027 16775 16775 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:28.035 16775 16775 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:28.071 16775 16775 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:28.071 16775 16775 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:28.073 16775 16775 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:28.098 16775 16775 D AndroidRuntime: Calling main entry com.android.commands.settings.SettingsCmd
+01-04 18:27:28.113 16775 16775 D AndroidRuntime: Shutting down VM
+01-04 18:27:28.114  1660  1672 I GnssLocationProvider: WakeLock acquired by sendMessage(2, 0, null)
+01-04 18:27:28.122  1660  1660 D GpsNetInitiatedHandler: location enabled :false
+01-04 18:27:28.125  5111  5111 I GeofencerStateMachine: sendQueryLocationOptIn
+01-04 18:27:28.127  5111  5189 I GeofencerStateMachine: GPS disabled.
+01-04 18:27:28.131  5111  5111 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: false]
+01-04 18:27:28.165  1660 20102 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.nearby.discovery:ACTION_PERMISSION_CHANGE cmp=com.google.android.gms/.nearby.discovery.service.DiscoveryService } U=0: not found
+01-04 18:27:28.240  5111  5111 E BluetoothAdapter: Bluetooth binder is null
+01-04 18:27:28.272  5111 16717 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+01-04 18:27:28.298  5111 16717 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: {account#8#=[InactiveReason{mIdentifier=6, mName='ReportingNotEnabled'}, InactiveReason{mIdentifier=14, mName='HistoryNotEnabled'}]}
+01-04 18:27:28.311  5111 16717 I GCoreUlr: Unbound from all signal providers.
+01-04 18:27:28.320  5111 16720 I GCoreUlr: Successfully accounts update
+01-04 18:27:28.363  5111 16717 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+01-04 18:27:28.377  5111  5111 I GCoreUlr: Unbound from all signal providers.
+01-04 18:27:28.377  5111  5111 I GCoreUlr: Stopping handler for UlrDispSvcFast
+01-04 18:27:28.463  5111 16720 I GCoreUlr: Successfully accounts update
+01-04 18:27:28.493  1660  1669 I art     : Background partial concurrent mark sweep GC freed 15960(811KB) AllocSpace objects, 3(76KB) LOS objects, 17% free, 18MB/22MB, paused 2.959ms total 136.902ms
+01-04 18:27:28.561  1660  1672 I GnssLocationProvider: WakeLock released by handleMessage(2, 0, null)
+01-04 18:27:29.419 16788 16788 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:29.424 16788 16788 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:29.512 16788 16788 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:29.519 16788 16788 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:29.555 16788 16788 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:29.556 16788 16788 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:29.557 16788 16788 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:29.581 16788 16788 D AndroidRuntime: Calling main entry com.android.commands.settings.SettingsCmd
+01-04 18:27:29.601 16788 16788 D AndroidRuntime: Shutting down VM
+01-04 18:27:30.110  1362 16707 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+01-04 18:27:31.101 16798 16798 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+01-04 18:27:31.107 16798 16798 D AndroidRuntime: CheckJNI is ON
+01-04 18:27:31.190 16798 16798 W art     : Unexpected CPU variant for X86 using defaults: x86
+01-04 18:27:31.199 16798 16798 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+01-04 18:27:31.238 16798 16798 E memtrack: Couldn't load memtrack module (No such file or directory)
+01-04 18:27:31.238 16798 16798 E android.os.Debug: failed to load memtrack module: -2
+01-04 18:27:31.239 16798 16798 I Radio-JNI: register_android_hardware_Radio DONE
+01-04 18:27:31.267 16798 16798 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+01-04 18:27:31.362  1660  1673 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{bcea1cd u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{dd58a82 16798 (unknown name)/2000/u-1 remote:10110f7}: process crashing
+01-04 18:27:31.392  1660  1884 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity} from uid 2000 on display 0
+01-04 18:27:31.424  1315  1321 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+01-04 18:27:31.444  1315  1315 E EGL_emulation: tid 1315: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+01-04 18:27:31.465  1660  1859 I ActivityManager: Config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w683dp h387dp 420dpi nrml land finger qwerty/v/v -nav/h s.19}
+01-04 18:27:31.514  1660  1694 I InputReader: Reconfiguring input devices.  changes=0x00000004
+01-04 18:27:31.514  1660  1694 I InputReader: Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 3, mode 1, display id 0
+01-04 18:27:31.515  1660  1694 I InputReader: Reconfiguring input devices.  changes=0x00000004
+01-04 18:27:31.532 11995 12072 I MicroDetectionState: Should stop hotword detection immediately - false
+01-04 18:27:31.532 11995 12072 I MicroDetector: Keeping mic open: false
+01-04 18:27:31.532 11995 12072 I RecognitionAudioControl: #shutdownAudio [requestId: -6418781361858394719, keepAudioOpen: false, forced: true]
+01-04 18:27:31.534 11995 15894 E DeviceStateChecker: DeviceStateChecker cancelled
+01-04 18:27:31.533 11995 12072 I RecognitionAudioControl: #internalShutdownAudio [requestId: -6418781361858394719]
+01-04 18:27:31.537 11995 12072 I RecognitionAudioControl: #internalShutdownAudio [keepAudioOpen: false, forced: true]
+01-04 18:27:31.537 11995 12072 I RecognitionAudioControl: #actualShutdownAudio
+01-04 18:27:31.537 11995 12072 I AudioController: #shutdown [requestId=-6418781361858394719]
+01-04 18:27:31.538 11995 16535 I AudioController: internalShutdown
+01-04 18:27:31.540 11995 15884 I MicroRecognitionRunner: Stopping hotword detection.
+01-04 18:27:31.542 16798 16798 I art     : System.exit called, status: 0
+01-04 18:27:31.542 16798 16798 I AndroidRuntime: VM exiting with result code 0.
+01-04 18:27:31.568  2042  2116 D EGL_emulation: eglMakeCurrent: 0xa1c853c0: ver 2 0 (tinfo 0xa1c83310)
+01-04 18:27:31.574 11995 16535 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+01-04 18:27:31.575 11995 16535 E AudioSource: Stop listening is called on already closed AudioSource
+01-04 18:27:31.587  1315  1315 W SurfaceFlinger: couldn't log to binary event log: overflow.
+01-04 18:27:31.696  1730  1940 D EGL_emulation: eglMakeCurrent: 0xa1c85840: ver 2 0 (tinfo 0xa1c83880)
+01-04 18:27:31.697 11995 12068 D EGL_emulation: eglMakeCurrent: 0xa1c85fc0: ver 2 0 (tinfo 0xa1c835c0)
+01-04 18:27:31.738  1660  1704 D WifiNative-HAL: Failing getSupportedFeatureset because HAL isn't started
+01-04 18:27:31.740  1660  2172 E BluetoothAdapter: Bluetooth binder is null
+01-04 18:27:31.740  1660  2172 E BatteryStatsService: no controller energy info supplied
+01-04 18:27:31.747  1660  2172 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+01-04 18:27:31.747  1660  2172 E KernelUidCpuTimeReader: Failed to read uid_cputime: /proc/uid_cputime/show_uid_stat (No such file or directory)
+01-04 18:27:31.750  1660  2172 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+01-04 18:27:31.757 11995 15883 I MicroRecognitionRunner: Detection finished
+01-04 18:27:31.798 11995 16535 I PBSessionCacheImpl: Deleted sessionId[52756146055728902] from persistence.
+01-04 18:27:31.881 11995 12072 W SearchServiceCore: Abort, client detached.
+01-04 18:27:31.884 11995 12072 I StreamController: cleanUpControllerScope(nowcards-15-19c7d7c-b035)
+01-04 18:27:31.896 11995 12072 I MicroDetectionState: Should stop hotword detection immediately - false
+01-04 18:27:31.954  1730  1730 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+01-04 18:27:32.051  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:32.069  5111  5111 W ChimeraUtils: Non Chimera context
+01-04 18:27:32.095  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:32.176  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:32.323  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:32.383 13372 13377 I art     : Compiler allocated 4MB to compile void iu.a(ht, int)
+01-04 18:27:32.451 13372 13372 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+01-04 18:27:32.458  5111  5211 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+01-04 18:27:32.468  5111  5111 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: false]
+01-04 18:27:32.507 13372 13433 D EGL_emulation: eglMakeCurrent: 0x84052d20: ver 2 0 (tinfo 0x8b223e30)
+01-04 18:27:32.628 13372 13433 D EGL_emulation: eglMakeCurrent: 0x84052d20: ver 2 0 (tinfo 0x8b223e30)
+01-04 18:27:32.671  1730  1940 D EGL_emulation: eglMakeCurrent: 0xa1c85840: ver 2 0 (tinfo 0xa1c83880)
+01-04 18:27:32.726 13372 13372 W View    : requestLayout() improperly called by com.google.android.apps.gmm.map.ui.CompassButtonView{63c1f35 I.E...C.. ......I. 1647,173-1773,299 #7f0b00cb app:id/base_compass_button} during layout: running second layout pass
+01-04 18:27:32.780 13372 13433 D EGL_emulation: eglMakeCurrent: 0x84052d20: ver 2 0 (tinfo 0x8b223e30)
+01-04 18:27:32.888  5162  6116 I PeopleChimeraService: onService. callbacks = aauj@71bb6b8, request = com.google.android.gms.common.internal.GetServiceRequest@2c90c91
+01-04 18:27:32.921 13372 13423 D EGL_emulation: eglMakeCurrent: 0xa1c871c0: ver 2 0 (tinfo 0x86962de0)
+01-04 18:27:33.031  2042  2042 W IInputConnectionWrapper: reportFullscreenMode on inexistent InputConnection
+01-04 18:27:33.081  1660  1680 I WindowManager: Screen frozen for +1s661ms due to Window{a6dfc3 u0 SurfaceView - com.google.android.apps.maps/com.google.android.maps.MapsActivity}
+01-04 18:27:33.154  5111  5211 I Auth    : [ReflectiveChannelBinder] Successfully bound channel!
+01-04 18:27:33.361  5111  5111 W ChimeraUtils: Non Chimera context
+01-04 18:27:33.371  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:33.381  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:33.593 13372 13382 W art     : Suspending all threads took: 19.744ms
+01-04 18:27:33.676 13372 13382 I art     : Background sticky concurrent mark sweep GC freed 95954(3MB) AllocSpace objects, 33(1576KB) LOS objects, 0% free, 26MB/26MB, paused 25.080ms total 1.047s
+01-04 18:27:33.823  5111  5121 I art     : Background sticky concurrent mark sweep GC freed 22479(1375KB) AllocSpace objects, 4(72KB) LOS objects, 11% free, 14MB/16MB, paused 2.839ms total 551.078ms
+01-04 18:27:33.905  1315  1354 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+01-04 18:27:33.931  1315  1315 E EGL_emulation: tid 1315: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+01-04 18:27:33.935  1315  1321 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+01-04 18:27:33.952 13372 13382 I art     : Background partial concurrent mark sweep GC freed 18134(668KB) AllocSpace objects, 50(1392KB) LOS objects, 14% free, 24MB/28MB, paused 4.585ms total 274.268ms
+01-04 18:27:34.021  1660  1694 I InputReader: Reconfiguring input devices.  changes=0x00000004
+01-04 18:27:34.021  1660  1694 I InputReader: Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 0, mode 1, display id 0
+01-04 18:27:34.022  1660  1694 I InputReader: Reconfiguring input devices.  changes=0x00000004
+01-04 18:27:34.025  1660  1680 I ActivityManager: Config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.20}
+01-04 18:27:34.102  5111 12180 W ResourceType: ResTable_typeSpec entry count inconsistent: given 15, previously 22
+01-04 18:27:34.107  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:34.185  5111  5111 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: false]
+01-04 18:27:34.411  1730  1940 D EGL_emulation: eglMakeCurrent: 0xa1c85840: ver 2 0 (tinfo 0xa1c83880)
+01-04 18:27:34.466 13372 13423 D EGL_emulation: eglMakeCurrent: 0xa1c871c0: ver 2 0 (tinfo 0x86962de0)
+01-04 18:27:34.571  5111  5211 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+01-04 18:27:34.572  5111  5211 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:34.572  5111  5211 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:34.596 13372 13372 W View    : requestLayout() improperly called by com.google.android.apps.gmm.map.ui.CompassButtonView{63c1f35 I.E...C.. ......I. 933,183-1059,309 #7f0b00cb app:id/base_compass_button} during layout: running second layout pass
+01-04 18:27:34.637 13372 13433 D EGL_emulation: eglMakeCurrent: 0x84052d20: ver 2 0 (tinfo 0x8b223e30)
+01-04 18:27:34.737 13372 13423 D EGL_emulation: eglMakeCurrent: 0xa1c871c0: ver 2 0 (tinfo 0x86962de0)
+01-04 18:27:34.790  5111  5211 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+01-04 18:27:34.790  5111  5211 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:34.791  5111  5211 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:35.057  5111  5211 W GLSUser : [AppCertManager] IOException while requesting key: 
+01-04 18:27:35.057  5111  5211 W GLSUser : java.io.IOException: Invalid device key response.
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at ikq.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):59)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at iko.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):7)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at iko.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):48)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at aavn.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):3)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at coo.onTransact(:com.google.android.gms@19831022@19.8.31 (040700-284611645):4)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at android.os.Binder.transact(Binder.java:499)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at dwe.onTransact(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at android.os.Binder.transact(Binder.java:499)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at aawd.onTransact(:com.google.android.gms@19831022@19.8.31 (040700-284611645):29)
+01-04 18:27:35.057  5111  5211 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:565)
+01-04 18:27:35.064  5111  5211 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+01-04 18:27:35.125  1730  1940 D EGL_emulation: eglMakeCurrent: 0xa1c85840: ver 2 0 (tinfo 0xa1c83880)
+01-04 18:27:35.211  1660  1680 I WindowManager: Screen frozen for +1s593ms due to Window{c6c3f55 u0 StatusBar}
+01-04 18:27:35.304  1730  1730 I Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+01-04 18:27:35.315  1730  1940 D EGL_emulation: eglMakeCurrent: 0xa1c85840: ver 2 0 (tinfo 0xa1c83880)
+01-04 18:27:35.316 13372 13382 W art     : Suspending all threads took: 19.389ms
+01-04 18:27:35.359  1730  1940 D EGL_emulation: eglMakeCurrent: 0xa1c85840: ver 2 0 (tinfo 0xa1c83880)
+01-04 18:27:35.402 13372 13382 I art     : Background sticky concurrent mark sweep GC freed 57883(1759KB) AllocSpace objects, 30(1680KB) LOS objects, 3% free, 27MB/28MB, paused 30.429ms total 298.184ms
+01-04 18:27:35.527  5111  5211 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+01-04 18:27:35.527  5111  5211 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+01-04 18:27:35.879 13372 13382 I art     : Background partial concurrent mark sweep GC freed 27466(1294KB) AllocSpace objects, 60(2MB) LOS objects, 14% free, 24MB/28MB, paused 7.684ms total 232.373ms
+01-04 18:27:36.839  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:36.946  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:37.028  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:37.035  5111  5111 I GeofencerStateMachine: sendNewLocationAvailability: availability=LocationAvailability[isLocationAvailable: false]
+01-04 18:27:37.090  5111 16674 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:37.131  5111 16674 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:37.170  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:37.171  5111 16716 I Places  : ?: PlacesBleScanner stop()
+01-04 18:27:37.173  5111  5111 I BeaconBle: Scan : No clients left, canceling alarm.
+01-04 18:27:37.205  5111 16716 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+01-04 18:27:37.205  5111 16716 I PlaceInferenceEngine: [account#1066226748] Changed inference mode: 0
+01-04 18:27:37.212  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:37.213  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:37.206  5111  5111 I BeaconBle: Scan canceled successfully.
+01-04 18:27:37.262  1660  1680 I art     : Starting a blocking GC Explicit
+01-04 18:27:37.396  1660  1680 I art     : Explicit concurrent mark sweep GC freed 23464(1208KB) AllocSpace objects, 6(136KB) LOS objects, 17% free, 18MB/22MB, paused 2.885ms total 124.026ms
+01-04 18:27:37.450  5111  5121 I art     : Background partial concurrent mark sweep GC freed 48120(2MB) AllocSpace objects, 3(696KB) LOS objects, 23% free, 12MB/16MB, paused 11.334ms total 434.351ms
+01-04 18:27:37.478  5111  5193 W GCoreFlp: No location to return for getLastLocation()
+01-04 18:27:37.495  5111 16720 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:37.517  5111  5111 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+01-04 18:27:37.523  5111 16717 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:37.529  5111 16723 I Places  : ?: Couldn't find platform key file.
+01-04 18:27:37.545  5111  5531 W MessageQueue: Handler (aezq) {cf6eda} sending message to a Handler on a dead thread
+01-04 18:27:37.545  5111  5531 W MessageQueue: java.lang.IllegalStateException: Handler (aezq) {cf6eda} sending message to a Handler on a dead thread
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:643)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:612)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at aezq.sendMessageAtTime(:com.google.android.gms@19831022@19.8.31 (040700-284611645))
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:582)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at android.os.Handler.post(Handler.java:338)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at bcfl.execute(:com.google.android.gms@19831022@19.8.31 (040700-284611645))
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at aawg.execute(:com.google.android.gms@19831022@19.8.31 (040700-284611645))
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at avde.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):1)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at avdt.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):5)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at avea.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):34)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at avdv.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at sex.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):3)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at sex.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):2)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at agng.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645))
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at sdl.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645))
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at aavn.a(:com.google.android.gms@19831022@19.8.31 (040700-284611645):6)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at coo.onTransact(:com.google.android.gms@19831022@19.8.31 (040700-284611645):4)
+01-04 18:27:37.545  5111  5531 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:565)
+01-04 18:27:39.081 10532 16819 D DownloadManager: [341] Starting
+01-04 18:27:39.104 10532 16819 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-04 18:27:39.508 10532 16819 D DownloadManager: [341] Finished with status SUCCESS
+01-04 18:27:39.567 15789 15789 I ConfigUpdater: Download failed, retrying...
+01-04 18:27:41.658 11995 12072 I WorkerManager: dispose()
+01-04 18:27:41.676 11995 12072 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+01-04 18:27:42.240  5111  5111 I BeaconBle: Scan : No clients left, canceling alarm.

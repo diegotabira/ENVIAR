@@ -23,7 +23,7 @@ public class ADBComunicator {
 		this.gpsOn = true;
 		this.gpsCalibrated = true;
 		this.sentCommands = "";
-		guiUpdater = new GuiUpdater();
+		guiUpdater = GuiUpdater.getInstance();
 	}
 	
 	public static synchronized ADBComunicator getInstance() {
@@ -32,7 +32,7 @@ public class ADBComunicator {
         return instance;
     }
 	
-	public String runADBCommand(String adbCommand) throws IOException {
+	public String runADBCommand(String adbCommand, boolean waitForProcess) throws IOException, InterruptedException {
 		guiUpdater.updateSentCommands(adbCommand);
 		sentCommands += adbCommand + "\n";
 		TerminalManagerLogger.appendSentCommands(adbCommand);
@@ -42,40 +42,27 @@ public class ADBComunicator {
 		if(adbCommand.equals(Commands.GPS_OFF)) {
 			gpsOn = false;
 		}
-//		if(print) {
-//			System.out.println(adbCommand);			
-//		}
         StringBuffer returnValue = new StringBuffer();
         String line;
-        InputStream inStream = null;
-        try {
-            Process process = Runtime.getRuntime().exec(adbCommand);
-
-            // process.waitFor();/
-            inStream = process.getInputStream();
-            BufferedReader brCleanUp = new BufferedReader(
-                    new InputStreamReader(inStream));
-            while ((line = brCleanUp.readLine()) != null) {
-//            	if(print) {
-//            		System.out.println(line);            		
-//            	}
-                returnValue.append(line).append("\n");
-            }
-
-            brCleanUp.close();
-            try {
-
-
-                process.waitFor();
-
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("Error: " + e.getMessage());
+        Process process = Runtime.getRuntime().exec(adbCommand);
+        if(waitForProcess) {
+        	process.waitFor();            	
         }
+        InputStream inStream = process.getInputStream();
+        BufferedReader brCleanUp = new BufferedReader(
+        		new InputStreamReader(inStream));
+        while ((line = brCleanUp.readLine()) != null) {
+        	returnValue.append(line).append("\n");
+        }
+        
+        brCleanUp.close();
+        process.waitFor();
+        
         return returnValue.toString();
+	}
+	
+	public String runADBCommand(String adbCommand) throws IOException, InterruptedException {
+        return runADBCommand(adbCommand, false);
     }
 	
 	public String runADBLogcatCommand() throws IOException, CrashException {
@@ -91,6 +78,7 @@ public class ADBComunicator {
         BufferedReader brCleanUp = new BufferedReader(
                 new InputStreamReader(inStream));
         while ((line = brCleanUp.readLine()) != null) {
+        	guiUpdater.updateLogcat(line);
         	if(line.contains("beginning of crash")) {
         		returnValue.append(line).append("\n");
 				line = brCleanUp.readLine();

@@ -1,0 +1,21 @@
+adb emu network speed full
+adb logcat -c
+adb shell am start -a android.intent.action.MAIN -c android.intent.category.HOME
+adb logcat
+adb emu gsm cancel 8888
+adb shell am force-stop com.skgames.trafficrider
+adb shell am force-stop com.EvilChaotic.ModernWarplanes
+adb shell am force-stop com.ea.games.r3_row
+adb shell am force-stop android.media.action.IMAGE_CAPTURE
+adb shell settings put system accelerometer_rotation 0
+adb shell settings put secure location_providers_allowed +gps
+adb shell settings put system user_rotation 0
+adb emu network speed 1 1
+adb emu geo fix -35.892664 -7.223515
+adb shell monkey -p com.google.android.apps.maps -c android.intent.category.LAUNCHER 1
+adb emu geo fix -35.892664 -7.223515
+adb emu geo fix -35.89316601584968 -7.223752954515033
+adb emu geo fix -35.89366803166543 -7.2239909090139856
+adb emu geo fix -35.89417004734548 -7.224228863448618
+adb emu geo fix -35.89467206285592 -7.224466817802851
+adb logcat -d

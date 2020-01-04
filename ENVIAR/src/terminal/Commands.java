@@ -7,7 +7,7 @@ import util.Util;
 public class Commands {
 	
 	public static final String LIST_AVDS = "emulator -list-avds";
-	public static final String START_EMULATOR = "emulator -avd My_Device_API_26";
+	public static final String START_EMULATOR = "emulator -avd ";
 	public static final String WAIT_FOR_DEVICE = "wait-for-device";
 	public static final String EMULATOR_STATUS = "adb get-state";
 	public static final String PRESS_HOME = "adb shell input keyevent KEYCODE_HOME";

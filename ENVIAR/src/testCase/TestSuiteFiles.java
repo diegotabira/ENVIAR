@@ -2,6 +2,7 @@ package testCase;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ public class TestSuiteFiles {
 	private String testSuite;
 	private String chosenApp;
 	private ArrayList<String> testedApps;
+	private HashMap<String, String> appPackages;
 	private HashMap<String, String> mainResults;
 	private HashMap<String, ArrayList<String>> testedTestCases;
 	private HashMap<String, ArrayList<String>> sentCommands;
@@ -23,12 +25,21 @@ public class TestSuiteFiles {
 	public TestSuiteFiles(String testSuiteName) throws SintaxException, IOException {
 		this.testSuiteName = testSuiteName;
 		this.chosenApp = "";
+		loadData();
+	}
+	
+	private void loadData() throws SintaxException, IOException {
 		loadTestSuiteFile();
 		loadTestedApps();
+		loadAppPackages();
 		loadMainResults();
 		loadTestedTestCases();
 		loadSentCommands();
 		loadLogcats();
+	}
+	
+	public void reloadData() throws SintaxException, IOException {
+		loadData();
 	}
 
 	public String getChosenApp() {
@@ -55,9 +66,31 @@ public class TestSuiteFiles {
 		testedApps = new ArrayList<String>();
 		File appsDirectory = new File("testSuitesResults//" + testSuiteName);
 		File[] apps = appsDirectory.listFiles();
-		for (File file : apps) {			
-			String[] aux = file.getName().split("//");
-			testedApps.add(aux[0]);
+		if(apps != null) {
+			for (File file : apps) {			
+				String[] aux = file.getName().split("//");
+				testedApps.add(aux[0]);
+			}			
+		}
+	}
+	
+	private void loadAppPackages() throws IOException {
+		appPackages = new HashMap<String, String>();
+		for (String app : testedApps) {
+			String direcotoryPath = "testSuitesResults//" + testSuiteName + "//" + app;
+			File appsDirectory = new File(direcotoryPath);
+			File[] files = appsDirectory.listFiles();
+			for (File file : files) {
+				String fileName = file.getName();
+				if(fileName.contains("pkg")) {				
+					FileReader arq = new FileReader(direcotoryPath + "//" + fileName);
+					BufferedReader lerArq = new BufferedReader(arq);
+					String linha = lerArq.readLine();					
+					lerArq.close();
+					appPackages.put(app, linha);
+					break;
+				}
+			}			
 		}
 	}
 	
@@ -66,8 +99,8 @@ public class TestSuiteFiles {
 		for (String app : testedApps) {
 			String direcotoryPath = "testSuitesResults//" + testSuiteName + "//" + app;
 			File appsDirectory = new File(direcotoryPath);
-			File[] apps = appsDirectory.listFiles();
-			for (File file : apps) {
+			File[] files = appsDirectory.listFiles();
+			for (File file : files) {
 				String fileName = file.getName();
 				if(fileName.contains("Test Suit")) {				
 					FileReader arq = new FileReader(direcotoryPath + "//" + fileName);
@@ -80,7 +113,7 @@ public class TestSuiteFiles {
 					}
 					lerArq.close();
 					mainResults.put(app, mainResult);
-					return;
+					break;
 				}
 			}			
 		}		
@@ -147,6 +180,10 @@ public class TestSuiteFiles {
 	public ArrayList<String> getTestedApps() {
 		return testedApps;
 	}
+	
+	public HashMap<String, String> getAppPackages() {
+		return appPackages;
+	}
 
 	public HashMap<String, String> getMainResults() {
 		return mainResults;
@@ -167,6 +204,10 @@ public class TestSuiteFiles {
 	public void addTestedApp(String appName) {
 		this.testedApps.add(appName);
 		this.testedTestCases.put(appName, new ArrayList<String>());
+	}
+	
+	public void addPackageApp(String appName, String appPackage) {
+		this.appPackages.put(appName, appPackage);
 	}
 
 	public void removeTestedApp(String selectedApp) {

@@ -23,11 +23,11 @@ public class LogManager {
 	private Logcather logcather;
 	private TestSuiteFiles testSuiteFiles;
 	
-	public LogManager(String appPackage, TestSuiteFiles testSuiteFiles) {
+	public LogManager(TestSuiteFiles testSuiteFiles) {
 		this.testSuiteFiles = testSuiteFiles;
 		logcather = new Logcather();
 		pathFile = "testSuitesResults/" + this.testSuiteFiles.getTestSuiteName() + "/" + this.testSuiteFiles.getChosenApp() + "/";
-		testSuitResults = pathFile + "0 - Test Suite Results.txt";		
+		testSuitResults = pathFile + "Test Suite Results.txt";		
 		try {
 			loadTestCases();
 		} catch (FileNotFoundException e) {
@@ -100,11 +100,11 @@ public class LogManager {
 		return false;
 	}
 	
-	public void clearLogcat() throws IOException {
+	public void clearLogcat() throws IOException, InterruptedException {
 		logcather.clear();
 	}
 	
-	public String getLogcat() throws IOException {
+	public String getLogcat() throws IOException, InterruptedException {
 		return logcather.getLogcat();
 	}
 	
@@ -142,6 +142,9 @@ public class LogManager {
 			buffWrite.close();
 			ADBComunicator.getInstance().clear();
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

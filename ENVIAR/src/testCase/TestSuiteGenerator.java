@@ -30,6 +30,8 @@ public class TestSuiteGenerator {
 		createPictInput();
 		executePict();
 		sortTestSuiteByPaths();
+		String folder = "testSuitesResults//" + testSuiteName;
+		new File(folder).mkdir();
 	}
 	
 	private void sortTestSuiteByPaths() throws IOException {

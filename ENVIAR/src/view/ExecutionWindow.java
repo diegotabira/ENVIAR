@@ -6,9 +6,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -21,6 +23,7 @@ import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
+import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextArea;
@@ -32,8 +35,12 @@ import javax.swing.table.DefaultTableModel;
 
 import exceptions.SintaxException;
 import main.TestSuiteExecutor;
+import terminal.ADBComunicator;
+import terminal.Commands;
 import testCase.TestSuiteFiles;
+import util.GuiUpdater;
 import util.Monitor;
+import util.Util;
 
 public class ExecutionWindow extends JFrame {
 
@@ -43,6 +50,8 @@ public class ExecutionWindow extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTable mainResultTable;
+	private JScrollPane mainResultScroolPane;
+	private JScrollPane logcatScrollPane;
 	private DefaultTableModel mainResultdtm;
 	private JList<String> appPackageJList;
 	private DefaultListModel<String> appPackageListModel;
@@ -79,6 +88,7 @@ public class ExecutionWindow extends JFrame {
 	 * @param tsf 
 	 */
 	public ExecutionWindow(TestSuiteFiles tsf) {
+		GuiUpdater.getInstance().setExecutionWindow(this);
 		loading = false;
 		executingTestSuite = false;
 		this.testSuiteFiles = tsf;
@@ -162,9 +172,9 @@ public class ExecutionWindow extends JFrame {
 		panel_2.setBounds(179, 42, 805, 259);
 		contentPane.add(panel_2);
 		
-		JScrollPane scrollPane_2 = new JScrollPane();
-		scrollPane_2.setBounds(0, 32, 696, 227);
-		panel_2.add(scrollPane_2);
+		mainResultScroolPane = new JScrollPane();
+		mainResultScroolPane.setBounds(0, 32, 696, 227);
+		panel_2.add(mainResultScroolPane);
 		
 		
 		String[] testSuitecolumnNames = {"#", "Verdict", "Time", "Path", "Speed", "Setup", "First_Delay", "First_Event", "Second_Delay", "Second_Event", "Third_Delay", "Third_Event", "Fourth_Delay", "Fourth_Event", "Fifth_Delay", "Fifth_Event"};
@@ -172,7 +182,7 @@ public class ExecutionWindow extends JFrame {
 		mainResultdtm.setColumnIdentifiers(testSuitecolumnNames);
 		mainResultTable = new JTable(mainResultdtm);
 		mainResultTable.setEnabled(false);
-		scrollPane_2.setViewportView(mainResultTable);
+		mainResultScroolPane.setViewportView(mainResultTable);
 		setTableColumnSize();
 		
 		JLabel lblMainResult = new JLabel("Main Result");
@@ -233,6 +243,7 @@ public class ExecutionWindow extends JFrame {
 					sentCommandsTextArea.setText("");
 					logcatTextArea.setText("");
 					String app = appPackageJList.getSelectedValue();
+					Util.APP_PKG = loadAppPackage(app);
 					loadMainResult(app);
 					loadTestCasesList(app);
 				}
@@ -276,10 +287,25 @@ public class ExecutionWindow extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				String appName = JOptionPane.showInputDialog("Type the App Name");
 				if(appName != null && !appName.equals("")) {
-					String folder = "testSuitesResults//" + testSuiteFiles.getTestSuiteName() + "//" + appName;
-					new File(folder).mkdir();
-					testSuiteFiles.addTestedApp(appName);
-					loadAppList();
+					String appPackage = JOptionPane.showInputDialog("Type the App Package");
+					if(appPackage != null && !appPackage.equals("") && !appPackage.contains(" ")) {
+						try {
+							String folder = "testSuitesResults//" + testSuiteFiles.getTestSuiteName() + "//" + appName;
+							new File(folder).mkdir();
+							BufferedWriter buffWrite = new BufferedWriter(new FileWriter(folder + "//" + "pkg.txt"));
+							buffWrite.append(appPackage);
+							buffWrite.close();
+						} catch (IOException e1) {
+							JOptionPane.showMessageDialog(ExecutionWindow.this, e1.getMessage(), "ERROR",
+									JOptionPane.ERROR_MESSAGE);
+						}
+						testSuiteFiles.addTestedApp(appName);
+						testSuiteFiles.addPackageApp(appName, appPackage);
+						loadAppList();	
+					}else {
+						JOptionPane.showMessageDialog(ExecutionWindow.this, "Please, enter the package correctly", "Attention",
+								JOptionPane.WARNING_MESSAGE);
+					}					
 				}
 			}
 		});
@@ -292,6 +318,21 @@ public class ExecutionWindow extends JFrame {
 				if(appPackageJList.isSelectionEmpty()) {
 					JOptionPane.showMessageDialog(ExecutionWindow.this, "Please, select an application", "Attention",
 							JOptionPane.WARNING_MESSAGE);
+				}else if(!avdRunning()){
+					try {
+						String[] avds = getInstalledAVDs();
+						int x = JOptionPane.showOptionDialog(null, "Choose one of the AVDs to run",
+								"Click a button",
+								JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, avds, avds[0]);
+						runAVD(avds[x]);
+						
+					} catch (IOException | InterruptedException e1) {
+						JOptionPane.showMessageDialog(ExecutionWindow.this, e1.getMessage(), "ERROR",
+								JOptionPane.ERROR_MESSAGE);
+					}
+					sentCommandsTextArea.setText("");
+					JOptionPane.showMessageDialog(ExecutionWindow.this, "Wait for the emulator to start.", "Attention",
+							JOptionPane.INFORMATION_MESSAGE);
 				}else {
 					monitor.start();
 					executeButton.setEnabled(false);
@@ -300,7 +341,7 @@ public class ExecutionWindow extends JFrame {
 					String app = appPackageJList.getSelectedValue();
 					testSuiteFiles.setChosenApp(app);
 					enableDisableElements();
-					executeTestSuite();
+					executeTestSuite();					
 				}
 			}
 		});
@@ -317,13 +358,13 @@ public class ExecutionWindow extends JFrame {
 		lblLogcat.setBounds(0, 0, 148, 22);
 		panel_4.add(lblLogcat);
 		
-		JScrollPane scrollPane_4 = new JScrollPane();
-		scrollPane_4.setBounds(0, 24, 435, 235);
-		panel_4.add(scrollPane_4);
+		logcatScrollPane = new JScrollPane();
+		logcatScrollPane.setBounds(0, 24, 435, 235);
+		panel_4.add(logcatScrollPane);
 		
 		logcatTextArea = new JTextArea();
 		logcatTextArea.setEditable(false);
-		scrollPane_4.setViewportView(logcatTextArea);
+		logcatScrollPane.setViewportView(logcatTextArea);
 		
 		JPanel panel_5 = new JPanel();
 		panel_5.setBounds(393, 581, 310, 62);
@@ -331,19 +372,24 @@ public class ExecutionWindow extends JFrame {
 		panel_5.setLayout(null);
 		
 		acceptButton = new JButton("Accept");
-		acceptButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				
-			}
-		});
 		acceptButton.setBounds(10, 31, 85, 21);
 		panel_5.add(acceptButton);
 		acceptButton.setVisible(false);
+		acceptButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				monitor.accept();
+			}
+		});
 		
 		rejectButton = new JButton("Reject");
 		rejectButton.setBounds(105, 31, 85, 21);
 		panel_5.add(rejectButton);
 		rejectButton.setVisible(false);
+		rejectButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				monitor.reject();
+			}
+		});
 		
 		stopButton = new JButton("Stop");
 		stopButton.setBounds(200, 31, 85, 21);
@@ -364,6 +410,50 @@ public class ExecutionWindow extends JFrame {
 		progressBar.setMaximum(100);
 	}
 	
+	public void updateResults() throws SintaxException, IOException {
+		testSuiteFiles.reloadData();
+		loadMainResult(testSuiteFiles.getChosenApp());
+		loadTestCasesList(testSuiteFiles.getChosenApp());
+	}
+
+	private void runAVD(String avd) throws IOException, InterruptedException {
+		new Thread() {
+			
+			@Override
+		    public void run() {
+		    	try {
+		    		ADBComunicator adb = ADBComunicator.getInstance();
+		    		adb.runADBCommand(Commands.START_EMULATOR + avd);	
+				} catch (IOException | InterruptedException e) {
+					JOptionPane.showMessageDialog(ExecutionWindow.this, e.getMessage(), "ERROR",
+							JOptionPane.ERROR_MESSAGE);
+				}
+		    }
+		}.start();
+	}
+	
+	private String[] getInstalledAVDs() throws IOException, InterruptedException {
+		ADBComunicator adb = ADBComunicator.getInstance();
+		String adbResponse = adb.runADBCommand(Commands.LIST_AVDS);
+		String[] avds = adbResponse.split("\n");
+		return avds;
+	}
+	
+	private boolean avdRunning() {
+		ADBComunicator adb = ADBComunicator.getInstance();
+		try {
+			String response = adb.runADBCommand(Commands.INTERNET_ON);
+			sentCommandsTextArea.setText("");
+			if(response.contains("no emulator detected") || response.equals("")) {
+				return false;
+			}
+		} catch (IOException | InterruptedException e) {
+			JOptionPane.showMessageDialog(ExecutionWindow.this, e.getMessage(), "ERROR",
+					JOptionPane.ERROR_MESSAGE);
+		}
+		return true;
+	}
+
 	private void executeTestSuite() {
 		new Thread() {
 		     
@@ -385,12 +475,16 @@ public class ExecutionWindow extends JFrame {
 		return this.sentCommandsTextArea;
 	}
 	
+	public JScrollPane getSentCommandsScrollPane() {
+		return this.sentCommandsScrollPane;
+	}
+	
 	public JTextArea getLogcatTextArea() {
 		return this.logcatTextArea;
 	}
 	
-	public JScrollPane getSentCommandsScrollPane() {
-		return this.sentCommandsScrollPane;
+	public JScrollPane getLogcateScrollPane() {
+		return this.logcatScrollPane;
 	}
 	
 	public JProgressBar getProgressBar() {
@@ -414,6 +508,11 @@ public class ExecutionWindow extends JFrame {
 			logcatTextArea.setText("");
 		}
 		
+	}
+	
+	private String loadAppPackage(String app) {
+		String a = testSuiteFiles.getAppPackages().get(app);
+		return testSuiteFiles.getAppPackages().get(app);
 	}
 
 	private void loadMainResult(String app) {
@@ -450,10 +549,28 @@ public class ExecutionWindow extends JFrame {
 			}
 			scanner.close();
 		}
+		JScrollBar vertical = mainResultScroolPane.getVerticalScrollBar();
+		vertical.setValue(vertical.getMaximum());
 		testedLabel.setText("Tested: " + qteTestCases);
 		acceptedLabel.setText("Accepted: " + qteAccepted);
 		failedLabel.setText("Failed: " + qteFailed);
 		notTestedLabel.setText("Not Tested: " + notTested);
+	}
+	
+	public void addTestCase(String testCase) {
+		String[] newRow = new String[16];
+		String[] lineElements = testCase.split("\t\t");
+		int qte = mainResultdtm.getRowCount() + 1;
+		newRow[0] = qte + "";
+		newRow[1] = "Testing";
+		newRow[2] = "";
+		for (int i = 0; i < lineElements.length; i++) {
+			newRow[i + 3] = lineElements[i];
+		}					
+		mainResultdtm.addRow(newRow);
+		JScrollBar vertical = mainResultScroolPane.getVerticalScrollBar();
+		vertical.setValue(vertical.getMaximum());
+		vertical.setValue(vertical.getMaximum());
 	}
 
 	private int calculateQteTestCases() {

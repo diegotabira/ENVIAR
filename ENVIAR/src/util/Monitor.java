@@ -29,6 +29,20 @@ public class Monitor extends Observable{
 		this.hasStopped = false;
 	}
 	
+	public void accept() {
+//		this.hasStopped = true;
+		this.hasPassed = true;
+		setChanged();
+		notifyObservers();
+	}
+	
+	public void reject() {
+//		this.hasStopped = true;
+		this.hasPassed = false;
+		setChanged();
+		notifyObservers();
+	}
+	
 	public void stop() {
 		this.hasStopped = true;
 		setChanged();
@@ -61,7 +75,7 @@ public class Monitor extends Observable{
 //				
 //	}
 	
-	public void startLogcatMonitor(LogManager log) throws IOException {
+	public void startLogcatMonitor(LogManager log) throws IOException, InterruptedException {
 		log.clearLogcat();
 		hasCrashed = false;
 		

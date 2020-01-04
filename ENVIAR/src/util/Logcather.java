@@ -43,13 +43,13 @@ public class Logcather {
 		ADBComunicator.getInstance().runADBLogcatCommand();
 	}
 	
-	public String getLogcat() throws IOException {
+	public String getLogcat() throws IOException, InterruptedException {
 		String cmd = Commands.GET_ALL_LOGCAT;
 		logcat = ADBComunicator.getInstance().runADBCommand(cmd);
 		return logcat;
 	}
 
-	public void clear() throws IOException {
+	public void clear() throws IOException, InterruptedException {
 		String cmd = Commands.CLEAR_LOGCAT;
 		ADBComunicator.getInstance().runADBCommand(cmd);
 	}
