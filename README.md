@@ -19,10 +19,10 @@ Recommended Requirements for Execution:
 In addition to the requirements described, it is necessary:
 
 	- Install Java 1.8+;
-		- Set the JAVA\_HOME environment variable.
+		- Set the JAVA_HOME environment variable.
 	- Install Android SDK;
 		- Create the emulator that will run the applications to be tested;
-		- Set ANDROID\_HOME variable pointing to SDK root folder;
+		- Set ANDROID_HOME variable pointing to SDK root folder;
 		- Set up the following paths	
 			- ANDROID_HOME
 			- ANDROID_HOME\platform-tools
