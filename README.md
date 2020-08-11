@@ -30,3 +30,5 @@ In addition to the requirements described, it is necessary:
 			- ANDROID_HOME\tools
 			- ANDROID_HOME\tools\bin
 			- ANDROID_HOME\build-tools
+
+ENVIAR is open source software and is distributed under the [GNU GPL license (version 3)](http://www.gnu.org/licenses/gpl-3.0.txt).
