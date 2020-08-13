@@ -1,5 +1,7 @@
 # ENVIAR
 
+ENVIAR is a tool capable of simulating the sending of application environment data, system events, and simulating adverse situations (i.e., GPS not calibrated). Using the ENVIAR tool, it is possible to create test scenarios that would be difficult to perform manually. Besides, it is possible to create situations during a route such as an internet connection changing. For example, consider that a team is developing a GPS navigation application that uses data provided over the internet. It is possible to test the application manually by turning off the internet phone connection. However, if the route is from one city to another, this test may not be feasible. ENVIAR can simulate any route in the Android emulator and simulate events like the example above. Also, ENVIAR does not require any changes to the Android operating system, does not require code instrumentation, nor does the AUT source code. ENVIAR only needs the tester to create the test cases and opens the AUT in the functionality he wants to test. For example, if the tester wants to check an application's GPS navigator, he must open the application and make it ready to use the GPS navigation functionality.
+
 Before you can run ENVIAR, it is necessary to prepare the environment for it to run.
 
 Minimum Requirements for Execution:
