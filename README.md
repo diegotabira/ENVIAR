@@ -33,6 +33,6 @@ In addition to the requirements described, it is necessary:
 			- ANDROID_HOME\tools\bin
 			- ANDROID_HOME\build-tools
 
-The AVD used to evaluate the ENVIAR tool can be found [HERE](https://1drv.ms/u/s!AsZf37wBzvQLj4gsOtVe1YDAkkfGpQ?e=j4aS14). Its evaluation files can be found [HERE](https://drive.google.com/drive/folders/1qIOzFmquatkcI-2ZJD0aXudY_kNMf9tB?usp=sharing).
+The AVD used to evaluate the ENVIAR tool can be found [HERE](https://drive.google.com/drive/folders/1QdAex-j91ZQhSYP8qT8Qe8ZELPC7VIJm?usp=sharing). Its evaluation files can be found [HERE](https://drive.google.com/drive/folders/1qIOzFmquatkcI-2ZJD0aXudY_kNMf9tB?usp=sharing).
 
 ENVIAR is open source software and is distributed under the [GNU GPL license (version 3)](http://www.gnu.org/licenses/gpl-3.0.txt).
